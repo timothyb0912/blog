@@ -1,9 +1,129 @@
-<h1 id="project-life-cycles-in-data-science-and-research">Project life-cycles in data science and research</h1>
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Project Lifecycle(s) | Timothy Brathwaite</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Project Lifecycle(s)" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Data science and research project life-cycles." />
+<meta property="og:description" content="Data science and research project life-cycles." />
+<link rel="canonical" href="https://timothyb0912.github.io/blog/philosophy/2020/09/30/Project-Lifecycle.html" />
+<meta property="og:url" content="https://timothyb0912.github.io/blog/philosophy/2020/09/30/Project-Lifecycle.html" />
+<meta property="og:site_name" content="Timothy Brathwaite" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-09-30T00:00:00-05:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://timothyb0912.github.io/blog/philosophy/2020/09/30/Project-Lifecycle.html"},"url":"https://timothyb0912.github.io/blog/philosophy/2020/09/30/Project-Lifecycle.html","@type":"BlogPosting","headline":"Project Lifecycle(s)","dateModified":"2020-09-30T00:00:00-05:00","datePublished":"2020-09-30T00:00:00-05:00","description":"Data science and research project life-cycles.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://timothyb0912.github.io/blog/feed.xml" title="Timothy Brathwaite" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">Timothy Brathwaite</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About Me</a><a class="page-link" href="/blog/search/">Search</a><a class="page-link" href="/blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Project Lifecycle(s)</h1><p class="page-description">Data science and research project life-cycles.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-09-30T00:00:00-05:00" itemprop="datePublished">
+        Sep 30, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      18 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/blog/categories/#philosophy">philosophy</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#project-life-cycles-in-data-science-and-research">Project life-cycles in data science and research</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#the-horrors-of-an-unplanned-project">The horrors of an unplanned project</a></li>
+<li class="toc-entry toc-h2"><a href="#the-benefits-of-planning">The benefits of planning</a></li>
+<li class="toc-entry toc-h2"><a href="#project-lifecycle-overview">Project lifecycle overview</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#observe">Observe</a></li>
+<li class="toc-entry toc-h3"><a href="#specify">Specify</a></li>
+<li class="toc-entry toc-h3"><a href="#understand">Understand</a></li>
+<li class="toc-entry toc-h3"><a href="#sketch">Sketch</a></li>
+<li class="toc-entry toc-h3"><a href="#prototype">Prototype</a></li>
+<li class="toc-entry toc-h3"><a href="#design">Design</a></li>
+<li class="toc-entry toc-h3"><a href="#estimate">Estimate</a></li>
+<li class="toc-entry toc-h3"><a href="#construct">Construct</a></li>
+<li class="toc-entry toc-h3"><a href="#communicate">Communicate</a></li>
+<li class="toc-entry toc-h3"><a href="#maintain">Maintain</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#footnotes">Footnotes</a></li>
+</ul>
+</li>
+</ul><h1 id="project-life-cycles-in-data-science-and-research">
+<a class="anchor" href="#project-life-cycles-in-data-science-and-research" aria-hidden="true"><span class="octicon octicon-link"></span></a>Project life-cycles in data science and research</h1>
 <ol id="markdown-toc">
-  <li><a href="#project-life-cycles-in-data-science-and-research" id="markdown-toc-project-life-cycles-in-data-science-and-research">Project life-cycles in data science and research</a>    <ol>
+  <li>
+<a href="#project-life-cycles-in-data-science-and-research" id="markdown-toc-project-life-cycles-in-data-science-and-research">Project life-cycles in data science and research</a>    <ol>
       <li><a href="#the-horrors-of-an-unplanned-project" id="markdown-toc-the-horrors-of-an-unplanned-project">The horrors of an unplanned project</a></li>
       <li><a href="#the-benefits-of-planning" id="markdown-toc-the-benefits-of-planning">The benefits of planning</a></li>
-      <li><a href="#project-lifecycle-overview" id="markdown-toc-project-lifecycle-overview">Project lifecycle overview</a>        <ol>
+      <li>
+<a href="#project-lifecycle-overview" id="markdown-toc-project-lifecycle-overview">Project lifecycle overview</a>        <ol>
           <li><a href="#observe" id="markdown-toc-observe">Observe</a></li>
           <li><a href="#specify" id="markdown-toc-specify">Specify</a></li>
           <li><a href="#understand" id="markdown-toc-understand">Understand</a></li>
@@ -23,7 +143,8 @@
 
 <p>Dear Young Tim,</p>
 
-<h2 id="the-horrors-of-an-unplanned-project">The horrors of an unplanned project</h2>
+<h2 id="the-horrors-of-an-unplanned-project">
+<a class="anchor" href="#the-horrors-of-an-unplanned-project" aria-hidden="true"><span class="octicon octicon-link"></span></a>The horrors of an unplanned project</h2>
 <p>You will work on many projects throughout your life.
 They will be diverse: research projects, data-science projects, software projects, writing-only projects.
 Across them all, one truth will remain constant.
@@ -54,7 +175,8 @@ They will justifiably want to know what is happening in the project and when the
 As punishment, you will have to spend your time responding to the random arrival of ~disturbances~ questions.
 In other words, if you are working without a plan, it means your collaborators and stakeholders are too.</p>
 
-<h2 id="the-benefits-of-planning">The benefits of planning</h2>
+<h2 id="the-benefits-of-planning">
+<a class="anchor" href="#the-benefits-of-planning" aria-hidden="true"><span class="octicon octicon-link"></span></a>The benefits of planning</h2>
 <p>Conversely, if we operate with a plan, then we can reap many benefits.
 For example, we are able to share the plan with our colleagues and stakeholders.
 The plan can then set our partners’ expectations about what is happening with the project at any time.
@@ -72,33 +194,46 @@ Similarly, imagine that statistical modeling is another step.
 Then, experiment tracking would increase our modeling quality (i.e., reproducibility).
 In each case, we use the structure of our plan to intervene on our project to promote the best possible outcome.</p>
 
-<h2 id="project-lifecycle-overview">Project lifecycle overview</h2>
+<h2 id="project-lifecycle-overview">
+<a class="anchor" href="#project-lifecycle-overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Project lifecycle overview</h2>
 <p>Okay, we’ve described the consequences of working with and without a comprehensive project plan.
 To ease future planning efforts, we’ll review a common lifecycle for research and data-science projects.
 At a high-level, such projects entail the following steps.</p>
 <ul>
-  <li><strong>Observe</strong> the current state of your system of interest.</li>
-  <li><strong>Specify</strong> what one wishes to change about this system and what the requirements of one’s users and stakeholders are.</li>
-  <li><strong>Understand</strong>, or learn, why the system does not already behave as one wishes.</li>
-  <li><strong>Sketch</strong> a procedure, a software architecture, and a timeline for effecting your desired system change.</li>
-  <li><strong>Prototype</strong> the sketched design: achieve a minimally acceptable version of one’s desired changes.</li>
-  <li><strong>Design</strong>, in detail, a procedure and software architecture for effecting all desired system changes.</li>
-  <li><strong>Estimate</strong> the amount of time required for construction, and share this information with stakeholders.</li>
-  <li><strong>Construct</strong> the designed architecture, execute the designed procedure, and ensure that we test all and externally review all intermediate steps.</li>
-  <li><strong>Communicate</strong> the constructed architecture, procedure, and educational material.</li>
-  <li><strong>Maintain</strong> the constructed system, collect and act on user feedback, and make continual refactorings for simplicity.</li>
+  <li>
+<strong>Observe</strong> the current state of your system of interest.</li>
+  <li>
+<strong>Specify</strong> what one wishes to change about this system and what the requirements of one’s users and stakeholders are.</li>
+  <li>
+<strong>Understand</strong>, or learn, why the system does not already behave as one wishes.</li>
+  <li>
+<strong>Sketch</strong> a procedure, a software architecture, and a timeline for effecting your desired system change.</li>
+  <li>
+<strong>Prototype</strong> the sketched design: achieve a minimally acceptable version of one’s desired changes.</li>
+  <li>
+<strong>Design</strong>, in detail, a procedure and software architecture for effecting all desired system changes.</li>
+  <li>
+<strong>Estimate</strong> the amount of time required for construction, and share this information with stakeholders.</li>
+  <li>
+<strong>Construct</strong> the designed architecture, execute the designed procedure, and ensure that we test all and externally review all intermediate steps.</li>
+  <li>
+<strong>Communicate</strong> the constructed architecture, procedure, and educational material.</li>
+  <li>
+<strong>Maintain</strong> the constructed system, collect and act on user feedback, and make continual refactorings for simplicity.</li>
 </ul>
 
 <p>We’ll describe each of these steps in greater detail below.</p>
 
-<h3 id="observe">Observe</h3>
+<h3 id="observe">
+<a class="anchor" href="#observe" aria-hidden="true"><span class="octicon octicon-link"></span></a>Observe</h3>
 <p>This is where we passively observe our system in action, and we make note of the state or behavior that motivates our project.
 For example, does our travel mode choice model perform worse for cyclists than for automobile drivers?
 Is our production model making any systematic errors?
 Under what conditions do we observe the unwanted system state or behavior?
 In other words, this first step establishes what the problem or reason for the project is.</p>
 
-<h3 id="specify">Specify</h3>
+<h3 id="specify">
+<a class="anchor" href="#specify" aria-hidden="true"><span class="octicon octicon-link"></span></a>Specify</h3>
 <p>This is the step where we detail the user, technical, and stakeholder requirements of the project.
 Perhaps most importantly, what effect to do we wish bring about as a result of this project, and what system state should exist upon completion of the project?
 What are the answers to the who/what/where/when/why/high-level-how questions of our project?
@@ -127,8 +262,8 @@ E.g., are there
       <li>Who are our stakeholders?
  What do they care about?</li>
       <li>Do we need to meet certain service level agreements (e.g. predictive accuracy)?</li>
-      <li>What metrics will we use to judge the outcomes, effects, and impact of this project?<br />
- How will we define the utility of this project, especially relative to the action of keeping the status quo?<br />
+      <li>What metrics will we use to judge the outcomes, effects, and impact of this project?<br>
+ How will we define the utility of this project, especially relative to the action of keeping the status quo?<br>
  Do we need to improve particular metrics by certain amounts?</li>
       <li>Do we need to produce particular reports and documentation with any specified formats or elements?</li>
       <li>Do we need to create services or software packages to programmatically expose our work to others?</li>
@@ -137,7 +272,8 @@ E.g., are there
   </li>
 </ul>
 
-<h3 id="understand">Understand</h3>
+<h3 id="understand">
+<a class="anchor" href="#understand" aria-hidden="true"><span class="octicon octicon-link"></span></a>Understand</h3>
 <p>In this stage of a project, we aim to reach a shared understanding with our stakeholders.
 We want to align our understanding of the primary problems and solutions.
 Specifically, we want to find out what causes the undesired state or behavior of our system.
@@ -152,18 +288,20 @@ From a statistical perspective, we thoroughly explore our data to understand it 
 And, from a communications standpoint, we shift our focus from our problem statement to our (tentative) solution methods.
 We begin to think of how we would describe the motivations, intuitions, and mechanisms for our proposed solutions.</p>
 
-<h3 id="sketch">Sketch</h3>
+<h3 id="sketch">
+<a class="anchor" href="#sketch" aria-hidden="true"><span class="octicon octicon-link"></span></a>Sketch</h3>
 <p>In this part of the process we document and clarify the thinking that began in the last stage.
 We:</p>
 
-<p>Sketch the architecture of the software.<br />
-Sketch the data preparation / causal inference / statistical inference / decision analysis workflows.<br />
-Sketch the testing procedure for all parts of the software and models.<br />
-Sketch how to assess business / research / end-user value.<br />
-Sketch the outline of any communication materials.<br />
+<p>Sketch the architecture of the software.<br>
+Sketch the data preparation / causal inference / statistical inference / decision analysis workflows.<br>
+Sketch the testing procedure for all parts of the software and models.<br>
+Sketch how to assess business / research / end-user value.<br>
+Sketch the outline of any communication materials.<br>
 Sketch the project timeline.</p>
 
-<h3 id="prototype">Prototype</h3>
+<h3 id="prototype">
+<a class="anchor" href="#prototype" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prototype</h3>
 <p>In the prototyping phase of one’s project, we have options.
 At minimum, we build a minimal working prototype of whatever software, scientific, and writing products we need.
 However, we may take actions such as building multiple types of prototypes to help ourselves answer differing questions.</p>
@@ -176,7 +314,8 @@ For writing projects, the prototype is typically the outline and the rough draft
 For software projects, prototyping typically involves building out some functionalities and meeting some requirements but not others.
 Business-wise, prototyping often means building out at least one functionality to the point that users can use it and provide feedback.</p>
 
-<h3 id="design">Design</h3>
+<h3 id="design">
+<a class="anchor" href="#design" aria-hidden="true"><span class="octicon octicon-link"></span></a>Design</h3>
 <p>Once the prototype is complete, you will be in a much better state to understand what is truly needed to fulfill the requirements of one’s projects.
 At this point, once should create a detailed design and set of plans for iterating to the first complete version of one’s project: the first version that meets all specified requirements.
 Designing should happen at multiple levels.
@@ -229,8 +368,8 @@ This workflow should include:</p>
       <li>model-exploration</li>
     </ul>
   </li>
-  <li>counterfactual (decision) analysis.<br />
-In the best case scenario, we would also plan how to analyze the conditions under which our techniques fail to work.<br />
+  <li>counterfactual (decision) analysis.<br>
+In the best case scenario, we would also plan how to analyze the conditions under which our techniques fail to work.<br>
 How does our technique degrade as we come close to satisfying such conditions?</li>
 </ul>
 
@@ -253,7 +392,8 @@ People who briefly engage our work need high-level overviews of our main finding
 Servers that will programmatically call or import our work need APIs, HTTP endpoints, and data infrastructure.
 So on and so forth.</p>
 
-<h3 id="estimate">Estimate</h3>
+<h3 id="estimate">
+<a class="anchor" href="#estimate" aria-hidden="true"><span class="octicon octicon-link"></span></a>Estimate</h3>
 <p>Once we’ve created a detailed design for our project, we can begin estimating how long it will take us to complete it.
 We can create a project timeline.
 At this point, I will merely give general guidance here and point you to others who have thought about this much more than myself.</p>
@@ -294,7 +434,8 @@ One’s own time may not have a constant rate of availability.
 The availability of one’s collaborators may not be constant throughout the project.
 Find out as many of these constraints as possible and account for them in one’s estimation and planning.</p>
 
-<h3 id="construct">Construct</h3>
+<h3 id="construct">
+<a class="anchor" href="#construct" aria-hidden="true"><span class="octicon octicon-link"></span></a>Construct</h3>
 <p>Once you have a detailed design and a publicly shared project-plan, you can begin construction.
 This is an iterative process of testing, coding, estimating, evaluating, revising, refactoring, and communication.
 Feature by feature, one transforms the prototype into a product that meets all of the specified project requirements.</p>
@@ -328,7 +469,8 @@ You should be updating your stakeholders on major delays that occur.
 You should be documenting the results of your analyses as they are so far.
 Do not wait until the end of one’s project to begin describing one’s methods and results.</p>
 
-<h3 id="communicate">Communicate</h3>
+<h3 id="communicate">
+<a class="anchor" href="#communicate" aria-hidden="true"><span class="octicon octicon-link"></span></a>Communicate</h3>
 <p>We should communicate our results and findings continuously, but especially once we have finished a feature or project version.
 I consider communication to include actions such as:</p>
 <ul>
@@ -345,15 +487,22 @@ Through continuous preparation, we reduce the stress incurred when trying to sha
 Moreover, by preparing our materials, we increase the likelihood of successful sharing.
 Helpful tools for these tasks include</p>
 <ul>
-  <li><a href="https://pypi.org/project/Sphinx/">Sphinx</a> and <a href="https://docusaurus.io/">Docusaurus</a> for online documentation,</li>
-  <li><a href="https://jupyterbook.org/intro.html">Jupyter Book</a> and <a href="https://www.latex-project.org/get/">Latex</a> for reports,</li>
-  <li><a href="https://github.com/adamzap/landslide">Landslide</a> and <a href="https://github.com/apiad/auditorium">Auditorium</a> for creating presentations from markdown,</li>
-  <li><a href="https://www.streamlit.io/">Streamlit</a> for online user-interfaces,</li>
-  <li><a href="https://fastapi.tiangolo.com/">FastAPI</a> to enable programmatic communication through REST APIs,</li>
-  <li><a href="https://github.com/iterative/cml">CML</a> and <a href="https://travis-ci.com/">TravisCI</a> for continuous integration through Github Actions and Travis respectively.</li>
+  <li>
+<a href="https://pypi.org/project/Sphinx/">Sphinx</a> and <a href="https://docusaurus.io/">Docusaurus</a> for online documentation,</li>
+  <li>
+<a href="https://jupyterbook.org/intro.html">Jupyter Book</a> and <a href="https://www.latex-project.org/get/">Latex</a> for reports,</li>
+  <li>
+<a href="https://github.com/adamzap/landslide">Landslide</a> and <a href="https://github.com/apiad/auditorium">Auditorium</a> for creating presentations from markdown,</li>
+  <li>
+<a href="https://www.streamlit.io/">Streamlit</a> for online user-interfaces,</li>
+  <li>
+<a href="https://fastapi.tiangolo.com/">FastAPI</a> to enable programmatic communication through REST APIs,</li>
+  <li>
+<a href="https://github.com/iterative/cml">CML</a> and <a href="https://travis-ci.com/">TravisCI</a> for continuous integration through Github Actions and Travis respectively.</li>
 </ul>
 
-<h3 id="maintain">Maintain</h3>
+<h3 id="maintain">
+<a class="anchor" href="#maintain" aria-hidden="true"><span class="octicon octicon-link"></span></a>Maintain</h3>
 <p>Once we have released a working version of our project for stakeholders to interact with, we should maintain and improve our software.
 As with all the other steps in the project lifecycle, this step takes place at multiple scales.
 At the most basic level, we should be able to reproduce our analysis and use the software developed as part of the project.
@@ -369,7 +518,8 @@ Other developers or researchers can then leverage this simplicity to extend the 
 <p>Finally, one should respond to bug reports when other users discover them.
 Bug fixes will make one’s code even better by repairing previous incorrect or undesired behavior, potentially even giving one’s code new capabilities.</p>
 
-<h2 id="footnotes">Footnotes</h2>
+<h2 id="footnotes">
+<a class="anchor" href="#footnotes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Footnotes</h2>
 
 <!-- ## Related
   Involved concepts
@@ -430,7 +580,48 @@ Bug fixes will make one’s code even better by repairing previous incorrect or 
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
-      <p>Comprehensive in this case includes some amount of “buffer time” to deal with unknown, but expected complications or problems. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p>Comprehensive in this case includes some amount of “buffer time” to deal with unknown, but expected complications or problems. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">↩</a></p>
     </li>
   </ol>
 </div>
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="timothyb0912/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/blog/philosophy/2020/09/30/Project-Lifecycle.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>A personal blog.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/timothyb0912" title="timothyb0912"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/timothyb0912" title="timothyb0912"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

@@ -1,6 +1,110 @@
-<h1 id="visualizing-prior-distributions">Visualizing Prior Distributions</h1>
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Prior Visualization | Timothy Brathwaite</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Prior Visualization" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Primer on visualizing prior distributions." />
+<meta property="og:description" content="Primer on visualizing prior distributions." />
+<link rel="canonical" href="https://timothyb0912.github.io/blog/simulation/2020/08/31/Prior-Visualization.html" />
+<meta property="og:url" content="https://timothyb0912.github.io/blog/simulation/2020/08/31/Prior-Visualization.html" />
+<meta property="og:site_name" content="Timothy Brathwaite" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-08-31T00:00:00-05:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://timothyb0912.github.io/blog/simulation/2020/08/31/Prior-Visualization.html"},"url":"https://timothyb0912.github.io/blog/simulation/2020/08/31/Prior-Visualization.html","@type":"BlogPosting","headline":"Prior Visualization","dateModified":"2020-08-31T00:00:00-05:00","datePublished":"2020-08-31T00:00:00-05:00","description":"Primer on visualizing prior distributions.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://timothyb0912.github.io/blog/feed.xml" title="Timothy Brathwaite" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">Timothy Brathwaite</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About Me</a><a class="page-link" href="/blog/search/">Search</a><a class="page-link" href="/blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Prior Visualization</h1><p class="page-description">Primer on visualizing prior distributions.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-08-31T00:00:00-05:00" itemprop="datePublished">
+        Aug 31, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      6 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/blog/categories/#simulation">simulation</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#visualizing-prior-distributions">Visualizing Prior Distributions</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#how-do-we-do-this">How do we do this?</a></li>
+<li class="toc-entry toc-h2"><a href="#what-do-we-check">What do we check?</a></li>
+</ul>
+</li>
+</ul><h1 id="visualizing-prior-distributions">
+<a class="anchor" href="#visualizing-prior-distributions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Visualizing Prior Distributions</h1>
 <ol id="markdown-toc">
-  <li><a href="#visualizing-prior-distributions" id="markdown-toc-visualizing-prior-distributions">Visualizing Prior Distributions</a>    <ol>
+  <li>
+<a href="#visualizing-prior-distributions" id="markdown-toc-visualizing-prior-distributions">Visualizing Prior Distributions</a>    <ol>
       <li><a href="#how-do-we-do-this" id="markdown-toc-how-do-we-do-this">How do we do this?</a></li>
       <li><a href="#what-do-we-check" id="markdown-toc-what-do-we-check">What do we check?</a></li>
     </ol>
@@ -41,7 +145,8 @@ For relevant reading that provides much of the inspiration for this post, see th
 Note that if $Z$ follows a logistic distribution with location $\mu$ and scale $\sigma$, then $\lvert Z \rvert$ follows a folded logistic distribution.
 Basically, this is a linear regression where we restrict the support of the outcome (i.e, the median home value) to positive real values, following a logistic distribution bounded below by zero.</p>
 
-<h2 id="how-do-we-do-this">How do we do this?</h2>
+<h2 id="how-do-we-do-this">
+<a class="anchor" href="#how-do-we-do-this" aria-hidden="true"><span class="octicon octicon-link"></span></a>How do we do this?</h2>
 <p>The general strategy for prior predictive checks is as follows.</p>
 <ol>
   <li>Specify a prior distribution for all parameters in one’s model.</li>
@@ -59,7 +164,8 @@ Then, once we’ve made our selections, we can press “Draw” or some other de
 This button press will trigger execution of a program that we’ve written to sample from our prior predictive distribution and create the desired visualizations.
 Finally, we’ll use Streamlit to automatically display these visualizations.</p>
 
-<h2 id="what-do-we-check">What do we check?</h2>
+<h2 id="what-do-we-check">
+<a class="anchor" href="#what-do-we-check" aria-hidden="true"><span class="octicon octicon-link"></span></a>What do we check?</h2>
 <p>For an example of the prior predictive checking process in action, see the following repository: https://github.com/timothyb0912/prior-elicitation/.
 In particular, the streamlit app that I created to visualize the prior predictive checks is <a href="https://github.com/timothyb0912/prior-elicitation/blob/master/scripts/app.py">here</a>, and the file I created to simulate from and visualize the prior is <a href="https://github.com/timothyb0912/prior-elicitation/blob/master/notebooks/_01_tb_test_model_classes.py">here</a>.</p>
 
@@ -75,7 +181,7 @@ Specifically, we’ll examine the 25th percentile of Y * X, where X is a selecte
 For instance, if we select the column of one’s in the design matrix, then we’ll view the prior predictive distribution of the 25th percentile of Y.</p>
 
 <p>Here’s a picture using a typical diffuse / non-informative prior.
-<img src="/blog/images/diffuse_prior.png" alt="Prior Predictive Check of Diffuse Prior" width="680px" />
+<img src="/blog/images/diffuse_prior.png" alt="Prior Predictive Check of Diffuse Prior" width="680px">
 Each coefficient for the design matrix has mean zero and standard deviation of 5.
 The scale parameter has a folded normal prior distribution with location 1 and scale of 1 (yes… meta, I know).
 From the image, we see that the prior predictive distribution places far too much mass on entirely implausible values (e.g. smaller than the minimum observed median home value or larger than the maximum observed median home value).
@@ -86,7 +192,7 @@ Iteratively adjust the sliders and display your chosen prior predictive checks f
 With enough experimentation, one should be able to create a prior that appears reasonable.</p>
 
 <p>See below for a video clip of how one can use the interactive interface to experiment with different prior settings.
-<img src="/blog/images/prior_predictive_app.gif" alt="Web Interface for Prior Predictive Checks" width="680px" /></p>
+<img src="/blog/images/prior_predictive_app.gif" alt="Web Interface for Prior Predictive Checks" width="680px"></p>
 
 <p>In future posts, I’ll discuss how to set priors programmatically.
 Clearly, the manual approach described above will not scale to high dimensional settings.
@@ -98,3 +204,44 @@ This is equivalent to saying that the mean of $YX$ should equal the mean of $\ha
 In other words, the observed mean of $YX$ should equal the predicted $\hat{Y}X$ after estimating one’s model.
 Checking that the chosen test statistic of a selected percentile (e.g. 25th percentile) of $YX$ resembles the distribution of simulated $Y_{\textrm{sim}}X$ is a related activity.
 This helps ensure that more points of the distribution of $YX$ are well represented by one’s model, beyond the mean of the distribution.</p>
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="timothyb0912/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/blog/simulation/2020/08/31/Prior-Visualization.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>A personal blog.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/timothyb0912" title="timothyb0912"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/timothyb0912" title="timothyb0912"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

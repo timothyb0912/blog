@@ -1,12 +1,131 @@
-<h1 id="on-the-need-for-structure-directory-structure">On the need for structure… directory structure</h1>
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>On the need for structure… directory structure | Timothy Brathwaite</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="On the need for structure… directory structure" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A description of benefits from and suggestions for setting up a good project directory structure." />
+<meta property="og:description" content="A description of benefits from and suggestions for setting up a good project directory structure." />
+<link rel="canonical" href="https://timothyb0912.github.io/blog/practice/2020/03/14/P1-cookiecutter-intro.html" />
+<meta property="og:url" content="https://timothyb0912.github.io/blog/practice/2020/03/14/P1-cookiecutter-intro.html" />
+<meta property="og:site_name" content="Timothy Brathwaite" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-03-14T00:00:00-05:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://timothyb0912.github.io/blog/practice/2020/03/14/P1-cookiecutter-intro.html"},"url":"https://timothyb0912.github.io/blog/practice/2020/03/14/P1-cookiecutter-intro.html","@type":"BlogPosting","headline":"On the need for structure… directory structure","dateModified":"2020-03-14T00:00:00-05:00","datePublished":"2020-03-14T00:00:00-05:00","description":"A description of benefits from and suggestions for setting up a good project directory structure.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://timothyb0912.github.io/blog/feed.xml" title="Timothy Brathwaite" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">Timothy Brathwaite</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About Me</a><a class="page-link" href="/blog/search/">Search</a><a class="page-link" href="/blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">On the need for structure... directory structure</h1><p class="page-description">A description of benefits from and suggestions for setting up a good project directory structure.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-03-14T00:00:00-05:00" itemprop="datePublished">
+        Mar 14, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      7 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/blog/categories/#practice">practice</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#on-the-need-for-structure-directory-structure">On the need for structure… directory structure</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#why-lacking-structure-hurts">Why lacking structure hurts</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#you">You</a></li>
+<li class="toc-entry toc-h3"><a href="#society">Society</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#how-to-structure-your-directories">How to structure your directories</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#use-a-template">Use a template</a></li>
+<li class="toc-entry toc-h3"><a href="#keep-an-open-mind">Keep an open mind</a></li>
+<li class="toc-entry toc-h3"><a href="#have-the-big-picture-in-mind">Have the big picture in mind</a></li>
+</ul>
+</li>
+<li class="toc-entry toc-h2"><a href="#what-good-structure-brings">What good structure brings</a></li>
+<li class="toc-entry toc-h2"><a href="#practical-resources">Practical resources</a></li>
+</ul>
+</li>
+</ul><h1 id="on-the-need-for-structure-directory-structure">
+<a class="anchor" href="#on-the-need-for-structure-directory-structure" aria-hidden="true"><span class="octicon octicon-link"></span></a>On the need for structure… directory structure</h1>
 <ol id="markdown-toc">
-  <li><a href="#on-the-need-for-structure-directory-structure" id="markdown-toc-on-the-need-for-structure-directory-structure">On the need for structure… directory structure</a>    <ol>
-      <li><a href="#why-lacking-structure-hurts" id="markdown-toc-why-lacking-structure-hurts">Why lacking structure hurts</a>        <ol>
+  <li>
+<a href="#on-the-need-for-structure-directory-structure" id="markdown-toc-on-the-need-for-structure-directory-structure">On the need for structure… directory structure</a>    <ol>
+      <li>
+<a href="#why-lacking-structure-hurts" id="markdown-toc-why-lacking-structure-hurts">Why lacking structure hurts</a>        <ol>
           <li><a href="#you" id="markdown-toc-you">You</a></li>
           <li><a href="#society" id="markdown-toc-society">Society</a></li>
         </ol>
       </li>
-      <li><a href="#how-to-structure-your-directories" id="markdown-toc-how-to-structure-your-directories">How to structure your directories</a>        <ol>
+      <li>
+<a href="#how-to-structure-your-directories" id="markdown-toc-how-to-structure-your-directories">How to structure your directories</a>        <ol>
           <li><a href="#use-a-template" id="markdown-toc-use-a-template">Use a template</a></li>
           <li><a href="#keep-an-open-mind" id="markdown-toc-keep-an-open-mind">Keep an open mind</a></li>
           <li><a href="#have-the-big-picture-in-mind" id="markdown-toc-have-the-big-picture-in-mind">Have the big picture in mind</a></li>
@@ -36,9 +155,11 @@ You will have spent hundreds of hours tracking down lost or moved files, debuggi
 But, hopefully, I can be of more assistance now.
 So, without further ado, here’s what I think you did not understand then about the need for structure in one’s project directory, and here’s how I think you can do better now.</p>
 
-<h2 id="why-lacking-structure-hurts">Why lacking structure hurts</h2>
+<h2 id="why-lacking-structure-hurts">
+<a class="anchor" href="#why-lacking-structure-hurts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why lacking structure hurts</h2>
 
-<h3 id="you">You</h3>
+<h3 id="you">
+<a class="anchor" href="#you" aria-hidden="true"><span class="octicon octicon-link"></span></a>You</h3>
 <p>The first reason why you should have a clear directory structure is that without one, <strong>you</strong> will suffer.
 Most acutely, you will suffer when you need to recover old work at the request of others or yourself but you cannot do so easily.
 Grant projects and research opportunities that otherwise should have been pleasant experiences will be painful toils as you exert huge amounts of energy to recreate old, unorganized projects.
@@ -49,7 +170,8 @@ Not only will you waste time as you retrospectively try to recreate projects, yo
 E.g., how do we need to package our tex files for uploading to arXiv again?
 Eventually, you will add insult to injury as you realize how silly you were to end up in this situation in the first place.</p>
 
-<h3 id="society">Society</h3>
+<h3 id="society">
+<a class="anchor" href="#society" aria-hidden="true"><span class="octicon octicon-link"></span></a>Society</h3>
 <p>Beyond yourself, there are at least a couple of additional reasons to use a clear directory structure for each research project.</p>
 
 <p>First, there is no easy way to “stand on the shoulders of giants” without a well structured project, so <strong>all of society</strong> suffers.
@@ -60,10 +182,12 @@ This is a collective waste of society’s time as each person attempts to figure
 If someone cannot easily see <em>how</em> your project works, then they are less likely to be convinced <em>that</em> your project works.
 It is then both a waste of your time as a researcher and their time as a research consumer to have to perform additional efforts to validate the project’s results because one’s work was not immediately understandable.</p>
 
-<h2 id="how-to-structure-your-directories">How to structure your directories</h2>
+<h2 id="how-to-structure-your-directories">
+<a class="anchor" href="#how-to-structure-your-directories" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to structure your directories</h2>
 <p>Here, then, are three guiding principles for how to structure one’s project directory to avoid the aforementioned burdens on yourself and society.</p>
 
-<h3 id="use-a-template">Use a template</h3>
+<h3 id="use-a-template">
+<a class="anchor" href="#use-a-template" aria-hidden="true"><span class="octicon octicon-link"></span></a>Use a template</h3>
 <p>Use a template for your project directories.</p>
 
 <p>Templates have at least three reasons supporting their use:</p>
@@ -77,13 +201,15 @@ Accordingly, it’s better to begin with something good rather than begin with s
 I.e. begin a good template instead of a monolith empty directory, or worse, a directory mixed with pre-existing work.</li>
 </ol>
 
-<h3 id="keep-an-open-mind">Keep an open mind</h3>
+<h3 id="keep-an-open-mind">
+<a class="anchor" href="#keep-an-open-mind" aria-hidden="true"><span class="octicon octicon-link"></span></a>Keep an open mind</h3>
 <p>While its good to use a template, it is even better to modify the template as needed to meet one’s project needs.</p>
 
 <p>The basic idea is simple.
 Be not defined by the structure of the template, but define a structure based on the template.</p>
 
-<h3 id="have-the-big-picture-in-mind">Have the big picture in mind</h3>
+<h3 id="have-the-big-picture-in-mind">
+<a class="anchor" href="#have-the-big-picture-in-mind" aria-hidden="true"><span class="octicon octicon-link"></span></a>Have the big picture in mind</h3>
 <p>When defining a structure for one’s project, keep in mind all aspects of the project.</p>
 
 <p>For instance, your research projects will almost always consist of four parts.
@@ -97,7 +223,8 @@ You will likely</p>
 
 <p>The structure of your project directory should encompass all the parts above so that you keep the project contained in one location.</p>
 
-<h2 id="what-good-structure-brings">What good structure brings</h2>
+<h2 id="what-good-structure-brings">
+<a class="anchor" href="#what-good-structure-brings" aria-hidden="true"><span class="octicon octicon-link"></span></a>What good structure brings</h2>
 <p>Once you adopt the project structuring philosophy above, you will begin to experience subtle-yet-tangible benefits to your life. Here are three such benefits.</p>
 
 <p>One: you will become a magician.
@@ -121,7 +248,8 @@ It’s an object whose design you can take pride in.
 All your life you’ve admired people whose creations were deliberate, useful, awesome, and full of humor / good-cheer.
 Use your project structure to display the same traits, =].</p>
 
-<h2 id="practical-resources">Practical resources</h2>
+<h2 id="practical-resources">
+<a class="anchor" href="#practical-resources" aria-hidden="true"><span class="octicon octicon-link"></span></a>Practical resources</h2>
 <p>Okay, okay.
 By now, you’re sold on the general idea.
 Let’s talk specifics then.</p>
@@ -149,3 +277,44 @@ I have more recommendations (for instance, basing PyTorch projects on the <a hre
 Go forth, and set up projects with ease and care!</p>
 
 <p>You and everyone one else will thank you in the future.</p>
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="timothyb0912/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/blog/practice/2020/03/14/P1-cookiecutter-intro.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>A personal blog.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/timothyb0912" title="timothyb0912"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/timothyb0912" title="timothyb0912"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

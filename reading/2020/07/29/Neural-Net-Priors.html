@@ -1,6 +1,111 @@
-<h1 id="on-priors-for-neural-networks">On Priors for Neural Networks</h1>
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>On Priors for Neural Networks | Timothy Brathwaite</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="On Priors for Neural Networks" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A review of two research papers pointing to the need for carefully chosen priors for one’s neural networks." />
+<meta property="og:description" content="A review of two research papers pointing to the need for carefully chosen priors for one’s neural networks." />
+<link rel="canonical" href="https://timothyb0912.github.io/blog/reading/2020/07/29/Neural-Net-Priors.html" />
+<meta property="og:url" content="https://timothyb0912.github.io/blog/reading/2020/07/29/Neural-Net-Priors.html" />
+<meta property="og:site_name" content="Timothy Brathwaite" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-07-29T00:00:00-05:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://timothyb0912.github.io/blog/reading/2020/07/29/Neural-Net-Priors.html"},"url":"https://timothyb0912.github.io/blog/reading/2020/07/29/Neural-Net-Priors.html","@type":"BlogPosting","headline":"On Priors for Neural Networks","dateModified":"2020-07-29T00:00:00-05:00","datePublished":"2020-07-29T00:00:00-05:00","description":"A review of two research papers pointing to the need for carefully chosen priors for one’s neural networks.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://timothyb0912.github.io/blog/feed.xml" title="Timothy Brathwaite" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">Timothy Brathwaite</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About Me</a><a class="page-link" href="/blog/search/">Search</a><a class="page-link" href="/blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">On Priors for Neural Networks</h1><p class="page-description">A review of two research papers pointing to the need for carefully chosen priors for one's neural networks.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2020-07-29T00:00:00-05:00" itemprop="datePublished">
+        Jul 29, 2020
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      7 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/blog/categories/#reading">reading</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#on-priors-for-neural-networks">On Priors for Neural Networks</a>
+<ul>
+<li class="toc-entry toc-h3"><a href="#helpful-priors-from-frequentists">Helpful priors from Frequentists</a></li>
+<li class="toc-entry toc-h3"><a href="#harmful-priors-from-bayesians">Harmful priors from Bayesians</a></li>
+<li class="toc-entry toc-h3"><a href="#conclusion">Conclusion</a></li>
+</ul>
+</li>
+</ul><h1 id="on-priors-for-neural-networks">
+<a class="anchor" href="#on-priors-for-neural-networks" aria-hidden="true"><span class="octicon octicon-link"></span></a>On Priors for Neural Networks</h1>
 <ol id="markdown-toc">
-  <li><a href="#on-priors-for-neural-networks" id="markdown-toc-on-priors-for-neural-networks">On Priors for Neural Networks</a>    <ol>
+  <li>
+<a href="#on-priors-for-neural-networks" id="markdown-toc-on-priors-for-neural-networks">On Priors for Neural Networks</a>    <ol>
       <li><a href="#helpful-priors-from-frequentists" id="markdown-toc-helpful-priors-from-frequentists">Helpful priors from Frequentists</a></li>
       <li><a href="#harmful-priors-from-bayesians" id="markdown-toc-harmful-priors-from-bayesians">Harmful priors from Bayesians</a></li>
       <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
@@ -29,7 +134,8 @@ You will learn that the fastest way to create neural networks that generalize we
 This post aims to provide you with a framework for thinking about priors / regularization for neural networks.
 In the end this framework should save you much time, computation, and confusion, but at the moment, let’s begin with the basics.</p>
 
-<h3 id="helpful-priors-from-frequentists">Helpful priors from Frequentists</h3>
+<h3 id="helpful-priors-from-frequentists">
+<a class="anchor" href="#helpful-priors-from-frequentists" aria-hidden="true"><span class="octicon octicon-link"></span></a>Helpful priors from Frequentists</h3>
 <p>The first report I have for you is that Frequentists who build neural networks care <strong>a lot</strong> about neural network priors.
 Moreover, Frequentists are commonly successful at constructing priors that enable them to achieve impressive out-of-sample performance.</p>
 
@@ -79,7 +185,8 @@ See <a href="https://www.tandfonline.com/doi/abs/10.1080/01621459.1996.10476713"
   <li>might be the primary missing factor needed to construct performant neural networks (at least for some network classes).</li>
 </ul>
 
-<h3 id="harmful-priors-from-bayesians">Harmful priors from Bayesians</h3>
+<h3 id="harmful-priors-from-bayesians">
+<a class="anchor" href="#harmful-priors-from-bayesians" aria-hidden="true"><span class="octicon octicon-link"></span></a>Harmful priors from Bayesians</h3>
 <p>My second report is that Bayesians have been building neural networks with priors that do more harm than good.</p>
 
 <p>One of the most recent clarion calls was Wenzel et al.’s <code class="language-plaintext highlighter-rouge">How Good is the Bayes Posterior in Deep Neural Networks Really?</code> (<a href="https://arxiv.org/abs/2002.02405">2019</a>).
@@ -101,7 +208,49 @@ For yet another example of problems arising from using the standard normal prior
 Researchers often adopt such priors for computational or political ease, but they may have deleterious effects on one’s posterior performance and inference.
 In fact, one should perhaps expect such negative consequences given the typical, over-parameterized neural network context with a high ratio of parameters to one’s number of observations.</p>
 
-<h3 id="conclusion">Conclusion</h3>
+<h3 id="conclusion">
+<a class="anchor" href="#conclusion" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conclusion</h3>
 <p>The papers <code class="language-plaintext highlighter-rouge">How Good is the Bayes Posterior in Deep Neural Networks Really?</code> and <code class="language-plaintext highlighter-rouge">Do Deep Nets Really Need to be Deep?</code> show that prior distributions are important to neural network construction.
 These papers show that priors can have either helpful or harmful effects on one’s predictive ability, relative to maximum likelihood estimation.
 To give oneself the best chance of constructing neural networks that perform well, and to reduce the chance of having our predictive performance harmed unnecessarily, the takeaway is that we should carefully choose the priors for our models.</p>
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="timothyb0912/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/blog/reading/2020/07/29/Neural-Net-Priors.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>A personal blog.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/timothyb0912" title="timothyb0912"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/timothyb0912" title="timothyb0912"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
