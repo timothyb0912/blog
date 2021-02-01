@@ -1,0 +1,142 @@
+<h1 id="on-good-models-and-good-research">On good models and good research</h1>
+<ol id="markdown-toc">
+  <li><a href="#on-good-models-and-good-research" id="markdown-toc-on-good-models-and-good-research">On good models and good research</a>    <ol>
+      <li><a href="#good-research" id="markdown-toc-good-research">Good research</a></li>
+      <li><a href="#good-models" id="markdown-toc-good-models">Good models</a></li>
+      <li><a href="#how-to-proceed" id="markdown-toc-how-to-proceed">How to proceed</a></li>
+    </ol>
+  </li>
+</ol>
+
+<p>Dear Young Tim,</p>
+
+<p>If I know you, and I’m pretty sure I do, then you will want to maximize the amount of “great work” that you produce in your life.</p>
+
+<p>You have read all about Richard Hamming’s (<a href="(https://www.cs.virginia.edu/~robins/YouAndYourResearch.html)">1986</a>) calls to “drop modesty and say to yourself ‘[y]es, I would like to do first class work’.”
+You have read Cal Newport’s (<a href="https://www.calnewport.com/books/so-good/">2012</a>) treatise on how a good life is made more probable by doing work that is “so good, they can’t ignore you.”</p>
+
+<p>By now, you have bought into the idea, and you are ready to try your hand at doing the best scholarly / scientific work you can.
+Wonderful.
+The problem, however, is that you have not done any great work yet.
+You don’t know how to do it, and you’ll be figuring it out for a long time (if not forever).
+One approach is to simply start working, and then iteratively try to produce better and better work.</p>
+
+<p>For sure, that is one way to go, and it may work… eventually.</p>
+
+<p>A better approach, I believe, is to first create a mental map for yourself—a characterization of what good work actually looks like.
+Then, once you have a clear picture of your target, you should be able to achieve your goal more quickly.
+You will make more consistent progress if you can recognize your goal and keep it in sight; you will better able to recognize when you are going astray, thereby wasting precious time; and you will be better able to know when you actually produced good work and should take a well-earned break to celebrate.</p>
+
+<p>Of course, it helps if I can be specific.
+Your work—your research—involves building statistical models to describe, predict, and hopefully influence reality.
+Without further ado, here is my best attempt at painting a picture for you of what good research and good models look like.</p>
+
+<h2 id="good-research">Good research</h2>
+<p>Let’s start broad, with research as a whole, and then we’ll narrow our focus to modeling later.</p>
+
+<p>At the highest level, I think good research should <strong>do things</strong>.
+In fact, I believe good research should do many things, all at once.
+And as we both know, multi-tasking is hard!
+In this case, I think it’s hard, but worthwhile…</p>
+
+<p>Here then are the things I think good research should do, along with links to the many people/places that seeded these ideas in the first place.</p>
+
+<p>Overall, I believe good research should</p>
+<ul>
+  <li>expose one’s ideas for the express purpose of <a href="https://blog.cbs.dk/inframethodology/?p=2315">scrutiny and criticism</a>.
+This is how truth and progress are discovered and how society inches closer to them.</li>
+  <li>demonstrate why and how past ideas were wrong or incomplete.</li>
+  <li>answer a fundamental / important question (i.e., <a href="https://doi.org/10.1371/journal.pcbi.0030213">rule 8</a>).</li>
+  <li>stand on the shoulders of giants (i.e., be thoroughly rooted in prior work).</li>
+  <li>tailor its methods to the questions being asked (i.e., qualitative and quantitative methods, in their many varieties, all have their uses and time to shine).</li>
+  <li>be based on <a href="http://psychology.okstate.edu/faculty/jgrice/psyc5314/Freedman_1991A.pdf">adequate data</a> for the question at hand.
+Note I mean adequate both in size and quality (i.e., measurement is important).</li>
+  <li>be rigorous.
+All techniques used should be thoroughly interrogated for appropriateness / external validity / internal validity.</li>
+</ul>
+
+<p>In additional to the points above, if we go further to think of methodological research (in the sense of statistical methodology), then I think one’s research should:</p>
+<ul>
+  <li>report substantively significant, not just statistically significant, results.</li>
+  <li>provide artifacts (e.g., software, procedures) that are practically useful outside of academia.</li>
+  <li><a href="https://arxiv.org/pdf/1905.08381.pdf">paint a “thick” picture</a> of a method:
+    <ul>
+      <li>Why does the method work?</li>
+      <li>When should the method not be expected to work well?</li>
+      <li>When should the method be expected to work well?</li>
+      <li>How robust is the method when its justifying conditions are not met?</li>
+      <li>What indicators tell one that the method is working?</li>
+      <li>What indicators tell one that the method is not working?</li>
+    </ul>
+  </li>
+  <li>understand <a href="https://gking.harvard.edu/files/gking/files/truth.pdf">when to use</a> descriptive versus predictive versus causal inference methods.
+(And also understand when such distinctions are <a href="https://github.com/timothyb0912/ci_for_prediction/blob/master/article/modeling_unmeasured_confounding.pdf">blurred or unnecessary</a>.)</li>
+  <li>be (even more) rigourous, i.e., make use of:
+    <ul>
+      <li>code/software tests (e.g., unit tests)</li>
+      <li>numeric tests of the validity of one’s methods (e.g., goodness-of-fit tests)</li>
+      <li>graphical tests of the validity of one’s methods (e.g., posterior predictive checks)</li>
+    </ul>
+  </li>
+  <li>recognize uncertainty as a first-class citizen.
+ At the end of the day, quantifying and reducing uncertainty is the main point of one’s statistical methods.</li>
+</ul>
+
+<h2 id="good-models">Good models</h2>
+<p>Alright, I understand you might be feeling overwhelmed (“unit tests; posterior predictive checks—what are those?”), and you may want to go back to whatever you were doing before you started dreaming about your future self.
+But before you do, let’s talk about good models.
+Given the extent to which you will find yourself building models in the future, I think this topic demands an entire section to itself.</p>
+
+<p>On the whole, I think good models should:</p>
+<ul>
+  <li>be reproducible and replicable, (i.e., release the source code and data (or a representative dataset if privacy concerns are an issue)).</li>
+  <li>be thoroughly checked / falsified / investigated
+    <ul>
+      <li>before estimation (e.g., <a href="http://www.stat.columbia.edu/~gelman/research/published/entropy-19-00555-v2.pdf">prior predictive checks</a>)</li>
+      <li>during estimation (e.g., training monitoring and diagnostics)</li>
+      <li>after estimation (e.g., <a href="https://projecteuclid.org/download/pdf_1/euclid.aos/1176325622">posterior predictive checks</a>, sanity checks, cross-validation, etc.)</li>
+    </ul>
+  </li>
+  <li>provide a great description of reality / the data it is based on (i.e., pass the many checks described above).</li>
+  <li>be the result of an <a href="http://mkweb.bcgsc.ca/pointsofsignificance/img/Boxonmaths.pdf">iterative process</a> of model-building and model-criticism (i.e., <a href="http://www.cs.columbia.edu/~blei/papers/Blei2014b.pdf">Box’s Loop</a>)</li>
+  <li>be only as complicated as necessary to adequately describe reality.
+What is adequate is of course up for debate (and debate you will).</li>
+  <li>be tailored to the problem at hand.
+Cookbook applications of existing methods will rarely be completely satisfying.</li>
+  <li>explicitly represent the treatment assignment mechanism in addition to the outcome, if one’s goal is to make causal inferences from the model.</li>
+  <li>be well understood.
+We should understand why and when our models work and fail.</li>
+  <li>be <a href="https://arxiv.org/pdf/1709.01449.pdf">extensively visualized</a>.
+We should never trust any summary statistics on their own, and this includes parameter estimates.
+Statistics may lie, but looking at the data and models reveals many truths.</li>
+</ul>
+
+<h2 id="how-to-proceed">How to proceed</h2>
+<p>Together, all of the bullet-points above may seem like a lot.
+It is.</p>
+
+<p>You will likely not meet all of these criteria in all of your research projects.
+In fact, none of your model building efforts from your PhD will meet all of these criteria.
+That is fine!
+Remember, we all start somewhere.</p>
+
+<p>The point is not to beat yourself up about it, but to learn as quickly as possible and always do better the next time.</p>
+
+<p>Of course, while following this path, you will occasionally find yourself in disagreement with others over how to produce good work.
+At those times, you should first try to learn from the other viewpoint.
+Extract all the good that you can, and do not presume that you know best or that the other viewpoint is wrong.
+Second, once you have learned all you can, if the opposing viewpoints still appear problematic, you should try improving the research aesthetics of the environment within which you are operating.
+Try hard, as most people around you will also want to do great work.</p>
+
+<p>However, if you are unsuccessful in creating an environment that is conducive to you doing work that you believe is good, you should leave the situation as quickly as possible!
+In places where your research aesthetics do not align with one’s larger group or organization, you will not be appreciated to the extent you desire.
+Your internal reputation will run the risk of suffering due to misalignment, and your external reputation will be at risk if you are associated with work that does not fit the description of good to which you ascribe.
+As in the 2017 film by Jordan Peele, Get Out!</p>
+
+<p>In all seriousness though, heed the words of Jan Fields (<a href="https://www.forbes.com/sites/85broads/2011/06/10/lovin-it-with-mcdonalds-president-jan-fields/">2011</a>) to</p>
+<blockquote>
+  <p>Remember that your reputation is everything.
+You build your personal brand through everything you do, whether big actions or small decisions, and that brand will stay with you throughout your career.</p>
+</blockquote>
+
+<p>Build a career that you can be proud of by always doing the best work you can.</p>

@@ -1,0 +1,67 @@
+<h1 id="on-the-use-of-command-line-interfaces">On the use of command line interfaces</h1>
+<p>Dear Young Tim,</p>
+
+<p>You will want your analyses and overall projects to be reproducible.<br />
+Reproducibility will necessitate description.<br />
+You will need to describe what your analysis does and how to do it.<br />
+One language to describe your analysis and project will be a directed acyclic graph (DAG).</p>
+
+<p>DAGs are everywhere.<br />
+“<a href="https://drivendata.github.io/cookiecutter-data-science/#analysis-is-a-dag">Analysis</a> is a DAG.”<br />
+<a href="https://airflow.apache.org/docs/stable/concepts.html">Workflows</a> are DAGs.<br />
+DAGs have nodes, by definition.</p>
+
+<p>These nodes are:</p>
+<ul>
+  <li>functions (and “<a href="https://www.slideshare.net/ScottWlaschin/fp-patterns-ndc-london2014/21">functions are things</a>”)</li>
+  <li>workflow steps<br />
+   (see last month’s <a href="https://timothyb0912.github.io/blog/philosophy/2020/09/30/Project-Lifecycle.html">post</a>)</li>
+  <li>workflow tasks</li>
+  <li>workflow stages</li>
+</ul>
+
+<p>These things, i.e, these nodes:</p>
+<ul>
+  <li>take inputs (possibly <code class="language-plaintext highlighter-rouge">None</code>),</li>
+  <li>act in predefined ways,</li>
+  <li>and return outputs (possibly <code class="language-plaintext highlighter-rouge">None</code>).</li>
+</ul>
+
+<p>Managing our nodes’ inputs and outputs (I/O) will enable our project’s reproducibility.
+Indeed, we cannot reproduce what we did not record.
+We must record the inputs that led to specific outputs, to later reproduce those outputs.</p>
+
+<p>Ideally, we should manage our I/O with plain text configuration files (to ease tracking).
+These configuration files should specify, for each node:</p>
+<ul>
+  <li>all inputs or input data locations, and</li>
+  <li>the locations of all outputs to be created.</li>
+</ul>
+
+<p>Next, we need to ingest these configuration files to use them.
+A useful ingestion pattern is to write the nodes / functions as command line interfaces (CLIs) that take the configuration as input.
+See tools such as <a href="https://hydra.cc/docs/intro">Hydra</a> for enabling such CLIs.
+Configuration-driven CLIs increase reproducibility by facilitating use of program call patterns that can be easily tracked for later replay.</p>
+
+<p>Finally, we can use a version-control system such as git to track and save our CLIs, our configuration files, and our workflows (ideally).
+This set up would also pair nicely with project templates such as <a href="https://github.com/pyscaffold/pyscaffoldext-dsproject">Pyscaffoldext-dsproject</a>.
+We could use:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">./scripts/</code> to store our CLIs,</li>
+  <li><code class="language-plaintext highlighter-rouge">./configs/</code> to store our configuration files,</li>
+  <li><code class="language-plaintext highlighter-rouge">./Makefile</code> to store our workflow definitions<br />
+(or use whatever common file format we desire),</li>
+  <li><code class="language-plaintext highlighter-rouge">./src/{PROJECT_PACKAGE}</code> to store the reusable portion of our project that is used in our CLIs and packaged / shared.</li>
+</ul>
+
+<p>If we put all these lessons together we arrive at:</p>
+<ul>
+  <li>version control of our project using a tool like git</li>
+  <li>a project template such as <a href="https://github.com/pyscaffold/pyscaffoldext-dsproject">pyscaffoldext-dsproject</a></li>
+  <li>entire <a href="https://timothyb0912.github.io/blog/philosophy/2020/09/30/Project-Lifecycle.html">project workflow</a> defined as a DAG in plain-text specification<br />
+   (e.g. <a href="http://zmjones.com/make/">Makefile</a>, <a href="https://airflow.apache.org/docs/stable/dag-serialization.html">JSON</a>, or <a href="https://dvc.org/doc/user-guide/dvc-files-and-directories#dvcyaml-file">YAML</a>)</li>
+  <li>workflow I/O managed with plain text configuration files (e.g. YAML)</li>
+  <li>each step of project defined as a function (i.e., a CLI) that takes the configuration as an input.</li>
+</ul>
+
+<p>These steps alone will take us far towards making our project reproducible.</p>

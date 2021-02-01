@@ -1,0 +1,653 @@
+<h1 id="pytorch-tutorial">PyTorch Tutorial</h1>
+<ol id="markdown-toc">
+  <li><a href="#pytorch-tutorial" id="markdown-toc-pytorch-tutorial">PyTorch Tutorial</a></li>
+  <li><a href="#overview" id="markdown-toc-overview">Overview</a></li>
+  <li><a href="#example" id="markdown-toc-example">Example</a>    <ol>
+      <li><a href="#loss-function" id="markdown-toc-loss-function">Loss Function</a></li>
+      <li><a href="#input-object" id="markdown-toc-input-object">Input Object</a></li>
+      <li><a href="#pytorch-model" id="markdown-toc-pytorch-model">PyTorch Model</a></li>
+      <li><a href="#helper-functions" id="markdown-toc-helper-functions">Helper functions</a></li>
+      <li><a href="#optimization-closure" id="markdown-toc-optimization-closure">Optimization closure</a></li>
+    </ol>
+  </li>
+  <li><a href="#conclusions-putting-it-all-together" id="markdown-toc-conclusions-putting-it-all-together">Conclusions: Putting it all together</a></li>
+</ol>
+
+<p>Dear Young Tim,</p>
+
+<p>I know you remember the <em>good old days</em>: writing out probability equations, analytically deriving gradients and hessians of the log-likelihood, and then painstakingly implementing those derivatives in code.</p>
+
+<p>Throughout your career, especially in school, you will forego research efforts because the time to analyze and implement the derivatives seemed greater than the gain from doing so.</p>
+<blockquote>
+  <p>Gallery of asymmetric choice models?
+No.<br />
+Gradient-based MCMC for your decision tree + choice model paper?
+No.<br />
+Mixed Logit models with non-normal mixing distributions in PyLogit?
+No.</p>
+</blockquote>
+
+<p>Despite the good reasons for my decisions, loss aversion and questions of “what-if” will plague you.</p>
+
+<p>Moreover, this behavioral pattern will persist even after you graduate from UC Berkeley.
+Somehow, you will find yourself with less free time and more competing activities that you wish to fill that time with.
+Every year you will say more “no’s” as you ruthlessly triage new research ideas based, in part, on their projected execution time.
+Your feeling of loss due to time constraints will increase.</p>
+
+<p>Far from coming to engage in a pity party, I’m here to announce that there is hope for change.
+You can stop this wound from bleeding.
+Across projects, you can lower projected execution times and their variance.
+Unshackle yourself from some feelings of constraint-based loss by eliminating time for gradient and hessian derivations.</p>
+
+<p>A technique called automatic differentiation enables automatic gradient and hessian computation once you write the code to compute one’s log-likelihood and probabilities.
+PyTorch and Tensorflow began supporting sparse matrices in 2017 and 2016, respectively, making it possible to use these packages’ automatic differentiation tools for discrete choice models.
+In other words, discrete choice modellers could have been living the dream for three to four years!
+No more passing up on research ideas because derivations take too long.
+Write your log-likelihood and probability functions in PyTorch or Tensorflow, and you’ll get the exact gradients and hessians automatically!</p>
+
+<p>Of course, despite the enabling technology existing, uptake of these tools has been slow.
+For example, I began using PyTorch in 2019, after failed attempts in 2018.
+My biggest stumbling block was not having a comprehensive understanding of what I needed and how I would interface with other third-party packages (NumPy, SciPy, etc.).
+How could I use these packages to do something I already knew how to do?
+I found Tensorflow’s learning curve to be terribly steep–so steep that I never came back to it!
+PyTorch was much easier for me to begin with, so that’s what this post is about.</p>
+
+<p>I hope this post will hasten your adoption of automatic differentiation.
+Below, I describe the high-level elements you’ll need when replacing one’s hand-coded derivatives with PyTorch computed derivatives.
+Moreover, I introduce PyTorch in a non-trivial discrete choice setting, replicating the Mixed Logit “B” model of</p>
+<blockquote>
+  <p>Brownstone, David, and Kenneth Train. “Forecasting new product penetration with flexible substitution patterns.” Journal of econometrics 89, no. 1-2 (1998): 109-129.</p>
+</blockquote>
+
+<p>To be clear, this is not merely a “toy” exercise for demonstration.
+I am doing this work to revise my paper</p>
+<blockquote>
+  <p>Brathwaite, Timothy. “Check yourself before you wreck yourself: Assessing discrete choice models through predictive simulations.” arXiv preprint arXiv:1806.02307 (2018).</p>
+</blockquote>
+
+<p>After reading this post, you should be able to begin estimating whatever other model you think of.</p>
+
+<p>With this context in mind, let’s get started!</p>
+
+<h1 id="overview">Overview</h1>
+<p>To keep matters simple, I’ll describe how to use PyTorch to perform maximum likelihood estimation of one’s discrete choice model.
+The expectation is that, as in PyLogit, you’ll use <code class="language-plaintext highlighter-rouge">scipy.optimize.minimize</code> for parameter optimization.
+In this setting, the following five objects are sufficient for getting started.</p>
+<ol>
+  <li>A loss function written in PyTorch.</li>
+  <li>An input object containing all data needed to compute probabilities for the choice observations of interest.</li>
+  <li>A PyTorch model (i.e. a subclass of <code class="language-plaintext highlighter-rouge">torch.nn.Module</code>) that packages all model parameters for optimization and the probability computation logic.</li>
+  <li>Helper functions to get the gradient and hessian of the log-likelihood as Numpy arrays for use with <code class="language-plaintext highlighter-rouge">scipy.optimize.minimize</code>.</li>
+  <li>A closure for <code class="language-plaintext highlighter-rouge">scipy.optimize.minimize</code> that takes in a passed array of parameters and returns the loss and gradient of the loss.</li>
+</ol>
+
+<p>Let’s import the needed modules for this notebook and then look at some examples of the five objects listed above.</p>
+
+<h1 id="example">Example</h1>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Py3 Built-in module for type-hint annotations
+</span><span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">Dict</span><span class="p">,</span> <span class="n">Tuple</span><span class="p">,</span> <span class="n">List</span><span class="p">,</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">Optional</span>
+
+<span class="c1"># Third-party modules for:
+# class definition
+</span><span class="kn">import</span> <span class="nn">attr</span>
+<span class="c1"># Optimization
+</span><span class="kn">import</span> <span class="nn">scipy.optimize</span> <span class="k">as</span> <span class="n">opt</span>
+<span class="c1"># Numerical computation
+</span><span class="kn">import</span> <span class="nn">torch</span>
+<span class="kn">import</span> <span class="nn">torch.nn</span> <span class="k">as</span> <span class="n">nn</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="n">np</span>
+<span class="c1"># Utility functions for pytorch optimization
+</span><span class="kn">import</span> <span class="nn">botorch.optim.numpy_converter</span> <span class="k">as</span> <span class="n">numpy_converter</span>
+<span class="kn">import</span> <span class="nn">botorch.optim.utils</span> <span class="k">as</span> <span class="n">optim_utils</span>
+<span class="kn">from</span> <span class="nn">botorch.optim.numpy_converter</span> <span class="kn">import</span> <span class="n">TorchAttr</span>
+<span class="c1"># Input/Output of data
+</span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="n">pd</span>
+</code></pre></div></div>
+
+<h2 id="loss-function">Loss Function</h2>
+<p>The simplest of the objects listed in the overview is the loss function.
+At its core, the loss function is a python function that returns a scalar based (even if only indirectly) on the parameters being optimized.</p>
+
+<p>Here is an example of the loss-function I typically use when estimating discrete choice models: the log-loss, i.e. the negative of the log-likelihood.</p>
+
+<p>If this is your first time using PyTorch, then one thing to recognize is that <code class="language-plaintext highlighter-rouge">torch.Tensor</code> is PyTorch’s equivalent of Numpy’s <code class="language-plaintext highlighter-rouge">ndarray</code>.
+PyTorch Tensors and Numpy arrays share the same locations in your computer’s memory, and converting between these two data containers is memory-efficient (i.e., without data-copying).</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">log_loss</span><span class="p">(</span><span class="n">probs</span><span class="p">:</span> <span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span><span class="p">,</span>
+             <span class="n">targets</span><span class="p">:</span> <span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span><span class="p">:</span>
+    <span class="s">"""
+    Computes the log-loss (i.e., the negative log-likelihood) for given
+    long-format tensors of probabilities and choice indicators.
+
+    Parameters
+    ----------
+    probs : 1D torch.Tensor.
+        The probability of choosing each row's alternative for the given choice situation.
+    targets : 1D torch.Tensor.
+        A Tensor of zeros and ones indicating the chosen row for each choice situation. Should have the same size as `probs`.
+
+    Returns
+    -------
+    neg_log_likelihood : scalar torch.Tensor.
+        The negative log-likelihood computed from `probs` and `targets`.
+    """</span>
+    <span class="n">log_likelihood</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="nb">sum</span><span class="p">(</span><span class="n">targets</span> <span class="o">*</span> <span class="n">torch</span><span class="p">.</span><span class="n">log</span><span class="p">(</span><span class="n">probs</span><span class="p">))</span>
+    <span class="k">return</span> <span class="o">-</span><span class="mi">1</span> <span class="o">*</span> <span class="n">log_likelihood</span>
+</code></pre></div></div>
+
+<h2 id="input-object">Input Object</h2>
+<p>Many interrelated objects are often needed to calculate discrete choice model probabilities.
+For instance, PyLogit’s multinomial logit models rely not just on a design matrix but on multiple sparse “mapping matrices” that relate rows of the design matrix to observation or alternative identifiers.
+Another example is the mixed logit model.
+It relies on a set of generated normal random variates for each observation.
+Because these randomly drawn values are to remain constant during one’s estimation process, they need to be passed into one’s probability calculating function along with the design matrix that one typically thinks of when using a <code class="language-plaintext highlighter-rouge">predict</code> function.</p>
+
+<p>The input object packages all these related objects needed to compute probabilities.
+The official PyTorch method for packaging these objects would be to use the following classes:</p>
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">torch.utils.data.DataLoader</code></li>
+  <li><code class="language-plaintext highlighter-rouge">torch.utils.data.Dataset</code></li>
+  <li><code class="language-plaintext highlighter-rouge">torch.utils.data.IterableDataset</code></li>
+  <li><code class="language-plaintext highlighter-rouge">torch.utils.data.Sampler</code> (or subclasses)</li>
+</ul>
+
+<p>However, these PyTorch objects seemed more complicated than necessary for estimating a discrete-choice model using batch-optimization methods (instead of mini-batch optimization techniques).
+The input object below is, in my opinion, a simpler data class that still provides the needed packaging functionality.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="n">attr</span><span class="p">.</span><span class="n">s</span>
+<span class="k">class</span> <span class="nc">InputMixlB</span><span class="p">:</span>
+    <span class="s">"""
+    Stores the observation-specific data needed to compute probabilities in the
+    Mixed Logit B model.
+    """</span>
+    <span class="c1"># Needed attributes are:
+</span>    <span class="c1"># design matrix
+</span>    <span class="n">design</span><span class="p">:</span> <span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span> <span class="o">=</span> <span class="n">attr</span><span class="p">.</span><span class="n">ib</span><span class="p">()</span>
+    <span class="c1"># rows_to_choice_situation, i.e, rows_to_obs
+</span>    <span class="n">obs_mapping</span><span class="p">:</span> <span class="n">torch</span><span class="p">.</span><span class="n">sparse</span><span class="p">.</span><span class="n">FloatTensor</span> <span class="o">=</span> <span class="n">attr</span><span class="p">.</span><span class="n">ib</span><span class="p">()</span>
+    <span class="c1"># rows_to_decision_makers, i.e, rows_to_mixers
+</span>    <span class="n">mixing_mapping</span><span class="p">:</span> <span class="n">torch</span><span class="p">.</span><span class="n">sparse</span><span class="p">.</span><span class="n">FloatTensor</span> <span class="o">=</span> <span class="n">attr</span><span class="p">.</span><span class="n">ib</span><span class="p">()</span>
+    <span class="c1"># list of normal random variates
+</span>    <span class="n">normal_rvs</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span><span class="p">]</span> <span class="o">=</span> <span class="n">attr</span><span class="p">.</span><span class="n">ib</span><span class="p">()</span>
+
+    <span class="o">@</span><span class="nb">classmethod</span>
+    <span class="k">def</span> <span class="nf">from_df</span><span class="p">(</span><span class="n">cls</span><span class="p">,</span>
+                <span class="n">df</span><span class="p">:</span> <span class="n">pd</span><span class="p">.</span><span class="n">DataFrame</span><span class="p">,</span>
+                <span class="n">mixing_seed</span><span class="p">:</span> <span class="nb">int</span><span class="o">=</span><span class="mi">601</span><span class="p">,</span>
+                <span class="n">num_draws</span><span class="p">:</span> <span class="nb">int</span><span class="o">=</span><span class="mi">250</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="s">'InputMixlB'</span><span class="p">:</span>
+        <span class="s">"""
+        Creates a class instance from a dataframe with the requisite data.
+
+        Parameters
+        ----------
+        df : pandas DataFrame.
+            Should be a long-format dataframe containing the following columns:
+            `[alt_id, obs_id, choice]`.
+        mixing_seed : optional, int.
+            Denotes the random seed to use when generating the normal random
+            variates for Monte Carlo integration in the maximum simulated
+            likelihood procedure.
+        num_draws : optional, int.
+            Denotes the number of random draws to use for Monte Carlo
+            integration in the maximum simulated likelihood procedure.
+
+        Returns
+        -------
+        Instantiated 'InputMixlB' object.
+        """</span>
+        <span class="p">...</span>
+</code></pre></div></div>
+
+<p>Let me explain what is going on here.</p>
+
+<p>First, I am using the <code class="language-plaintext highlighter-rouge">attr.s</code> decorator to signal that I want to create instances of this class using the <code class="language-plaintext highlighter-rouge">attr</code> library.
+This library has <a href="https://www.attrs.org/en/stable/why.html">multiple benefits</a>, but the most relevant ones in this example are that I can avoid writing an <code class="language-plaintext highlighter-rouge">__init__</code> function and I can access data using human readable property names.
+Next, I use <code class="language-plaintext highlighter-rouge">attr.ib()</code> to declare the attributes of the class.
+Using PyLogit terminology, I am storing the design matrix, the <code class="language-plaintext highlighter-rouge">rows_to_choice_situation</code> and <code class="language-plaintext highlighter-rouge">rows_to_decision_makers</code> mapping matrices, and the normal random variates for estimating the maximum simulated likelihood.</p>
+
+<p>After declaring the class attributes, I define a class method to initialize an instance of the class.
+This is denoted by the <code class="language-plaintext highlighter-rouge">@classmethod</code> decorator.
+The method, although not displayed above for brevity, encapsulates the logic (all 56 lines of it) to take a given dataframe of data for the Mixed Logit Model B and create the class attributes described above.
+The way to use it is by typing <code class="language-plaintext highlighter-rouge">mixlb_input = InputMixlB.from_df(df)</code> where <code class="language-plaintext highlighter-rouge">df</code> is as described in the <code class="language-plaintext highlighter-rouge">from_df</code> docstring.
+See <a href="https://github.com/timothyb0912/check-yourself/blob/develop/notebooks/miscellaneous/_20-tb-check-the-mixlb-model.py#L111">here</a> for an example of the <code class="language-plaintext highlighter-rouge">from_df</code> method in use and <a href="https://github.com/timothyb0912/check-yourself/blob/develop/src/models/model_inputs.py#L40">here</a> for the full definition of the method.</p>
+
+<p>The main point is that once you have an input object, you can pass the object or the object’s attributes to the <code class="language-plaintext highlighter-rouge">forward</code> method of your PyTorch model to compute the needed probabilities.
+Note that all the attributes are pytorch objects.
+These are the only type of objects that one should pass to your model’s <code class="language-plaintext highlighter-rouge">forward</code> method if one wants to use automatic differentiation on the resulting log-likelihood.</p>
+
+<h2 id="pytorch-model">PyTorch Model</h2>
+<p>The most obviously needed object for using PyTorch’s automatic differentiation capabilities is a PyTorch model.
+In particular, one’s PyTorch model must be a subclass of <code class="language-plaintext highlighter-rouge">nn.Module</code> that overwrites / implements the forward method.
+Since we’re estimating discrete choice models, the forward method should take an input object or that object’s attributes, and the forward method should output a 1D Tensor of predicted probabilities in “long-format.”</p>
+
+<p>Note that one’s PyTorch model should do more than capture the logic needed to compute the discrete choice model’s probabilities.
+One’s PyTorch model should also store any data needed to compute the probabilities that does not change across observations.</p>
+
+<p>As an example, let’s look at the skeleton of the PyTorch model used to compute the probabilities for Brownstone and Train’s (1998) Mixed Logit B model.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="n">attr</span><span class="p">.</span><span class="n">s</span>
+<span class="k">class</span> <span class="nc">DesignInfoMixlB</span><span class="p">:</span>
+    <span class="s">"""Put generic information about the design matrix here."""</span>
+    <span class="p">...</span>
+
+
+<span class="o">@</span><span class="n">attr</span><span class="p">.</span><span class="n">s</span><span class="p">(</span><span class="n">eq</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="nb">repr</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">MIXLB</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
+    <span class="s">""""
+    PyTorch implementation of `Mixed Logit B` in [1].
+
+    References
+    ----------
+    [1] Brownstone, David, and Kenneth Train. "Forecasting new product
+    penetration with flexible substitution patterns." Journal of
+    econometrics 89.1-2 (1998): 109-129.
+    """</span>
+    <span class="c1"># Should store all needed information required to specifcy the
+</span>    <span class="c1"># computational steps needed to calculate the probability function
+</span>    <span class="c1"># corresponding to `Mixed Logit B`
+</span>
+    <span class="c1"># Info denoting the design columns, the indices for normal and lognormally
+</span>    <span class="c1"># distributed parameters, etc.
+</span>    <span class="n">design_info</span> <span class="o">=</span> <span class="n">attr</span><span class="p">.</span><span class="n">ib</span><span class="p">(</span><span class="n">init</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="n">DesignInfoMixlB</span><span class="p">())</span>
+
+    <span class="c1"># Standard deviation constant for lognormally distributed values
+</span>    <span class="n">log_normal_std</span> <span class="o">=</span> <span class="n">attr</span><span class="p">.</span><span class="n">ib</span><span class="p">(</span><span class="n">init</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="n">torch</span><span class="p">.</span><span class="n">tensor</span><span class="p">(</span><span class="mf">0.8326</span><span class="p">))</span>
+
+    <span class="c1">####
+</span>    <span class="c1"># Needed constants for numerical stability
+</span>    <span class="c1">####
+</span>    <span class="c1"># Minimum and maximum value that should be exponentiated
+</span>    <span class="n">min_exponent_val</span> <span class="o">=</span> <span class="n">attr</span><span class="p">.</span><span class="n">ib</span><span class="p">(</span><span class="n">init</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="n">torch</span><span class="p">.</span><span class="n">tensor</span><span class="p">(</span><span class="o">-</span><span class="mi">700</span><span class="p">))</span>
+    <span class="n">max_exponent_val</span> <span class="o">=</span> <span class="n">attr</span><span class="p">.</span><span class="n">ib</span><span class="p">(</span><span class="n">init</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="n">torch</span><span class="p">.</span><span class="n">tensor</span><span class="p">(</span><span class="mi">700</span><span class="p">))</span>
+    <span class="c1"># MNL models and generalizations only have probability = 1
+</span>    <span class="c1"># when the linear predictor = infinity
+</span>    <span class="n">max_prob_value</span> <span class="o">=</span> <span class="n">attr</span><span class="p">.</span><span class="n">ib</span><span class="p">(</span><span class="n">init</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="n">torch</span><span class="p">.</span><span class="n">tensor</span><span class="p">(</span><span class="mi">1</span><span class="o">-</span><span class="mf">1e-16</span><span class="p">))</span>
+    <span class="c1"># MNL models and generalizations only have probability = 0
+</span>    <span class="c1"># when the linear predictor = -infinity
+</span>    <span class="n">min_prob_value</span> <span class="o">=</span> <span class="n">attr</span><span class="p">.</span><span class="n">ib</span><span class="p">(</span><span class="n">init</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="n">default</span><span class="o">=</span><span class="n">torch</span><span class="p">.</span><span class="n">tensor</span><span class="p">(</span><span class="mf">1e-40</span><span class="p">))</span>
+
+    <span class="k">def</span> <span class="nf">__attrs_post_init__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="c1"># Make sure that we call the constructor method of nn.Module to
+</span>        <span class="c1"># initialize pytorch specific parameters, as they are not automatically
+</span>        <span class="c1"># initialized by attrs
+</span>        <span class="nb">super</span><span class="p">().</span><span class="n">__init__</span><span class="p">()</span>
+
+        <span class="c1"># Needed paramters tensors for the module:
+</span>        <span class="c1">#   - parameter "means" and "standard deviations"
+</span>        <span class="bp">self</span><span class="p">.</span><span class="n">means</span> <span class="o">=</span>\
+            <span class="n">nn</span><span class="p">.</span><span class="n">Parameter</span><span class="p">(</span><span class="n">torch</span><span class="p">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">design_info</span><span class="p">.</span><span class="n">column_names</span><span class="p">),</span>
+                                      <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="p">.</span><span class="n">double</span><span class="p">))</span>
+        <span class="bp">self</span><span class="p">.</span><span class="n">std_deviations</span> <span class="o">=</span>\
+            <span class="n">nn</span><span class="p">.</span><span class="n">Parameter</span><span class="p">(</span><span class="n">torch</span><span class="p">.</span><span class="n">arange</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">design_info</span><span class="p">.</span><span class="n">normal_coef_names</span><span class="p">),</span>
+                                      <span class="n">dtype</span><span class="o">=</span><span class="n">torch</span><span class="p">.</span><span class="n">double</span><span class="p">))</span>
+        <span class="c1"># Enforce parameter constraints
+</span>        <span class="bp">self</span><span class="p">.</span><span class="n">constrain_means</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">constrain_means</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="s">"""
+        Ensures that we don't compute the gradients for mean parameters that
+        should be constrained to zero.
+        """</span>
+        <span class="c1"># Note that parameters 21 (non_ev) and 22 (non_cng) are constrained to
+</span>        <span class="c1"># zero because those columns are for random effects with mean zero by
+</span>        <span class="c1"># specification.
+</span>        <span class="bp">self</span><span class="p">.</span><span class="n">constrained_means</span> <span class="o">=</span>\
+            <span class="n">optim_utils</span><span class="p">.</span><span class="n">fix_features</span><span class="p">(</span><span class="bp">self</span><span class="p">.</span><span class="n">means</span><span class="p">,</span> <span class="p">{</span><span class="mi">21</span><span class="p">:</span> <span class="bp">None</span><span class="p">,</span> <span class="mi">22</span><span class="p">:</span> <span class="bp">None</span><span class="p">})</span>
+
+    <span class="k">def</span> <span class="nf">forward</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                <span class="n">design_2d</span><span class="p">:</span> <span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span><span class="p">,</span>
+                <span class="n">rows_to_obs</span><span class="p">:</span> <span class="n">torch</span><span class="p">.</span><span class="n">sparse</span><span class="p">.</span><span class="n">FloatTensor</span><span class="p">,</span>
+                <span class="n">rows_to_mixers</span><span class="p">:</span> <span class="n">torch</span><span class="p">.</span><span class="n">sparse</span><span class="p">.</span><span class="n">FloatTensor</span><span class="p">,</span>
+                <span class="n">normal_rvs_list</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span><span class="p">:</span>
+        <span class="s">"""
+        Compute the probabilities for `Mixed Logit B`.
+
+        Parameters
+        ----------
+        design_2d : 2D torch.Tensor.
+            Denotes the design matrix whose coefficients are to be computed.
+        rows_to_obs : 2D torch.sparse.FloatTensor.
+            Denotes the mapping between rows of `design_2d` and the
+            choice observations the probabilities are being computed for.
+        rows_to_mixers : 2D torch.sparse.FloatTensor.
+            Denotes the mapping between rows of `design_2d` and the
+            decision-makers the coefficients are randomly distributed over.
+        normal_rvs_list : list of 2D torch.Tensor.
+            Should have length `self.design_info.num_mixing_vars`. Each element
+            of the list should be of shape `(rows_to_mixers.size()[1],
+            num_draws)`. Each element should represent a draw from a standard
+            normal distribution.
+
+        Returns
+        -------
+        average_probabilities : 1D torch.Tensor
+            Denotes the average of the probabilities for each alternative for
+            each choice situation, across all random draws of the model
+            coefficients.
+        """</span>
+        <span class="c1"># Get the coefficient tensor for all observations
+</span>        <span class="c1"># This will be a 3D tensor
+</span>        <span class="n">coefficients</span> <span class="o">=</span>\
+            <span class="bp">self</span><span class="p">.</span><span class="n">create_coef_tensor</span><span class="p">(</span><span class="n">design_2d</span><span class="p">,</span> <span class="n">rows_to_mixers</span><span class="p">,</span> <span class="n">normal_rvs_list</span><span class="p">)</span>
+        <span class="c1"># Compute the long-format systematic utilities per row and random draw.
+</span>        <span class="c1"># This will be a 2D tensor
+</span>        <span class="n">systematic_utilities</span> <span class="o">=</span>\
+            <span class="bp">self</span><span class="p">.</span><span class="n">_calc_systematic_utilities</span><span class="p">(</span><span class="n">design_2d</span><span class="p">,</span> <span class="n">coefficients</span><span class="p">)</span>
+        <span class="c1"># Compute the long-format probabilities for each row and random draw.
+</span>        <span class="c1"># This will be a 2D tensor
+</span>        <span class="n">probabilities_per_draw</span> <span class="o">=</span>\
+            <span class="bp">self</span><span class="p">.</span><span class="n">_calc_probs_per_draw</span><span class="p">(</span><span class="n">systematic_utilities</span><span class="p">,</span> <span class="n">rows_to_obs</span><span class="p">)</span>
+        <span class="c1"># Compute the long-format, average probabilities across draws.
+</span>        <span class="c1"># This will be a 1D tensor.
+</span>        <span class="n">average_probabilities</span> <span class="o">=</span> <span class="n">torch</span><span class="p">.</span><span class="n">mean</span><span class="p">(</span><span class="n">probabilities_per_draw</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">average_probabilities</span>
+
+    <span class="k">def</span> <span class="nf">create_coef_tensor</span><span class="p">(</span>
+            <span class="bp">self</span><span class="p">,</span>
+            <span class="n">design_2d</span><span class="p">:</span> <span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span><span class="p">,</span>
+            <span class="n">rows_to_mixers</span><span class="p">:</span> <span class="n">torch</span><span class="p">.</span><span class="n">sparse</span><span class="p">.</span><span class="n">FloatTensor</span><span class="p">,</span>
+            <span class="n">normal_rvs_list</span><span class="p">:</span> <span class="n">List</span><span class="p">[</span><span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span><span class="p">]</span>
+        <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span><span class="p">:</span>
+        <span class="p">...</span>
+
+    <span class="k">def</span> <span class="nf">_calc_systematic_utilities</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                                   <span class="n">design_2d</span><span class="p">:</span> <span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span><span class="p">,</span>
+                                   <span class="n">coefs</span><span class="p">:</span> <span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span><span class="p">:</span>
+        <span class="p">...</span>
+
+    <span class="k">def</span> <span class="nf">_calc_probs_per_draw</span><span class="p">(</span>
+            <span class="bp">self</span><span class="p">,</span>
+            <span class="n">sys_utilities</span><span class="p">:</span> <span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span><span class="p">,</span>
+            <span class="n">rows_to_obs</span><span class="p">:</span> <span class="n">torch</span><span class="p">.</span><span class="n">sparse</span><span class="p">.</span><span class="n">FloatTensor</span>
+        <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span><span class="p">:</span>
+        <span class="p">...</span>
+
+
+
+</code></pre></div></div>
+
+<p>The model is the most complex object described in this post so let’s spend some time unpacking what is going on above.</p>
+
+<p>The big picture is as follows.
+The code snippet above subclasses <code class="language-plaintext highlighter-rouge">nn.Module</code> and implements the <code class="language-plaintext highlighter-rouge">forward</code> method of the model to compute the choice probabilities.
+These are the important steps shown above.
+Everything else is an implementation detail.
+Now, I’ll proceed chronologically from the top of the cell and explain more of these specifics.</p>
+
+<p>The first subtle action is how I invoke the <code class="language-plaintext highlighter-rouge">attr.s</code> decorator.
+Unlike the case of the <code class="language-plaintext highlighter-rouge">InputMixlB</code> object, I now pass the decorator arguments <code class="language-plaintext highlighter-rouge">eq=False, repr=False</code>.
+Both arguments are necessary for PyTorch and the <code class="language-plaintext highlighter-rouge">attr</code> module to operate nicely together.
+The <code class="language-plaintext highlighter-rouge">eq=False</code> argument allows hashing of the <code class="language-plaintext highlighter-rouge">nn.Module</code> and thereby permits use of the module’s internal C++ functions.
+The <code class="language-plaintext highlighter-rouge">repr=False</code> argument tells <code class="language-plaintext highlighter-rouge">attr</code> not to overwrite the default string representation given by PyTorch’s <code class="language-plaintext highlighter-rouge">nn.Module</code> class.
+For more information about why these workarounds are necessary, see <a href="https://stackoverflow.com/questions/57291307/pytorch-module-with-attrs-cannot-get-parameter-list">here</a>.</p>
+
+<p>Next, I define two model specific attributes: <code class="language-plaintext highlighter-rouge">design_info</code> and <code class="language-plaintext highlighter-rouge">log_normal_std</code>.
+The <code class="language-plaintext highlighter-rouge">design_info</code> attribute contains:</p>
+<ul>
+  <li>attributes denoting the column names of the design matrix,</li>
+  <li>the column indices for normal and log-normally distributed parameters, and</li>
+  <li>mappings relating the design columns to the lognormal or normally distributed coefficient names.</li>
+</ul>
+
+<p>The <code class="language-plaintext highlighter-rouge">log_normal_std</code> attribute is a constant denoting the standard deviation of the normal random variates used in the log-normal mixing distributions of the Mixed Logit B model.
+The common feature of these two attributes is that they both represent model-specific information that does not change across observations.
+I therefore stored them on the model object itself.</p>
+
+<p>After these, the next four attributes are minimum and maximum values to be exponentiated and treated as probabilities, respectively.
+These attributes are not model-specific, as I tend to use them across all my discrete choice models to avoid underflow and overflow.
+However, since these values do not change across observations, I also stored them on the model object.</p>
+
+<p>Note, while defining these attributes, I passed <code class="language-plaintext highlighter-rouge">init=False</code> and <code class="language-plaintext highlighter-rouge">default=something</code>.
+The <code class="language-plaintext highlighter-rouge">init=False</code> keyword argument tells <code class="language-plaintext highlighter-rouge">attr</code> that these attributes do not need to be passed when initializing an instance of the model class.
+The <code class="language-plaintext highlighter-rouge">default=something</code> keyword argument tells <code class="language-plaintext highlighter-rouge">attr</code> that if these attributes are not passed as arguments to the <code class="language-plaintext highlighter-rouge">__init__</code> function, then use <code class="language-plaintext highlighter-rouge">something</code> as the value of the attribute instead (whatever <code class="language-plaintext highlighter-rouge">something</code> is).</p>
+
+<p>Now, with the model-specific attributes stored as attributes, the PyTorch-specific attributes become the center of attention.
+To set these attributes, I use the <code class="language-plaintext highlighter-rouge">__attrs_post_init__</code> function, which is called after executing the <code class="language-plaintext highlighter-rouge">__init__</code> function of the <code class="language-plaintext highlighter-rouge">MIXLB</code> object.
+This <code class="language-plaintext highlighter-rouge">__attrs_post_init__</code> function, as defined above, will then call the <code class="language-plaintext highlighter-rouge">__init__</code> function of <code class="language-plaintext highlighter-rouge">nn.Module</code> (via <code class="language-plaintext highlighter-rouge">super().__init__()</code>) to perform PyTorch specific initialization actions.
+Then, I assign the <code class="language-plaintext highlighter-rouge">nn.Parameter</code> attributes <code class="language-plaintext highlighter-rouge">means</code> and <code class="language-plaintext highlighter-rouge">std_deviations</code>.
+The Mixed Logit B model optimizes these parameters during estimation.
+Finally, I use the PyTorch enhancing <code class="language-plaintext highlighter-rouge">BoTorch.optim.utils</code> module to enforce the model-specific parameter constraints using the call <code class="language-plaintext highlighter-rouge">self.constrain_means</code>.
+I emphasize this step to point out that arbitrary parameter constraints can be imposed on one’s model.</p>
+
+<p>At long last, we come to the <code class="language-plaintext highlighter-rouge">forward</code> method.
+As noted before, this method encapsulates the logic needed to compute the probabilities for Mixed Logit B.
+Importantly, this logic is not all written in one monolithic <code class="language-plaintext highlighter-rouge">forward</code> method.
+Because the model relies on a set of intricate sub-steps, especially <code class="language-plaintext highlighter-rouge">create_coef_tensor</code>, these substeps are defined as their own methods on the <code class="language-plaintext highlighter-rouge">MIXLB</code> class.
+These methods ease the reading of the <code class="language-plaintext highlighter-rouge">forward</code> method and clarify its logic.
+Note that for the sake of brevity, the sub-step methods are not displayed above.
+See <a href="https://github.com/timothyb0912/check-yourself/blob/develop/src/models/mixlb.py">here</a> for the complete definition of the sub-step methods and of the class in general.</p>
+
+<p>To be completely honest, it’s not only the sub-step methods that were hidden from display above.
+To avoid displaying a long cell, I also hid the “helper” functions that enable painless interfacing between Numpy, Scipy, and PyTorch.
+Let’s look at these helper functions below.</p>
+
+<h2 id="helper-functions">Helper functions</h2>
+<p>PyTorch and Numpy/Scipy interact in four main situations:</p>
+<ul>
+  <li>setting a Numpy array of parameters on a PyTorch model</li>
+  <li>getting a Numpy array of parameters from a PyTorch model</li>
+  <li>getting a Numpy array of parameter gradients from a PyTorch model</li>
+  <li>getting a Numpy array of the hessian of one’s PyTorch model parameters.</li>
+</ul>
+
+<p>The helper functions below address the first three of these situations.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="o">@</span><span class="n">attr</span><span class="p">.</span><span class="n">s</span><span class="p">(</span><span class="n">eq</span><span class="o">=</span><span class="bp">False</span><span class="p">,</span> <span class="nb">repr</span><span class="o">=</span><span class="bp">False</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">MIXLB</span><span class="p">(</span><span class="n">nn</span><span class="p">.</span><span class="n">Module</span><span class="p">):</span>
+    <span class="s">""""
+    PyTorch implementation of `Mixed Logit B` in [1].
+
+    References
+    ----------
+    [1] Brownstone, David, and Kenneth Train. "Forecasting new product
+    penetration with flexible substitution patterns." Journal of
+    econometrics 89.1-2 (1998): 109-129.
+    """</span>
+    <span class="p">...</span>
+
+    <span class="k">def</span> <span class="nf">get_params_numpy</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span>
+            <span class="n">np</span><span class="p">.</span><span class="n">ndarray</span><span class="p">,</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">TorchAttr</span><span class="p">],</span> <span class="n">Optional</span><span class="p">[</span><span class="n">np</span><span class="p">.</span><span class="n">ndarray</span><span class="p">]]:</span>
+        <span class="s">"""
+        Syntatic sugar for `botorch.optim.numpy_converter.module_to_array`.
+
+        Returns
+        -------
+        param_array : 1D np.ndarray
+            Model parameters values.
+        param_dict : dict.
+            String representations of parameter names are keys, and the values
+            are TorchAttr objects containing shape, dtype, and device
+            information about the correpsonding pytorch tensors.
+        bounds : optional, np.ndarray or None.
+            If at least one parameter has bounds, then these are returned as a
+            2D ndarray representing the bounds for each paramaeter. Otherwise
+            None.
+        """</span>
+        <span class="k">return</span> <span class="n">numpy_converter</span><span class="p">.</span><span class="n">module_to_array</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">set_params_numpy</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">new_param_array</span><span class="p">:</span> <span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="s">"""
+        Sets the model's parameters using the values in `new_param_array`.
+
+        Parameters
+        ----------
+        new_param_array : 1D ndarray.
+            Should have one element for each element of the tensors in
+            `self.parameters`.
+
+        Returns
+        -------
+        None.
+        """</span>
+        <span class="c1"># Get the property dictionary for this module
+</span>        <span class="n">_</span><span class="p">,</span> <span class="n">property_dict</span><span class="p">,</span> <span class="n">_</span> <span class="o">=</span> <span class="bp">self</span><span class="p">.</span><span class="n">get_params_numpy</span><span class="p">()</span>
+        <span class="c1"># Set the parameters
+</span>        <span class="n">numpy_converter</span><span class="p">.</span><span class="n">set_params_with_array</span><span class="p">(</span>
+            <span class="bp">self</span><span class="p">,</span> <span class="n">new_param_array</span><span class="p">,</span> <span class="n">property_dict</span><span class="p">)</span>
+        <span class="c1"># Constrain the parameters
+</span>        <span class="bp">self</span><span class="p">.</span><span class="n">constrain_means</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">get_grad_numpy</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="bp">None</span><span class="p">:</span>
+        <span class="s">"""
+        Returns the gradient of the model parameters as a 1D numpy array.
+        """</span>
+        <span class="n">grad</span> <span class="o">=</span>\
+            <span class="n">np</span><span class="p">.</span><span class="n">concatenate</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">x</span><span class="p">.</span><span class="n">grad</span><span class="p">.</span><span class="n">data</span><span class="p">.</span><span class="n">numpy</span><span class="p">().</span><span class="n">ravel</span><span class="p">()</span>
+                                <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="bp">self</span><span class="p">.</span><span class="n">parameters</span><span class="p">()),</span>
+                           <span class="n">axis</span><span class="o">=</span><span class="mi">0</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">grad</span>
+</code></pre></div></div>
+
+<p>Luckily, each of the methods above are simple.
+<code class="language-plaintext highlighter-rouge">get_params_numpy</code> and <code class="language-plaintext highlighter-rouge">set_params_numpy</code> provide accessors to BoTorch’s pre-existing functions, each requiring no more than three lines of code.
+The <code class="language-plaintext highlighter-rouge">get_grad_numpy</code> function uses natively available PyTorch attributes and methods in a single assignment statement.</p>
+
+<p>The fourth situation, computing the hessian, did not appear to be accessible solely via the model object after calculation of the loss.
+It seemed that no matter what, I would need to pass both the model (or its attributes) as well as the loss to a function in order to compute the hessian.
+I could be wrong about this as I have not investigated fully!
+Nevertheless, given my impressions from limited information so far, it seemed inappropriate to create a method on the model object that computed the hessian.
+I left this task to be explicitly performed by the user outside of a model method.</p>
+
+<p>Now, with all the objects and methods described so far, we can finally optimize our model’s parameters according to our chosen loss function.</p>
+
+<p>Let’s create one last object below, the optimization closure, to help us perform precisely this optimization.</p>
+
+<h2 id="optimization-closure">Optimization closure</h2>
+
+<p>The purpose of creating an optimization closure is to create an objective function that is compatible with <code class="language-plaintext highlighter-rouge">scipy.optimize.minimize</code>.
+Scipy <a href="https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html">describes</a> the needed optimization function with the following statements.
+First, Scipy specifies that the optimization function should take a 1D array of parameters as inputs and return a floating point scalar as output.</p>
+<blockquote>
+  <p>fun ; callable</p>
+</blockquote>
+
+<blockquote>
+  <p>The objective function to be minimized.<br />
+<code class="language-plaintext highlighter-rouge">fun(x, *args) -&gt; float</code><br />
+where x is an 1-D array with shape (n,) and args is a tuple of the fixed parameters needed to completely specify the function.</p>
+</blockquote>
+
+<p>Next, we extract a second set of requirements for our optimization function by considering the fact that we wish to perform gradient-based optimization.
+To use gradient-based optimization, we have to provide the gradient, i.e., the <em>jacobian</em> for 1D objective function outputs.
+It is important to note that Scipy allows the gradient to be provided in one of two ways.
+One way is that we can provide a callable, separate from the optimization function <code class="language-plaintext highlighter-rouge">fun</code>, that will compute the gradient.
+The second way is that we provide the gradient as an output of the optimization function.</p>
+
+<p>This requirement is described as follows.</p>
+<blockquote>
+  <p>jac ; {callable, ‘2-point’, ‘3-point’, ‘cs’, bool}, optional</p>
+</blockquote>
+
+<blockquote>
+  <p>[…] If jac is a Boolean and is True, fun is assumed to return and objective and gradient as and (f, g) tuple.</p>
+</blockquote>
+
+<p>For computational efficiency, it makes sense to avoid repeating oneself.
+In particular, since many operations in computing the gradient are  performed when computing the loss, we should avoid computing the loss twice.
+Instead, we will compute the loss once (to be returned as <code class="language-plaintext highlighter-rouge">float</code> from <code class="language-plaintext highlighter-rouge">fun</code>) and we will immediately compute the gradient for return.
+This is shown in the closure below.</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">make_scipy_closure</span><span class="p">(</span>
+        <span class="n">input_obj</span><span class="p">:</span> <span class="n">InputMixlB</span><span class="p">,</span>
+        <span class="n">targets</span><span class="p">:</span> <span class="n">torch</span><span class="p">.</span><span class="n">Tensor</span><span class="p">,</span>
+        <span class="n">model</span><span class="p">:</span> <span class="n">MIXLB</span><span class="p">,</span>
+        <span class="n">loss_func</span><span class="p">:</span> <span class="n">Callable</span><span class="p">,</span>
+        <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Callable</span><span class="p">:</span>
+    <span class="s">"""
+    Creates the optimization function for use with scipy.optimize.minimize.
+
+    Parameters
+    ----------
+    input_obj : InputMixlB.
+        Container of the inputs for the model's probability function.
+    targets : 1D torch.Tensor
+        A Tensor of zeros and ones indicating which row was chosen for each
+        choice situation. Should have the same size as
+        `(input_obj.design.size()[0],)`.
+    model : MIXLB.
+        Should have a forward object that computes the probabilities of
+        the given discrete choice model.
+    loss_func : callable.
+        Should take as inputs, `model` outputs and `targets`. Should return
+        the value of the loss as well as the gradient of the loss.
+
+    Returns
+    -------
+    optimization_func : callable
+        Takes a set of parameters as a 1D numpy array and returns the
+        corresponding loss function value and gradient corresponding to the
+        passed parameters.
+    """</span>
+    <span class="k">def</span> <span class="nf">closure</span><span class="p">(</span><span class="n">params</span><span class="p">):</span>
+        <span class="c1"># params -&gt; loss, grad
+</span>        <span class="c1"># Load the parameters onto the model
+</span>        <span class="n">model</span><span class="p">.</span><span class="n">set_params_numpy</span><span class="p">(</span><span class="n">params</span><span class="p">)</span>
+        <span class="c1"># Ensure the gradients are summed starting from zero
+</span>        <span class="n">model</span><span class="p">.</span><span class="n">zero_grad</span><span class="p">()</span>
+        <span class="c1"># Calculate the probabilities
+</span>        <span class="n">probabilities</span> <span class="o">=</span>\
+            <span class="n">model</span><span class="p">(</span><span class="n">design_2d</span><span class="o">=</span><span class="n">input_obj</span><span class="p">.</span><span class="n">design</span><span class="p">,</span>
+                  <span class="n">rows_to_obs</span><span class="o">=</span><span class="n">input_obj</span><span class="p">.</span><span class="n">obs_mapping</span><span class="p">,</span>
+                  <span class="n">rows_to_mixers</span><span class="o">=</span><span class="n">input_obj</span><span class="p">.</span><span class="n">mixing_mapping</span><span class="p">,</span>
+                  <span class="n">normal_rvs_list</span><span class="o">=</span><span class="n">input_obj</span><span class="p">.</span><span class="n">normal_rvs</span><span class="p">)</span>
+        <span class="c1"># Calculate the loss
+</span>        <span class="n">loss</span> <span class="o">=</span> <span class="n">loss_func</span><span class="p">(</span><span class="n">probabilities</span><span class="p">,</span> <span class="n">targets</span><span class="p">)</span>
+        <span class="c1"># Compute the gradient.
+</span>        <span class="n">loss</span><span class="p">.</span><span class="n">backward</span><span class="p">()</span>
+        <span class="c1"># Get the gradient.
+</span>        <span class="n">grad</span> <span class="o">=</span> <span class="n">model</span><span class="p">.</span><span class="n">get_grad_numpy</span><span class="p">()</span>
+        <span class="c1"># Get a float version of the loss for scipy.
+</span>        <span class="n">loss_val</span> <span class="o">=</span> <span class="n">loss</span><span class="p">.</span><span class="n">item</span><span class="p">()</span>
+        <span class="k">return</span> <span class="n">loss_val</span><span class="p">,</span> <span class="n">grad</span>
+    <span class="k">return</span> <span class="n">closure</span>
+</code></pre></div></div>
+
+<p>Of course, in your own projects, you’ll want to replace the <code class="language-plaintext highlighter-rouge">input_obj</code>, <code class="language-plaintext highlighter-rouge">model</code>, and <code class="language-plaintext highlighter-rouge">loss_func</code> with the custom objects you’ve created.
+Examples of creating these objects are provided above!</p>
+
+<h1 id="conclusions-putting-it-all-together">Conclusions: Putting it all together</h1>
+
+<p>Alright, the five objects above provide all one needs for optimizing the parameters of your model.
+Within the <code class="language-plaintext highlighter-rouge">scipy.optimize.minimize</code> function, you’ll pass the output of <code class="language-plaintext highlighter-rouge">make_scipy_closure</code> as <code class="language-plaintext highlighter-rouge">fun</code> and you’ll pass <code class="language-plaintext highlighter-rouge">jac=True</code>.
+That should be all!</p>
+
+<p>The resulting optimization routine should roughly look as follows:</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># Load the data for the model.
+</span><span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="p">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">DATA_PATH</span><span class="p">)</span>
+
+<span class="c1"># Instantiate the model inputs.
+</span><span class="n">input_mixlb</span> <span class="o">=</span> <span class="n">InputMixlB</span><span class="p">.</span><span class="n">from_df</span><span class="p">(</span><span class="n">df</span><span class="p">)</span>
+
+<span class="c1"># Instantiate the model.
+</span><span class="n">mixlb_model</span> <span class="o">=</span> <span class="n">MIXLB</span><span class="p">()</span>
+
+<span class="c1"># Create pytorch targets with 32-bit precision.
+</span><span class="n">choice_tensor</span> <span class="o">=</span>\
+    <span class="n">torch</span><span class="p">.</span><span class="n">from_numpy</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="n">CHOICE_COLUMN</span><span class="p">].</span><span class="n">values</span><span class="p">.</span><span class="n">astype</span><span class="p">(</span><span class="n">np</span><span class="p">.</span><span class="n">float32</span><span class="p">))</span>
+
+<span class="c1"># Choose initial values for the optimization.
+</span><span class="n">initial_values</span> <span class="o">=</span>\
+    <span class="n">np</span><span class="p">.</span><span class="n">zeros</span><span class="p">(</span><span class="n">mixlb_model</span><span class="p">.</span><span class="n">get_params_numpy</span><span class="p">().</span><span class="n">size</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">float</span><span class="p">)</span>
+
+<span class="c1"># Create the optimization function for scipy
+</span><span class="n">scipy_objective</span> <span class="o">=</span>\
+    <span class="n">make_scipy_closure</span><span class="p">(</span><span class="n">input_obj</span><span class="o">=</span><span class="n">input_mixlb</span><span class="p">,</span>
+                       <span class="n">targets</span><span class="o">=</span><span class="n">choice_tensor</span><span class="p">,</span>
+                       <span class="n">model</span><span class="o">=</span><span class="n">mixlb_model</span><span class="p">,</span>
+                       <span class="n">loss_func</span><span class="o">=</span><span class="n">log_loss</span><span class="p">)</span>
+
+<span class="c1"># Perform the parameter optimization.
+# Use your method of choice.
+</span><span class="n">optimization_results</span> <span class="o">=</span>\
+    <span class="n">opt</span><span class="p">.</span><span class="n">minimize</span><span class="p">(</span><span class="n">scipy_objective</span><span class="p">,</span>
+                 <span class="n">initial_values</span><span class="p">,</span>
+                 <span class="n">jac</span><span class="o">=</span><span class="bp">True</span><span class="p">,</span>
+                 <span class="n">method</span><span class="o">=</span><span class="s">'bfgs'</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>To see such an approach in action, check out <a href="https://github.com/timothyb0912/check-yourself/blob/develop/notebooks/miscellaneous/_19-tb-estimate-mixlb-pytorch.py">this file</a> in the “Check Yourself Before You Wreck Yourself” Github repository.
+In that file, you can also see how the hessian is computed (relevant lines <a href="https://github.com/timothyb0912/check-yourself/blob/develop/notebooks/miscellaneous/_19-tb-estimate-mixlb-pytorch.py#L259">here</a>). It’s pretty simple, so I’ve excluded it from this already long post.</p>
+
+<p>Now, go forth and estimate models with abandon!</p>
