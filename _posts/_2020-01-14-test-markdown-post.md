@@ -4,6 +4,7 @@ layout: post
 description: A minimal example of using markdown with fastpages.
 categories: [markdown]
 title: An Example Markdown Post
+hide: true
 ---
 # Example Markdown Post
 
@@ -51,7 +52,7 @@ And a numbered list:
 
 ## Code
 
-You can format text and code per usual 
+You can format text and code per usual
 
 General preformatted text:
 
@@ -90,14 +91,8 @@ key: value
 | A thing | Another thing |
 
 
-## Tweetcards
-
-{% twitter https://twitter.com/jakevdp/status/1204765621767901185?s=20 %}
-
-
 ## Footnotes
 
 
 
 [^1]: This is the footnote.
-
