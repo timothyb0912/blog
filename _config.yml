@@ -13,7 +13,7 @@ github_username: timothyb0912
 github_repo: "blog"
 
 # OPTIONAL: override baseurl and url if using a custom domain
-# Note: leave out the trailing / from this value. 
+# Note: leave out the trailing / from this value.
 url: "https://timothyb0912.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 ###########################################################
@@ -43,7 +43,7 @@ minima:
     github: timothyb0912
 
 # Set this to true to get LaTeX math equation support
-use_math:
+use_math: true
 
 # Set this to true to display the summary of your blog post under your title on the Home page.
 show_description: true
