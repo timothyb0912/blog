@@ -1,9 +1,11 @@
 ---
+toc: true
+layout: post
 title: "Project Lifecycle(s)"
 description: "Data science and research project life-cycles."
+categories: [philosophy]
 comments: true
 hide: false
-categories: [philosophy]
 ---
 # Project life-cycles in data science and research
 1. TOC

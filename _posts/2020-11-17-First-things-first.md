@@ -1,9 +1,11 @@
 ---
+toc: true
+layout: post
 title: "First things first: On protocols and unit tests"
 description: "A description and demonstration of using protocols to start test driven development."
+categories: [practice]
 comments: true
 hide: false
-categories: [practice]
 ---
 # First things first: Protocols, type annotations, and unit tests
 

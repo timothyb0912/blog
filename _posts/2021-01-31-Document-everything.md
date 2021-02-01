@@ -1,9 +1,11 @@
 ---
+toc: true
+layout: post
 title: "Document everything and document first"
 description: "Reflections on the usefulness of documentation, in life and code."
+categories: [reading]
 comments: true
 hide: false
-categories: [reading]
 ---
 # Document everything and document first
 

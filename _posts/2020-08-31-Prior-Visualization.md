@@ -1,9 +1,11 @@
 ---
+toc: true
+layout: post
 title: "Prior Visualization"
 description: "Primer on visualizing prior distributions."
+categories: [simulation]
 comments: true
 hide: false
-categories: [simulation]
 ---
 # Visualizing Prior Distributions
 1. TOC

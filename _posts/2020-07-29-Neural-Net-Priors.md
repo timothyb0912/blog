@@ -1,9 +1,11 @@
 ---
+toc: true
+layout: post
 title: "On Priors for Neural Networks"
 description: "A review of two research papers pointing to the need for carefully chosen priors for one's neural networks."
+categories: [reading]
 comments: true
 hide: false
-categories: [reading]
 ---
 # On Priors for Neural Networks
 1. TOC

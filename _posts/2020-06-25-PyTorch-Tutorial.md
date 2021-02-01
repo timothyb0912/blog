@@ -1,9 +1,11 @@
 ---
+toc: true
+layout: post
 title: "PyTorch Tutorial"
 description: "A tutorial on how to use PyTorch for discrete choice modeling."
+categories: [practice]
 comments: true
 hide: false
-categories: [practice]
 ---
 # PyTorch Tutorial
 1. TOC

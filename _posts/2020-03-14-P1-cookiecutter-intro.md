@@ -1,9 +1,11 @@
 ---
+toc: true
+layout: post
 title: "On the need for structure... directory structure"
 description: "A description of benefits from and suggestions for setting up a good project directory structure."
+categories: [practice]
 comments: true
 hide: false
-categories: [practice]
 ---
 # On the need for structure... directory structure
 1. TOC
