@@ -8,8 +8,6 @@ comments: true
 hide: false
 ---
 # PyTorch Tutorial
-1. TOC
-{:toc}
 
 Dear Young Tim,
 

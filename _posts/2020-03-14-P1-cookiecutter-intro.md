@@ -8,8 +8,6 @@ comments: true
 hide: false
 ---
 # On the need for structure... directory structure
-1. TOC
-{:toc}
 
 Dear Young Tim,
 

@@ -8,8 +8,6 @@ comments: true
 hide: false
 ---
 # Visualizing Prior Distributions
-1. TOC
-{:toc}
 
 Dear Young Tim,
 

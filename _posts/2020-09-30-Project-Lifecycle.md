@@ -8,8 +8,6 @@ comments: true
 hide: false
 ---
 # Project life-cycles in data science and research
-1. TOC
-{:toc}
 
 Dear Young Tim,
 

@@ -8,8 +8,6 @@ comments: true
 hide: false
 ---
 # On Priors for Neural Networks
-1. TOC
-{:toc}
 
 Dear Young Tim,
 
