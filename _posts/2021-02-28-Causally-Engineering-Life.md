@@ -7,77 +7,142 @@ categories: [reading]
 ---
 # Causal graphs and principles for designing your life's systems
 
-## Idea
-Note idea from internet to use causal graphs as a tool for the reading of econometrics and economics texts.
-See "Graphs as a tool for the close reading of econometrics" by Michael Margolis (2015) [here](https://ekum.pw/zpia.pdf)
-> Graphing causal models while reading econometric papers can make it easy to understand assumptions
-that are vague in prose and to isolate those assumptions that are crucial to believe the main causal claims
+Dear Young Tim,
 
-Broaden idea to reading about engineering as well.
-Then come to reading works by people who specialize in "engineering a good life".
-Reflect on quotes from "Work the System" and "Principles" by Ray Dalio,
-through the perspective of causal inference.
-When they describe understanding how a system works,
-interpret that directly in terms of drawing a causal graph.
+In life, you will inevitably design and debug systems.
+Think of the physical systems you interact with.
+Your cardiovascular, dental, immune, and transportation systems.
+Think of the procedural systems you interact with.
+Your personal research system, your personal finance system,
+your personal software system, your business operational system.
 
-### Sidenote
-I should use plain text methods to store all important knowledge.
-I should store this knowledge in a variety of forms.
-A causal graph (the .gv file is plain text).
-It's corresponding structural equations.
-A markdown document rendered as a flashcard.
+Trust, time is a short man.
+If you want to see far,
+then it is in your best interest to learn from others.
+To stand on the shoulders of giants.
+In other words, read!
+Learn from the experiences of others.
 
-Note systems being documented.
-Document a life system as a causal graph.
-Document a system (a way of doing things, an organization of people, etc.) as an object / algorithm:
-- an organization of people
-- a way of doing things
-- a way of transforming raw resources (time, money, physical items)
-- Modules, classes, instances, functions, ...
-- "Baseball cards"
+What I wish I told you earlier is that
+debugging is a three step process.
 
+## Takeaways
 
-### Work the System Quotes
+First, you respond to the immediate negative outcome.
 
-> "And the simple crux of the Work the System method? It’s this: If it is true that “a life’s mechanical functioning is a result of the systems that compose it,” then getting what you want in life does not lie in manipulating outcomes; doing that is a distraction. Rather, getting what you want lies in delving deeper, in focusing on “working the systems” that create the results. (p. 4-5)"
+Second, you modify your procedures and decision-making processes
+so this particular issue does not happen again.
 
-> "But for many people, there is no deliberate effort to isolate and study the sequential workings of more complex wide-angle processes like careers and relationships. Some of us just churn along without direction, wasting time and energy revisit- ing the same problems over and over again. (p. 5)"
+Third, you address the root causes about oneself and about one's
+organization so this problem is less likely to recur in the
+future.
 
-> "1. Separation, dissection, and repair of systems: The satisfying process of exposing, analyzing, and then perfecting personal, work, and relationship systems. This effort includes creating new systems from scratch as well as eliminating those that are unnecessary or are holding you back."
-"2. Documentation: Creating written goals, principles, and processes that are guidelines for action and decision making. This is the one-time heavy lifting. It won’t take long."
-"3. Ongoing maintenance of systems: Greasing the wheels. This is easy because the positive tangible results of the Work the System method are motivating. Because it’s obvious the systems you create and maintain are doing more and more of your regular daily work, you will continue to make adjustments in order to keep them work- ing at peak efficiency."
+How did I get to these conclusions?
+Through books, a causal graphical approach,
+a general systems view and causal graph,
+and through gleaned principles of debugging.
 
-> "I looked down and saw that my mode of thinking and managing had been reactionary, defensive, and incredibly inefficient. **I had taken the wrong stance because the mechanics had been invisible to me!** All I did was kill fires, unaware that they were the products of invisible, dysfunctional subsystems. These subsystems had lives of their own and were acting out their 1-2-3 sequences without direction, producing results that were unpredictable at the least, and debilitating at the worst. My business was out of control because I had been coping with the random products of uncontrolled systems. My life was chaos not because I was some kind of loser or unfortunate victim of circumstance but because many of the subsystems of my life were not being managed. Out of control, these inefficient subsystems composed the dysfunctional primary systems of my life: business, health, and relationships. (p. 42; emphasis added)"
+Right. Let me unpack that...
 
-> "On its own, and no matter what, this earth keeps turning and life carries on in an overall structured and organized pattern, and . . . no one is in charge! The indomitable laws of nature ensure systems work perfectly according to their construction: On this earth, gravity works all the time, everywhere. Over here, one plus one equals two, and over there, one plus one also equals two! The laws of nature cause the mechanics of the world to be dependable and predictable, and the gift with which we humans have been blessed is the ability to get in the middle of it all and to manipulate it, to direct our lives to be what we want them to be, to use the laws of nature to our advantage. (p. 43)"
+## Books
+First, the books.
+I read [Principles](https://www.principles.com/) and [Work the System](https://www.workthesystem.com/).
 
-> "We are mechanisms. [...] From this experience, a lesson was hammered home: Our minds and bodies are complex mechanisms. They are machines that perform—or don’t perform. They are indescribably complex collections of subsystems, operating via countless sequential and cooperative protocols. Our incredibly complex minds and bodies work well most of the time, but because of the occasional mechanical glitch within a subsystem, sometimes they don’t. We should never take for granted our connection to the reality around us; never underestimate the tenuous grip we have on our worlds. We must handle our bodies and minds with care; we should be careful about upkeep and maintenance, yet challenge them so they stay strong. We must attend to them and never take them for granted. (p. 44- 45)"
+## Perspective
+While reading, I made use of the following key idea from [Michael Margolis](http://et.worldeconomicsassociation.org/files/WEA-ET-6-1-Margolis.pdf).
 
-> "The Heart Of The Methodology
-By fixing your life’s individual systems—by identifying them one at a time and then rebuilding them one by one—order, control, and peace accumulate incrementally. However, the improvements in these rebuilt systems must be made permanent or the systems will slip back into dysfunction due to random outside influence. In the workplace, permanence happens first by creating written descriptions of how systems are to operate, and second by making sure responsible parties follow the steps described in the documentation. Once systems are examined and flawed components are exposed and repaired (tweaked), systems will produce the desired result. Creating new contributing systems and altogether eliminating dysfunctional systems will do the same. And since this is all mechanical, when the changes are per- formed and then locked in, improvement is both instant and permanent. For your personal situation, not only can you count on an overwhelming bias toward efficiency but also you probably won’t have a whole lot of systems to adjust, create, or delete. It won’t take long to get things straightened out. Now we are at the heart of the Work the System methodology. These lives we live are composed of countless linear systems, many of which are under our direct control. These systems are the invisible threads that hold the fabric of our lives together. If there is an outcome that doesn’t suit us, we can change that outcome by making a component adjustment within a system, adding a system, or eliminating a system. In a life’s rejuvenation, it will typically be “all of the above.” Whether an outcome is to your liking or not, the underlying system is performing exactly as it was constructed. You are not at the mercy of mysterious conspiring forces or of the swirling backwash of chaos. If it is in your power—and so much that affects you is in your power—you can fix things! What about those systems you can’t repair because they are out of your control? Relax. If you can’t fix something, don’t worry about it. Do what you can, walk away, and accept it—or ignore it. But for sure, don’t spend time or energy agonizing over it. If you live in a democracy, vote and then don’t complain. If you have a problem with a coworker, talk to him or her and then don’t obsess about the outcome. If you don’t like the TV program, change the channel or turn off the set. Save your energy for efforts that will provide tangible positive results within your circle of influence. (p. 51 -52)"
+> Graphing causal models, while reading ~~econometric papers~~ can make it easy
+> to understand assumptions that are vague in prose
+> and to isolate those assumptions that are crucial to believe the main causal
+> claims [strikethrough by Timothy]
 
+With that perspective, I approached these two books as causal graphical novels,
+rather than as traditional books.
 
-### "Principles" Quotes
+## Graphs
+The first graph that stood out to me was the following.
 
-> Truth--more precisely, an accurate understanding of reality--is the essential foundation for producing good outcomes (p. 12)
+Dalio wrote:
+> So, the quality of our lives depends on the quality of the decisions we make.
+> We literally make millions of decisions that add up
+> to the consequences that are our lives. (p. 16)
 
-> So, the quality of our lives depends on the quality of the decisions we make. We literally make millions of decisions that add up to the consequences that are our lives. (p. 16)
+<!-- Put image of decisions to outcomes -->
 
-> This is because most learning comes from making mistakes, reflecting on the causes of the mistakes, and learning what to do differently in the future. Believe it or not, you are lucky to feel the pain if you approach it correctly, because it will signal that you need to find solutions and to progress. (p. 17)
+Next, I saw Carpenter write about a life of linear systems.
+Specifically, he said
 
-> Those who are most successful are capable of “higher level thinking” —i.e., they are able to step back and design a “machine” consisting of the right people doing the right things to get what they want. They are able to assess and improve how their “machine” works by comparing the outcomes that the machine is producing with the goals. (p. 22)
+> Linear: For our purposes, this is how most systems execute themselves,
+> in a 1-2-3 stepped progression
+> Yes, there are always minor external and internal variables [...].
+> But here in the real world, we are streamlining things so events can be understood and manipulated. (p. 10)
 
-> That schematic is meant to convey that your goals will determine the “machine” that you create to achieve them; that machine will produce outcomes that you should compare with your goals to judge how your machine is working. Your “machine” will consist of the design and people you choose to achieve the goals. For example, if you want to take a hill from an enemy you will need to figure out how to do that— e.g., your design might need two scouts, two snipers, four infantrymen, one person to deliver the food, etc. While having the right design is essential, it is only half the battle. It is equally important to put the right people in each of these positions. They need different qualities to play their positions well—e.g., the scouts must be fast runners, the snipers must be precise shots, etc. If your outcomes are inconsistent with your goals (e.g., if you are having problems), you need to modify your “machine,” which means that you either have to modify your design/culture or modify your people. (p. 22)
+<!-- Put image of arrow of time to 1 to 2 -->
 
-> In other words, your most important role is to step back and design, operate and improve your “machine” to get what you want. (p. 22).
+Putting the two together, I see the sequence of decisions AS
+the system from Carpenter or the "machine" from Dalio.
 
-> Think of it as though there are two yous—you as the designer and overseer of the plan to achieve your goals (let’s call that one you(1)) and you as one of the participants in pursuing that mission (which we will call you(2)). You(2) are a resource that you(1) have to get what you(1) want, but by no means your only resource. To be successful you(1) have to be objective about you(2). (p. 23)
+That's the first milestone.
 
->If you(1) see that you(2) are not capable of doing something, it is only sensible for you(1) to have someone else do it. In other words, you(1) should look down on you(2) and all the other resources at your(1) disposal and create a “machine” to achieve your(1) goals, remembering that you(1) don’t necessarily need to do anything other than to design and manage the machine to get what you(1) want. If you(1) find that you(2) can’t do something well fire yourself(2) and get a good replacement! You shouldn’t be upset that you found out that you(2) are bad at that—you(1) should be happy because you(1) have improved your(1) chances of getting what you(1) want. If you(1) are disappointed because you(2) can’t be the best person to do everything, you(1) are terribly naïve because nobody can do everything well. (p. 24)
+I am in charge of managing my life, aka the sequence of decisions I make, that,
+in combination with all the circumstance of life,
+result in the outcomes that I receive.
 
-> The biggest mistake most people make is to not see themselves and others objectively. If they could just get around this, they could live up to their potentials. (p. 24)
+Next, what happens when that system produces outcomes that I don't like?
+How should I debug?
 
-> I learned that everyone makes mistakes and has weaknesses and that one of the most important things that differentiates people is their approach to handling them. I learned that there is an incredible beauty to mistakes, because embedded in each mistake is a puzzle, and a gem that I could get if I solved it, i.e., a principle that I could use to reduce my mistakes in the future. I learned that each mistake was probably a reflection of something that I was (or others were) doing wrong, so if I could figure out what that was, I could learn how to be more effective. I learned that wrestling with my problems, mistakes, and weaknesses was the training that strengthened me. Also, I learned that it was the pain of this wrestling that made me and those around me appreciate our successes. (p. 9)
+Dalio writes that,
+
+> It is important to distinguish root causes from proximate causes. (Principles, p.31)
+
+<!-- See annotated causal graph with debugging path from d1 root to d2 proximate to outcome -->
+
+> Proximate causes typically are
+> the actions or lack of actions that lead to problems—
+> e.g., “I missed the train because
+> I didn’t check the train schedule.” (Principles, p.31)
+
+<!-- Put that quote in a word bubble over the D2 node -->
+
+> Root causes are the deeper reasons
+> behind the proximate cause:
+> “I didn’t check the schedule
+> because I am forgetful”—a root cause. (Principles, p.31)
+
+<!--  Put that quote in a word bubble near the D2 node -->
+
+From Dalio we see that debugging or responding to a system
+that is not producing desirable outcomes has at least two steps.
+We change how we make our decisions to change our proximate causes.
+We change how we are to change our root causes.
+
+Carpenter writes that,
+
+> [...] a problem is [...] a wake-up call.
+> This means that once the manager corrects the immediate negative effects,
+> there is a second step.
+> It is this second step that is key:
+> The problem’s cause is traced to the errant subsystem,
+> which is then modified so that the problem doesn’t happen again.
+> --Work the System
+
+Here we see the emphasis placed on a different section of our graph.
+
+<!-- Put graph with colored edges and nodes-->
+
+From Carpenter, we see that when debugging and responding to a system
+that is not producing desirable outcomes,
+we must first respond to the immediate negative outcome,
+and then we need to fix the subsystem (the decisions in D1 and D2)
+"so the problem doesn't happen again."
+
+Putting it together, we see that debugging is a three step process.
+Address the immediate ramifications of the undesired outcome.
+Change the way you make decisions so that we change our proximate causes.
+Change the way you are as a person so you change your root causes.
+
+That Young Tim, is what I wish I told you many years ago.
+
 
 
 # Outline / Slides
