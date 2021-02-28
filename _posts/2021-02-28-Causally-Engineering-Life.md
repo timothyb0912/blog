@@ -48,7 +48,7 @@ Right. Let me unpack that...
 
 ## Books
 First, the books.
-I read [Principles](https://www.principles.com/) and [Work the System](https://www.workthesystem.com/).
+I read [Principles](https://www.principles.com/) by Ray Dalio and [Work the System](https://www.workthesystem.com/) by Sam Carpenter.
 
 ## Perspective
 While reading, I made use of the following key idea from [Michael Margolis](http://et.worldeconomicsassociation.org/files/WEA-ET-6-1-Margolis.pdf).
