@@ -3,16 +3,9 @@ toc: true
 layout: post
 title: "Causal graphs and principles for designing your life's systems"
 description: "Reflections on principles and systems, one causal graphic novel at a time."
+categories: [reading]
 comments: true
 hide: false
-categories: [reading]
----
-
-title: "Causal graphs and principles for designing your life's systems"
-description: "Reflections on principles and systems, one causal graphic novel at a time."
-comments: true
-hide: false
-categories: [reading]
 ---
 # Causal graphs and principles for designing your life's systems
 
