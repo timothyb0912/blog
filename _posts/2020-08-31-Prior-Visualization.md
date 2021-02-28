@@ -36,7 +36,7 @@ Below, I'll share some examples of such prior investigations using the widely av
    > Harrison Jr, David, and Daniel L. Rubinfeld. "Hedonic housing prices and the demand for clean air." (1978).
 
 The model that we'll consider is a [folded-logistic](https://www.tandfonline.com/doi/abs/10.1080/03610920500476234) regression model where the location is linearly parameterized based on the dataset's raw features, and where the scale parameter is homogenous and explicitly estimated.
-Note that if $Z$ follows a logistic distribution with location $\mu$ and scale $\sigma$, then $\lvert Z \rvert$ follows a folded logistic distribution.
+Note that if $$Z$$ follows a logistic distribution with location $$\mu$$ and scale $$\sigma$$, then $$\lvert Z \rvert$$ follows a folded logistic distribution.
 Basically, this is a linear regression where we restrict the support of the outcome (i.e, the median home value) to positive real values, following a logistic distribution bounded below by zero.
 
 ## How do we do this?
@@ -88,7 +88,7 @@ We'll need to do something smarter!
 
 P.S. The test statistic chosen for the prior predictive check has some rationale to it.
 In a standard linear regression, the first order conditions that one must solve to achieve a gradient of zero is $(Y - \hat{Y})X = 0$, where X is one's design matrix.
-This is equivalent to saying that the mean of $YX$ should equal the mean of $\hat{Y}X$.
-In other words, the observed mean of $YX$ should equal the predicted $\hat{Y}X$ after estimating one's model.
-Checking that the chosen test statistic of a selected percentile (e.g. 25th percentile) of $YX$ resembles the distribution of simulated $Y_{\textrm{sim}}X$ is a related activity.
-This helps ensure that more points of the distribution of $YX$ are well represented by one's model, beyond the mean of the distribution.
+This is equivalent to saying that the mean of $$YX$$ should equal the mean of $$\hat{Y}X$$.
+In other words, the observed mean of $$YX$$ should equal the predicted $$\hat{Y}X$$ after estimating one's model.
+Checking that the chosen test statistic of a selected percentile (e.g. 25th percentile) of $$YX$$ resembles the distribution of simulated $$Y_{\textrm{sim}}X$$ is a related activity.
+This helps ensure that more points of the distribution of $$YX$$ are well represented by one's model, beyond the mean of the distribution.
