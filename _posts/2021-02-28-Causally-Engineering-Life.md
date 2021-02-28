@@ -68,6 +68,8 @@ Dalio wrote:
 > to the consequences that are our lives. (p. 16)
 
 ![decisions-cause-outcomes](../images/decisions-cause-outcomes.png)
+<img src="{{ site.baseurl }}/images/decisions-cause-outcomes.png" alt="decisions-cause-outcomes" width="680px" />
+
 
 Next, I saw Carpenter write about a life of linear systems.
 Specifically, he said
@@ -77,7 +79,7 @@ Specifically, he said
 > Yes, there are always minor external and internal variables [i.e., circumstance...].
 > But here in the real world, we are streamlining things so events can be understood and manipulated. (p. 10)
 
-![linear-decisions](../images/linear-system-of-decisions.png)
+<img src="{{ site.baseurl }}/images/linear-system-of-decisions.png" alt="linear-decisions" width="680px" />
 
 Putting the two together, I see the sequence of my decisions AS
 the system from Carpenter or the "machine" from Dalio.
@@ -96,7 +98,7 @@ Dalio writes that,
 > It is important to distinguish root causes from proximate causes. (Principles, p.31)
 
 <!-- See annotated causal graph with debugging path from d1 root to d2 proximate to outcome -->
-![proximate-cause](../images/proximate-cause-diagram.png)
+<img src="{{ site.baseurl }}/images/proximate-cause-diagram.png" alt="proximate-cause" width="680px" />
 
 > Proximate causes typically are
 > the actions or lack of actions that lead to problems—
@@ -109,7 +111,7 @@ Following this, Dalio notes that
 > “I didn’t check the schedule
 > because I am forgetful”—a root cause. (Principles, p.31)
 
-![root-cause](../images/root-cause-diagram.png)
+<img src="{{ site.baseurl }}/images/root-cause-diagram.png" alt="root-cause" width="680px" />
 
 Here, we see that debugging or responding to a system
 that is not producing desirable outcomes has at least two steps.
@@ -129,7 +131,7 @@ Not to be left out, Carpenter writes that,
 Here we see the emphasis placed on a different section of our graph.
 
 <!-- Put graph with colored edges and nodes-->
-![immediate-effects](../images/immediate-effects-diagram.png)
+<img src="{{ site.baseurl }}/images/immediate-effects-diagram.png" alt="immediate-effects" width="680px" />
 
 From Carpenter, we see that when debugging and responding to a system
 that is not producing desirable outcomes,
