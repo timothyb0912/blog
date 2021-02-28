@@ -67,7 +67,6 @@ Dalio wrote:
 > We literally make millions of decisions that add up
 > to the consequences that are our lives. (p. 16)
 
-![decisions-cause-outcomes](../images/decisions-cause-outcomes.png)
 <img src="{{ site.baseurl }}/images/decisions-cause-outcomes.png" alt="decisions-cause-outcomes" width="680px" />
 
 
