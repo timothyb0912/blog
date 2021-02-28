@@ -138,8 +138,8 @@ and then we need to fix the subsystem (the decisions in D1 and D2)
 "so the problem doesn't happen again."
 
 Putting it together, we see that debugging is a three step process.
-Address the immediate ramifications of the undesired outcome.
-Change the way you make decisions so that we change our proximate causes.
-Change the way you are as a person so you change your root causes.
+- Address the immediate ramifications of the undesired outcome.
+- Change the way you make decisions so that we change our proximate causes.
+- Change the way you are as a person so you change your root causes.
 
 That Young Tim, is what I wish I told you many years ago.
