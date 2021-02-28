@@ -137,8 +137,10 @@ Here we see the emphasis placed on a different section of our graph.
 From Carpenter, we see that when debugging and responding to a system
 that is not producing desirable outcomes,
 we must first respond to the immediate negative outcome,
-and then we need to fix the subsystem (the decisions in D1 and D2)
+and then we need to fix the subsystem (our constitution / makeup and decisions)
 "so the problem doesn't happen again."
+
+<img src="{{ site.baseurl }}/images/the-system-dalio-carpenter.png" alt="the-system" width="680px" />
 
 Putting it together, we see that debugging is a three step process.
 - Address the immediate ramifications of the undesired outcome.
