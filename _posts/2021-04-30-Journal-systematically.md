@@ -119,6 +119,9 @@ For instance, the immediate benefits I've enjoyed include
   I've been frequently able to direct my thinking,
   to more logical, less catastrophized, & less distorted ends,
   rather than being merely subject to them.
+- comfort from always being able to talk with oneself
+  on the page,
+  especially when one cannot talk with others in the moment.
 
 So how have I garnered these benefits?
 At a high level, I adopted the following system.
@@ -139,12 +142,13 @@ in cognitive behavioral therapy,
 or the decision templates utilized in
 architecture decision records.
 
-Lastly, I use notes that are
-unstructured or use frequently changing structures
+Lastly, I use unstructured notes
 to capture medium to long reflections and thoughts.
 These notes are typically answers to single question prompts,
 or they are complex, spontaneous thoughts,
 born of long-running hyperfocus on a particular topic.
+Examples here may be one-time questions that ask me to
+recount particular meaningful events from my past / childhood.
 
 Between these three types of notes,
 I have been/felt able to capture all of the thoughts I desire.
