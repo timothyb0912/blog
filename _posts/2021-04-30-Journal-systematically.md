@@ -7,6 +7,8 @@ categories: [practice]
 comments: true
 hide: false
 ---
+
+
 # Journal more and journal systematically
 
 <!-- ## Outline
@@ -60,6 +62,7 @@ albeit with delay.
 The last many months have been trying, to say the least.
 
 ## Problems
+
 During this time of adversity,
 I'm reminded that much of adulthood is about trying to
 rekindle and maintain the enjoyable from your childhood,
@@ -82,6 +85,7 @@ drowning in a deluge of thoughts and emotions.
 
 
 ## (Partial) Solutions
+
 In such contexts,
 journaling has long been one way for me to capture my steady
 stream of ideas and inner monologues.
@@ -121,9 +125,8 @@ For instance, the immediate benefits I've enjoyed include
   not the one doing the answering and making statements.  
   With question prompts coming from
   cognitive behavioral therapy,  
-  I've been frequently able to direct my thinking,
-  to more logical, less catastrophized,  
-  & less distorted ends,
+  I've been frequently able to direct my thinking
+  to more logical, less catastrophized, and less distorted ends,
   rather than being merely subject to them.
 - increased comfort from always being able to talk with oneself
   on the page,  
@@ -133,6 +136,7 @@ For instance, the immediate benefits I've enjoyed include
 ## Implementation
 
 ### Procedures
+
 So how have I garnered these benefits?
 At a high level, I adopted the following system.
 
@@ -165,9 +169,11 @@ I have been/felt able to capture all of the thoughts I desire.
 
 
 ### Tooling
+
 Okay, let's get beyond the high level description.
 How do I actually do this?
-At it's core, I journal digitally using git repositories to
+
+Fundamentally, I journal digitally using git repositories to
 store the three types of journaling notes.
 I store the on-the-fly notes in json files (i.e., 'issues')
 using [git-bug](https://github.com/MichaelMure/git-bug).
