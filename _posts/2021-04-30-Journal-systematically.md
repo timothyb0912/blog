@@ -97,7 +97,7 @@ from research to home repairs and everything in between.
 Young Tim,
 this third wave of journaling is different from the first two.
 It's more all-encompassing.
-All topics are fair game to be journaled about.
+All topics are fair game for journaling.
 It's more systematic.
 I use self-determined triggers for some journaling activities.
 I use templates and prompts for some journaling activities.
@@ -139,7 +139,7 @@ At a high level, I adopted the following system.
 First, I take short, on-the-fly notes about my thoughts,
 in real-time.
 These are the thoughts that arise in a 'disrupting' manner---
-thoughts that are not focused the specific task being done.
+thoughts that are not focused the specific task you are doing.
 Such on-the-fly notes are typically (though not always)
 unstructured.
 
@@ -201,7 +201,7 @@ over a long period of time,
 then in addition to the immediate benefits described above,
 you should also experience longer-term benefits.
 You should experience decreased anxiety as you experience
-a life where all thoughts are captured rather than lost, and
+a life where you capture rather than lose most thoughts, and
 your anxiety no longer needs to keep track of important facts,
 assessments, and deadlines.
 You should also experience the joys and pleasant surprises
@@ -213,7 +213,7 @@ and insight / hypothesis generation.
 With your thoughts preserved for future review,
 you should increasingly be able to spot trends in your
 thinking and experience,
-patterns which can be leveraged or changed
+patterns which you can leverage or change
 to achieve the state of life that you desire.
 
 So without further ado, please, go forth and journal--a lot!
