@@ -114,7 +114,8 @@ For instance, the immediate benefits I've enjoyed include
   and record my thoughts and feelings for all topics
   as opposed to only a select few.
 - deeper thinking, more regularly, as I complete
-  pre-planned templates (e.g. for decision records).  
+  pre-planned templates  
+  (e.g. for decision records).  
   These templates inspire further thought as they guide me  
   to answer questions I otherwise may forget / neglect to ask.
 - better guidance of my thoughts via broadening questions,  
@@ -173,7 +174,7 @@ I have been/felt able to capture all of the thoughts I desire.
 Okay, let's get beyond the high level description.
 How do I actually do this?
 
-Fundamentally, I journal digitally using git repositories to
+Fundamentally, I journal digitally using [git](https://webtuu.com/blog/04/a-laymans-introduction-to-git) [repositories](https://rogerdudler.github.io/git-guide/) to
 store the three types of journaling notes.
 I store the on-the-fly notes in json files (i.e., 'issues')
 using [git-bug](https://github.com/MichaelMure/git-bug).
@@ -181,7 +182,7 @@ I store the structured and unstructured notes in markdown in
 the repositories using git as well.
 Software such as [nb](https://xwmx.github.io/nb/) and
 [kb](https://github.com/gnebbia/kb) are additionally useful
-for storing and managing the markdown notes in-repo.
+for storing and managing the markdown notes in the repository.
 They provide searching, linking, and tagging functionality.
 
 Beyond the software tools I use to facilitate journaling,
@@ -218,7 +219,7 @@ Lastly, you should materially benefit from trend spotting
 and insight / hypothesis generation.
 With your thoughts preserved for future review,
 you should increasingly be able to spot trends in your
-thinking and experience,
+thinking and experience:
 patterns which you can leverage or change
 to achieve the state of life that you desire.
 
