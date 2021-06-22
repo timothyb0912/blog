@@ -199,12 +199,12 @@ Young Tim,
 if you engage in such journaling practices consistently,
 over a long period of time,
 then in addition to the immediate benefits described above,
-you should also experience longer-term benefits.
-You should experience decreased anxiety as you experience
-a life where you capture rather than lose most thoughts, and
+you should also gain longer-term benefits.
+Your anxiety should decrease as you live a life where
+you capture rather than lose most thoughts, and
 your anxiety no longer needs to keep track of important facts,
 assessments, and deadlines.
-You should also experience the joys and pleasant surprises
+You should also have joys and pleasant surprises
 from looking back at your past thoughts,
 being delighted as interesting ideas reappear over time
 and form new connections as you live through new experiences.
