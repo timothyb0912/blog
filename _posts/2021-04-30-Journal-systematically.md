@@ -77,7 +77,7 @@ None of this even begins to address the fact that
 tons of people around the world and in the United States
 live harsher lives than myself.
 Under such conditions, one may experience many distressed thoughts.
-And indeed, without a management system, one may find oneself
+Indeed, without a management system, one may find oneself
 drowning in a deluge of thoughts and emotions.
 
 
