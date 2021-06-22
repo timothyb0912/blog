@@ -101,26 +101,27 @@ While these practices certainly entail additional effort,
 the benefits have been worth far more than the costs.
 
 For instance, the immediate benefits I've enjoyed include
-- greater self-respect as I acknowledge, fully engage with,
+- greater self-respect as I acknowledge, fully engage with,  
   and record my thoughts and feelings for all topics
   as opposed to only a select few.
 - deeper thinking, more regularly, as I complete
   pre-planned templates (e.g. for decision records).  
-  These templates inspire further thought they guide me to
-  answer questions I otherwise may forget or neglect to ask.
-- better guidance of my thoughts via broadening questions,
+  These templates inspire further thought as they guide me  
+  to answer questions I otherwise may forget / neglect to ask.
+- better guidance of my thoughts via broadening questions,  
   especially when emotionally flustered.  
-  E.g., I took a [conversations course](https://www.udemy.com/course/build-better-relationships/) that posited that
+  E.g., I took a [conversations course](https://www.udemy.com/course/build-better-relationships/) that posited that  
   the one who most guides a conversation is
-  the one asking the questions,
-  not the one doing the answering.
+  the one asking the questions,  
+  not the one doing the answering and making statements.  
   With question prompts coming from
-  cognitive behavioral therapy,
+  cognitive behavioral therapy,  
   I've been frequently able to direct my thinking,
-  to more logical, less catastrophized, & less distorted ends,
+  to more logical, less catastrophized,  
+  & less distorted ends,
   rather than being merely subject to them.
 - comfort from always being able to talk with oneself
-  on the page,
+  on the page,  
   especially when one cannot talk with others in the moment.
 
 So how have I garnered these benefits?
@@ -152,3 +153,53 @@ recount particular meaningful events from my past / childhood.
 
 Between these three types of notes,
 I have been/felt able to capture all of the thoughts I desire.
+
+Okay, let's get beyond the high level description.
+How do I actually do this?
+At it's core, I journal digitally using git repositories to
+store the three types of journaling notes.
+I store the on-the-fly notes in json files (i.e., 'issues')
+using [git-bug](https://github.com/MichaelMure/git-bug).
+I store the structured and unstructured notes in markdown in
+the repositories using git as well.
+Software such as [nb](https://xwmx.github.io/nb/) and
+[kb](https://github.com/gnebbia/kb) are additionally useful
+for storing and managing the markdown notes in-repo.
+They provide searching, linking, and tagging functionality.
+
+Beyond the software tools I use to facilitate journaling,
+I also draw from external information resources as well.
+For instance,
+I often fill in structured journaling notes by answering
+cognitive behavioral therapy [questions](https://positivepsychology.com/albert-ellis-abc-model-rebt-cbt/)
+for identifying
+emotional and behavioral consequences of one's beliefs.
+Similarly, I use templates from resources such as [y-statements](https://www.infoq.com/articles/sustainable-architectural-design-decisions/)
+and [architecture decision records](https://adr.github.io/) to journal my thoughts
+about decisions that I have to make.
+Lastly, I make liberal use of [writing](https://www.dreamerswriting.com/healing-writing-prompts/), [journaling](https://rendezvousmag.com/what-is-journaling/), and
+[reflecting](https://spirithandbook.com/shadow-work-35-journal-prompts-for-deep-healing/) prompts that I find online.
+These prompts often guide my unstructured journaling notes.
+
+Young Tim,
+if you engage in such journaling practices consistently,
+over a long period of time,
+then in addition to the immediate benefits described above,
+you should also experience longer-term benefits.
+You should experience decreased anxiety as you experience
+a life where all thoughts are captured rather than lost, and
+your anxiety no longer needs to keep track of important facts,
+assessments, and deadlines.
+You should also experience the joys and pleasant surprises
+from looking back at your past thoughts,
+being delighted as interesting ideas reappear over time
+and form new connections as you live through new experiences.
+Lastly, you should materially benefit from trend spotting
+and insight / hypothesis generation.
+With your thoughts preserved for future review,
+you should increasingly be able to spot trends in your
+thinking and experience,
+patterns which can be leveraged or changed
+to achieve the state of life that you desire.
+
+So without further ado, please, go forth and journal--a lot!
