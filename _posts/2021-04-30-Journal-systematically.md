@@ -9,13 +9,8 @@ hide: false
 ---
 # Journal more and journal systematically
 
-## Outline
+<!-- ## Outline
 
-- context:
-  longtime journaling since high school.
-  running log + record of thoughts while running.
-  transitioned into simply journaling about particular important topic matters:
-  research, exercise,
 - problem:
   Life is full of hard times (in personal life, at wok, with family, etc.),
   a global pandemic is raging,
@@ -24,7 +19,14 @@ hide: false
   and a systematic journaling habit is needed,
   and I need to make daily use of it to crystallize and capture my thoughts for
   refinement and addressing.
-- beneficial_change: (strategy) adopting a colorful journaling system
+- context:
+  longtime journaling since high school.
+  running log + record of thoughts while running.
+  transitioned into simply journaling about particular important topic matters:
+  research, exercise,
+- beneficial change: (strategy) adopting a colorful journaling system
+- immediate benefits
+- implementation:
   - on-the-fly thoughts in real-time
   - structured notes (short to medium) of sundry kinds
   - unstructured / non-standardly-structured (medium to long)
@@ -45,20 +47,19 @@ hide: false
       - https://rendezvousmag.com/what-is-journaling/
       - https://lonerwolf.com/journaling/
       - https://www.verywellmind.com/the-benefits-of-journaling-for-stress-management-3144611
-- results:
+- long term benefits:
   - mental trend spotting -> insight / hypothesis generation
   - decreased anxiety in the present
     as thoughts are captured rather than lost
-  - helpful reminders from past thoughts
+  - helpful reminders from past thoughts -->
 
-
-## Draft
 Dear Young Tim,
 
 Thanks so much for your patience as I get these notes to you,
 albeit with delay.
 The last many months have been trying, to say the least.
 
+## Problems
 During this time of adversity,
 I'm reminded that much of adulthood is about trying to
 rekindle and maintain the enjoyable from your childhood,
@@ -66,17 +67,22 @@ while still fulfilling your present responsibilities.
 Journaling---writing one's subjective thoughts and feelings---
 is one such enjoyable practice from my youth that still pays dividends.
 
-In particular, life is full of hard times.
+The most general summary is that life is full of hard times.
 This includes hardships in one's
 personal, professional, familial, social, and romantic life.
 Considering worldwide as opposed to individualistic concerns,
 our hardships also include the global Covid-19 pandemic and
 economic recession that are still raging as well.
+None of this even begins to address the fact that
+tons of people around the world and in the United States
+live harsher lives than myself.
 Under such conditions,
-one's mind is expected to be flooded with many thoughts.
+one's mind is expected to be flooded with many distressed thoughts.
 And indeed, without a management system, one may find oneself
 drowning in a deluge of thoughts and emotions.
 
+
+## (Partial) Solutions
 In such contexts,
 journaling has long been one way for me to capture my steady
 stream of ideas and inner monologues.
@@ -120,10 +126,14 @@ For instance, the immediate benefits I've enjoyed include
   to more logical, less catastrophized,  
   & less distorted ends,
   rather than being merely subject to them.
-- comfort from always being able to talk with oneself
+- increased comfort from always being able to talk with oneself
   on the page,  
   especially when one cannot talk with others in the moment.
 
+
+## Implementation
+
+### Procedures
 So how have I garnered these benefits?
 At a high level, I adopted the following system.
 
@@ -154,6 +164,8 @@ recount particular meaningful events from my past / childhood.
 Between these three types of notes,
 I have been/felt able to capture all of the thoughts I desire.
 
+
+### Tooling
 Okay, let's get beyond the high level description.
 How do I actually do this?
 At it's core, I journal digitally using git repositories to
@@ -180,6 +192,9 @@ about decisions that I have to make.
 Lastly, I make liberal use of [writing](https://www.dreamerswriting.com/healing-writing-prompts/), [journaling](https://rendezvousmag.com/what-is-journaling/), and
 [reflecting](https://spirithandbook.com/shadow-work-35-journal-prompts-for-deep-healing/) prompts that I find online.
 These prompts often guide my unstructured journaling notes.
+
+
+## Conclusion
 
 Young Tim,
 if you engage in such journaling practices consistently,
