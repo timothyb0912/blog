@@ -30,7 +30,7 @@ This post IS about coaching too,
 though there are differences between coaching and therapy:
 differences which we'll save to discuss at a later time.
 
-This post is about the similarieties and,
+This post is about the similarities and,
 more specifically, about the general process--the overall process, in fact.
 
 The motivating situation is one where you feel yourself in desperate straights.
@@ -76,12 +76,12 @@ That is, we integrate the learnings into our lives.
 Now, in order to pick yourself back up,
 there will likely be multiple areas
 we need to perform psychological optimization in.
-At minimum, we'll need to adress the following three areas.
+At minimum, we'll need to address the following three areas.
 - dealing with specific traumatic events
 - dealing with general emotional dysregulation
 - dealing with underlying executive functioning issues
 
-In each of these three areas, we'll need to repeate the process of:
+In each of these three areas, we'll need to repeat the process of:
 educating ourselves, introspecting,
 reviewing what we've learned,
 and then integrating our learnings into our lives.
