@@ -1,5 +1,5 @@
 ---
-toc: false
+toc: true
 layout: post
 title: "Psychological Optimization"
 description: "A process description of therapeutic healing and coaching."
