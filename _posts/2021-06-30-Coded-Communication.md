@@ -36,13 +36,14 @@ that the individual who is receiving help will adhere to the
 suggestion or direction of the person giving the help.
 This shows up in the following means of relating between the two individuals.
 
-With empathetic listening, you have two parties interacting as equals.
+With [empathetic](https://en.wikipedia.org/wiki/Nonviolent_Communication) and [active](https://positivepsychology.com/active-listening/) listening,
+you have two parties interacting as equals.
 One side listens to the other, the other side listens to the first.
 This is possibly the most empowering relationship possible.
 The offered help is immediate in the form of a listening ear,
 but help is limited to the listening ear as well.
 
-Then there is coaching.
+Then there is [coaching](https://www.psychologytoday.com/us/therapy-types/coaching).
 This is a supportive relationship that involves empathetic listening,
 but coaching goes further to offer suggestions and questions in support of the person's personal goals.
 
@@ -50,10 +51,10 @@ Next, we have counseling.
 Here, the individual giving the help takes on more of a leading role
 than the coach.
 The counselor points or guides the person receiving help
-to actions they **should** take,
+to actions the counselor believes they **should** take,
 as opposed to suggesting actions that may help (as a coach would).
 
-Following this are consultants.
+Following this are [consultants](https://en.wikipedia.org/wiki/Consultant).
 At their extreme, they are hired as experts,
 they then hear and learn of the situation at hand,
 and finally,
@@ -62,7 +63,7 @@ With a counselor you can imagine some back and forth in the relationship.
 This is not necessarily expected with a consultant.
 If desired, the consultant can be hired again for ongoing services.
 
-Straddling the fence between consultants and counselors are therapists.
+Straddling [the fence](https://doctorgresham.com/the-difference-between-coaching-consulting-counseling-and-psychotherapy/) between consultants and counselors are therapists.
 When acting clinically, such as when prescribing medication or
 therapeutic interventions,
 the therapist is acting as a consultant.
