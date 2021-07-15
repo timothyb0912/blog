@@ -54,7 +54,7 @@ the overall process is to follow these three steps:
 
 In general, this process maps closely to other decision making frameworks
 that are well-known and well-regarded.
-If you think of Gary Klein's recognition-primed decision making framework,
+If you think of Gary Klein's [recognition-primed](https://en.wikipedia.org/wiki/Recognition_primed_decision) decision making framework,
 this matches closely to it.
 
 You first develop expertise (that is, you educate yourself),
@@ -62,7 +62,7 @@ then you make an informed judgement about this particular situation
 (which involves judging yourself, i.e. introspecting).
 Finally, you take action (which involves integrating your learnings/judgements).
 
-The psychological optimization process is also related to John Boyd's OODA loop.
+The psychological optimization process is also related to John Boyd's [OODA loop](https://en.wikipedia.org/wiki/OODA_loop).
 In the OODA loop, you first observe and then you orient.
 In our process, we observe and orient twice.
 <img src="https://raw.githubusercontent.com/timothyb0912/presentations/stable/visuals/assets/psych-opt-assets/slide-07-img.jpg" width="680px">
