@@ -71,7 +71,7 @@ the therapist acts more as a counselor.
 In this sense, a therapist wears both hats of a counselor and consultant.
 In either case, the therapist relates to the client 'from above,'
 whereas the coach relates to the client 'from below.'
-This is one difference referred to in my note from [May](https://timothyb0912.github.io/blog/psychology/2021/05/30/Psychological-optimization.html).
+This is one difference implied in my note from [May](https://timothyb0912.github.io/blog/psychology/2021/05/30/Psychological-optimization.html).
 
 Finally, there are commanding relationships.
 Here, there is no back and forth at all.
@@ -85,10 +85,10 @@ This would have been a great thing to look for
 when going to new teams and jobs.
 When evaluating new managers,
 does the manager relate to their reports more as a coach or commanders?
-Or a counselor or consultant...
+Or a counselor, or consultant...
 When does the manager engage in each type of behavior?
 
-Historically, Stitch Fix has been set up such that
+Historically, [Stitch Fix](https://cultivating-algos.stitchfix.com/) has been structured such that
 managers act as coaches more than commanders.
 And I've found that to be great!
 I wish I knew about such distinctions earlier.
