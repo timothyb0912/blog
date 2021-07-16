@@ -21,7 +21,7 @@ Dear Young Tim,
 
 If you have not already noticed,
 there are a range of possible communicative exchanges,
-in terms of the number of power dynamics that can be displayed.
+in terms of the type of power dynamics that can be displayed.
 This is especially true when help is being offered from one party to another.
 Overall, you can imagine at least the following five types of communicative
 exchanges:
@@ -36,16 +36,19 @@ that the individual who is receiving help will adhere to the
 suggestion or direction of the person giving the help.
 This shows up in the following means of relating between the two individuals.
 
+<img src="{{ site.baseurl }}/images/2021-06-30_coded-communication-2.png" alt="coded-communication" width="680px">
+
 With [empathetic](https://en.wikipedia.org/wiki/Nonviolent_Communication) and [active](https://positivepsychology.com/active-listening/) listening,
 you have two parties interacting as equals.
-One side listens to the other, the other side listens to the first.
+One side listens to the other, then the other side listens to the first.
 This is possibly the most empowering relationship possible.
 The offered help is immediate in the form of a listening ear,
 but help is limited to the listening ear as well.
 
 Then there is [coaching](https://www.psychologytoday.com/us/therapy-types/coaching).
-This is a supportive relationship that involves empathetic listening,
-but coaching goes further to offer suggestions and questions in support of the person's personal goals.
+Coaching is an enabling relationship that involves empathetic listening,
+but it goes further
+by offering suggestions and questions to support the client's goals.
 
 Next, we have counseling.
 Here, the individual giving the help takes on more of a leading role
@@ -58,7 +61,9 @@ Following this are [consultants](https://en.wikipedia.org/wiki/Consultant).
 At their extreme, they are hired as experts,
 they then hear and learn of the situation at hand,
 and finally,
-they deliver a prescription/report of recommended actions and leave.
+they deliver a prescription,
+a report of recommended actions,
+and then they leave.
 With a counselor you can imagine some back and forth in the relationship.
 This is not necessarily expected with a consultant.
 If desired, the consultant can be hired again for ongoing services.
@@ -67,7 +72,7 @@ Straddling [the fence](https://doctorgresham.com/the-difference-between-coaching
 When acting clinically, such as when prescribing medication or
 therapeutic interventions,
 the therapist is acting as a consultant.
-When guiding the client towards behavior change in back-and-forth manner,
+When guiding the client towards behavior change in a back-and-forth manner,
 the therapist acts more as a counselor.
 In this sense, a therapist wears both hats of a counselor and consultant.
 In either case, the therapist relates to the client 'from above,'
@@ -77,7 +82,7 @@ This is one difference implied in my note from [May](https://timothyb0912.github
 Finally, there are commanding relationships.
 Here, there is no back and forth at all.
 The person giving the help tells the person needing help what to do.
-This is akin to an authoritarian parent-child relationship.
+This is akin to an authoritarian, parent-child relationship.
 
 Young Tim,
 what I wish I told you earlier is that communication styles
@@ -97,11 +102,11 @@ I wish I knew about such distinctions earlier.
 Moreover, Young Tim,
 you should be aware of these distinctions when you're helping others.
 Do you act more as a coach, counselor, consultant, or commander?
-Which is most appropriate when?
+Which is most appropriate, and when?
 Be aware of such things,
 both from others to yourself,
 and from yourself to others.
 In all such cases though,
 be sure to start first with empathetic listening.
 
-Take care, and good luck listening, coaching, and commanding if you must.
+Take care, and good luck listening, coaching, and commanding when you must.
