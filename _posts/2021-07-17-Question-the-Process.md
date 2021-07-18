@@ -31,7 +31,7 @@ It's about a second level of questioning
 about how to do what you would like.
 
 We will start off with questions of what.
-What is it that we are supposed to do?
+What should we do?
 In May's [post](https://timothyb0912.github.io/blog/psychology/2021/05/30/Psychological-optimization.html), I spoke of a three-step process of:
 education, introspection, and then integration.
 I spoke of applying this process in three areas:
