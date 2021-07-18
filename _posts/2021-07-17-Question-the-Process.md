@@ -99,7 +99,7 @@ Such answers (i.e. such models) provide the necessary material for
 statistically assessing our therapeutic interventions.
 Practically, we will want to reduce the frequency with which we end up
 in conditions that have a high probability of us behaving in undesired ways.
-Or vise versa.
+Or vice versa.
 We want to maximize the frequency with which we end up in conditions that
 have a high probability of us behaving in desired ways.
 Stepping all the way back,
