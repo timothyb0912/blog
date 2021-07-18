@@ -19,7 +19,7 @@ They've been about the strategic goals that might take you toward a
 However, the devil is (of course) in the details.
 It is as if I told you to go on a long trip, and
 I only told you the countries to go to,
-but no details of where to go in each country
+with no details of where to go in each country
 or how to move about within each country.
 
 This post will be different.
@@ -85,8 +85,8 @@ we want data,
 and we want self-awareness over time.
 
 Finally, we want to ask, not just how do I do what I do,
-but we want to ask when are we most likely to engage in
-behaviors that I want and behaviors that I don't want.
+but also when are we most likely to engage in
+behaviors that we want and behaviors that we don't want.
 This is not just descriptive statistics and raw data anymore.
 This is now a model that predicts what is the probability of you engaging in
 particular behaviors, given particular conditions.
