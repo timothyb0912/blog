@@ -48,7 +48,7 @@ more importantly, questions that
 help you discover a good path forward for yourself (as in the Socratic method).
 A clear direction for bettering yourself and putting yourself back together
 is learning to ask yourself appropriate questions
-to facilitate the needed dialogue between your conflicting  parts.
+to ease the needed dialogue between your conflicting  parts.
 
 Note that such a question-asking agenda is related to
 cognitive behavioral therapy.
