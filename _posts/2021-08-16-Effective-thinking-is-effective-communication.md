@@ -12,9 +12,9 @@ hide: false
 
 Dear Young Tim,
 
-Peter K. Gerlach---social worker, therapist,
+[Peter K. Gerlach](http://sfhelp.org/site/pkg.htm)---social worker, therapist,
 is the first person to have notified me of the idea that
-effective thinking is the same as effective communication.
+effective thinking is [the same](http://sfhelp.org/cx/skills/think.htm) as effective communication.
 In particular, effective thinking is effective communication amongst
 differing sub-parts or subselves within you.
 I know you've experienced the feeling of a part of you
@@ -41,16 +41,16 @@ We wish to facilitate this harmony with your differing sub-parts and
 each other, as well as with your actions.
 This relation also connects directly to individuals we consider especially
 clear critical thinkers such as Socrates,
-since the Socratic method is all about questioning.
+since the [Socratic method](https://en.wikipedia.org/wiki/Socratic_method) is all about questioning.
 Here, we see the relation to coaching.
 Coaches (like good teachers) supply one with suggestions and,
-more importantly, questions that
+more importantly, [questions](https://positivepsychology.com/coaching-questions/) that
 help you discover a good path forward for yourself (as in the Socratic method).
 A clear direction for bettering yourself and putting yourself back together
 is learning to ask yourself appropriate questions
 to ease the needed dialogue between your conflicting  parts.
 
-Note that such a question-asking agenda is related to
+Note that such a question-asking agenda [is related](https://positivepsychology.com/socratic-questioning/) to
 cognitive behavioral therapy.
 There, occurrences of your thoughts/feelings/actions that are undesirable,
 are to be met with a series of questions.
