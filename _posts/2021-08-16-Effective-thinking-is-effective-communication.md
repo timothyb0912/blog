@@ -14,7 +14,7 @@ Dear Young Tim,
 
 [Peter K. Gerlach](http://sfhelp.org/site/pkg.htm)---social worker, therapist,
 is the first person to have notified me of the idea that
-effective thinking is [the same](http://sfhelp.org/cx/skills/think.htm) as effective communication.
+effective thinking is a [form of](http://sfhelp.org/cx/skills/think.htm) effective communication.
 In particular, effective thinking is effective communication amongst
 differing sub-parts or subselves within you.
 I know you've experienced the feeling of a part of you
@@ -23,7 +23,7 @@ another part of you wanting to go to bed because it knows this will be best for
 your long term health.
 I know you know the conflict that arises when these parts of you don't agree.
 
-Gerlach's thesis therefore represents an opportunity for us to improve
+Gerlach's thesis represents an opportunity for us to improve
 the way we facilitate dialogue between our conflicting inner parts.
 This relates to our recent posts on coded communications.
 It is an opportunity from us to move from a commanding relationship,
@@ -37,8 +37,8 @@ yet sing together well.
 
 This represents another way to conceptualize the goal of
 therapeutic healing or coaching.
-We wish to facilitate this harmony with your differing sub-parts and
-each other, as well as with your actions.
+We wish to facilitate this harmony with our differing sub-parts and
+each other, as well as with our actions.
 This relation also connects directly to individuals we consider especially
 clear critical thinkers such as Socrates,
 since the [Socratic method](https://en.wikipedia.org/wiki/Socratic_method) is all about questioning.
@@ -48,11 +48,11 @@ more importantly, [questions](https://positivepsychology.com/coaching-questions/
 help you discover a good path forward for yourself (as in the Socratic method).
 A clear direction for bettering yourself and putting yourself back together
 is learning to ask yourself appropriate questions
-to ease the needed dialogue between your conflicting  parts.
+to facilitate the needed dialogue between your conflicting parts.
 
 Note that such a question-asking agenda [is related](https://positivepsychology.com/socratic-questioning/) to
-cognitive behavioral therapy.
-There, occurrences of your thoughts/feelings/actions that are undesirable,
+cognitive behavioral therapy (CBT).
+With CBT, occurrences of your thoughts/feelings/actions that are undesirable
 are to be met with a series of questions.
 For instance,
 - what is the activating event that led to this thought/feeling/action?
@@ -61,15 +61,17 @@ For instance,
 - what are various ways of disputing this belief with evidence?
   What further questions are to be asked to make sure my thinking is sound
   and thorough?
+Indeed, whole [books](https://www.amazon.com/Socratic-Method-Psychotherapy-James-Overholser/dp/0231183291) have been written about the link between the Socratic method and therapy.
 
-Such a series of questions helps change and clarify your thinking.
+The point is that such questioning helps change and clarify your thinking.
 The socratic method in general takes us a step further than our previous post.
-We want to question not just the process, but all of our thoughts.
+We want to question not just the process of psychological optimization
+but all of our thoughts.
 We want to use such questioning to promote better dialogue and understanding
 between otherwise conflicting parts, and eventually,
 between conflicting individuals.
-The hope is that better thinking and understanding in oneself will translate
+The hope is that better thinking and understanding of oneself will translate
 into your being better able to connect with others,
-and to your being better being able question them,
+through being better being able question them,
 to promote a similarly deep level of understanding between each other.
 Good luck and take care!
