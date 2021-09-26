@@ -82,7 +82,8 @@ This is one difference implied in my note from [May](https://timothyb0912.github
 Finally, there are commanding relationships.
 Here, there is no back and forth at all.
 The person giving the help tells the person needing help what to do.
-This is akin to an authoritarian, parent-child relationship.
+This is akin to delegation--at best, and at worst, it resembles
+an authoritarian, parent-child relationship.
 
 Young Tim,
 what I wish I told you earlier is that communication styles
