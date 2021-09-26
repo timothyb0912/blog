@@ -36,7 +36,7 @@ that the individual who is receiving help will adhere to the
 suggestion or direction of the person giving the help.
 This shows up in the following means of relating between the two individuals.
 
-<img src="{{ site.baseurl }}/images/2021-06-30_coded-communication-2.png" alt="coded-communication" width="680px">
+<img src="{{ site.baseurl }}/images/2021-09-25_coded-communication-3.png" alt="coded-communication" width="680px">
 
 With [empathetic](https://en.wikipedia.org/wiki/Nonviolent_Communication) and [active](https://positivepsychology.com/active-listening/) listening,
 you have two parties interacting as equals.
