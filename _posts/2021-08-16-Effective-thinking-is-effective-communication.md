@@ -1,5 +1,5 @@
 ---
-toc: true
+toc: false
 layout: post
 title: "Question everything: effective thinking is effective communication."
 description: "Ask yourself helpful questions to facilitate internal communication and effective thinking."
@@ -105,4 +105,4 @@ into our being better able to connect with others,
 by being better being able question them
 to promote a similarly deep level of understanding between each other as between our inner parts.
 
-Unti next time, good luck and take care!
+Until next time, good luck and take care!
