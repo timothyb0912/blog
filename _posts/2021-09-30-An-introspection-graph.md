@@ -1,5 +1,5 @@
 ---
-toc: false
+toc: true
 layout: post
 title: "An introspection graph."
 description: "A causal graph to guide one's introspection on problems of life."
@@ -35,10 +35,13 @@ so we're going to want to chunk these questions to facilitate understanding.
 Here, I think it is most natural to organize the questions around the
 process that leads to our undesired state.
 
-The graph below shows our current conceptualization of this process, in general.
+
+## Takeaway
+The graph below shows our current conceptualization of how we come to undesired
+states, in general.
 <img src="../images/2021-09-19_introspection-graph.png">
-It attempts to explicitly delineate a 'complete' set of causal factors that
-lead to outcomes and feelings that we do not want.
+This graph attempts to explicitly delineate a 'complete' set of causal factors
+that lead to outcomes and feelings that we do not want.
 Beyond serving as a tool to convey our current understanding,
 this graph is meant to be used as a map to guide our process of introspection.
 
@@ -65,7 +68,7 @@ post-decision feelings:
 With this greater specificity,
 we gain increased insight as to where we can intervene to resolve our problems.
 
-Additionally, today's post relates to May's post on
+Additionally, today's post relates to May's note on
 [psychological-optimization](https://timothyb0912.github.io/blog/psychology/2021/05/30/Psychological-optimization.html).
 Specifically, the psychological optimization process,
 as I conceive of it so far, involves three steps:
@@ -145,3 +148,12 @@ when forming our beliefs.
 For a non-exhaustive list of such emotional wounds,
 see [here](https://web.archive.org/web/20210816011433/https://selftherapyjourney.com/Pattern/Beginning/List_of_Wounds.aspx)
 and [here](http://sfhelp.org/gwc/wounds.htm).
+
+
+## An example
+
+
+## Suggested use
+
+
+## Further extensions
