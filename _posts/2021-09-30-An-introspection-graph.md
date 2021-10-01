@@ -113,5 +113,35 @@ of our decision as well as any secondary consequences of those outcomes.
 I'll give an example in a moment to clarify this.
 
 <!-- describe goal and failure-state nodes -->
+Fourth, we have two complementary nodes of goals and failure-states.
+From [choice modelling research](https://www.sciencedirect.com/science/article/abs/pii/S002224961300028X)
+at one interface of psychology and discrete choice,
+i.e. within the realm of mathematical psychology,
+we are reminded that humans (that means us!)
+make decisions in pursuit of goals they wish to achieve.
+Further, [positive psychology research](https://psycnet.apa.org/record/2003-04013-006)
+reminds us that people have not only
+goals they wish to actively obtain / experience
+but also undesired or unfavorable failure-states they hope to avoid.
+These two types of guideposts directly influence what we believe about the world
+and what we believe about the impact of potential outcomes,
+hence their placement in the introspection graph.
 
 <!-- describe needs and emotional wounds nodes -->
+Finally, we have our underlying needs and emotional wounds.
+All humans have physical and emotional needs that we attempt to meet.
+For a non-exhaustive list of such needs (as examples),
+see [here](https://www.cnvc.org/training/resource/needs-inventory) or
+[here](http://sfhelp.org/relate/keys/needs.htm).
+Our goals and failure states are often directly aimed at meeting such needs.
+Moreover, the degree to which our needs are met greatly impact our beliefs about
+our world.
+
+Likewise, the emotional wounds that we have suffered affect what goals we
+attempt to achieve and what failure-states we attempt to avoid,
+all to prevent further hurt.
+Our wounds also act as a filter through which we interpret the events of life
+when forming our beliefs.
+For a non-exhaustive list of such emotional wounds,
+see [here](https://web.archive.org/web/20210816011433/https://selftherapyjourney.com/Pattern/Beginning/List_of_Wounds.aspx)
+and [here](http://sfhelp.org/gwc/wounds.htm).
