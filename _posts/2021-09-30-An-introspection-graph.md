@@ -105,15 +105,15 @@ Third, following the learnings of
 we note that our beliefs cause our feelings.
 Here, we draw a distinction between our beliefs about our pre-decision state,
 leading to our feelings before we make some decision,
-and our counterfactual beliefs about the meaning or significance of
-potential outcomes.
-These counterfactual beliefs cause our post-decision feelings,
+and our beliefs about the meaning or significance of potential outcomes.
+These counterfactual beliefs are of the form: if outcome X occurs, then Y.
+Counterfactual beliefs cause our post-decision feelings,
 in combination with the actual outcome of the decision and
 any new, 'objective' state we transition into because of our decion's outcome.
 Accordingly, we include nodes for both our beliefs about our original state and
 our counterfactual beliefs, and we include nodes to denote the direct outcome
 of our decision as well as any secondary consequences of those outcomes.
-I'll give an example in a moment to clarify this.
+
 
 <!-- describe goal and failure-state nodes -->
 Fourth, we have two complementary nodes of goals and failure-states.
@@ -148,9 +148,6 @@ when forming our beliefs.
 For a non-exhaustive list of such emotional wounds,
 see [here](https://web.archive.org/web/20210816011433/https://selftherapyjourney.com/Pattern/Beginning/List_of_Wounds.aspx)
 and [here](http://sfhelp.org/gwc/wounds.htm).
-
-
-## An example
 
 
 ## Suggested use
