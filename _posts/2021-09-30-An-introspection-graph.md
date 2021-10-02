@@ -79,7 +79,7 @@ Today's post overviews what I mean by introspection.
 ## Introspection elements
 
 To begin, I'll explain why the introspection graph has its given structure.
-In particular, there are many sources that have shaped my understanding of
+In particular, many sources have shaped my understanding of
 how we come to have the feelings and outcomes that we experience.
 
 First, there are the ideas of
@@ -97,8 +97,8 @@ one's feelings post-decision and post-outcome.
 Second, the role of emotions in driving our decisions is
 [well-known](https://www.psychologytoday.com/us/blog/intense-emotions-and-strong-feelings/201012/it-or-not-emotions-will-drive-the-decisions-you)
 and mercilessly exploited in business applications such as marketing.
-As a result, our pre-decision feelings and emotions are explicitly noted on
-the introspection graph.
+As a result, we explicitly note our pre-decision feelings and emotions
+on the introspection graph.
 
 Third, following the learnings of
 "[rational emotive behavior therapy](https://en.wikipedia.org/wiki/Rational_emotive_behavior_therapy)" and
@@ -115,13 +115,11 @@ Accordingly, we include nodes for both our beliefs about our original state and
 our counterfactual beliefs, and we include nodes to denote the direct outcome
 of our decision as well as any secondary consequences of those outcomes.
 
-
-<!-- describe goal and failure-state nodes -->
 Fourth, we have two complementary nodes of goals and failure-states.
 From [choice modelling research](https://www.sciencedirect.com/science/article/abs/pii/S002224961300028X)
 at one interface of psychology and discrete choice,
 i.e. within the realm of mathematical psychology,
-we are reminded that humans (that means us!)
+we are reminded that humans (meaning us!)
 make decisions in pursuit of goals they wish to achieve.
 Further, [positive psychology research](https://psycnet.apa.org/record/2003-04013-006)
 reminds us that people have not only
@@ -131,7 +129,6 @@ These two types of guideposts directly influence what we believe about the world
 and what we believe about the impact of potential outcomes,
 hence their placement in the introspection graph.
 
-<!-- describe needs and emotional wounds nodes -->
 Finally, we have our underlying needs and emotional wounds.
 All humans have physical and emotional needs that we attempt to meet.
 For a non-exhaustive list of such needs (as examples),
@@ -201,9 +198,9 @@ I suggest we start by asking questions to clarify our problematic feelings,
 then we trace the graph "backwards" from the post-decision feelings
 to our needs and emotional wounds as the last visited node.
 This follows the order described in February's [debugging post](https://timothyb0912.github.io/blog/reading/2021/02/28/Causally-Engineering-Life.html).
-First we address the immediate problem (i.e. feelins and outcomes),
+First we address the immediate problem (i.e. feelings and outcomes),
 then we address the way we make decisions (i.e. our procedures), and
-finally we address our consititutional state (e.g. our beliefs, needs, etc.).
+finally we address our constitutional state (e.g. our beliefs, needs, etc.).
 
 
 ## Further extensions
