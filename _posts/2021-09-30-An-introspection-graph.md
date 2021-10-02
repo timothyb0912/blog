@@ -40,7 +40,8 @@ process that leads to our undesired state.
 The graph below shows our current conceptualization of how we come to undesired
 states, in general.
 <img src="../images/2021-09-19_introspection-graph.png">
-This graph attempts to explicitly delineate a 'complete' set of causal factors
+This graph attempts to explicitly delineate an
+'almost-complete' set of causal factors
 that lead to outcomes and feelings that we do not want.
 Beyond serving as a tool to convey our current understanding,
 this graph is meant to be used as a map to guide our process of introspection.
@@ -152,5 +153,74 @@ and [here](http://sfhelp.org/gwc/wounds.htm).
 
 ## Suggested use
 
+As stated earlier, I suggest we use the introspection graph to guide our
+introspection--our asking questions about ourselves.
+The way I suggest we do this is
+by answering questions about each node in the introspection graph.
+This will draw out the story of how our current life's system generates
+our undesired feelings and outcomes.
+
+These 'natural language' (as opposed to programming language) descriptions
+are called '[user-stories](https://en.wikipedia.org/wiki/User_story)'
+in software-engineering.
+The idea is that one's software system will support or enable these stories.
+For verification, the stories are often translated into the following template:
+"GIVEN \<some context\>,
+WHEN \<something happens\>,
+THEN \<something results\>."
+The introspection graph is color coded to match this format.
+
+As with software engineering, if we don't like the system's outputs,
+we'll go in and change the system to produce the results we actually want.
+This presumes we understand the system and its various components.
+To gain such understanding, we have freedom in how we traverse the graph.
+
+We can proceed one node at a time,
+asking all questions related to a particular node.
+We can take repeated tours around the graph,
+asking one or a few questions at each node,
+gaining a deeper understanding on each tour.
+Or, we can use some combination of the two approaches.
+For now, realize that the choice is ours.
+Future posts will share some questions that can be asked for each node.
+
+Meanwhile, my default suggestion is to perform repeated tours.
+It can take a while to ask all questions of interest,
+so we will likely need more than one questioning session.
+By performing full tours in each session,
+we give ourselves some ability to make 'globally' informed changes after each
+questioning session.
+Additionally, our understanding of a problem often changes in the course of
+analyzing the problem, and multiple tours expose this in the differing answers
+to questions within the same node, as seen across tours.
+
+On our questioning tours,
+I suggest we start by asking questions to clarify our problematic feelings,
+then we trace the graph "backwards" from the post-decision feelings
+to our needs and emotional wounds as the last visited node.
+This follows the order described in February's [debugging post](https://timothyb0912.github.io/blog/reading/2021/02/28/Causally-Engineering-Life.html).
+First we address the immediate problem (i.e. feelins and outcomes),
+then we address the way we make decisions (i.e. our procedures), and
+finally we address our consititutional state (e.g. our beliefs, needs, etc.).
+
 
 ## Further extensions
+
+To end, I hope we keep in mind that this introspection graph is not 'complete.'
+Some immediately missing elements are nodes to represent our society & culture.
+[Socialization](https://en.wikipedia.org/wiki/Socialization)
+is literally the internalizing of society's behavioral norms
+(i.e. decision-making patterns) and ideologies (i.e. beliefs).
+If we remain ignorant as to how we are affected by society and our culture,
+then we remain handicapped in trying to change
+our resulting decisions and beliefs.
+
+Additionally, this introspection graph is drawn from the perspective of
+intrapersonal problems.
+A similar graph should be drawn to represent interpersonal problems,
+i.e. problems between two or more people.
+All of this to come in future posts!
+
+Until next time Young Tim: <br>
+May this introspection graph be of use in
+understanding and thinking through your problems!
