@@ -138,8 +138,8 @@ For a non-exhaustive list of such needs (as examples),
 see [here](https://www.cnvc.org/training/resource/needs-inventory) or
 [here](http://sfhelp.org/relate/keys/needs.htm).
 Our goals and failure states are often directly aimed at meeting such needs.
-Moreover, the degree to which our needs are met greatly impact our beliefs about
-our world.
+Moreover, the degree to which our needs are met
+greatly impacts our beliefs about our world.
 
 Likewise, the emotional wounds that we have suffered affect what goals we
 attempt to achieve and what failure-states we attempt to avoid,
