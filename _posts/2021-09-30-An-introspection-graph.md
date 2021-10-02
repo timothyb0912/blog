@@ -44,7 +44,7 @@ This graph attempts to explicitly delineate an
 'almost-complete' set of causal factors
 that lead to outcomes and feelings that we do not want.
 Beyond serving as a tool to convey our current understanding,
-this graph is meant to be used as a map to guide our process of introspection.
+this graph can be a map to guide our process of introspection.
 
 
 ## Relation to previous posts
@@ -138,7 +138,7 @@ For a non-exhaustive list of such needs (as examples),
 see [here](https://www.cnvc.org/training/resource/needs-inventory) or
 [here](http://sfhelp.org/relate/keys/needs.htm).
 Our goals and failure states are often directly aimed at meeting such needs.
-Moreover, the degree to which our needs are met
+Moreover, the degree to which we meet our needs
 greatly impacts our beliefs about our world.
 
 Likewise, the emotional wounds that we have suffered affect what goals we
@@ -184,7 +184,7 @@ asking one or a few questions at each node,
 gaining a deeper understanding on each tour.
 Or, we can use some combination of the two approaches.
 For now, realize that the choice is ours.
-Future posts will share some questions that can be asked for each node.
+Future posts will share some questions that we can ask for each node.
 
 Meanwhile, my default suggestion is to perform repeated tours.
 It can take a while to ask all questions of interest,
@@ -213,13 +213,13 @@ Some immediately missing elements are nodes to represent our society & culture.
 [Socialization](https://en.wikipedia.org/wiki/Socialization)
 is the internalizing of society's behavioral norms
 (i.e. decision-making patterns) and ideologies (i.e. beliefs).
-If we remain ignorant about how we are affected by society and our culture,
+If we remain ignorant about how society and our culture affects us,
 then we remain handicapped in trying to change
 our resulting decisions and beliefs.
 
-Additionally, this introspection graph is drawn from the perspective of
+Additionally, I drew this introspection graph from the perspective of
 intrapersonal problems.
-A similar graph should be drawn to represent interpersonal problems,
+I plan to draw a similar graph to represent interpersonal problems,
 i.e. problems between two or more people.
 All this to come in future posts!
 
