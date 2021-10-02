@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>An introspection graph. | Timothy Brathwaite</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="An introspection graph." />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A causal graph to guide one’s introspection on problems of life." />
+<meta property="og:description" content="A causal graph to guide one’s introspection on problems of life." />
+<link rel="canonical" href="https://timothyb0912.github.io/blog/psychology/2021/09/30/An-introspection-graph.html" />
+<meta property="og:url" content="https://timothyb0912.github.io/blog/psychology/2021/09/30/An-introspection-graph.html" />
+<meta property="og:site_name" content="Timothy Brathwaite" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-09-30T00:00:00-05:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://timothyb0912.github.io/blog/psychology/2021/09/30/An-introspection-graph.html"},"url":"https://timothyb0912.github.io/blog/psychology/2021/09/30/An-introspection-graph.html","@type":"BlogPosting","headline":"An introspection graph.","dateModified":"2021-09-30T00:00:00-05:00","datePublished":"2021-09-30T00:00:00-05:00","description":"A causal graph to guide one’s introspection on problems of life.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://timothyb0912.github.io/blog/feed.xml" title="Timothy Brathwaite" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">Timothy Brathwaite</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About Me</a><a class="page-link" href="/blog/search/">Search</a><a class="page-link" href="/blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">An introspection graph.</h1><p class="page-description">A causal graph to guide one's introspection on problems of life.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-09-30T00:00:00-05:00" itemprop="datePublished">
+        Sep 30, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      7 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/blog/categories/#psychology">psychology</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#an-introspection-graph">An introspection graph</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#context">Context</a></li>
+<li class="toc-entry toc-h2"><a href="#takeaway">Takeaway</a></li>
+<li class="toc-entry toc-h2"><a href="#relation-to-previous-posts">Relation to previous posts</a></li>
+<li class="toc-entry toc-h2"><a href="#introspection-elements">Introspection elements</a></li>
+<li class="toc-entry toc-h2"><a href="#suggested-use">Suggested use</a></li>
+<li class="toc-entry toc-h2"><a href="#further-extensions">Further extensions</a></li>
+</ul>
+</li>
+</ul><h1 id="an-introspection-graph">
+<a class="anchor" href="#an-introspection-graph" aria-hidden="true"><span class="octicon octicon-link"></span></a>An introspection graph</h1>
+
+<h2 id="context">
+<a class="anchor" href="#context" aria-hidden="true"><span class="octicon octicon-link"></span></a>Context</h2>
+
+<p>Dear Young Tim,</p>
+
+<p>This post follows the recent stream of psychology focused dispatches.
+The context is the familiar one:
+we face problems in life where there are
+discrepancies between feelings we have and feelings we want
+and between outcomes we have and outcomes we want.
+To achieve the feelings and outcomes we desire,
+it is helpful to understand how we came to our undesired states in the first
+place. Moreover, I believe we increase our probability of successfully achieving
+our goals by systematically investigating the factors currently causing our
+issues.</p>
+
+<p>In particular, I think it’s helpful to have a set of questions to start from
+when trying to understand our personal problems.
+Of course, having a collection of questions is only the first step.
+Humans have great <a href="https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two">difficulty</a>
+holding numerous items in our mind at once,
+so we’re going to want to chunk these questions to facilitate understanding.
+Here, I think it is most natural to organize the questions around the
+process that leads to our undesired state.</p>
+
+<h2 id="takeaway">
+<a class="anchor" href="#takeaway" aria-hidden="true"><span class="octicon octicon-link"></span></a>Takeaway</h2>
+<p>The graph below shows our current conceptualization of how we come to undesired
+states, in general.
+<img src="/blog/images/2021-09-19_introspection-graph.png">
+This graph attempts to explicitly delineate an
+‘almost-complete’ set of causal factors
+that lead to outcomes and feelings that we do not want.
+Beyond serving as a tool to convey our current understanding,
+this graph can be a map to guide our process of introspection.</p>
+
+<h2 id="relation-to-previous-posts">
+<a class="anchor" href="#relation-to-previous-posts" aria-hidden="true"><span class="octicon octicon-link"></span></a>Relation to previous posts</h2>
+
+<p>The introspection graph above extends the causal graph for debugging problems
+that I drew in
+<a href="https://timothyb0912.github.io/blog/reading/2021/02/28/Causally-Engineering-Life.html">February</a>:
+<img src="/blog/images/the-system-dalio-carpenter.png">
+Specifically, the current introspection graph expands the focus of our
+problem-solving from ‘objective’ outcomes to include our subjective,
+post-decision feelings.
+The current graph also expands the ‘constitutional state’ or ‘root cause’ node
+to expose the interconnected set of variables that affect our decisions and
+post-decision feelings:</p>
+<ul>
+  <li>beliefs</li>
+  <li>goals</li>
+  <li>failure-states</li>
+  <li>needs</li>
+  <li>emotional-wounds</li>
+  <li>pre-decision feelings</li>
+</ul>
+
+<p>With this greater specificity,
+we gain increased insight on where we can intervene to resolve our problems.</p>
+
+<p>Additionally, today’s post relates to May’s note on
+<a href="https://timothyb0912.github.io/blog/psychology/2021/05/30/Psychological-optimization.html">psychological-optimization</a>.
+Specifically, the psychological optimization process,
+as I conceive of it so far, involves three steps:
+education, introspection, and integration.
+Today’s post overviews what I mean by introspection.</p>
+
+<h2 id="introspection-elements">
+<a class="anchor" href="#introspection-elements" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introspection elements</h2>
+
+<p>To begin, I’ll explain why the introspection graph has its given structure.
+In particular, many sources have shaped my understanding of
+how we come to have the feelings and outcomes that we experience.</p>
+
+<p>First, there are the ideas of
+<a href="https://en.wikipedia.org/wiki/Nonviolent_Communication">Nonviolent Communication</a>.
+Here, the basic premise is that many conflicts arise because of unspecified
+feelings and needs.
+Though Nonviolent Communication focuses on interpersonal conflicts,
+I’ve already <a href="https://timothyb0912.github.io/blog/psychology/2021/08/16/Effective-thinking-is-effective-communication.html">described</a>
+how thinking is internal communication between parts of oneself.
+Accordingly, the focus on feelings and needs for the resolution of conflicts
+appears likely to be useful for resolving internal conflicts as well.
+This motivates the expansion of the causal debugging graph to explicitly denote
+one’s feelings post-decision and post-outcome.</p>
+
+<p>Second, the role of emotions in driving our decisions is
+<a href="https://www.psychologytoday.com/us/blog/intense-emotions-and-strong-feelings/201012/it-or-not-emotions-will-drive-the-decisions-you">well-known</a>
+and mercilessly exploited in business applications such as marketing.
+As a result, we explicitly note our pre-decision feelings and emotions
+on the introspection graph.</p>
+
+<p>Third, following the learnings of
+“<a href="https://en.wikipedia.org/wiki/Rational_emotive_behavior_therapy">rational emotive behavior therapy</a>” and
+“<a href="https://en.wikipedia.org/wiki/Cognitive_behavioral_therapy">cognitive behavioral therapy</a>,”
+we note that our beliefs cause our feelings.
+Here, we draw a distinction between our beliefs about our pre-decision state,
+leading to our feelings before we make some decision,
+and our beliefs about the meaning or significance of potential outcomes.
+These counterfactual beliefs are of the form: if outcome X occurs, then Y.
+Counterfactual beliefs cause our post-decision feelings,
+in combination with the actual outcome of the decision and
+any new, ‘objective’ state we transition into because of our decision’s outcome.
+Accordingly, we include nodes for both our beliefs about our original state and
+our counterfactual beliefs, and we include nodes to denote the direct outcome
+of our decision as well as any secondary consequences of those outcomes.</p>
+
+<p>Fourth, we have two complementary nodes of goals and failure-states.
+From <a href="https://www.sciencedirect.com/science/article/abs/pii/S002224961300028X">choice modelling research</a>
+at one interface of psychology and discrete choice,
+i.e. within the realm of mathematical psychology,
+we are reminded that humans (meaning us!)
+make decisions in pursuit of goals they wish to achieve.
+Further, <a href="https://psycnet.apa.org/record/2003-04013-006">positive psychology research</a>
+reminds us that people have not only
+goals they wish to actively reach / experience
+but also undesired or unfavorable failure-states they hope to avoid.
+These two types of guideposts directly influence what we believe about the world
+and what we believe about the impact of potential outcomes,
+hence their placement in the introspection graph.</p>
+
+<p>Finally, we have our underlying needs and emotional wounds.
+All humans have physical and emotional needs that we attempt to meet.
+For a non-exhaustive list of such needs (as examples),
+see <a href="https://www.cnvc.org/training/resource/needs-inventory">here</a> or
+<a href="http://sfhelp.org/relate/keys/needs.htm">here</a>.
+Our goals and failure states are often directly aimed at meeting such needs.
+Moreover, the degree to which we meet our needs
+greatly impacts our beliefs about our world.</p>
+
+<p>Likewise, the emotional wounds that we have suffered affect what goals we
+attempt to achieve and what failure-states we attempt to avoid,
+all to prevent further hurt.
+Our wounds also act as a filter through which we interpret the events of life
+when forming our beliefs.
+For a non-exhaustive list of such emotional wounds,
+see <a href="https://web.archive.org/web/20210816011433/https://selftherapyjourney.com/Pattern/Beginning/List_of_Wounds.aspx">here</a>
+and <a href="http://sfhelp.org/gwc/wounds.htm">here</a>.</p>
+
+<h2 id="suggested-use">
+<a class="anchor" href="#suggested-use" aria-hidden="true"><span class="octicon octicon-link"></span></a>Suggested use</h2>
+
+<p>As stated earlier, I suggest we use the introspection graph to guide our
+introspection–our asking questions about ourselves.
+The way I suggest we do this is
+by answering questions about each node in the introspection graph.
+This will draw out the story of how our current life’s system generates
+our undesired feelings and outcomes.</p>
+
+<p>These ‘natural language’ (as opposed to programming language) descriptions
+are called ‘<a href="https://en.wikipedia.org/wiki/User_story">user-stories</a>’
+in software-engineering.
+The idea is that one’s software system will support or enable these stories.
+For verification,
+the stories are <a href="https://www.agilealliance.org/glossary/gwt/">often</a>
+translated into the following template:
+“GIVEN &lt;some context&gt;,
+WHEN &lt;something happens&gt;,
+THEN &lt;something results&gt;.”
+The introspection graph is color coded to match this format.</p>
+
+<p>As with software engineering, if we don’t like the system’s outputs,
+we’ll go in and change the system to produce the results we actually want.
+This presumes we understand the system and its various components.
+To gain such understanding, we have freedom in how we traverse the graph.</p>
+
+<p>We can proceed one node at a time,
+asking all questions related to a particular node.
+We can take repeated tours around the graph,
+asking one or a few questions at each node,
+gaining a deeper understanding on each tour.
+Or, we can use some combination of the two approaches.
+For now, realize that the choice is ours.
+Future posts will share some questions that we can ask for each node.</p>
+
+<p>Meanwhile, my default suggestion is to perform repeated tours.
+It can take a while to ask all questions of interest,
+so we will likely need more than one questioning session.
+By performing full tours in each session,
+we give ourselves some ability to make ‘globally’ informed changes after each
+questioning session.
+Additionally, our understanding of a problem often changes in the course of
+analyzing the problem, and multiple tours expose this in the differing answers
+to questions within the same node, as seen across tours.</p>
+
+<p>On our questioning tours,
+I suggest we start by asking questions to clarify our problematic feelings,
+then we trace the graph “backwards” from the post-decision feelings
+to our needs and emotional wounds as the last visited node.
+This follows the order described in February’s <a href="https://timothyb0912.github.io/blog/reading/2021/02/28/Causally-Engineering-Life.html">debugging post</a>.
+First we address the immediate problem (i.e. feelings and outcomes),
+then we address the way we make decisions (i.e. our procedures), and
+finally we address our constitutional state (e.g. our beliefs, needs, etc.).</p>
+
+<h2 id="further-extensions">
+<a class="anchor" href="#further-extensions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Further extensions</h2>
+
+<p>To end, I hope we keep in mind that this introspection graph is not ‘complete.’
+Some immediately missing elements are nodes to represent our society &amp; culture.
+<a href="https://en.wikipedia.org/wiki/Socialization">Socialization</a>
+is the internalizing of society’s behavioral norms
+(i.e. decision-making patterns) and ideologies (i.e. beliefs).
+If we remain ignorant about how society and our culture affects us,
+then we remain handicapped in trying to change
+our resulting decisions and beliefs.</p>
+
+<p>Additionally, I drew this introspection graph from the perspective of
+intrapersonal problems.
+I plan to draw a similar graph to represent interpersonal problems,
+i.e. problems between two or more people.
+All this to come in future posts!</p>
+
+<p>Until next time Young Tim: <br>
+May this introspection graph be of use in
+understanding and thinking through your problems!</p>
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="timothyb0912/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/blog/psychology/2021/09/30/An-introspection-graph.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>A personal blog.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/timothyb0912" title="timothyb0912"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/timothyb0912" title="timothyb0912"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
