@@ -20,7 +20,7 @@ The context is the familiar one:
 we face problems in life where there are
 discrepancies between feelings we have and feelings we want
 and between outcomes we have and outcomes we want.
-In order to achieve the feelings and outcomes we desire,
+To achieve the feelings and outcomes we desire,
 it is helpful to understand how we came to our undesired states in the first
 place. Moreover, I believe we increase our probability of successfully achieving
 our goals by systematically investigating the factors currently causing our
@@ -67,7 +67,7 @@ post-decision feelings:
 - pre-decision feelings
 
 With this greater specificity,
-we gain increased insight as to where we can intervene to resolve our problems.
+we gain increased insight on where we can intervene to resolve our problems.
 
 Additionally, today's post relates to May's note on
 [psychological-optimization](https://timothyb0912.github.io/blog/psychology/2021/05/30/Psychological-optimization.html).
@@ -79,7 +79,7 @@ Today's post overviews what I mean by introspection.
 ## Introspection elements
 
 To begin, I'll explain why the introspection graph has its given structure.
-In particular, there are numerous sources that have shaped my understanding of
+In particular, there are many sources that have shaped my understanding of
 how we come to have the feelings and outcomes that we experience.
 
 First, there are the ideas of
@@ -110,7 +110,7 @@ and our beliefs about the meaning or significance of potential outcomes.
 These counterfactual beliefs are of the form: if outcome X occurs, then Y.
 Counterfactual beliefs cause our post-decision feelings,
 in combination with the actual outcome of the decision and
-any new, 'objective' state we transition into because of our decion's outcome.
+any new, 'objective' state we transition into because of our decision's outcome.
 Accordingly, we include nodes for both our beliefs about our original state and
 our counterfactual beliefs, and we include nodes to denote the direct outcome
 of our decision as well as any secondary consequences of those outcomes.
@@ -125,7 +125,7 @@ we are reminded that humans (that means us!)
 make decisions in pursuit of goals they wish to achieve.
 Further, [positive psychology research](https://psycnet.apa.org/record/2003-04013-006)
 reminds us that people have not only
-goals they wish to actively obtain / experience
+goals they wish to actively reach / experience
 but also undesired or unfavorable failure-states they hope to avoid.
 These two types of guideposts directly influence what we believe about the world
 and what we believe about the impact of potential outcomes,
@@ -211,9 +211,9 @@ finally we address our consititutional state (e.g. our beliefs, needs, etc.).
 To end, I hope we keep in mind that this introspection graph is not 'complete.'
 Some immediately missing elements are nodes to represent our society & culture.
 [Socialization](https://en.wikipedia.org/wiki/Socialization)
-is literally the internalizing of society's behavioral norms
+is the internalizing of society's behavioral norms
 (i.e. decision-making patterns) and ideologies (i.e. beliefs).
-If we remain ignorant as to how we are affected by society and our culture,
+If we remain ignorant about how we are affected by society and our culture,
 then we remain handicapped in trying to change
 our resulting decisions and beliefs.
 
@@ -221,7 +221,7 @@ Additionally, this introspection graph is drawn from the perspective of
 intrapersonal problems.
 A similar graph should be drawn to represent interpersonal problems,
 i.e. problems between two or more people.
-All of this to come in future posts!
+All this to come in future posts!
 
 Until next time Young Tim: <br>
 May this introspection graph be of use in
