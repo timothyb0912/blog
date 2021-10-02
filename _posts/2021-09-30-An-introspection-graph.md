@@ -164,7 +164,9 @@ These 'natural language' (as opposed to programming language) descriptions
 are called '[user-stories](https://en.wikipedia.org/wiki/User_story)'
 in software-engineering.
 The idea is that one's software system will support or enable these stories.
-For verification, the stories are often translated into the following template:
+For verification,
+the stories are [often](https://www.agilealliance.org/glossary/gwt/)
+translated into the following template:
 "GIVEN \<some context\>,
 WHEN \<something happens\>,
 THEN \<something results\>."
