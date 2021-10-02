@@ -39,7 +39,7 @@ process that leads to our undesired state.
 ## Takeaway
 The graph below shows our current conceptualization of how we come to undesired
 states, in general.
-<img src="../images/2021-09-19_introspection-graph.png">
+<img src="{{ site.baseurl }}/images/2021-09-19_introspection-graph.png">
 This graph attempts to explicitly delineate an
 'almost-complete' set of causal factors
 that lead to outcomes and feelings that we do not want.
@@ -52,7 +52,7 @@ this graph can be a map to guide our process of introspection.
 The introspection graph above extends the causal graph for debugging problems
 that I drew in
 [February](https://timothyb0912.github.io/blog/reading/2021/02/28/Causally-Engineering-Life.html):
-<img src="../images/the-system-dalio-carpenter.png">
+<img src="{{ site.baseurl }}/images/the-system-dalio-carpenter.png">
 Specifically, the current introspection graph expands the focus of our
 problem-solving from 'objective' outcomes to include our subjective,
 post-decision feelings.
