@@ -53,13 +53,15 @@ I'll get straight to the goods!
 - "Are you experiencing any feelings / parts that are polarized
   or wanting opposing things?"
 - "What parts of you are stopping you from 'socially undesirable' acts?"
+- "What connects the activating event for this moment's undesired feelings
+  with the origin story for each active exile
+  (i.e. activated parts of us with [emotional](https://web.archive.org/web/20210816011433/https://selftherapyjourney.com/Pattern/Beginning/List_of_Wounds.aspx) [wounds](http://sfhelp.org/gwc/wounds.htm), especially from childhood)?"
 
 
 ### Immediate response
 - "What do I want to feel right now, emotionally?"
 - "What do I want to feel right now, physically?"
 - "How can we give the active exiles
-  (i.e. parts of us with emotional wounds, especially childhood wounds)
   some of what they need **right now**?"
 - "How can I activate the parts of me with the emotional and behavioral traits
   I wish to display/use in this situation?"
