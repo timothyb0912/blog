@@ -16,7 +16,8 @@ Happy Halloween!
 
 I know this month has been more cruel trick than pleasant treat.
 
-Of course, pay attention to your problems, but maintain self-control.
+Of course, in such circumstances, pay attention to your problems.
+However, maintain self-control.
 Hold on (to the handlebars of your life).
 Work when you're excited or when you need to work.
 Sleep when you are weary,
@@ -41,7 +42,8 @@ let's get straight to the questions!
 
 Note, here, I only question the "THEN" and "WHEN" portions of the graph.
 I'll supply questions for the "GIVEN" portion of the graph in the future.
-May these questions be of use to you and others---good luck!
+May these questions be of use to you and to others, and until next dispatch---
+good luck!
 
 
 ## Post-decision feelings (i.e. "Then")
@@ -145,9 +147,9 @@ May these questions be of use to you and others---good luck!
   - "What needs do we hope to meet by achieving these alternative consequences?"
   - "What goals can most swiftly make these alternative consequences a reality?"
   - "What immediate tasks are necessary to achieve those goals?"
-- "What alternative decisions could we have made?"
+- "What alternative decisions could we make in the future?"
   Brainstorm MANY alternatives.
-- "What alternative circumstances could occur?"
+- "What alternative circumstances could occur in the future?"
 
 
 #### Counterfactual
