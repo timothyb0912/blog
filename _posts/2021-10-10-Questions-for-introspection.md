@@ -12,20 +12,36 @@ hide: false
 
 Dear Young Tim,
 
-This note follows up on last months post about a causal graph for introspection.
+Happy Halloween!
+
+I know this month has been more cruel trick than pleasant treat.
+
+Of course, pay attention to your problems, but maintain self-control.
+Hold on (to the handlebars of your life).
+Work when you're excited or when you need to work.
+Sleep when you are weary,
+and do not let your pride ruin your peace.
+Sleep consistently.
+
+Once we're well rested,
+we'll want to ask ourselves how we got into our problem situations
+and how we will resolve them.
+
+To help, this note follows up on last month's causal graph for introspection.
 Here's the graph once more, for memory.
 <img src="{{ site.baseurl }}/images/2021-09-19_introspection-graph.png">
 
-Today's post lists some questions that you might find useful for directing
-your thinking about each node.
-These questions are structured around the "user-story" format (GIVEN-WHEN-THEN),
+Today's post lists some questions that may be useful for directing
+our thinking about each node.
+The question structure tracks the "user-story" format (GIVEN-WHEN-THEN),
 which we use to organize the nodes in the introspection graph.
 Since last month's entry explained the rationale behind each node
 and behind the user story format in general,
-I'll get straight to the questions!
+let's get straight to the questions!
 
-Also, here, I only question the "THEN" and "WHEN" portions of the graph.
+Note, here, I only question the "THEN" and "WHEN" portions of the graph.
 I'll supply questions for the "GIVEN" portion of the graph in the future.
+May these questions be of use to you and others---good luck!
 
 
 ## Post-decision feelings (i.e. "Then")
@@ -41,7 +57,7 @@ I'll supply questions for the "GIVEN" portion of the graph in the future.
 
 
 ### Labelling, chunking, analysis
-- "What (emotional/cognitive) parts of us are activated right now?
+- "What (emotional/cognitive) parts of us are active right now?
    What parts of our body feel this activation?"
 - "For each emotional/cognitive part of us that is activated,
   i.e. experiencing intense physical feelings:"
@@ -56,11 +72,12 @@ I'll supply questions for the "GIVEN" portion of the graph in the future.
   - "What role does this part and its feelings play in our
     [internal family system](https://en.wikipedia.org/wiki/Internal_Family_Systems_Model)?"
   - "What is this part's name (if there is a name for it)?"
-- "For each part of you that is activated and desiring behaviors that you see as
+- "For each part of us that is activated and desiring behaviors that we see as
   globally unhelpful, what other parts are they protecting?"
-- "Are you experiencing any feelings / parts that are polarized
+- "Are we experiencing any feelings / parts that are polarized
   or wanting opposing things?"
-- "What parts of you are stopping you from 'socially undesirable' acts?"
+- "What parts of us are stopping us from 'socially undesirable' acts?"
+- "What parts of us are encouraging us to engage in 'socially promoted acts'?"
 - "What connects the activating event for this moment's undesired feelings
   with the origin story for each active exile
   (i.e. activated parts of us with [emotional](https://web.archive.org/web/20210816011433/https://selftherapyjourney.com/Pattern/Beginning/List_of_Wounds.aspx) [wounds](http://sfhelp.org/gwc/wounds.htm), especially from childhood)?"
@@ -83,11 +100,11 @@ I'll supply questions for the "GIVEN" portion of the graph in the future.
 
 
 ### Definitions
-- "What decisions are we making that are leading to our consequences?"
+- "What decisions are we making that are leading to our consequences/outcomes?"
 - "What circumstances / external factors are leading to our consequences?"
-- "What are our primary consequences?"
+- "What are our primary consequences or outcomes?"
   "I.e., what directly results from our decisions?"
-- "What are our secondary consequences?"
+- "What are our secondary consequences or outcomes?"
   "I.e., what do our primary consequences lead to?"
 
 
@@ -127,8 +144,9 @@ I'll supply questions for the "GIVEN" portion of the graph in the future.
   - "What feelings do we hope these alternative consequences will lead to?"
   - "What needs do we hope to meet by achieving these alternative consequences?"
   - "What goals can most swiftly make these alternative consequences a reality?"
-  - "What immediate tasks are needed to achieve those goals?"
-- "What alternative decisions could we have made?" Brainstorm MANY alternatives.
+  - "What immediate tasks are necessary to achieve those goals?"
+- "What alternative decisions could we have made?"
+  Brainstorm MANY alternatives.
 - "What alternative circumstances could occur?"
 
 
