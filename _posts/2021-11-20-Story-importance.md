@@ -10,10 +10,10 @@ hide: false
 
 # On the importance of stories
 
-> When my story's told, how will they tell it?
-> Will they say I was a giver or remember I was selfish?
-> Will they say I was a sinner or pretend I was a saint?
-> Will I go down as a winner, what's the picture they gon' paint?
+> When my story's told, how will they tell it?  
+> Will they say I was a giver or remember I was selfish?  
+> Will they say I was a sinner or pretend I was a saint?  
+> Will I go down as a winner, what's the picture they gon' paint?  
 > Wouldn't say that I'm a quitter, that's one thing I know I ain't.
 > - J. Cole, "[Farewell](https://www.youtube.com/watch?v=RMbIYJ8U5Co)"
 
@@ -38,7 +38,8 @@ That is, understanding reality includes understanding concepts
 such as "if I do X, then Y will occur."
 Or, if I see puddles all throughout the street, then it likely rained.
 
-Decision trees and decision lists from machine learning show that
+[Decision trees](https://en.wikipedia.org/wiki/Decision_tree_learning) and
+decision lists from machine learning show that
 such knowledge is actually a model of the world.
 Though usually implicit, this model is nonetheless a statistical model.
 Like all models applied to the real world,
@@ -55,7 +56,7 @@ from one person to another (including from one to one's future self).
 As such, stories have served a tremendous educational role
 throughout human history.
 
-Point 1:  
+**Point 1:**  
 The important thing to realize is that
 we're all data scientists who build and rely on
 wordviews / stories / models-of-reality.
@@ -152,7 +153,7 @@ Lastly, as noted [last year](https://www.ft.com/content/10d8f5e8-74eb-11ea-95fe-
 > Or we can walk through lightly, with little luggage,
 > ready to imagine another world. And ready to fight for it.
 
-Point 2:  
+**Point 2:**  
 Whether our stories about the world are incorrect because the world changed
 or because our tales were inaccurate all along,
 the way we edit our stories in the wake of trauma is critical.
@@ -166,8 +167,75 @@ with unchanging or inaccurately changing stories (relative to reality).
 
 ## Writing anew
 
-<!-- The options: Stories across disciplines -->
+If we want to revise our stories and models of how the world works,
+the next questions are how should we revise them and to what ends?
 
-<!-- The process: self-aware, self-reflective, self-expressive -->
+Here, it helps to understand the wide breadth of story forms that exist.
+As noted earlier, stories play an educational role,
+and this role persists across disciplines with vastly different contexts.
+As a result, we get a wide range of story types that we can use.
 
-As with the PhD, so with your life: "may the writing go well!"
+Given that we're trained in statistics,
+starting with stories in quantitative research is no surprise.
+Essential reading in this area includes Andrew Gelman and Thomas Basbøll's
+'[When Do Stories Work? Evidence and Illustration in the Social Sciences](http://www.stat.columbia.edu/~gelman/research/published/storytelling.pdf).'
+Here, there is an old connection
+where causal graphs are used to
+'[tell causal stories](https://jmlr.csail.mit.edu/papers/volume9/shpitser08a/shpitser08a.pdf)' (p.2)
+and where stories are [represented](https://www.annualreviews.org/doi/10.1146/annurev.soc.29.010202.100113) by causal graphs.
+Accordingly, one method of worldview revision is
+to construct causal graphs that represent our understanding
+of our world's important systems and to then assess and modify the graphs.
+For more details, see the following [article in preparation](https://github.com/hassan-obeid/tr_b_causal_2020/blob/master/article/main.pdf) by my colleagues and I.
+
+Turning to qualitative research,
+we find text-based stories as opposed to graphical and statistical stories.
+Here, there are examples
+such as '[Ethnography as storytelling](https://www.jstor.org/stable/29790103)' in anthropology and sociology
+or the stories compiled by journalists and biographers.
+Particularities aside, imagine a researcher coming to revise an existing story:
+to write a new journal article on an old topic,
+to write a new biography on an already documented individual,
+or to write a new ethnography on a culture that has been studied by others.
+In all instances, the story-revision process may have high-level similarities.
+
+Specifically, one would likely:
+- study what stories have already been told, especially for errors or anomalies
+- increase one's self-awareness / mindfulness as one observed and documented  
+  all that one could about the story topic now,
+- become self-reflective in organizing and making sense of one's gathered facts
+- become self-expressive in communicating one's new understanding / story.
+
+This editing process maps directly to the psychological optimization procedure
+I described in [May](https://timothyb0912.github.io/blog/psychology/2021/05/30/Psychological-optimization.html):
+we have education, introspection, and then integration.
+
+Indeed, psychotherapy is where story editing meets our current interests.
+Here, we see clients tell their life's story to therapists or to their journals.
+This is reminiscent of the interviewing done by journalists and ethnographers.
+We also see clients collect data such as by charting their moods over time,
+and in response to various events that occur.
+This work mirrors that of quantitative researchers when surveying / sampling.
+
+Next, during or after data collection,
+there is a 'script analysis' of (i) the client's mental stories and beliefs
+and (ii) of the behavioral / emotional outcomes that result from these scripts.
+This analysis may take all sorts of forms such as
+[motivational interviewing](https://en.wikipedia.org/wiki/Motivational_interviewing),
+[transactional analysis](https://en.wikipedia.org/wiki/Transactional_analysis),
+[unblending](https://www.pesi.com/blog/details/1511/6-step-ifs-process-to-jumpstart-healing) in Internal Family Systems,
+the [ABCD's](https://positivepsychology.com/albert-ellis-abc-model-rebt-cbt/)
+of cognitive behavioral therapy, etc.
+Once the erroneous or self-sabotaging beliefs have been identified,
+those beliefs can be released and replaced with more accurate beliefs
+or beliefs that allow the individual to more successfully meet their needs.
+A person can then use this new worldview to write a better next chapter
+in their lives.
+
+**Point 3:**  
+Use the psychological optimization process to document and revise <u>both</u> the
+narrative/qualitative stories and the graphical/statistical/quantitative stories
+that make up one's worldview.
+
+Till next time Young Tim---as with the PhD, so with your life:
+"may the writing go well!"
