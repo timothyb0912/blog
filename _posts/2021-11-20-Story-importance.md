@@ -82,7 +82,9 @@ Applications of the Schema Construct":
 > by the person's preexisting assumptions (p. 121).
 
 Simply,
-trauma calls us to consider that what we previously believed about the world
+trauma raises our awareness[^1] of what is wrong---
+with the world and with our worldview.
+Trauma calls us to consider that what we previously believed about the world
 may have been incorrect.
 Our previous stories, models, and worldviews have given incorrect predictions,
 and now we have painfully suffered the consequences of these errors.
@@ -240,3 +242,5 @@ that make up our worldview.
 
 Till next time Young Tim---as with the PhD, so with your life:
 "may the writing go well!"
+
+[^1]: This was a key fact being played upon in the award winning HBO show [Westworld](https://en.wikipedia.org/wiki/Westworld_(TV_series)) to endow the artificially intelligent 'hosts' with human level self-awareness.
