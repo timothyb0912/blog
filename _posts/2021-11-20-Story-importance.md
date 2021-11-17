@@ -105,7 +105,8 @@ and (iii) offers us hope for an satisfactory or desirable future?
 
 Note, this point of divergence has been identified by writers before.
 As described by psychologist Janoff-Bulman above,
-> Victims must rework the new [traumatic experience] data
+"the coping task of the victim" is that
+> [v]ictims must rework the new [traumatic experience] data
 > so as to make it fit and thereby maintain their old assumptions,
 > or they must revise their old assumptions in a way that
 > precludes the breakdown of the entire system
@@ -154,10 +155,13 @@ Lastly, as noted [last year](https://www.ft.com/content/10d8f5e8-74eb-11ea-95fe-
 Point 2:  
 Whether our stories about the world are incorrect because the world changed
 or because our tales were inaccurate all along,
-the way we interact with our stories in the wake of trauma is critical.
-We can either take the time to grow
-by changing our worldviews to accommodate our new information,
-or we can suffer increasingly, as we drift further from reality.
+the way we edit our stories in the wake of trauma is critical.
+
+Let's make time to hone our stories.
+We can either invest the time in growing
+by revising our worldviews to accurately accommodate our new information,
+or we can suffer increasingly,
+with unchanging or inaccurately changing stories (relative to reality).
 
 
 ## Writing anew
