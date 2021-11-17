@@ -36,7 +36,7 @@ In particular,
 understanding reality includes procedurally understanding reality.
 That is, understanding reality includes understanding concepts
 such as "if I do X, then Y will occur."
-Or, if I see puddles all throughout the street, then it likely rained.
+Or, "if I see puddles all throughout the street, then it likely rained."
 
 [Decision trees](https://en.wikipedia.org/wiki/Decision_tree_learning) and
 decision lists from machine learning show that
@@ -102,7 +102,7 @@ Or, will we revise our worldview, models, and stories?
 Will we create a new understanding of the world that
 (i) explains our past experiences,
 (ii) explains the traumatic experience,
-and (iii) offers us hope for an satisfactory or desirable future?
+and (iii) offers us hope for a satisfactory or desirable future?
 
 Note, this point of divergence has been identified by writers before.
 As described by psychologist Janoff-Bulman above,
@@ -142,7 +142,8 @@ It may be that the nature of how our world works has indeed changed,
 thus leading to incorrect predictions and problems from our current worldview.
 
 Lastly, as noted [last year](https://www.ft.com/content/10d8f5e8-74eb-11ea-95fe-fcd274e920ca) by novelist Arundhati Roy, with generalizing edit by myself,
-> Historically, ~pandemics~[traumas] have forced humans to break with the past
+> Historically,
+> pandemics [i.e. traumas] have forced humans to break with the past
 > and imagine their world anew. This one is no different.
 > It is a portal, a gateway between one world and the next.
 
@@ -175,7 +176,7 @@ As noted earlier, stories play an educational role,
 and this role persists across disciplines with vastly different contexts.
 As a result, we get a wide range of story types that we can use.
 
-Given that we're trained in statistics,
+Given that we're trained in engineering,
 starting with stories in quantitative research is no surprise.
 Essential reading in this area includes Andrew Gelman and Thomas Basbøll's
 '[When Do Stories Work? Evidence and Illustration in the Social Sciences](http://www.stat.columbia.edu/~gelman/research/published/storytelling.pdf).'
@@ -188,8 +189,8 @@ to construct causal graphs that represent our understanding
 of our world's important systems and to then assess and modify the graphs.
 For more details, see the following [article in preparation](https://github.com/hassan-obeid/tr_b_causal_2020/blob/master/article/main.pdf) by my colleagues and I.
 
-Turning to qualitative research,
-we find text-based stories as opposed to graphical and statistical stories.
+Turning to qualitative research, we find narrative, text-based stories
+as opposed to graphical and statistical stories.
 Here, there are examples
 such as '[Ethnography as storytelling](https://www.jstor.org/stable/29790103)' in anthropology and sociology
 or the stories compiled by journalists and biographers.
@@ -226,16 +227,16 @@ This analysis may take all sorts of forms such as
 [unblending](https://www.pesi.com/blog/details/1511/6-step-ifs-process-to-jumpstart-healing) in Internal Family Systems,
 the [ABCD's](https://positivepsychology.com/albert-ellis-abc-model-rebt-cbt/)
 of cognitive behavioral therapy, etc.
-Once the erroneous or self-sabotaging beliefs have been identified,
-those beliefs can be released and replaced with more accurate beliefs
-or beliefs that allow the individual to more successfully meet their needs.
-A person can then use this new worldview to write a better next chapter
-in their lives.
+Once we identify erroneous or self-sabotaging beliefs,
+they can be released and replaced with more accurate beliefs
+that allow us to more successfully meet our needs.
+We can then use this new worldview
+to write a better next chapter in our life's story.
 
 **Point 3:**  
 Use the psychological optimization process to document and revise <u>both</u> the
-narrative/qualitative stories and the graphical/statistical/quantitative stories
-that make up one's worldview.
+narrative/qualitative stories AND the graphical/statistical/quantitative stories
+that make up our worldview.
 
 Till next time Young Tim---as with the PhD, so with your life:
 "may the writing go well!"
