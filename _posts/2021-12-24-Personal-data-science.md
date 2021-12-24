@@ -10,6 +10,9 @@ hide: false
 
 # Personal Data Science: What, Why, and How
 
+
+## Introduction
+
 Dear Young Tim,
 
 Congratulations on making it to the end of 2021!
@@ -70,16 +73,19 @@ The basic idea is that personal data science is
 the application of data science perspectives and techniques
 to the betterment of personal problems that one is facing,
 with the aim of leading or managing oneself more effectively.
-See the image below.
+Note this includes using thick qualitative descriptions and story elicitation,
+as well as using quantitative data collection and analysis.
+See the image below for a full overview.
 
-Some personal problems that are immediately relevant include
-managing our emotions and moods on a daily basis
-to accomplish the goals that we've set.
-Another personal problem involves
+As mentioned earlier,
+one immediately relevant personal problem is
+the management of our emotions and moods on a daily basis
+such that we accomplish our goals.
+Another related personal problem involves
 ensuring that our exercise and nutrition
 maintain our good health over the long-term.
-Finally there is the question of
-how can use direct health outcome data such as
+Finally---but not comprehensively---we might ask
+how can use physical health outcome data such as
 our temperature, our blood pressure,
 our blood glucose levels, and our heart rate?
 If we collect and store our observations---our quantitive stories---
@@ -90,9 +96,11 @@ on this data.
 
 ## Why should we maintain personal data science projects?
 
-Why should we spend our limited and precious time doing personal data science?
-As mentioned earlier, we have a competitive advantage here.
-However, the case for performing personal data science is deeper than this.
+Now that we know what personal data science is,
+why should we spend our limited and precious time doing it?
+As mentioned in the introduction,
+we have a competitive advantage in this subject.
+However, the case for practicing personal data science is deeper than this.
 
 "As knowledge workers,
 our mood is one of the largest determinants of our productivity" (Tiago Forte.)
@@ -120,18 +128,21 @@ as demand for therapists far outpaces the supply of therapists
 
 In addition to immediate and future benefits to our own lives,
 we can help enable future benefits for other people.
-If we are able to demonstrate useful personal data science projects
-for those in our families and social circles,
-then we can make helpful tools and distill useful stories for the public.
+If we are able to execute useful personal data science projects
+then we may be able to make helpful tools
+and distill useful stories for our families, our social circles, and the public.
 
-Finally, on a personal level,
-if we make everything a data science project, then
-- we gain immediate calm
-  because we have familiarity in running such projects;
-- we gain immediate clarity,
-  in terms of what to do when as a reasonable starting point; and
-- we gain greater courage from our history of long-term success
-  despite adversity in such projects.
+Finally, on a personal and practical level,
+if we make everything a data science project, then we gain
+- immediate calm because these projects are familiar to us;
+- immediate clarity,
+  because we have reasonable, default project starting points;
+- immediately greater courage from our history of long-term data science success
+  despite adversity;
+- future analytical benefit from accurately storing and retrieving data
+  as opposed to inaccurately reconstructing memories; and
+- future analytical benefit from collecting pieces of externalized thought that
+  can be more easily manipulated than they could be in our working memory.
 
 
 ## How to get started?
@@ -139,19 +150,21 @@ if we make everything a data science project, then
 Given these benefits, the immediate question is--how can we get started?
 I believe the thing to do is to leverage the fact that "emotions are data."
 As far as personal data science goes,
-the most critical data science project to begin with is
+a critical data science project to begin with is
 collecting data on and understanding our emotions and moods.
 The reason for this is that if we feel bad,
 then our attempts to solve any other problem become more difficult.
 
-To practically get started, I would focus on the basics.
-Create a folder structure on our computer.
+To get started, I would focus on infrastructure basics.
+Specifically, consider the golden path shown in the diagram below.
+
+Start by creating a digital folder.
 Let this folder house all of our data science projects,
 and yes, there will be multiple.
 
 A helpful structure for our overall folder could be the P.A.R.A. folder system.
 That is, four sub-folders: projects, areas, resources, and archives.
-Our various data science projects will live in their own repositories,
+Each of our data science projects will live in its own repository
 within one of these four sub-folders.
 More on the P.A.R.A structure here.
 
@@ -159,52 +172,52 @@ Next, make a repository
 for the data science project of managing one's moods and emotions.
 In this repository, we're going to
 track how we're feeling throughout the day and across days.
-Some guidance on how to perform the emotion or mood tracking is described here.
+Some guidance on how to perform emotion or mood tracking is described here.
+See also the moodmeter app and [process](https://moodmeterapp.com/science/).
 
-An easy way to set up the repository is to use the cookiecutter folder template
+An easy way to set up the repository is to use the cookiecutter folder
+template
 that I set up for data science projects here.
-We'll also want to use software for version controlling all of our files,
+We'll also want to initialize software for version controlling all of our files,
 such as git for code and frequently changing files
 and git-annex for media files.
 This will get us to a state where we have a local home on our computer for our
 work.
 
-On a mental level, the goal will be to understand how our moods fluctuate,
-and in relation to what.
-From a practical perspective,
-we'll want to use this knowledge
-to regulate the moods and emotions we are experiencing,
-so as to increase the characteristics of Self,
-to give ourselves the greatest chance of achieving our goals.
-In particular, we'll want to manage our emotions and moods
+On a mental level, our first goal will be to understand how our moods fluctuate,
+and in relation to what circumstances.
+Our second goal will be to use this knowledge
+to regulate the moods and emotions we experience,
+aiming to increase the presence of "Self-emotions":
+the 8C's and 5P's.
+My rationale is that doing so maximizes our chance of achieving our goals.
+In particular, we'll want to leverage our Self-emotions
 to support our health in all the ways we can:
 physically, mentally, emotionally, socially, romantically, and financially.
 
 To do so,
 after we've made an emotion or moods repository,
-make a note that lists all the problems that we can think of,
-that either stem from or cause our emotional dysregulation.
+make a note listing all the problems that we can think of:
+problems that either stem from or cause our emotional dysregulation.
 This will overview the problems that we are dealing with---
 i.e., the full-set of problems we'll be transforming
-and that data science might be of use in reducing.
+and that data science might help us reduce.
 
-Likewise, it is useful to overview not just the lived set of transformations
-to bring about, but also the digital transformations as well.
 After the setup described so far,
 we'll have a local but insecure folder
 for all of our personal data science work.
 We'll want to take additional steps
 to secure our data both on our computer locally
 as well as on external hardware and over the internet.
-The full setup we'll use is illustrated in this diagram,
-but we'll describe it in depth in future posts.
+The full setup we'll use is illustrated in the golden path diagram above,
+but we'll describe it in-depth in future posts.
 
 Young Tim,
 if you make this turn towards
-organizing everything in your life as a personal data science project,
+organizing everything in your life as personal data science projects,
 then I think you'll be able to put yourself back in order again.
 And what a fun ride it'll be.
-Fear not, for you're well prepared for this:
+Fear not, for you're well prepared for this role:
 more prepared than for any other thing we've done to date,
 and I can't wait to what good it amounts to.
 
