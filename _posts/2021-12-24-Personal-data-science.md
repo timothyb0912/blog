@@ -19,9 +19,10 @@ I wasn't sure we would see the end of the year in this state,
 so there is much to celebrate!
 
 Despite this good news, I'd like to offer you an apology.
-By now, it's clear that I wasn't successful
-in helping you avert the twin calamities of anxiety and depression.
-I've left you running about left and right,
+In hindsight, it's clear that I did not protect us and meet our needs.
+Accordingly, you and your twin protector of
+~extreme-procrastination~ depression are fully active.
+I've left you running about,
 trying desperately to hold onto the few remaining goals
 I've carried with me to the end of the year.
 
@@ -37,8 +38,8 @@ Now, it's time to change in order to experience better times in the future.
 
 Part of this change will involve seeing therapists and coaches.
 They're absolutely helpful.
-However, even in interacting with these people,
-We face a decision of "how will we interact with mental health professionals?"
+However, we nevertheless face the decision of
+"how will we interact with mental health professionals?"
 As statistician Talithia Williams so aptly put it,
 > Medical doctors [and mental health workers] are experts in the population,
 > but we need to be experts in ourselves.
@@ -63,7 +64,7 @@ I may benefit from doing it.
 
 ## What is personal data science?
 
-This all brings up the question of what is "personal data science,"
+This discussion brings up the question of what is "personal data science,"
 before we go too far down the rabbit hole of "why may I want to do this?"
 The basic idea is that personal data science is
 the application of data science perspectives and techniques
