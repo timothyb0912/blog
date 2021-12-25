@@ -117,6 +117,8 @@ Note this includes using thick qualitative descriptions and story elicitation,
 as well as using quantitative data collection and analysis.
 See the image below for a full overview.
 
+<img src="{{ site.baseurl }}/images/2021-12-08_personal-data-science_what-is.png">
+
 As mentioned earlier,
 one immediately relevant personal problem is
 the management of our emotions and moods on a daily basis
@@ -140,18 +142,20 @@ Now that we know what personal data science is,
 why should we spend our limited and precious time doing it?
 As mentioned in the introduction,
 we have a competitive advantage in this subject.
-However, the case for practicing personal data science is deeper than this.
+However, the case for practicing personal data science is deeper than this:
 
-"As knowledge workers,
-our mood is one of the largest determinants of our productivity" (Tiago Forte.)
+<img src="{{ site.baseurl }}/images/2021-12-08_personal-data-science_why.png">
+
+Young Tim,
+"as knowledge workers,
+our mood is one of the largest determinants of our productivity" (Tiago Forte).
 This is true whether we are doing work to better our own lives or for others.
 Each of us is affected by our own moods more frequently than any other person.
 Therefore, each of us bears the highest responsibility
 for managing our own moods.
 
-Sound and effective management,
-at least according to the father of modern American management---
-W. Edwards Demings, requires knowledge of both psychology and of variation
+As quoted by W. Edwards Demings---a pioneer of modern American management---,
+management requires knowledge of both psychology and of variation
 (i.e., statistics).
 Essentially, everyone needs to be their own data scientist,
 with subject matter expertise in psychology.
@@ -196,7 +200,9 @@ The reason for this is that if we feel bad,
 then our attempts to solve any other problem become more difficult.
 
 To get started, I would focus on infrastructure basics.
-Specifically, consider the golden path shown in the diagram below.
+Specifically, consider the "golden path" shown in the diagram below.
+
+<img src="{{ site.baseurl }}/images/2021-12-08_tech-system-design_minimum-path.png">
 
 Start by creating a digital folder.
 Let this folder house all of our data science projects,
