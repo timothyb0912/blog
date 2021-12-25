@@ -202,7 +202,8 @@ Start by creating a digital folder.
 Let this folder house all of our data science projects,
 and yes, there will be multiple.
 
-A helpful structure for our overall folder could be the P.A.R.A. folder system.
+A helpful structure for our overall folder could be the
+[P.A.R.A.](https://fortelabs.co/blog/para/) folder system.
 That is, four sub-folders: projects, areas, resources, and archives.
 Each of our data science projects will live in its own repository
 within one of these four sub-folders.
@@ -216,11 +217,11 @@ Some guidance on how to perform emotion or mood tracking is described here.
 See also the moodmeter app and [process](https://moodmeterapp.com/science/).
 
 An easy way to set up the repository is to use the cookiecutter folder
-template
-that I set up for data science projects here.
+[template](https://github.com/timothyb0912/cookiecutters/tree/stable/dsproject)
+that I set up for data science projects.
 We'll also want to initialize software for version controlling all of our files,
-such as git for code and frequently changing files
-and git-annex for media files.
+such as git for code or files we may wish to frequently change
+and [git-annex](http://git-annex.branchable.com/) for media files.
 This will get us to a state where we have a local home on our computer for our
 work.
 
@@ -229,9 +230,9 @@ and in relation to what circumstances.
 Our second goal will be to use this knowledge
 to regulate the moods and emotions we experience,
 aiming to increase the presence of "Self-emotions":
-the 8C's and 5P's.
+the [8C's](https://foundationifs.org/images/banners/pdf/The_8_Cs_of_Self_Leadership_Wheel.pdf) and [5P's](http://nebula.wsimg.com/f917e7ff6b4dffdb04aeaf90cfbb15f9?AccessKeyId=1E15AA41B5D9BBC1C941&disposition=0&alloworigin=1).
 My rationale is that doing so maximizes our chance of achieving our goals.
-In particular, we'll want to leverage our Self-emotions
+In particular, we'll want to leverage our emotions
 to support our health in all the ways we can:
 physically, mentally, emotionally, socially, romantically, and financially.
 
