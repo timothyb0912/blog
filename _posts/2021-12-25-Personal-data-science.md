@@ -46,7 +46,7 @@ hide: false
 Dear Young Tim,
 
 Congratulations on making it to the end of 2021!
-Extra congratulations for making it here with out any permanent debilitations,
+Extra congratulations for making it here without any permanent debilitations,
 mentally or physically.
 I wasn't sure we would see the end of the year in this state,
 so there is much to celebrate!
@@ -54,7 +54,7 @@ so there is much to celebrate!
 Despite this good news, I'd like to offer you an apology.
 Looking from hindsight, I did not protect us and meet our needs.
 Accordingly, you and your twin protector of
-~all-encompassing-procrastination~ depression are fully active.
+~~all-encompassing-procrastination~~ depression are fully active.
 I've left you two running about,
 trying desperately to hold onto ourselves
 and the few remaining goals we've carried to the end of the year.
@@ -203,7 +203,7 @@ then our attempts to solve any other problem become more difficult.
 To get started, I would focus on infrastructure basics.
 Specifically, consider the "golden path" shown in the diagram below.
 
-<img src="{{ site.baseurl }}/images/2021-12-08_tech-system-design_minimum-path.png">
+<img src="{{ site.baseurl }}/images/2021-12-24_tech-system-design_minimum-path.png">
 
 Start by creating a digital folder.
 Let this folder house all of our data science projects,
@@ -214,13 +214,12 @@ A helpful structure for our overall folder could be the
 That is, four sub-folders: projects, areas, resources, and archives.
 Each of our data science projects will live in its own repository
 within one of these four sub-folders.
-More on the P.A.R.A structure here.
 
-Next, make a repository
+Next, in `areas/`,  make a repository
 for the data science project of managing one's moods and emotions.
 In this repository, we're going to
 track how we're feeling throughout the day and across days.
-Some guidance on how to perform emotion or mood tracking is described here.
+Some guidance on how to perform emotion or mood tracking is described [here](https://quantifiedself.com/blog/measuring-mood-current-resea/).
 See also the moodmeter app and [process](https://moodmeterapp.com/science/).
 
 An easy way to set up the repository is to use the cookiecutter folder
@@ -229,7 +228,7 @@ that I set up for data science projects.
 We'll also want to initialize software for version controlling all of our files,
 such as git for code or files we may wish to frequently change
 and [git-annex](http://git-annex.branchable.com/) for media files.
-This will get us to a state where we have a local home on our computer for our
+This will get us to a state where we have a local "home" on our computer for our
 work.
 
 On a mental level, our first goal will be to understand how our moods fluctuate,
@@ -267,7 +266,7 @@ then I think you'll be able to put yourself back in order again.
 And what a fun ride it'll be.
 Fear not, for you're well prepared for this role:
 more prepared than for any other thing we've done to date,
-and I can't wait to what good it amounts to.
+and I'm excited to see what good it amounts to.
 
 Till next time,
 
