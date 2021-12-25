@@ -192,7 +192,8 @@ if we make everything a data science project, then we gain
 ## How to get started?
 
 Given these benefits, the immediate question is--how can we get started?
-I believe the thing to do is to leverage the fact that "emotions are data."
+I believe the thing to do is to leverage Susan Collins observation that
+"[emotions are data](https://youtu.be/NDQ1Mi5I4rg?t=730)."
 As far as personal data science goes,
 a critical data science project to begin with is
 collecting data on and understanding our emotions and moods.
