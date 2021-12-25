@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Personal Data Science: What, Why, and How | Timothy Brathwaite</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Personal Data Science: What, Why, and How" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Why practice personal data science?" />
+<meta property="og:description" content="Why practice personal data science?" />
+<link rel="canonical" href="https://timothyb0912.github.io/blog/philosophy/psychology/practice/2021/12/25/Personal-data-science.html" />
+<meta property="og:url" content="https://timothyb0912.github.io/blog/philosophy/psychology/practice/2021/12/25/Personal-data-science.html" />
+<meta property="og:site_name" content="Timothy Brathwaite" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-12-25T00:00:00-06:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://timothyb0912.github.io/blog/philosophy/psychology/practice/2021/12/25/Personal-data-science.html"},"url":"https://timothyb0912.github.io/blog/philosophy/psychology/practice/2021/12/25/Personal-data-science.html","@type":"BlogPosting","headline":"Personal Data Science: What, Why, and How","dateModified":"2021-12-25T00:00:00-06:00","datePublished":"2021-12-25T00:00:00-06:00","description":"Why practice personal data science?","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://timothyb0912.github.io/blog/feed.xml" title="Timothy Brathwaite" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">Timothy Brathwaite</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About Me</a><a class="page-link" href="/blog/search/">Search</a><a class="page-link" href="/blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Personal Data Science: What, Why, and How</h1><p class="page-description">Why practice personal data science?</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2021-12-25T00:00:00-06:00" itemprop="datePublished">
+        Dec 25, 2021
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      10 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/blog/categories/#philosophy">philosophy</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/blog/categories/#psychology">psychology</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/blog/categories/#practice">practice</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#personal-data-science-what-why-and-how">Personal Data Science: What, Why, and How</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#introduction">Introduction</a></li>
+<li class="toc-entry toc-h2"><a href="#what-is-personal-data-science">What is personal data science?</a></li>
+<li class="toc-entry toc-h2"><a href="#why-should-we-maintain-personal-data-science-projects">Why should we maintain personal data science projects?</a></li>
+<li class="toc-entry toc-h2"><a href="#how-to-get-started">How to get started?</a></li>
+</ul>
+</li>
+</ul><h1 id="personal-data-science-what-why-and-how">
+<a class="anchor" href="#personal-data-science-what-why-and-how" aria-hidden="true"><span class="octicon octicon-link"></span></a>Personal Data Science: What, Why, and How</h1>
+
+<h2 id="introduction">
+<a class="anchor" href="#introduction" aria-hidden="true"><span class="octicon octicon-link"></span></a>Introduction</h2>
+
+<blockquote>
+  <p>A leader of transformation, and managers involved,<br>
+need to learn the psychology of individuals,<br>
+the psychology of a group,<br>
+the psychology of society,<br>
+and the psychology of change.</p>
+
+  <p>Some understanding of variation [i.e. statistics],<br>
+including appreciation of a stable system,<br>
+and some understanding of special causes<br>
+and common causes of variation,<br>
+are essential for management of a system,<br>
+including management of people.<br>
+—William Edward Deming<br>
+   The New Economics for Industry, Government, Education,<br>
+   2nd Edition, p. 95.</p>
+</blockquote>
+
+<blockquote>
+  <p>You’re the only one who can manage yourself, and here’s a key point.<br>
+No mood expert I know of would ever talk about curing depression.<br>
+Keep this point from this lecture.<br>
+The goal is not to cure depression.<br>
+The goal is to learn how to manage your moods.<br>
+These are things you have to manage every day of your life,<br>
+and managing your moods requires the skills—<br>
+psychologists call it self-regulation,<br>
+but the simple phrase managing your mood counts.<br>
+—Michael D. Yapko, Ph.D, Australian Psychological Society<br>
+<a href="https://youtu.be/TVgQ_tgWMyU?t=3595">How to recover from depression</a></p>
+</blockquote>
+
+<p>Dear Young Tim,</p>
+
+<p>Congratulations on making it to the end of 2021!
+Extra congratulations for making it here without any permanent debilitations,
+mentally or physically.
+I wasn’t sure we would see the end of the year in this state,
+so there is much to celebrate!</p>
+
+<p>Despite this good news, I’d like to offer you an apology.
+Looking from hindsight, I did not protect us and meet our needs.
+Accordingly, you and your twin protector of
+<del>all-encompassing-procrastination</del> depression are fully active.
+I’ve left you two running about,
+trying desperately to hold onto ourselves
+and the few remaining goals we’ve carried to the end of the year.</p>
+
+<p>In all honesty, relying only on our mind’s awareness
+and on our rotating present attention to keep track of things,
+has left us exhausted and in shambles.
+It has left us in a severe local minima.
+Young Tim, in our hero’s journey,
+we’re at the point of having begun the journey,
+having achieved some success,
+but nonetheless having come to hard times.
+Now, it’s time to change in order to experience better times in the future.</p>
+
+<p>Part of this change will involve seeing therapists and coaches.
+They’re absolutely helpful.
+However, we nevertheless face the decision of
+“how will we interact with mental health professionals?”
+As statistician Talithia Williams so aptly
+<a href="https://youtu.be/_GMVTJ9ZKVc?t=947">stated</a>,</p>
+<blockquote>
+  <p>Medical doctors [and mental health workers] are experts in the population,<br>
+but you are the expert on yourself.<br>
+And so when two of you come together,<br>
+when two experts come together,<br>
+the two of you are able to make a better decision<br>
+than just your doctor alone.</p>
+</blockquote>
+
+<p>In a real sense,
+we need to be head of “personal data science”
+for our own mental health management.
+There are good economic reasons for this.
+For one, I have the greatest competitive advantage for this role.
+I have direct access to what is going on in my mind at any time.
+I can perform the data collection whereas others cannot.
+I am also a professional data scientist.
+Who is better suited to analyze my data productively, quickly, and thoroughly?</p>
+
+<p>Finally, this data science for mental health role has a huge gap.
+The role is not filled comprehensively or well
+by the mental health professionals I have interacted with.
+Put another way, no one in my life,
+neither I nor anyone else,
+has been using knowledge of how my personal mood systems vary
+in combination with principles from psychology
+for the management of my moods.
+I suspect that I can play this role better than others,
+and since it is not being done by others,
+I may benefit from doing it.</p>
+
+<h2 id="what-is-personal-data-science">
+<a class="anchor" href="#what-is-personal-data-science" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is personal data science?</h2>
+
+<p>This discussion brings up the question of what is “personal data science,”
+before we go too far down the rabbit hole of “why may I want to do this?”
+The basic idea is that personal data science is
+the application of data science perspectives and techniques
+to the betterment of personal problems that one is facing,
+with the aim of leading or managing oneself more effectively.
+Note this includes using thick qualitative descriptions and story elicitation,
+as well as using quantitative data collection and analysis.
+See the image below for a full overview.</p>
+
+<p><img src="/blog/images/2021-12-08_personal-data-science_what-is.png"></p>
+
+<p>As mentioned earlier,
+one immediately relevant personal problem is
+the management of our emotions and moods on a daily basis
+such that we accomplish our goals.
+Another related personal problem involves
+ensuring that our exercise and nutrition
+maintain our good health over the long-term.
+Finally—but not comprehensively—we might ask
+how can use physical health outcome data such as
+our temperature, our blood pressure,
+our blood glucose levels, and our heart rate?
+If we collect and store our observations—our quantitive stories—
+about these important topics,
+then we may be able to make use of qualitative and quantitative analysis methods
+on this data.</p>
+
+<h2 id="why-should-we-maintain-personal-data-science-projects">
+<a class="anchor" href="#why-should-we-maintain-personal-data-science-projects" aria-hidden="true"><span class="octicon octicon-link"></span></a>Why should we maintain personal data science projects?</h2>
+
+<p>Now that we know what personal data science is,
+why should we spend our limited and precious time doing it?
+As mentioned in the introduction,
+we have a competitive advantage in this subject.
+However, the case for practicing personal data science is deeper than this:</p>
+
+<p><img src="/blog/images/2021-12-08_personal-data-science_why.png"></p>
+
+<p>Young Tim,
+“as knowledge workers,
+our mood is one of the largest determinants of our productivity” (Tiago Forte).
+This is true whether we are doing work to better our own lives or for others.
+Each of us is affected by our own moods more frequently than any other person.
+Therefore, each of us bears the highest responsibility
+for managing our own moods.</p>
+
+<p>As quoted by W. Edwards Demings—a pioneer of modern American management—,
+management requires knowledge of both psychology and of variation
+(i.e., statistics).
+Essentially, everyone needs to be their own data scientist,
+with subject matter expertise in psychology.</p>
+
+<p>Of course, if we take up this role, benefits will come our way.
+We’ll gain increased self-knowledge
+by paying more consistent attention to ourselves;
+we’ll be able to exercise greater self-control
+through our increased self-knowledge;
+and we’ll be able to achieve greater quality of our own lives in the future—
+we’ll be better able to thrive on our own
+as demand for therapists far outpaces the supply of therapists
+(both in absolute number and in quality hours).</p>
+
+<p>In addition to immediate and future benefits to our own lives,
+we can help enable future benefits for other people.
+If we are able to execute useful personal data science projects
+then we may be able to make helpful tools
+and distill useful stories for our families, our social circles, and the public.</p>
+
+<p>Finally, on a personal and practical level,
+if we make everything a data science project, then we gain</p>
+<ul>
+  <li>immediate calm because these projects are familiar to us;</li>
+  <li>immediate clarity,
+because we have reasonable, default project starting points;</li>
+  <li>immediately greater courage from our history of long-term data science success
+despite adversity;</li>
+  <li>future analytical benefit from accurately storing and retrieving data
+as opposed to inaccurately reconstructing memories; and</li>
+  <li>future analytical benefit from collecting pieces of externalized thought that
+can be more easily manipulated than they could be in our working memory.</li>
+</ul>
+
+<h2 id="how-to-get-started">
+<a class="anchor" href="#how-to-get-started" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to get started?</h2>
+
+<p>Given these benefits, the immediate question is–how can we get started?
+I believe the thing to do is to leverage Susan Collins observation that
+“<a href="https://youtu.be/NDQ1Mi5I4rg?t=730">emotions are data</a>.”
+As far as personal data science goes,
+a critical data science project to begin with is
+collecting data on and understanding our emotions and moods.
+The reason for this is that if we feel bad,
+then our attempts to solve any other problem become more difficult.</p>
+
+<p>To get started, I would focus on infrastructure basics.
+Specifically, consider the “golden path” shown in the diagram below.</p>
+
+<p><img src="/blog/images/2021-12-24_tech-system-design_minimum-path.png"></p>
+
+<p>Start by creating a digital folder.
+Let this folder house all of our data science projects,
+and yes, there will be multiple.</p>
+
+<p>A helpful structure for our overall folder could be the
+<a href="https://fortelabs.co/blog/para/">P.A.R.A.</a> folder system.
+That is, four sub-folders: projects, areas, resources, and archives.
+Each of our data science projects will live in its own repository
+within one of these four sub-folders.</p>
+
+<p>Next, in <code class="language-plaintext highlighter-rouge">areas/</code>,  make a repository
+for the data science project of managing one’s moods and emotions.
+In this repository, we’re going to
+track how we’re feeling throughout the day and across days.
+Some guidance on how to perform emotion or mood tracking is described <a href="https://quantifiedself.com/blog/measuring-mood-current-resea/">here</a>.
+See also the moodmeter app and <a href="https://moodmeterapp.com/science/">process</a>.</p>
+
+<p>An easy way to set up the repository is to use the cookiecutter folder
+<a href="https://github.com/timothyb0912/cookiecutters/tree/stable/dsproject">template</a>
+that I set up for data science projects.
+We’ll also want to initialize software for version controlling all of our files,
+such as git for code or files we may wish to frequently change
+and <a href="http://git-annex.branchable.com/">git-annex</a> for media files.
+This will get us to a state where we have a local “home” on our computer for our
+work.</p>
+
+<p>On a mental level, our first goal will be to understand how our moods fluctuate,
+and in relation to what circumstances.
+Our second goal will be to use this knowledge
+to regulate the moods and emotions we experience,
+aiming to increase the presence of “Self-emotions”:
+the <a href="https://foundationifs.org/images/banners/pdf/The_8_Cs_of_Self_Leadership_Wheel.pdf">8C’s</a> and <a href="http://nebula.wsimg.com/f917e7ff6b4dffdb04aeaf90cfbb15f9?AccessKeyId=1E15AA41B5D9BBC1C941&amp;disposition=0&amp;alloworigin=1">5P’s</a>.
+My rationale is that doing so maximizes our chance of achieving our goals.
+In particular, we’ll want to leverage our emotions
+to support our health in all the ways we can:
+physically, mentally, emotionally, socially, romantically, and financially.</p>
+
+<p>To do so,
+after we’ve made an emotion or moods repository,
+make a note listing all the problems that we can think of:
+problems that either stem from or cause our emotional dysregulation.
+This will overview the problems that we are dealing with—
+i.e., the full-set of problems we’ll be transforming
+and that data science might help us reduce.</p>
+
+<p>After the setup described so far,
+we’ll have a local but insecure folder
+for all of our personal data science work.
+We’ll want to take additional steps
+to secure our data both on our computer locally
+as well as on external hardware and over the internet.
+The full setup we’ll use is illustrated in the golden path diagram above,
+but we’ll describe it in-depth in future posts.</p>
+
+<p>Young Tim,
+if you make this turn towards
+organizing everything in your life as personal data science projects,
+then I think you’ll be able to put yourself back in order again.
+And what a fun ride it’ll be.
+Fear not, for you’re well prepared for this role:
+more prepared than for any other thing we’ve done to date,
+and I’m excited to see what good it amounts to.</p>
+
+<p>Till next time,</p>
+
+<p>P.S.:
+For others’ excellent takes on why personal science and what we can gain,
+see the following peer reviewed publications:</p>
+<ul>
+  <li>The Unreasonable Effectiveness of My
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2964443/">Self-Experimentation</a><br>
+by Seth Roberts (20210)</li>
+  <li>
+<a href="https://www.frontiersin.org/articles/10.3389/fcomp.2020.00021/full">A Conceptual Framework for Personal Science</a><br>
+by Gary Isaac Wolf and Martijn De Groot (2020)</li>
+  <li>From self-tracking to self-expertise:<br>
+The production of self-related knowledge by doing
+<a href="https://journals.sagepub.com/doi/10.1177/0963662519888757">personal science</a><br>
+by Nils B. Heyen (2020)</li>
+</ul>
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="timothyb0912/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/blog/philosophy/psychology/practice/2021/12/25/Personal-data-science.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>A personal blog.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/timothyb0912" title="timothyb0912"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/timothyb0912" title="timothyb0912"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
