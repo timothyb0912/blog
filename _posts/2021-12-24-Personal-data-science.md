@@ -13,6 +13,36 @@ hide: false
 
 ## Introduction
 
+> A leader of transformation, and managers involved,  
+> need to learn the psychology of individuals,  
+> the psychology of a group,  
+> the psychology of society,  
+> and the psychology of change.  
+>
+> Some understanding of variation [i.e. statistics],  
+> including appreciation of a stable system,  
+> and some understanding of special causes  
+> and common causes of variation,  
+> are essential for management of a system,  
+> including management of people.  
+> ---William Edward Deming  
+>    The New Economics for Industry, Government, Education,  
+>    2nd Edition, p. 95.
+
+
+> You're the only one who can manage yourself, and here's a key point.  
+> No mood expert I know of would ever talk about curing depression.  
+> Keep this point from this lecture.  
+> The goal is not to cure depression.  
+> The goal is to learn how to manage your moods.  
+> These are things you have to manage every day of your life,  
+> and managing your moods requires the skills---  
+> psychologists call it self-regulation,  
+> but the simple phrase managing your mood counts.  
+> ---Michael D. Yapko, Ph.D, Australian Psychological Society  
+> [How to recover from depression](https://youtu.be/TVgQ_tgWMyU?t=3595)
+
+
 Dear Young Tim,
 
 Congratulations on making it to the end of 2021!
@@ -22,14 +52,14 @@ I wasn't sure we would see the end of the year in this state,
 so there is much to celebrate!
 
 Despite this good news, I'd like to offer you an apology.
-In hindsight, it's clear that I did not protect us and meet our needs.
+Looking from hindsight, I did not protect us and meet our needs.
 Accordingly, you and your twin protector of
-~extreme-procrastination~ depression are fully active.
-I've left you running about,
-trying desperately to hold onto the few remaining goals
-I've carried with me to the end of the year.
+~all-encompassing-procrastination~ depression are fully active.
+I've left you two running about,
+trying desperately to hold onto ourselves
+and the few remaining goals we've carried to the end of the year.
 
-To be honest, relying only on our mind's awareness
+In all honesty, relying only on our mind's awareness
 and on our rotating present attention to keep track of things,
 has left us exhausted and in shambles.
 It has left us in a severe local minima.
@@ -60,6 +90,11 @@ Who is better suited to analyze my data productively, quickly, and thoroughly?
 Finally, this data science for mental health role has a huge gap.
 The role is not filled comprehensively or well
 by the mental health professionals I have interacted with.
+Put another way, no one in my life,
+neither I nor anyone else,
+has been using knowledge of how my personal mood systems vary
+in combination with principles from psychology
+for the management of my moods.
 I suspect that I can play this role better than others,
 and since it is not being done by others,
 I may benefit from doing it.
