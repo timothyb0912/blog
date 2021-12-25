@@ -263,3 +263,16 @@ more prepared than for any other thing we've done to date,
 and I can't wait to what good it amounts to.
 
 Till next time,
+
+P.S.:
+For others' excellent takes on why personal science and what we can gain,
+see the following peer reviewed publications:
+- The Unreasonable Effectiveness of My
+  [Self-Experimentation](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2964443/)  
+  by Seth Roberts (20210)
+- [A Conceptual Framework for Personal Science](https://www.frontiersin.org/articles/10.3389/fcomp.2020.00021/full)  
+  by Gary Isaac Wolf and Martijn De Groot (2020)
+- From self-tracking to self-expertise:  
+  The production of self-related knowledge by doing
+  [personal science](https://journals.sagepub.com/doi/10.1177/0963662519888757)  
+  by Nils B. Heyen (2020)
