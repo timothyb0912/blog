@@ -73,9 +73,14 @@ Part of this change will involve seeing therapists and coaches.
 They're absolutely helpful.
 However, we nevertheless face the decision of
 "how will we interact with mental health professionals?"
-As statistician Talithia Williams so aptly put it,
-> Medical doctors [and mental health workers] are experts in the population,
-> but we need to be experts in ourselves.
+As statistician Talithia Williams so aptly
+[stated](https://youtu.be/_GMVTJ9ZKVc?t=947),
+> Medical doctors [and mental health workers] are experts in the population,  
+> but you are the expert on yourself.  
+> And so when two of you come together,  
+> when two experts come together,  
+> the two of you are able to make a better decision  
+> than just your doctor alone.
 
 In a real sense,
 we need to be head of "personal data science"
