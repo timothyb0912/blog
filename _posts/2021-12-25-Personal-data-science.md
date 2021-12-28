@@ -26,7 +26,8 @@ hide: false
 > are essential for management of a system,  
 > including management of people.  
 > ---William Edward Deming  
->    The New Economics for Industry, Government, Education,  
+>    [The New Economics](https://www.amazon.com/New-Economics-Industry-Government-Education/dp/0262541165)
+>    for Industry, Government, Education,  
 >    2nd Edition, p. 95.
 
 
@@ -127,13 +128,13 @@ Another related personal problem involves
 ensuring that our exercise and nutrition
 maintain our good health over the long-term.
 Finally---but not comprehensively---we might ask
-how can use physical health outcome data such as
+how can we use physical health outcome data such as
 our temperature, our blood pressure,
 our blood glucose levels, and our heart rate?
 If we collect and store our observations---our quantitive stories---
 about these important topics,
-then we may be able to make use of qualitative and quantitative analysis methods
-on this data.
+then we may be able to use qualitative and quantitative analysis methods
+on the collected data.
 
 
 ## Why should we maintain personal data science projects?
@@ -200,7 +201,7 @@ collecting data on and understanding our emotions and moods.
 The reason for this is that if we feel bad,
 then our attempts to solve any other problem become more difficult.
 
-To get started, I would focus on infrastructure basics.
+To get started, focus on infrastructure basics.
 Specifically, consider the "golden path" shown in the diagram below.
 
 <img src="{{ site.baseurl }}/images/2021-12-24_tech-system-design_minimum-path.png">
