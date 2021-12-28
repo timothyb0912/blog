@@ -26,7 +26,8 @@ hide: false
 > are essential for management of a system,  
 > including management of people.  
 > ---William Edward Deming  
->    The New Economics for Industry, Government, Education,  
+>    [The New Economics](https://www.amazon.com/New-Economics-Industry-Government-Education/dp/0262541165)
+>    for Industry, Government, Education,  
 >    2nd Edition, p. 95.
 
 
