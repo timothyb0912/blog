@@ -127,13 +127,13 @@ Another related personal problem involves
 ensuring that our exercise and nutrition
 maintain our good health over the long-term.
 Finally---but not comprehensively---we might ask
-how can use physical health outcome data such as
+how can we use physical health outcome data such as
 our temperature, our blood pressure,
 our blood glucose levels, and our heart rate?
 If we collect and store our observations---our quantitive stories---
 about these important topics,
-then we may be able to make use of qualitative and quantitative analysis methods
-on this data.
+then we may be able to use qualitative and quantitative analysis methods
+on the collected data.
 
 
 ## Why should we maintain personal data science projects?
