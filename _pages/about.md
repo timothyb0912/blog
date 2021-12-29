@@ -6,7 +6,9 @@ permalink: /about/
 
 Hi there, my name is **Timothy Brathwaite**.
 
-I'm currently a data scientist at [Stitch Fix](https://www.stitchfix.com/), and I was formerly a research scientist at Lyft.
+I'm a data scientist.
+Previously, I worked a data scientist at Stitch Fix
+and as a research scientist at Lyft.
 
 Before this, I completed my PhD (2018) at UC Berkeley in Transportation Engineering, under the advising of Professor [Joan L. Walker](http://www.joanwalker.com/).
 
