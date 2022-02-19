@@ -10,6 +10,8 @@ hide: false
 
 # On problems, areas, and needs
 
+## The lesson
+
 <!-- How do I want to greet Young Tim? -->
 Dear Young Tim,
 
@@ -28,13 +30,13 @@ The kind of storm that makes people seek shelter.
 Typical of us, we instead strapped on our rain jackets and rode out.
 Mobbing in the 7-Eleven parking lot,
 we ate hotdogs, drank slushies, and skidded circles
-with the freedom that boys fresh out of high school feel.
-<!-- <img src="{{ site.baseurl }}/images/2022-02-15_bikes-in-rain.png"> -->
+with freedom that boys fresh out of high school feel.
+<img src="{{ site.baseurl }}/images/2022-02-15_bikes-in-rain.png">
 
 <!-- How did we feel doing the hard thing? -->
 To be honest, I didn't want to ride in the rain.
 I hated the cold and soaking environment.
-But where I saw problems, this time, they saw promise:
+However, where I saw problems, this time---they saw promise:
 a promise of a path that while harsher in bearable manners,
 was easier in all the ways I needed.
 So we weren't initially fans, but boy did we grow to love it.
@@ -44,27 +46,30 @@ It was playtime.
 And it worked.
 That first yell---that first glimpse of success.
 A 270-degree skid in the parking lot, and I was set forever.
-Our fingers were bone-chilled but our hearts were warmed!
+Our fingers were bone-chilled, but our hearts were warmed!
 We would skid at will, on any surface, any time.
 
 <!-- What lesson did we learn? Why is it true? -->
-All of this was possible once we knew what success **felt** like,
+All this was possible once we knew what success **felt** like,
 even if artificially induced.
-Succeeding at easier versions of the problem (skidding on wet ground)
+Succeeding at easier versions of a problem (skidding on wet ground)
 helped us reach success on the standard version (skidding on dry ground).
 This is a lesson we've been taught repeatedly, in differing contexts:
-mathematics [^1], bicycling, violin-playing, programming, etc.
+mathematics[^1], bicycling, violin-playing, programming, etc.
 We often progress rapidly when we give ourselves
 easy, intermediate versions of our main tasks, to succeed on.
+
+
+## The challenge
 
 <!-- How does this relate to today? Where can this lesson be applied? -->
 One area this truth applies is in our personal problem solving efforts.
 Young Tim, I'm particularly grateful for your motivated stance towards
 maintaining a handle on the problems we're facing.
 This includes your attempts to follow the suggestion from December's post:
-making a list of all of our problems.
+making a list of all our problems.
 By now, you've realized that this task is a large one.
-In fact, the task is so large as to be an obstacle.
+In fact, the task is so large it is an obstacle.
 Here, our earlier lesson can offer some help.
 
 <!-- What do I understand of Young Tim's feelings? -->
@@ -80,7 +85,7 @@ so we can more easily prioritize and stay aware of them.
 Following our lesson on solving easier versions of a given problem,
 I suggest an approach which, although less direct,
 may be more successful than sitting down to write a single, unstructured list.
-As it is sometimes said, *insert transportation joke*,
+As it is sometimes said, *see transportation joke*,
 sometimes the shortest path is the longer route that's less traveled.
 
 <!-- What is the problem with directly following December's advice? -->
@@ -92,22 +97,34 @@ Too many to review at once.
 
 <!-- What is one challenge we face in overcoming this problem? -->
 If we reframe our listing problem, one challenge we're facing is
-how to retain simultaneous awareness of a large number of individual problems,
+how to stay  aware of a large number of individual problems,
 without triggering feelings of overwhelm.
-Fundamentally, this is a challenge of organizing our problems.
+Fundamentally, this is a challenge of organizing our issues.
+
+
+## The application
 
 <!-- How can we solve it? -->
-So, if listing our individual problems is hard, what can we list easily?
-How can these easier lists help us complete the problem list?
+So, if listing our individual problems is hard,
+what related items can we list more easily?  
+How can these easier lists help us complete the problem list?  
 How can we create [intermediate packets](https://fortelabs.co/blog/just-in-time-pm-4-intermediate-packets/)?
 
 Two easier and useful lists to create are:
 - a list of our needs, at an abstract level
 - a list of the practical areas in our life, that we use to meet our needs
 
-The diagram below depicts (i) these lists, (ii) our desired problem list,
+The diagram below depicts (i) these complementary lists,
+(ii) our desired problem list,
 and (iii) relations between them.
-<!-- <img src="{{ site.baseurl }}/images/2022-01-22_problems-areas-needs-triangle.png"> -->
+On the edges are questions that lead from one vertex / node to another.
+For instance, problems indicate examples of
+how not to manage related areas of one's life.
+Similarly, if we ask why are our needs not met,
+we could trace most answers
+to one or more problems in one or more of our life's areas.
+And so on, so forth, going around the diagram.
+<img src="{{ site.baseurl }}/images/2022-01-22_problems-areas-needs-triangle.png">
 
 <!-- Why is the problems-areas-needs association helpful? -->
 Here's what I believe makes this triangular view beneficial.
@@ -131,26 +148,26 @@ helps us stay aware of the underlying components giving our problems relevance.
 
 <!-- How can we make immediate use of these associations? -->
 So how can we reap these benefits?
-Start by listing all of the areas in one's life:
+Start by listing the areas in one's life:
 reviewing, planning, bicycles, nutrition, health, etc.
-Then, list all of the fundamental needs you have in life.
+Then, list the fundamental needs you have in life.
 Finally, think of the problems you are currently facing.
 List all that come to mind before you feel intimidated by the number of issues.
 When you're done with your initial listing,
 you can categorize your initial problems into their respective life areas and
 associate the problems with the (unmet) needs that they relate to.
-Now, we'll be able to use the areas and needs as categories
-to cue our review and to sequentially list problems in.
+Now, we'll be able to **use the areas and needs as categories,
+to cue our review and to sequentially list problems in.**
 
-Young Tim, I hope this advice helps you create an overall view of our problems.
+Young Tim, I hope this advice helps you create an overall view of our problems.  
 I'm excited to see where we'll go once we have a fuller view of the terrain!
 
 <!-- What is my wish for Young Tim? -->
-Till next time,
+Till next time:
 may the storms smooth your path,
 and where an even younger us may have feared loss of control,
 may we find joy in life's most wicked spins.
 Take them and make them easy!
-<!-- <img src="{{ site.baseurl }}/images/2022-02-15_cyclist-on-glossy-surface.png"> -->
+<img src="{{ site.baseurl }}/images/2022-02-15_cyclist-on-glossy-surface.png">
 
 [^1]: See, for instance, George Polya--author of the mathematics classic "[How to Solve It](https://en.wikipedia.org/wiki/How_to_Solve_It)." Polya suggests, as one strategy to deal with hard problems, to solve easier but related problems.
