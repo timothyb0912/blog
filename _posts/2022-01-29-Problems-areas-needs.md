@@ -25,8 +25,8 @@ Back to when  Darren and Andrew put us on?
 Back to when they saw us struggling to learn to skid:
 struggling to unweight the rear wheel.
 
-Then we saw it---the rain clouds.
-The kind of storm that makes people seek shelter.
+We took notice when we saw the rain clouds.
+This was the kind of storm that made people seek shelter.
 Typical of us, we instead strapped on our rain jackets and rode out.
 Mobbing in the 7-Eleven parking lot,
 we ate hotdogs, drank slushies, and skidded circles
@@ -129,7 +129,7 @@ And so on, so forth, going around the diagram.
 <!-- Why is the problems-areas-needs association helpful? -->
 Here's what I believe makes this triangular view beneficial.
 By projecting from the high dimensional list of problems,
-to complimentary, lower dimensional lists,
+to complementary, lower dimensional lists,
 we can aid our review and planning for problem-solving.
 For example, I estimate that I have more than 200 problems.
 However, I list only 12 - 30 needs, depending on how I count.
