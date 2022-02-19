@@ -117,7 +117,7 @@ Two easier and useful lists to create are:
 The diagram below depicts (i) these complementary lists,
 (ii) our desired problem list,
 and (iii) relations between them.
-On the edges are questions that lead from one vertex / node to another.
+On the edges are questions that lead from one list to another.
 For instance, problems indicate examples of
 how not to manage related areas of one's life.
 Similarly, if we ask why are our needs not met,
