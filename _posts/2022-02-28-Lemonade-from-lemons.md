@@ -22,14 +22,14 @@ For this discussion,
 we'll define procrastination
 as either of the following two conditions.
 Condition one:
-having a plan for one's time,
-yet hesitating to do what one planned,
+having a plan for our time,
+yet hesitating to do what we planned,
 AND feeling that such hesitation
-was not in one's long-term best interest.
+was not in our long-term best interest.
 Condition two:
-hesitating to make a plan for one's time,
+hesitating to make a plan for our time,
 AND feeling that such hesitation
-was not in one's long-term best interest.
+was not in our long-term best interest.
 
 Given the definition above,
 procrastination can be viewed as a detrimental practice,
@@ -38,7 +38,7 @@ To this end, one straightforward strategy is to
 try to stop hesitating on one's planned tasks or on planning.
 
 However, pause for a moment and imagine a complementary way.
-How could we respond if we viewed our hesitation as
+How could we respond if we viewed our hesitation
 as having a positive intent?
 Per our definition above,
 a second strategy to 'stop procrastinating'
@@ -75,12 +75,79 @@ THAT would be in our long-term best interests.
 
 ## Solution
 
+So, what can we do?
+One hypothesis is that if we use communication templates,
+then we will increase the percentage of time that
+hesitation leads to production rather than procrastination.
+The idea is that
+we can design the template with cues for information
+we need for contextualizing and responding
+to the problems that motivated our hesitation.
+Then, instead of being lost in thought while procrastinating,
+we can combine our thoughts with the template,
+crafting a story that serves as a record of the problem
+for ourselves and anyone else who might help us.
+We can write, type, or speak our message based on the template,
+and we can store the resulting document / file for later.
 
+
+What might such a template look like?
+As a useful example to begin with,
+consider the following template for "emotional problem-statements":
+
+> I observe that GIVEN {{these-circumstances}}
+> WHEN {{this-happens}}
+> THEN [facing {{these-concerns}}]
+> I decide to FEEL {{these-feelings}}
+> in order to satisfy {{these-NEEDS}}
+> and accepting {{these-downsides}}.
+> So far, I have taken {{these-steps}} to fulfill my needs,
+> and for further help, I am REQUESTING {{these-actions}}.
+
+
+Elements in curly-braces, i.e. '{' and '}',
+are to be replaced with our own descriptions.
+Clauses with rectangular-braces, i.e. '[' and ']',
+are considered optional and to be included at a
+communicator's discretion.
 
 
 ## Outcomes
 
+So far, using this template has been greatly helpful.
+Since adopting it,
+every time I hesitated to plan or execute my plans,
+I have generated multiple, actionable, requests.
+Typically, I've generated one or more request per
+activated inner part,
+and when hesitating,
+it's almost always the case for me
+that two or more inner parts are activated and polarized.
+Accordingly, I come away with a collection of requests,
+and as I slowly fulfill them,
+I've experienced less frequent bouts of hesitation.
+This helps accomplish the first
+procrastination reduction strategy of not hesitating so much.
 
+
+Simultaneously, by producing these records of
+what happened, what I'm feeling, and what I need and want,
+I document the mindfulness and emotional regulation work
+described in therapeutic modalities like
+[dialectical behavior therapy](https://dbtselfhelp.com/dbt-skills-list/emotion-regulation/).
+By producing such templated documents,
+i.e. by standardizing and tracking emotional data,
+I bypass feelings the guilt of procrastination,
+and I instead feel proud of translating my raw emotions into
+information that can then be acted upon and analyzed.
+This helps accomplish the second
+procrastination reduction strategy of
+making hesitation productive.
+These emotional problem-statements enter the top of a
+productivity funnel that starts with problem logging,
+continues with problem observation, hypothesizing,
+and experimenting,
+and ends with problem resolution.
 
 
 ## Rationale
