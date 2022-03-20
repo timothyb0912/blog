@@ -62,9 +62,10 @@ Meanwhile, we anxiously observe the racing of our polarized thoughts.
 Finally, we then feel secondary guilt
 for 'spending' our time with nothing to show for it,
 i.e. acting against our long-term best interests.
-Of course, we prefer to act in ways that do NOT
-result in anxiety or guilt.
 
+Of course, despite our actions,
+we prefer to avoid feeling anxiety or guilt,
+if possible.
 What we really want or need is
 a way to productively channel our thoughts and feelings,
 if and while we hesitate,
@@ -81,7 +82,7 @@ then we will increase the percentage of time that
 hesitation leads to production rather than procrastination.
 The idea is that
 we can design the template with cues for information
-we need for contextualizing and responding
+we need to contextualize and respond
 to the problems that motivated our hesitation.
 Then, instead of being lost in thought while procrastinating,
 we can combine our thoughts with the template,
@@ -92,16 +93,16 @@ and we can store the resulting document / file for later.
 
 
 What might such a template look like?
-As a useful example to begin with,
+As a useful example,
 consider the following template for "emotional problem-statements":
 
-> I observe that GIVEN {{these-circumstances}}
-> WHEN {{this-happens}}
-> THEN [facing {{these-concerns}}]
-> I decide to FEEL {{these-feelings}}
-> in order to satisfy {{these-NEEDS}}
-> and accepting {{these-downsides}}.
-> So far, I have taken {{these-steps}} to fulfill my needs,
+> I observe that GIVEN {{these-circumstances}}  
+> WHEN {{this-happens}}  
+> THEN [facing {{these-concerns}}]  
+> I decide to FEEL {{these-feelings}}  
+> in order to satisfy {{these-NEEDS}},  
+> while accepting {{these-downsides}}.  
+> So far, I have taken {{these-steps}} to fulfill my needs,  
 > and for further help, I am REQUESTING {{these-actions}}.
 
 
@@ -118,7 +119,7 @@ So far, using this template has been greatly helpful.
 Since adopting it,
 every time I hesitated to plan or execute my plans,
 I have generated multiple, actionable, requests.
-Typically, I've generated one or more request per
+Typically, I've generated one or more requests per
 activated inner part,
 and when hesitating,
 it's almost always the case for me
@@ -137,7 +138,7 @@ described in therapeutic modalities like
 [dialectical behavior therapy](https://dbtselfhelp.com/dbt-skills-list/emotion-regulation/).
 By producing such templated documents,
 i.e. by standardizing and tracking emotional data,
-I bypass feelings the guilt of procrastination,
+I bypass feeling the guilt of procrastination,
 and I instead feel proud of translating my raw emotions into
 information that can then be acted upon and analyzed.
 This helps accomplish the second
@@ -146,14 +147,125 @@ making hesitation productive.
 These emotional problem-statements enter the top of a
 productivity funnel that starts with problem logging,
 continues with problem observation, hypothesizing,
-and experimenting,
-and ends with problem resolution.
+and experimentation,
+and then hopefully ends with problem resolution.
 
 
 ## Rationale
 
 
+Beyond the beneficial outcomes observed and described above,
+how and why do I think using this template should be helpful?
+What do I think are the mechanisms behind the magic?
+
+At the most basic level,
+we can ask why we believe templates will help at all.
+Needing to communicate effectively,
+especially in the difficult context of multiple heightened emotions,
+is a common problem that has been addressed by numerous thinkers.
+Across fields from architecture to software engineering,
+[design patterns](https://en.wikipedia.org/wiki/Design_pattern)
+"describe a problem that occurs over and over again in our environment,
+and then describes the core of the solution to that problem."
+[Templates](https://www.merriam-webster.com/dictionary/template) are patterns,
+and they are typically created with purpose.
+For instance, communication templates solve recurring communication problems.
+
+In particular,
+the emotional problem-statement template is based on
+the Non-Violent Communication (NVC) template of Marshall Rosenburg.
+In describing the NVC template, Rosenburg writes:
+
+> We can apply NVC
+> to resolve the internal conflicts that often result in depression.
+> In his book The Revolution in Psychiatry,
+> Ernest Becker attributes depression to "cognitively arrested alternatives."
+> This means that when we have a judgmental dialogue going on within,
+> we become alienated from what we are needing
+> and cannot then act to meet those needs.
+> Depression is indicative of a state of alienation from our own needs.
+
+The applicability of this templae to our situation is immediate.
+We noted above that procrastination almost always involves two or
+more polarized inner parts within us, i.e. a judgemental dialogue.
+Moreover, in December's [post](https://timothyb0912.github.io/blog/philosophy/psychology/practice/2021/12/25/Personal-data-science.html),
+we noted that 'all encompassing procrastination'
+is often how our depression manifests itself.
+Accordingly, the NVC template stands out as a communication pattern
+directly aimed at the emotional disturbances that
+drive my procrastination (both moderate and depression-level).
+
+Next, I further combine the NVC template with three other
+communication patterns.
+The first additional pattern is the use of [Given-When-Then](https://martinfowler.com/bliki/GivenWhenThen.html)
+template for stating one's obervation of what is happening.
+This template is frequently used in software design
+and business to describe a system's desired behavior
+after creation of a product.
+I have also found it useful for describing the
+current behavior of a system,
+as is called for in the first step of the NVC template.
+Since the Give-When-Then template  is useful in business
+when trying to solve people's problems,
+my a priori assumption is that it will still be useful
+when trying to solve personal problems.
+
+The second additional pattern is the
+[Y-statement](https://timothyb0912.github.io/templates/Y-STATEMENT-DECISIONS_TEMPLATE.html)
+template.
+Here, we follow the research of Dr. Lisa Feldman Barrett,
+who notes that emotions are constructed / predicted.
+I.e., emotions are a choice,
+and we have influence over choosing what emotions we experience.
+As noted by Marshall Rosenburg in his book on Nonviolent Communication
+
+> NVC heightens our awareness
+> that what others say and do may be the stimulus,
+> but never the cause, of our feelings.
+> We see that our feelings result
+> from how we choose to receive what others say and do,
+> as well as from our particular needs and expectations in that moment.
+> With this third component,
+> we are led to accept responsibility
+> for what we do to generate our own feelings.
+
+Of course, others can cause our feelings to an extent, 
+especially through physical violence.
+However, the overall message is clear.
+We all make decisions that impact the emotions we experience.
+Using the Y-statement template for describing one's decision-making
+makes this choice explicit.
+We also reduce secondary guilt by concsiously accepting
+what we are sacrificing
+in order to process the emotions fueling our hesitation.
+
+Finallly, the third additional pattern we've adopted is
+a template for asking for help.
+It follows Jim Rohn's [advice](https://www.youtube.com/watch?v=LdQGAnl2jc8)
+that when asking for help,
+it's useful to inform people of
+what we have done and what we have read/learned
+about solving our problem.
+The idea is that we increase our chances of getting help,
+by helping ourselves.
+Moreover, as noted on the famous question-asking website,
+[StackOverflow](https://stackoverflow.com/help/how-to-ask)
+and in its linked-to
+[resources](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/),
+including what we have unsuccessfully tried
+helps people understand what differentiates our problem
+from already solved problems.
+This increased clarity also helps us secure assisstance.
 
 
 ## Well-wishes
+
+Young Tim, hopefully this post makes it clear:
+there are great practical and logical reasons
+to use communication templates like the
+emotional problem-statement.
+In the long run,
+we hope this tool continues to helps us
+turn procrastination into production:
+to make lemonade from the lemons of our emotional disturbances.
 
