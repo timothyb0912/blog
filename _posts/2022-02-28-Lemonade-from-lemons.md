@@ -39,7 +39,7 @@ to be stopped as soon as possible.
 To this end, one straightforward strategy is to
 try to stop hesitating on one's planned tasks or on planning.
 
-However, pause for a moment and imagine a complementary way.
+However, pause briefly and imagine a complementary way.
 How could we respond if we viewed our hesitation
 as having a positive intent?
 Per our definition above,
@@ -164,7 +164,7 @@ At the most basic level,
 we can ask why we believe templates will help at all.
 Needing to communicate effectively,
 especially in the difficult context of multiple heightened emotions,
-is a common problem that has been addressed by numerous thinkers.
+is a common problem that numerous thinkers have addressed.
 Across fields from architecture to software engineering,
 [design patterns](https://en.wikipedia.org/wiki/Design_pattern)
 "describe a problem that occurs over and over again in our environment,
@@ -240,7 +240,7 @@ We all make decisions that impact the emotions we experience.
 Using the Y-statement template for describing one's decision-making
 makes this choice explicit.
 We also reduce secondary guilt by consciously accepting
-what we are investing time
+that we are investing time
 in order to process the emotions fueling our hesitation.
 
 Finally, the third additional pattern we've adopted is
@@ -268,7 +268,7 @@ Young Tim, hopefully this post makes it clear:
 there are great practical and logical reasons
 to use communication templates like the
 emotional problem-statement.
-In the long run,
+For years going forward,
 we hope such tools continue to helps us
 turn procrastination into production---
 to make lemonade from the lemons of our emotional disturbances.
