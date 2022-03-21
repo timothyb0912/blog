@@ -11,7 +11,8 @@ hide: false
 
 # Lemonade from lemons
 
-![lemons](https://images.pexels.com/photos/1021756/pexels-photo-1021756.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260)
+<img src="{{ site.baseurl }}/images/2022-02-28_lemons.png">
+
 
 ## Problem
 
@@ -272,4 +273,4 @@ we hope such tools continue to helps us
 turn procrastination into production---
 to make lemonade from the lemons of our emotional disturbances.
 
-![lemonade](https://images.pexels.com/photos/11070660/pexels-photo-11070660.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260)
+<img src="{{ site.baseurl }}/images/2022-02-28_lemonade.png">
