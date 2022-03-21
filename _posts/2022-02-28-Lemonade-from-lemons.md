@@ -11,13 +11,14 @@ hide: false
 
 # Lemonade from lemons
 
+![lemons](https://images.pexels.com/photos/1021756/pexels-photo-1021756.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260)
 
 ## Problem
 
 Dear Young Tim,
 
 Looking back over the past year,
-procrastination has been a constant companion and problem of ours.
+procrastination has been our constant companion and problem.
 For this discussion,
 we'll define procrastination
 as either of the following two conditions.
@@ -92,18 +93,18 @@ We can write, type, or speak our message based on the template,
 and we can store the resulting document / file for later.
 
 
-What might such a template look like?
+What might such a template look like?  
 As a useful example,
 consider the following template for "emotional problem-statements":
 
-> I observe that GIVEN {{these-circumstances}}  
-> WHEN {{this-happens}}  
-> THEN [facing {{these-concerns}}]  
-> I decide to FEEL {{these-feelings}}  
-> in order to satisfy {{these-NEEDS}},  
-> while accepting {{these-downsides}}.  
-> So far, I have taken {{these-steps}} to fulfill my needs,  
-> and for further help, I am REQUESTING {{these-actions}}.
+> I observe that GIVEN \{\{these-circumstances\}\}  
+> WHEN \{\{this-happens\}\}  
+> THEN [facing \{\{these-concerns\}\}]  
+> I decide to FEEL \{\{these-feelings\}\}  
+> in order to satisfy \{\{these-NEEDS\}\},  
+> while accepting \{\{these-downsides\}\}.  
+> So far, I have taken \{\{these-steps\}\} to fulfill my needs,  
+> and for further help, I am REQUESTING \{\{these-actions\}\}.
 
 
 Elements in curly-braces, i.e. '{' and '}',
@@ -115,10 +116,10 @@ communicator's discretion.
 
 ## Outcomes
 
-So far, using this template has been greatly helpful.
+So far, using this template has helped in the following ways.
 Since adopting it,
-every time I hesitated to plan or execute my plans,
-I have generated multiple, actionable, requests.
+the majority of times I hesitated to plan or execute my plans,
+I generated multiple, actionable, requests.
 Typically, I've generated one or more requests per
 activated inner part,
 and when hesitating,
@@ -136,7 +137,7 @@ what happened, what I'm feeling, and what I need and want,
 I document the mindfulness and emotional regulation work
 described in therapeutic modalities like
 [dialectical behavior therapy](https://dbtselfhelp.com/dbt-skills-list/emotion-regulation/).
-By producing such templated documents,
+By creating such templated documents,
 i.e. by standardizing and tracking emotional data,
 I bypass feeling the guilt of procrastination,
 and I instead feel proud of translating my raw emotions into
@@ -173,21 +174,21 @@ For instance, communication templates solve recurring communication problems.
 
 In particular,
 the emotional problem-statement template is based on
-the Non-Violent Communication (NVC) template of Marshall Rosenburg.
+the Non-Violent Communication (NVC) template of Dr. Marshall Rosenburg.
 In describing the NVC template, Rosenburg writes:
 
 > We can apply NVC
-> to resolve the internal conflicts that often result in depression.
+> to resolve the internal conflicts that often result in depression.  
 > In his book The Revolution in Psychiatry,
 > Ernest Becker attributes depression to "cognitively arrested alternatives."
-> This means that when we have a judgmental dialogue going on within,
+> This means that when we have a judgmental dialogue going on within,  
 > we become alienated from what we are needing
 > and cannot then act to meet those needs.
 > Depression is indicative of a state of alienation from our own needs.
 
-The applicability of this templae to our situation is immediate.
+The applicability of this template to our situation is immediate.
 We noted above that procrastination almost always involves two or
-more polarized inner parts within us, i.e. a judgemental dialogue.
+more polarized inner parts within us, i.e. a judgmental dialogue.
 Moreover, in December's [post](https://timothyb0912.github.io/blog/philosophy/psychology/practice/2021/12/25/Personal-data-science.html),
 we noted that 'all encompassing procrastination'
 is often how our depression manifests itself.
@@ -197,7 +198,7 @@ drive my procrastination (both moderate and depression-level).
 
 Next, I further combine the NVC template with three other
 communication patterns.
-The first additional pattern is the use of [Given-When-Then](https://martinfowler.com/bliki/GivenWhenThen.html)
+The first additional pattern is the [Given-When-Then](https://martinfowler.com/bliki/GivenWhenThen.html)
 template for stating one's obervation of what is happening.
 This template is frequently used in software design
 and business to describe a system's desired behavior
@@ -207,39 +208,41 @@ current behavior of a system,
 as is called for in the first step of the NVC template.
 Since the Give-When-Then template  is useful in business
 when trying to solve people's problems,
-my a priori assumption is that it will still be useful
+my a-priori assumption is that it will remain useful
 when trying to solve personal problems.
 
 The second additional pattern is the
 [Y-statement](https://timothyb0912.github.io/templates/Y-STATEMENT-DECISIONS_TEMPLATE.html)
 template.
 Here, we follow the research of Dr. Lisa Feldman Barrett,
-who notes that emotions are constructed / predicted.
-I.e., emotions are a choice,
-and we have influence over choosing what emotions we experience.
-As noted by Marshall Rosenburg in his book on Nonviolent Communication
+who [reminds](https://youtu.be/0gks6ceq4eQ?t=522) us
+that emotions are constructed / predicted.
+I.e., our emotions are our choice,
+and we have influence in choosing what emotions we experience.
+As noted by Rosenburg in his book, Nonviolent Communication: A Language of Life,
 
 > NVC heightens our awareness
 > that what others say and do may be the stimulus,
 > but never the cause, of our feelings.
 > We see that our feelings result
-> from how we choose to receive what others say and do,
+> from how we **choose** to receive what others say and do,
 > as well as from our particular needs and expectations in that moment.
 > With this third component,
 > we are led to accept responsibility
 > for what we do to generate our own feelings.
+> ---emphasis added
 
-Of course, others can cause our feelings to an extent, 
+Of course, others can cause our feelings to an extent,
 especially through physical violence.
 However, the overall message is clear.
 We all make decisions that impact the emotions we experience.
 Using the Y-statement template for describing one's decision-making
 makes this choice explicit.
-We also reduce secondary guilt by concsiously accepting
-what we are sacrificing
+We also reduce secondary guilt by consciously accepting
+what we are investing time
 in order to process the emotions fueling our hesitation.
 
-Finallly, the third additional pattern we've adopted is
+Finally, the third additional pattern we've adopted is
 a template for asking for help.
 It follows Jim Rohn's [advice](https://www.youtube.com/watch?v=LdQGAnl2jc8)
 that when asking for help,
@@ -248,14 +251,14 @@ what we have done and what we have read/learned
 about solving our problem.
 The idea is that we increase our chances of getting help,
 by helping ourselves.
-Moreover, as noted on the famous question-asking website,
+Moreover, as advised on the famous question-asking website,
 [StackOverflow](https://stackoverflow.com/help/how-to-ask)
 and in its linked-to
 [resources](https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/),
 including what we have unsuccessfully tried
 helps people understand what differentiates our problem
 from already solved problems.
-This increased clarity also helps us secure assisstance.
+This increased clarity also helps us secure assistance.
 
 
 ## Well-wishes
@@ -265,7 +268,8 @@ there are great practical and logical reasons
 to use communication templates like the
 emotional problem-statement.
 In the long run,
-we hope this tool continues to helps us
-turn procrastination into production:
+we hope such tools continue to helps us
+turn procrastination into production---
 to make lemonade from the lemons of our emotional disturbances.
 
+![lemonade](https://images.pexels.com/photos/11070660/pexels-photo-11070660.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260)
