@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Lemonade from lemons | Timothy Brathwaite</title>
+<meta name="generator" content="Jekyll v4.1.1" />
+<meta property="og:title" content="Lemonade from lemons" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Design patterns to transform procrastination into production." />
+<meta property="og:description" content="Design patterns to transform procrastination into production." />
+<link rel="canonical" href="https://timothyb0912.github.io/blog/practice/psychology/2022/02/28/Lemonade-from-lemons.html" />
+<meta property="og:url" content="https://timothyb0912.github.io/blog/practice/psychology/2022/02/28/Lemonade-from-lemons.html" />
+<meta property="og:site_name" content="Timothy Brathwaite" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-02-28T00:00:00-06:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"https://timothyb0912.github.io/blog/practice/psychology/2022/02/28/Lemonade-from-lemons.html"},"url":"https://timothyb0912.github.io/blog/practice/psychology/2022/02/28/Lemonade-from-lemons.html","@type":"BlogPosting","headline":"Lemonade from lemons","dateModified":"2022-02-28T00:00:00-06:00","datePublished":"2022-02-28T00:00:00-06:00","description":"Design patterns to transform procrastination into production.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://timothyb0912.github.io/blog/feed.xml" title="Timothy Brathwaite" /><link rel="shortcut icon" type="image/x-icon" href="/blog/images/favicon.ico"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Primer/15.2.0/primer.css" integrity="sha512-xTz2ys4coGAOz8vuV1NcQBkgVmKhsSEtjbqyMJbBHRplFuvKIUo6xhLHpAyPt9mfR6twHJgn9OgVLuqOvjeBhg==" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.css" integrity="sha512-h7nl+xz8wgDlNM4NqKEM4F1NkIRS17M9+uJwIGwuo8vGqIl4BhuCKdxjWEINm+xyrUjNCnK5dCrhM0sj+wTIXw==" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/katex.min.js" integrity="sha512-/CMIhXiDA3m2c9kzRyd97MTb3MC6OVnx4TElQ7fkkoRghwDf6gi41gaT1PwF270W6+J60uTmwgeRpNpJdRV6sg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.12.0/contrib/auto-render.min.js" integrity="sha512-Do7uJAaHZm5OLrIv/yN4w0iG1dbu01kzdMNnFfu/mAqgUk6Nniv2JYHcwH+cNwjqgLcqcuBBk+JRvprLVI8azg==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js" integrity="sha512-0doc9hKxR3PYwso42RD1p5ySZpzzuDiOwMrdCEh2WdJZCjcmFKc/wEnL+z8fBQrnHoiNWbo+3fiGkOYXBdQp4A==" crossorigin="anonymous"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement( document.body, {
+        delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "[%", right: "%]", display: true},
+            {left: "$", right: "$", display: false}
+        ]}
+        );
+    });
+    </script>
+
+
+<script>
+function wrap_img(fn) {
+    if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
+        var elements = document.querySelectorAll(".post img");
+        Array.prototype.forEach.call(elements, function(el, i) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
+                const caption = document.createElement('figcaption');
+                var node = document.createTextNode(el.getAttribute("title"));
+                caption.appendChild(node);
+                const wrapper = document.createElement('figure');
+                wrapper.className = 'image';
+                el.parentNode.insertBefore(wrapper, el);
+                el.parentNode.removeChild(el);
+                wrapper.appendChild(el);
+                wrapper.appendChild(caption);
+            }
+        });
+    } else { document.addEventListener('DOMContentLoaded', fn); }
+}
+window.onload = wrap_img;
+</script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function(){
+    // add link icon to anchor tags
+    var elem = document.querySelectorAll(".anchor-link")
+    elem.forEach(e => (e.innerHTML = '<i class="fas fa-link fa-xs"></i>'));
+    });
+</script>
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/blog/">Timothy Brathwaite</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/blog/about/">About Me</a><a class="page-link" href="/blog/search/">Search</a><a class="page-link" href="/blog/categories/">Tags</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Lemonade from lemons</h1><p class="page-description">Design patterns to transform procrastination into production.</p><p class="post-meta post-meta-title"><time class="dt-published" datetime="2022-02-28T00:00:00-06:00" itemprop="datePublished">
+        Feb 28, 2022
+      </time>
+       • <span class="read-time" title="Estimated read time">
+    
+    
+      8 min read
+    
+</span></p>
+
+    
+      <p class="category-tags"><i class="fas fa-tags category-tags-icon"></i></i> 
+      
+        <a class="category-tags-link" href="/blog/categories/#practice">practice</a>
+        &nbsp;
+      
+        <a class="category-tags-link" href="/blog/categories/#psychology">psychology</a>
+        
+      
+      </p>
+    
+
+    </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <ul class="section-nav">
+<li class="toc-entry toc-h1"><a href="#lemonade-from-lemons">Lemonade from lemons</a>
+<ul>
+<li class="toc-entry toc-h2"><a href="#problem">Problem</a></li>
+<li class="toc-entry toc-h2"><a href="#solution">Solution</a></li>
+<li class="toc-entry toc-h2"><a href="#outcomes">Outcomes</a></li>
+<li class="toc-entry toc-h2"><a href="#rationale">Rationale</a></li>
+<li class="toc-entry toc-h2"><a href="#well-wishes">Well-wishes</a></li>
+</ul>
+</li>
+</ul><h1 id="lemonade-from-lemons">
+<a class="anchor" href="#lemonade-from-lemons" aria-hidden="true"><span class="octicon octicon-link"></span></a>Lemonade from lemons</h1>
+
+<p><img src="/blog/images/2022-02-28_lemons.png"></p>
+
+<h2 id="problem">
+<a class="anchor" href="#problem" aria-hidden="true"><span class="octicon octicon-link"></span></a>Problem</h2>
+
+<p>Dear Young Tim,</p>
+
+<p>Looking back over the past year,
+procrastination has been our constant companion and problem.
+For this discussion,
+we’ll define procrastination
+as either of the following two conditions.
+Condition one:
+having a plan for our time,
+yet hesitating to do what we planned,
+AND feeling that such hesitation
+was not in our long-term best interest.
+Condition two:
+hesitating to make a plan for our time,
+AND feeling that such hesitation
+was not in our long-term best interest.</p>
+
+<p>Given the definition above,
+procrastination can be viewed as a detrimental practice,
+to be stopped as soon as possible.
+To this end, one straightforward strategy is to
+try to stop hesitating on one’s planned tasks or on planning.</p>
+
+<p>However, pause briefly and imagine a complementary way.
+How could we respond if we viewed our hesitation
+as having a positive intent?
+Per our definition above,
+a second strategy to ‘stop procrastinating’
+is to take action such that
+our hesitation still supports our long-term best interests.
+Then hesitation would be free of guilt and detrimental qualities;
+it would not be procrastination.
+Practically, how can we design a set of actions that together
+transform our hesitation from procrastination into production
+for our long-term interests?</p>
+
+<p>Most comprehensively, our problem can be stated as follows.
+Given that we sense many aspects
+of our physical and social environment,
+when we interpret one or more of our sensations
+as indicating our unmet needs,
+then we commonly feel intense emotional activation,
+and we hesitate to do that which we planned
+or we hesitate to plan.
+Meanwhile, we anxiously observe the racing of our polarized thoughts.
+Finally, we then feel secondary guilt
+for ‘spending’ our time with nothing to show for it,
+i.e. acting against our long-term best interests.</p>
+
+<p>Of course, despite our actions,
+we prefer to avoid feeling anxiety or guilt,
+if possible.
+What we really want or need is
+a way to productively channel our thoughts and feelings,
+if and while we hesitate,
+so that we identify, assess, and eventually satisfy
+our unmet needs.
+THAT would be in our long-term best interests.</p>
+
+<h2 id="solution">
+<a class="anchor" href="#solution" aria-hidden="true"><span class="octicon octicon-link"></span></a>Solution</h2>
+
+<p>So, what can we do?
+One hypothesis is that if we use communication templates,
+then we will increase the percentage of time that
+hesitation leads to production rather than procrastination.
+The idea is that
+we can design the template with cues for information
+we need to contextualize and respond
+to the problems that motivated our hesitation.
+Then, instead of being lost in thought while procrastinating,
+we can combine our thoughts with the template,
+crafting a story that serves as a record of the problem
+for ourselves and anyone else who might help us.
+We can write, type, or speak our message based on the template,
+and we can store the resulting document / file for later.</p>
+
+<p>What might such a template look like?<br>
+As a useful example,
+consider the following template for “emotional problem-statements”:</p>
+
+<blockquote>
+  <p>I observe that GIVEN {{these-circumstances}}<br>
+WHEN {{this-happens}}<br>
+THEN [facing {{these-concerns}}]<br>
+I decide to FEEL {{these-feelings}}<br>
+in order to satisfy {{these-NEEDS}},<br>
+while accepting {{these-downsides}}.<br>
+So far, I have taken {{these-steps}} to fulfill my needs,<br>
+and for further help, I am REQUESTING {{these-actions}}.</p>
+</blockquote>
+
+<p>Elements in curly-braces, i.e. ‘{‘ and ‘}’,
+are to be replaced with our own descriptions.
+Clauses with rectangular-braces, i.e. ‘[’ and ‘]’,
+are considered optional and to be included at a
+communicator’s discretion.</p>
+
+<h2 id="outcomes">
+<a class="anchor" href="#outcomes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Outcomes</h2>
+
+<p>So far, using this template has helped in the following ways.
+Since adopting it,
+the majority of times I hesitated to plan or execute my plans,
+I generated multiple, actionable, requests.
+Typically, I’ve generated one or more requests per
+activated inner part,
+and when hesitating,
+it’s almost always the case for me
+that two or more inner parts are activated and polarized.
+Accordingly, I come away with a collection of requests,
+and as I slowly fulfill them,
+I’ve experienced less frequent bouts of hesitation.
+This helps accomplish the first
+procrastination reduction strategy of not hesitating so much.</p>
+
+<p>Simultaneously, by producing these records of
+what happened, what I’m feeling, and what I need and want,
+I document the mindfulness and emotional regulation work
+described in therapeutic modalities like
+<a href="https://dbtselfhelp.com/dbt-skills-list/emotion-regulation/">dialectical behavior therapy</a>.
+By creating such templated documents,
+i.e. by standardizing and tracking emotional data,
+I bypass feeling the guilt of procrastination,
+and I instead feel proud of translating my raw emotions into
+information that can then be acted upon and analyzed.
+This helps accomplish the second
+procrastination reduction strategy of
+making hesitation productive.
+These emotional problem-statements enter the top of a
+productivity funnel that starts with problem logging,
+continues with problem observation, hypothesizing,
+and experimentation,
+and then hopefully ends with problem resolution.</p>
+
+<h2 id="rationale">
+<a class="anchor" href="#rationale" aria-hidden="true"><span class="octicon octicon-link"></span></a>Rationale</h2>
+
+<p>Beyond the beneficial outcomes observed and described above,
+how and why do I think using this template should be helpful?
+What do I think are the mechanisms behind the magic?</p>
+
+<p>At the most basic level,
+we can ask why we believe templates will help at all.
+Needing to communicate effectively,
+especially in the difficult context of multiple heightened emotions,
+is a common problem that numerous thinkers have addressed.
+Across fields from architecture to software engineering,
+<a href="https://en.wikipedia.org/wiki/Design_pattern">design patterns</a>
+“describe a problem that occurs over and over again in our environment,
+and then describes the core of the solution to that problem.”
+<a href="https://www.merriam-webster.com/dictionary/template">Templates</a> are patterns,
+and they are typically created with purpose.
+For instance, communication templates solve recurring communication problems.</p>
+
+<p>In particular,
+the emotional problem-statement template is based on
+the Non-Violent Communication (NVC) template of Dr. Marshall Rosenburg.
+In describing the NVC template, Rosenburg writes:</p>
+
+<blockquote>
+  <p>We can apply NVC
+to resolve the internal conflicts that often result in depression.<br>
+In his book The Revolution in Psychiatry,
+Ernest Becker attributes depression to “cognitively arrested alternatives.”
+This means that when we have a judgmental dialogue going on within,<br>
+we become alienated from what we are needing
+and cannot then act to meet those needs.
+Depression is indicative of a state of alienation from our own needs.</p>
+</blockquote>
+
+<p>The applicability of this template to our situation is immediate.
+We noted above that procrastination almost always involves two or
+more polarized inner parts within us, i.e. a judgmental dialogue.
+Moreover, in December’s <a href="https://timothyb0912.github.io/blog/philosophy/psychology/practice/2021/12/25/Personal-data-science.html">post</a>,
+we noted that ‘all encompassing procrastination’
+is often how our depression manifests itself.
+Accordingly, the NVC template stands out as a communication pattern
+directly aimed at the emotional disturbances that
+drive my procrastination (both moderate and depression-level).</p>
+
+<p>Next, I further combine the NVC template with three other
+communication patterns.
+The first additional pattern is the <a href="https://martinfowler.com/bliki/GivenWhenThen.html">Given-When-Then</a>
+template for stating one’s obervation of what is happening.
+This template is frequently used in software design
+and business to describe a system’s desired behavior
+after creation of a product.
+I have also found it useful for describing the
+current behavior of a system,
+as is called for in the first step of the NVC template.
+Since the Give-When-Then template  is useful in business
+when trying to solve people’s problems,
+my a-priori assumption is that it will remain useful
+when trying to solve personal problems.</p>
+
+<p>The second additional pattern is the
+<a href="https://timothyb0912.github.io/templates/Y-STATEMENT-DECISIONS_TEMPLATE.html">Y-statement</a>
+template.
+Here, we follow the research of Dr. Lisa Feldman Barrett,
+who <a href="https://youtu.be/0gks6ceq4eQ?t=522">reminds</a> us
+that emotions are constructed / predicted.
+I.e., our emotions are our choice,
+and we have influence in choosing what emotions we experience.
+As noted by Rosenburg in his book, Nonviolent Communication: A Language of Life,</p>
+
+<blockquote>
+  <p>NVC heightens our awareness
+that what others say and do may be the stimulus,
+but never the cause, of our feelings.
+We see that our feelings result
+from how we <strong>choose</strong> to receive what others say and do,
+as well as from our particular needs and expectations in that moment.
+With this third component,
+we are led to accept responsibility
+for what we do to generate our own feelings.
+—emphasis added</p>
+</blockquote>
+
+<p>Of course, others can cause our feelings to an extent,
+especially through physical violence.
+However, the overall message is clear.
+We all make decisions that impact the emotions we experience.
+Using the Y-statement template for describing one’s decision-making
+makes this choice explicit.
+We also reduce secondary guilt by consciously accepting
+that we are investing time
+in order to process the emotions fueling our hesitation.</p>
+
+<p>Finally, the third additional pattern we’ve adopted is
+a template for asking for help.
+It follows Jim Rohn’s <a href="https://www.youtube.com/watch?v=LdQGAnl2jc8">advice</a>
+that when asking for help,
+it’s useful to inform people of
+what we have done and what we have read/learned
+about solving our problem.
+The idea is that we increase our chances of getting help,
+by helping ourselves.
+Moreover, as advised on the famous question-asking website,
+<a href="https://stackoverflow.com/help/how-to-ask">StackOverflow</a>
+and in its linked-to
+<a href="https://codeblog.jonskeet.uk/2010/08/29/writing-the-perfect-question/">resources</a>,
+including what we have unsuccessfully tried
+helps people understand what differentiates our problem
+from already solved problems.
+This increased clarity also helps us secure assistance.</p>
+
+<h2 id="well-wishes">
+<a class="anchor" href="#well-wishes" aria-hidden="true"><span class="octicon octicon-link"></span></a>Well-wishes</h2>
+
+<p>Young Tim, hopefully this post makes it clear:
+there are great practical and logical reasons
+to use communication templates like the
+emotional problem-statement.
+For years going forward,
+we hope such tools continue to helps us
+turn procrastination into production—
+to make lemonade from the lemons of our emotional disturbances.</p>
+
+<p><img src="/blog/images/2022-02-28_lemonade.png"></p>
+
+  </div><!-- from https://github.com/utterance/utterances -->
+<script src="https://utteranc.es/client.js"
+        repo="timothyb0912/blog"
+        issue-term="title"
+        label="blogpost-comment"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script><a class="u-url" href="/blog/practice/psychology/2022/02/28/Lemonade-from-lemons.html" hidden></a>
+</article>
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/blog/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/blog/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/blog/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+      </div>
+      <div class="footer-col">
+        <p>A personal blog.</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/timothyb0912" target="_blank" title="timothyb0912"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#github"></use></svg></a></li><li><a rel="me" href="https://twitter.com/timothyb0912" target="_blank" title="timothyb0912"><svg class="svg-icon grey"><use xlink:href="/blog/assets/minima-social-icons.svg#twitter"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
