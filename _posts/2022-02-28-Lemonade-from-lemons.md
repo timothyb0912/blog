@@ -101,7 +101,8 @@ consider the following template for "emotional problem-statements":
 > I observe that GIVEN \{\{these-circumstances\}\}  
 > WHEN \{\{this-happens\}\}  
 > THEN [facing \{\{these-concerns\}\}]  
-> I decide to FEEL \{\{these-feelings\}\}  
+> I decide to FEEL \{\{these-feelings\}\},  
+> as opposed to \{\{these-other-feelings\}\},  
 > in order to satisfy \{\{these-NEEDS\}\},  
 > while accepting \{\{these-downsides\}\}.  
 > So far, I have taken \{\{these-steps\}\} to fulfill my needs,  
@@ -259,7 +260,7 @@ and in its linked-to
 including what we have unsuccessfully tried
 helps people understand what differentiates our problem
 from already solved problems.
-This increased clarity also helps us secure assistance.
+This increased clarity also helps us secure effective assistance.
 
 
 ## Well-wishes
