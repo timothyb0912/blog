@@ -20,8 +20,9 @@ on our posts from [September](https://timothyb0912.github.io/blog/psychology/202
 To bring us all back up to speed,
 the scene is as follows.
 
-We're often trying to continually self-improve.
-The process for this improvement involves introspecting,
+We're often trying to self-improve.
+The [process](https://timothyb0912.github.io/blog/psychology/2021/05/30/Psychological-optimization.html)
+for this improvement involves introspecting,
 to make clear and then make right
 our beliefs, wants, needs, feelings, and behavioral patterns.
 The graph below depicts how the various elements of
@@ -34,21 +35,23 @@ about each introspection element.
 
 Our [post](https://timothyb0912.github.io/blog/psychology/practice/2021/10/31/Questions-for-introspection.html)
 from October 2021 provided such a list
-for one portion of nodes in the graph above.
+for the "when" and "then" nodes in the graph above.
 Today's post provides a list for our remaining
-introspection graph elements.
+introspection graph elements, the "given" nodes.
 These elements cover the parts of our story that give context
 for our behavioral decisions and feelings.
 
 As before, these questions are stated without introduction,
 since the elements of our introspection graph were described
 previously, in September 2021's [post](https://timothyb0912.github.io/blog/psychology/2021/09/30/An-introspection-graph.html).
+These questions are meant to guide our "meditating" or thinking deeply
+about our role in our problems.
 
 
 ## Needs and emotional wounds
 
 - "Referring to the lists[^1] of emotional wounds we carry,
-  which are triggered by our current situation?"
+  which wounds are triggered by our current situation?"
 - "Which past experiences/wounds are affecting which parts of me (behaviorally)?"
 - "Referring to our [lists of needs](https://timothyb0912.github.io/blog/practice/2022/01/29/Problems-areas-needs.html),
   what needs does each of our activated parts have in this situation?"
@@ -144,5 +147,4 @@ previously, in September 2021's [post](https://timothyb0912.github.io/blog/psych
   from undesired state to desired state, e.g. fear -> excitement or anger?"
 
 
-[^1]: Such lists might be generated from the Self-Therapy Journey [quizzes](https://selftherapyjourney.com/Members/Questionnaire.aspx?Questionnaire=37) or
-might be curated from their [overall lists](https://selftherapyjourney.com/Pattern/Beginning/List_of_Wounds.aspx) and [similar ones](https://onestopforwriters.com/wounds).
+[^1]: Such lists might be generated from the Self-Therapy Journey [quizzes](https://selftherapyjourney.com/Members/Questionnaire.aspx?Questionnaire=37) or curated from their [overall list](https://selftherapyjourney.com/Pattern/Beginning/List_of_Wounds.aspx) and [similar ones](https://onestopforwriters.com/wounds).
