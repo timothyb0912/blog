@@ -16,7 +16,7 @@ Happy end of the first quarter of 2022!
 
 Being a time of endings and new beginnings,
 this seems a good time to close the loop
-on our posts from September and October, 2021.
+on our posts from [September](https://timothyb0912.github.io/blog/psychology/2021/09/30/An-introspection-graph.html) and [October](https://timothyb0912.github.io/blog/psychology/practice/2021/10/31/Questions-for-introspection.html), 2021.
 To bring us all back up to speed,
 the scene is as follows.
 
@@ -24,14 +24,16 @@ We're often trying to continually self-improve.
 The process for this improvement involves introspecting,
 to make clear and then make right
 our beliefs, wants, needs, feelings, and behavioral patterns.
-This diagram depicts how the various elements of
+The graph below depicts how the various elements of
 our introspection relate to each other.
 Beyond illustrations,
 it is helpful, especially in emotionally charged moments,
 to have a list of questions to ask
 about each introspection element.
+<img src="{{ site.baseurl }}/images/2021-09-19_introspection-graph.png">
 
-Our post from October 2021 provided such a list
+Our [post](https://timothyb0912.github.io/blog/psychology/practice/2021/10/31/Questions-for-introspection.html)
+from October 2021 provided such a list
 for one portion of nodes in the graph above.
 Today's post provides a list for our remaining
 introspection graph elements.
@@ -40,7 +42,7 @@ for our behavioral decisions and feelings.
 
 As before, these questions are stated without introduction,
 since the elements of our introspection graph were described
-previously, in September 2021's post.
+previously, in September 2021's [post](https://timothyb0912.github.io/blog/psychology/2021/09/30/An-introspection-graph.html).
 
 
 ## Needs and emotional wounds
@@ -142,5 +144,5 @@ previously, in September 2021's post.
   from undesired state to desired state, e.g. fear -> excitement or anger?"
 
 
-[^1]: Such lists might be generated from the Self-Therapy Journey quizzes or
-might be curated from their lists and similar ones.
+[^1]: Such lists might be generated from the Self-Therapy Journey [quizzes](https://selftherapyjourney.com/Members/Questionnaire.aspx?Questionnaire=37) or
+might be curated from their [overall lists](https://selftherapyjourney.com/Pattern/Beginning/List_of_Wounds.aspx) and [similar ones](https://onestopforwriters.com/wounds).
