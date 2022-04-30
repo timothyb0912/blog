@@ -8,7 +8,7 @@ comments: true
 hide: false
 ---
 
-# Heavy on the graph
+# Heavy on the graphs
 
 Dear Young Tim,
 
