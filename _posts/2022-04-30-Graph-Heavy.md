@@ -1,5 +1,5 @@
 ---
-toc: true
+toc: false
 layout: post
 title: "Heavy on the graphs"
 description: "On the use of graphs and mindmaps for mental organization"
