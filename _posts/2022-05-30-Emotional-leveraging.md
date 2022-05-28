@@ -77,11 +77,14 @@ so too do those processes align with
 our emotional leveraging process above.
 See discussion of this point in each section below.
 
-## Meet and greet
+### Meet and greet
 
-## Unblend and meet needs
+### Unblend and meet needs
 
-## Unburden and change beliefs
+### Unburden and change beliefs
+
+## The big picture
+
 
 
 
