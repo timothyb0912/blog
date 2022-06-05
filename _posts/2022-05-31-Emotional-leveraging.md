@@ -41,7 +41,7 @@ We've remained calm and effective in situations that could have turned fatal.
 And, we've benefitted from courage,
 personally, academically and professionally.
 
-What we want are more experiences of latter and less of the former.
+What we want are more experiences of the latter and less of the former.
 What we need are processes to make use and fun (out) of our emotions.
 We need procedures and techniques
 to learn from our emotions,
@@ -193,7 +193,7 @@ in order to make lemonade from lemons in our life's mixed metaphor.
 
 The final step in our (cyclical) process of leveraging our emotions
 is to perform the mental equivalent
-of biological control in agriculture.
+of [biological control](https://en.wikipedia.org/wiki/Biological_pest_control) in agriculture.
 Thoughts and the implications of those thoughts,
 such as physical and behaviorial consequences,
 grow in and from our mind.
