@@ -110,7 +110,46 @@ breathing and postures.
 
 ## Learning and doing
 %%What's one process for learning and doing yoga?%%
+So, how can we learn and practice yoga?
+How can we make use of this stress mitigation tool?
 
+Like any of our other interests,
+the first thing we can do is engage with the topic regularly.
+In our case, daily or with as high a frequency as we can manage.
+We are stressed, even if only in small ways, on a daily basis,
+so we may also want to mitigate physical expressions of our stress---
+daily, when possible.
+
+In terms of specifics, we have followed the following process.
+First, with no pressure, we followed along with online yoga videos
+that looked interesting.
+Next, we noted and stored videos that we found useful or enjoyable.
+We then further stored poses (via screenshots) of poses
+that we found useful for relieving tension
+or simply enjoyable in physical sensation.
+We did the same with descriptions of breathing patterns.
+Once we had a small collection of poses (e.g. twelve poses),
+we began organizing those poses into physically intuitive sequences.
+We then created names, images, and narratives for those sequences,
+and we began practicing these sequences daily.
+Finally, we committed these patterns, poses, and sequences
+to memory using anki flashcards.
+These cards are of many varieties, including
+
+- visual anki cards featuring pose recognition,
+  node occlusion in diagrams,
+  and visualization of poses,
+- text based anki cards featuring open-ended responses,
+  list recall of pose names,
+  and cloze deletion of pose-names in sequences, and
+- kinesthetic anki cards featuring "kinesthetic recall"
+  (i.e. recall of how poses felt physically)
+  and flashcards calling for performance of breathing patterns,
+  poses or pose sequences.
+
+All together, these practices multiply encode yoga knowledge
+as I accumulate it,
+and they present multiple ways of learning and "doing" yoga.
 
 
 ## Big Picture
