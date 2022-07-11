@@ -25,9 +25,10 @@ Dear Young Tim,
 
 Like the best slang sung by urban youth,
 the truth of this phrase resonates at multiple levels.
-Contextually, such proclamations often came after blatant disrespect,
+Contextually, such proclamations often came publicly,
+after blatant disrespect,
 such that recipients of the disrespect were now emotionally taut---
-i.e., close to snapping.
+i.e., close to emotionally snapping.
 Physically, bodies often mirrored states of mind.
 Tension would be etched in tight lines across our forehead,
 in our tightly pursed lips, or in our tightly drawn eyelids.
@@ -64,6 +65,22 @@ In a word: rest.
 
 ## Needs
 %%What issue-driving needs does yoga meet?%%
+
+Our unmet need for rest points to a related and complementary,
+unmet need for peace.
+Of course, life is ever changing,
+so we will hardly be at peace all the time.
+Accordingly, we need stress mitigation methods---
+to restore our sense of peace after we have been (di)stressed.
+
+In particular, we need both physical and mental stress mitigation methods.
+Given the intensity and frequency of our somatization,
+we need counterbalancing, physical stress mitigation methods,
+to calm our body and thereby calm our mind.
+For further balance, we also benefit from mental stress mitigation practices,
+where we use our mind to calm our bodies (e.g. meditation).
+These are of particular help alongside
+and, if necessary, as substitutes for our physical stress mitigation methods.
 
 
 ## Yoga
