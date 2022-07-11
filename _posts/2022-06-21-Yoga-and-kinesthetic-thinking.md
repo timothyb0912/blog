@@ -86,9 +86,31 @@ and, if necessary, as substitutes for our physical stress mitigation methods.
 ## Yoga
 %%What do I mean by yoga and why does it help?%%
 
+One solution that meets both our needs
+for physical and mental stress mitigation
+is [Yoga](https://en.wikipedia.org/wiki/Yoga).
+According to Wikipedia,
+one of the central aims of yoga is to "yoke" or harness one's body and mind together,
+to attain liberation from suffering (presumably both physical and mental).
+That certainly fits our definition of stress mitigation!
+
+%%https://images.unsplash.com/photo-1654002879539-f0e366f7fca0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80%%
+
+There are a great many types of yoga,
+i.e. many ways of performing this yoking.
+In the United States,
+yoga is most associated with yoga poses or postures.
+However, in older practices such as [Ashtanga yoga](https://en.wikipedia.org/wiki/Ashtanga_(eight_limbs_of_yoga))
+there are eight parts of yoga,
+and only one of them is the postures.
+For the sake of our discussion today,
+we'll mostly focus on yoga as comprising at least two parts:
+breathing and postures.
+
 
 ## Learning and doing
 %%What's one process for learning and doing yoga?%%
+
 
 
 ## Big Picture
