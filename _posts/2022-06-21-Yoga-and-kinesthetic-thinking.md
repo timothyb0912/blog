@@ -201,19 +201,57 @@ physical and emotional events in our lives.
 Additionally, surely many messages are exchanged between
 our brain and body
 in order to put ourselves into the various poses.
+Perhaps most creatively,
+when using anki cards to cue mental recall of how the poses felt,
+we are most literally thinking kinesthetically.
+This same is true when we use flashcards
+to cue performance of specific postures.
  
 
 ### Effective thinking
 %%How does kinesthetic thinking relate to effective thinking?%%
 
+Continuing along these lines,
+we can identify kinesthetic thinking as one mode of [effective thinking](https://timothyb0912.github.io/blog/psychology/2021/08/16/Effective-thinking-is-effective-communication.html).
+When thinking effectively, our internal communication consciously aims to meet our needs.
+Indeed, in as much as
+being aware of and caring for our (physical) state is a need,
+and as much as
+maintaining minimum levels of peace in our body and mind is a need,
+yoga is about internal (brain-body) communication
+to make movement in order to meet our peace and awareness needs.
+More fundamentally,
+yoga is about learning to "yoke" or harness the mind and body together.
+The idea is that once harnessed,
+we can most effectively direct our mind and body towards meeting our needs.
+
+As [wishfully put](https://isha.sadhguru.org/yoga/yoga-articles-mind-stress/organizing-mind-success/)
+by yoga instructor Sadhguru,
+
+> If you bring your mind to a certain level of organization,
+> it in turn organizes the other three dimensions of your system---
+> your body, emotion, and energies.
+> Once these four dimensions are organized in one direction
+> and kept unwavering for a certain period,
+> [anything you wish](https://isha.sadhguru.org/blog/yoga-meditation/science-of-yoga/harnessing-true-power-of-mind/) will happen.
+
+Though likely false in absolute,
+the general principle of harnessing both mind and body
+for effective thinking and action is clear.
+
 
 ### Map of blog contents
 %%Where does yoga and kinesthetic thinking fit in our map of blog contents?%%
+
+Zooming out, we can place the topic of yoga and kinesthetic thinking
+within the broader context of our blog's thoughts.
+Increasing the importance we ascribe to yoga and kinesthetic thinking
+is a core change in our values / valuation of these activities.
+In other words, this is a root cause change, as pictured below.
 
 %%Insert image of map of blog contents%%
 
 
 ### Growth as a stretch
 %%How does yoga help us with our problems and (post-)traumatic(-growth) stories?%%
-
 
