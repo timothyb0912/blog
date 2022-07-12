@@ -38,10 +38,10 @@ frequently [somatize](https://en.wikipedia.org/wiki/Somatization) their stress.
 That is, people of color frequently channel and express their stress
 as varied physical ailments and as potentially painful sensations.
 Such findings have been reported as far back as the 1990's,
-by way of the U.S. Surgeon General ([2001](https://www.ncbi.nlm.nih.gov/books/NBK44243/pdf/Bookshelf_NBK44243.pdf)).
-Far from just a national statistic,
-I embody these findings daily:
-I regularly and intensely somatize my stress.
+by way of the U.S. Surgeon General ([2001](https://www.ncbi.nlm.nih.gov/books/NBK44243/pdf/Bookshelf_NBK44243.pdf), p.60).
+Far from an impersonal statistic,
+we embody these findings daily,
+as we regularly and intensely somatize our stress.
 
 One problem with somatization is that
 the chronic, unmitigated stress that is being physically channeled,
@@ -148,16 +148,59 @@ These cards are of many varieties, including
   poses or pose sequences.
 
 All together, these practices multiply encode yoga knowledge
-as I accumulate it,
+as we accumulate it,
 and they present multiple ways of learning and "doing" yoga.
 
 
 ## Big Picture
 %%What are the additional meanings for our yoga practice?%%
 
+Given the preceding focus on poses and breathing patterns,
+caveats are in order here.
+Yoga, and our practice of it, is about far more than
+memorization of specific postures
+and ways to stay alive (i.e. breathe) while holding them.
+There are multiple levels of futher significance to consider.
+As mentioned earlier, there are the "Eight Limbs" of Yoga.
+We can broader our view even further though.
+We can consider yoga and our practice of it
+as an example of "kinesthetic thinking," and finally,
+we can consider these both within our map of blog contents
+and in relation to relevant, existing posts.
+
 
 ### Kinesthetic thinking
  %%What is kinesthetic thinking?%%
+
+First, what do we mean by kinesthetic thinking.
+On one hand, we have [prior definitions](https://timothyb0912.github.io/blog/psychology/2021/08/16/Effective-thinking-is-effective-communication.html)
+of thinking as internal communication between parts of ourselves.
+Here then we might imagine kinesthetic thinking is
+internal communication between parts of ourselves
+for the purposes of or while making movement.
+
+On the other hand, we can reason by analogy.
+Author and graphic facilitator Brandy Agerbeck
+has defined visual thinking as
+"making a drawing to make meaning for ourselves"
+([video](https://youtu.be/iyMite3SKOY?t=30)).
+Accordingly, we might then think of kinesthetic thinking as
+making movement to make meaning for ourselves.
+
+Putting these two thoughts together,
+we define kinesthetic thinking as
+internal communication between parts of ourselves
+in order to, or while,
+making meaning by making movement.
+Here, yoga is as an immediate example of kinesthetic thinking.
+During yoga, messages are communicated between
+various parts of our body and our brain,
+and these messages help us make meaning of
+how we have been affected by
+physical and emotional events in our lives.
+Additionally, surely many messages are exchanged between
+our brain and body
+in order to put ourselves into the various poses.
  
 
 ### Effective thinking
