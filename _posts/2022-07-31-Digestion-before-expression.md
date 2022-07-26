@@ -13,22 +13,47 @@ hide: false
 
 ## The challenge
 %% Insert image of a kid chasing bubbles!%%
-<img src="{{ site.baseurl }}/images/" width="800px">
+<img src="{{ site.baseurl }}/images/2022-07-31_bubbles.png" width="800px">
 
+Dear Young Tim,
 
-%% When really young, we played with bubbles on the sidewalk with our sisters %%
-%% Though the chase was great fun and the colorful objects beautiful, %%
-%% we never could hold onto those slippery bubbles %%
-%% Words are similar. %%
-%% Cue Ralph Ammer quote %%
+Do you recall the balmy July afternoons of our earliest youth?
+When we shared summer vacations from school with our sisters?
+We played on the sidewalk,
+where my sisters blew bubbles,
+and I ran them down,
+determined to grasp each one before it hit the pavement.
+Though the chase was great fun and the colorful orbs beautiful,
+we never could hold onto those slippery bubbles.
+Bubbles are ephemeral, and as it turns out, words are similar.
+Or as [put](https://youtu.be/ZqlTSCvP-Z0?t=779) by Ralph Ammer,
 
-%% Personal relation to words from my mind---forgetting blog post contents %%
+> One problem with written words, for instance,
+> is you have to go through them line by line, word by word
+> to know what they say.
+> And as soon as you have,
+> those words quickly disappear
+> and vanish into a grey texture again.
+> It is hard for us to anchor words in our minds, [...].
+> --- How Drawing Helps You Think
 
-%% Need for remembering blog post contents to maximally benefit from them %%
+Unfortunately, it is not just the words of others that are hard to hold onto.
+The aforementioned slipperiness
+also films words
+drawn from the wellspring of our own mind.
+For instance, over time, I forget the contents of my own blog posts.
 
-%% Tragedy of life is to suffer one's success %%
-
-%% To succeed in writing to ourselves but struggle to remember these writings would be tragedy %%
+This forgetting is problematic,
+because maximally benefitting from our posts,
+requires that we remember them.
+As noted in Sadhguru's [article](https://isha.sadhguru.org/yoga/yoga-articles-mind-stress/organizing-mind-success/) [^1]
+on organizing one's mind and body for success,
+"[i]f you suffer your failure it is bad enough,
+but if you suffer your success,
+then your life is 100% tragedy."
+To succeed in writing to ourselves,
+and to then struggle to remember these writings
+is indeed a tragedy.
 
 
 ## Needs
@@ -95,3 +120,5 @@ hide: false
 %% Insert pokeball picture %%
 %% This time, however, when seeking to hold onto the useful and beautiful in words %%
 %% pictures may be the perfect frame for our exercise. %%
+
+[1]: We noted this article due to its motivation of [yoga as effective, kinesthetic thinking](https://timothyb0912.github.io/blog/psychology/practice/2022/06/21/Yoga-and-kinesthetic-thinking.html)  
