@@ -12,7 +12,6 @@ hide: false
 
 
 ## The challenge
-%% Insert image of a kid chasing bubbles!%%
 <img src="{{ site.baseurl }}/images/2022-07-31_bubbles.png" width="800px">
 
 Dear Young Tim,
@@ -41,10 +40,10 @@ Unfortunately, it is not just the words of others that are hard to hold onto.
 The aforementioned slipperiness
 also films words
 drawn from the wellspring of our own mind.
-For instance, over time, I forget the contents of my own blog posts.
+For instance, over time, we forget the contents of our own blog posts.
 
 This forgetting is problematic,
-because maximally benefitting from our posts,
+because maximally benefitting from our blog posts,
 requires that we remember them.
 As noted in Sadhguru's [article](https://isha.sadhguru.org/yoga/yoga-articles-mind-stress/organizing-mind-success/) [^1]
 on organizing one's mind and body for success,
@@ -57,24 +56,48 @@ is indeed a tragedy.
 
 
 ## Needs
-
 %% Repeat need of remembering%%
+%% Generalize remembering need to learn, use, benefit %%
+%% Recognize complementary need for TIME to consolidate and use learnings %%
+So Young Tim,
+what is it that we need to avoid tragedy,
+or put more constructively,
+what do we need to flourish?
+We already noted
+that we need to remember the content of our blog posts
+to most benefit from them.
+Relatedly, if we consider life more broadly,
+then as [noted](http://sfhelp.org/relate/keys/needs.htm) by social worker Peter Gerlach,
+we need to "learn about the world,
+and to use this knowledge"
+(implying rememberance of our learnings).
+Hidden in this general requirement is a complementary need for time.
+Specifically, we need time to consolidate, ingrain, and use our learnings about the world.
 
 %% Note desire to avoid feeling of "extra work" for post-hoc memory efforts" %%
-%% Recognize desire for efficiency and energy conservation  %%
+In practice, there is tension between our needs for time and for remembering.
+Memory improvement efforts require an (at least initial) investment of time,
+and these efforts feel like "extra work" when performed after information consumption.
+Indeed, we've repeatedly chosen time to create or consolidate learnings over time to ingrain them.
+That is, despite our desire to remember our blog posts,
+we've only covered a few of them using memory encoding techniques.
+How can we understand our eschewal of post-consumption,
+memory-aiding study efforts,
+and how can we act effectively to meet our needs
+given our newfound understanding?
 
-%% Generalize remembering need to learn, use, benefit %%
-
-%% Recognize complementary need for TIME to consolidate and use learnings %%
 
 
 ## Solutions
-
+%% Recognize desire for efficiency and energy conservation  %%
+%% We can view our resistance to such "extra work" as unconscious efforts %%
+%% at conservation and efficient use of our time and energy. %%
 %% Recall use of post-hoc mind maps for memory enhancement %%
 
 %% Observe consolidation / blog-post creation process %%
 
 %% Recognize two overlapping steps of thought organization pre-post and during mind map creation. %%
+%% Invert, stupid. Invert.%%
 
 %% Combine, by organizing thoughts pre-post by creating and internalizing mind maps %%
 
