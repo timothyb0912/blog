@@ -93,13 +93,56 @@ given our newfound understanding?
 %% We can view our resistance to such "extra work" as unconscious efforts %%
 %% at conservation and efficient use of our time and energy. %%
 %% Recall use of post-hoc mind maps for memory enhancement %%
+[Internal Family Systems](https://ifs-institute.com/) (IFS) offers one approach
+for getting to know parts of ourselves
+that may favor particular decisions
+or hold particular feelings.
+Integral to the IFS [process](https://www.therapywithalessio.com/articles/the-6-fs-in-ifs-the-6-steps-to-get-to-know-our-protectors)
+is developing a sense of compassion towards our parts of mind,
+and this often comes along with recognizing the positive intentions of our parts.
+Regarding our decisions to avoid memorizing past blog post contents,
+our underlying desire was to be time and energy efficient.
+We don't like activities that *feel* like extra work.
 
 %% Observe consolidation / blog-post creation process %%
+Focusing on this goal of efficiency,
+i.e. taking the perspective of the study-avoidant part of ourselves,
+we see redundant efforts in our current process
+for consolidating our learnings using our blog.
+In particular,
+we first organize our thoughts on what we've learned about the world,
+and then we write our blog post.
+In practice, we next wait some time until the post is no longer top of mind,
+then we extract the organization and details of our thought from the blog post,
+and finally, we create and memorize a mindmap based on this organization and details.
 
 %% Recognize two overlapping steps of thought organization pre-post and during mind map creation. %%
-%% Invert, stupid. Invert.%%
+Our current procedure is based upon prior, valid realizations.
+For example, we've previously posted about how post-hoc mind maps and similar diagrams
+help promote understanding, organization, and memorization.
+We first noted this phenomena in
+[Causally Engineering Life](https://timothyb0912.github.io/blog/reading/2021/02/28/Causally-Engineering-Life.html),
+and we discussed it more thoroughly in
+[Heavy on the Graphs](https://timothyb0912.github.io/blog/psychology/practice/2022/04/30/Graph-Heavy.html).
+Still though, the fact that we are procrastinating on using this process
+points to additional physical and mental realizations---in this case,
+feelings and sensations that we can make [better choices](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
+%% Invert, stupid. Invert.%%
 %% Combine, by organizing thoughts pre-post by creating and internalizing mind maps %%
+Of course, making better choices is difficult in hindsight
+Luckily, life often gives us the chance to make better decisions going forward.
+In particular, we believe some variant of the process above
+to be amongst the most beneficial way to internalize already written posts.
+However, when considering posts yet to be written,
+we can indeed streamline our process for remembering what we've learned.
+To do so, we use a software engineering principle for promoting efficient programming:
+"Don't Repeat Yourself ([DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself))."
+The idea is to be efficient by avoid duplication.
+By [inverting](https://fs.blog/inversion/) our process
+so we create and internalize mind maps **before** writing our blog posts
+rather than afterwards,
+we can move from two instances of mental organization to one.
 
 
 ## Process description
