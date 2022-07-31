@@ -40,7 +40,7 @@ Unfortunately, it is not just the words of others that are hard to hold onto.
 The aforementioned slipperiness
 also films words
 drawn from the wellspring of our own mind.
-For instance, over time, we forget the contents of our own blog posts.
+For example, over time, we forget the contents of our own blog posts.
 
 This forgetting is problematic,
 because maximally benefitting from our blog posts,
@@ -138,23 +138,109 @@ However, when considering posts yet to be written,
 we can indeed streamline our process for remembering what we've learned.
 To do so, we use a software engineering principle for promoting efficient programming:
 "Don't Repeat Yourself ([DRY](https://en.wikipedia.org/wiki/Don't_repeat_yourself))."
-The idea is to be efficient by avoid duplication.
+The idea is to be efficient by avoiding duplication.
 By [inverting](https://fs.blog/inversion/) our process
 so we create and internalize mind maps **before** writing our blog posts
 rather than afterwards,
 we can move from two instances of mental organization to one.
 
 
+## Mechanisms
+
+Why...Why does this inversion benefit us?
+Our idea is founded on the experience / anecdote / observation
+that blog post writing is analogous---
+in terms of information organization---
+to drawing and memorizing a mind map,
+yet we generally find it easier to describe what we see
+than to see what has been described to us.
+
+Mind maps are images that are "seen"
+whereas blog posts are descriptions that are "read."
+Accordingly, in a more mathematical notation,
+we might say
+blog_post(mind_map(thought)) = "reading from mind-map" = "explanation",
+mind_map(blog_post(thought)) = "drawing from blog post" = "organization",
+and blog_post(mind_map(thought)) < mind_map(blog_post(thought)) in difficulty.
+
+We hypothesize that this asymmetry in ease of composition
+comes from talking (and titling as a special form of talking).
+Talking provides the detailed information
+and titling of mind map sections (i.e. subgraphs)
+provides the sectional information
+that is present in a blog post
+but missing in a mind map.
+Conversely, we know of no similar intermediary
+that provides the relational / structural / spatial information
+that is present in a mind map
+but missing in a blog post.
+As a result, we can make a mind map,
+and then produce a blog post "cheaply"
+by talking through and talking about our mind map.
+In comparison, writing a blog post only negligibly lowers
+the effort required to draw the mind map of that posts' ideas.
+Much mental effort is still needed to choose and clarify
+connections between nodes in the mind map or the lack thereof.
+
+
 ## Process description
 
 %% How are we using pre-post mind maps in service of post-creation and internalization? %%
+%% Below describes what we are doing, but not why we are doing it this way. %%
+%% It feels dropped out of thin air %%
+So, just how are we using mind maps while writing our blogs?
 
+To capitalize on and operationlize the translational ease described above,
+we've found the following process useful so far.
+
+First, to document, clarify, and organize an idea,
+we start by making a mind map, either on paper or digitally.
+Next, we create anki questions based on this mind map.
+These questions take the form of node occlusion cards,
+where the question covers (i.e. occludes) one node
+and the answer is whatever was originally contained in that node.
+After making one node occlusion card per node in the mind map,
+we then turn to create subgraphs.
+These subgraphs are used to create more node occlusion cards---
+cards that this time that cover all nodes of the subgraph at once.
+Note that our subgraphs are based on intuitive groupings of nodes,
+thereby assisting with chunking and ultimately retention.
+
+After splitting the mind map into subgraphs,
+we order these subgraphs in an intuitive sequence,
+as if we were using them
+to explain the entire mind map to someone else.
+This sequencing with aim to explain is also helpful for our memory efforts.
+Continuing the eplanation exercise,
+we note the questions that we would ask,
+such that the subgraph was the answer
+or a visualization of our answer.
+
+If desired,
+we can use the questions
+and their associated subgraphs
+for a presentation outline.
+We could use the questions as slide titles,
+and we could use the subgraphs as the body of the slides.
+Lastly, we use the earlier sequence of subgraphs
+to order both the slides and questions.
+The ordered questions directly
+form our blog post outline,
+and we create the post
+by answering the questions,
+describing the subgraphs,
+and elaborating on the subgraphs.
 
 
 ## The forest behind the tree
 
 %% With the basics described above, let's %%
 %% Zoom out for fuller stock of our benefits and our connections to other trees in the forest %%
+Okay, so what has that gotten us in the end?
+Describing the motivating issues and the procedure above
+is like growing the roots, trunk, and leaves of a great tree.
+What fruits has this tree produced in our life,
+and what other trees in the forest have we connected to in the process?
 
 %% Footnote, notion of connection is not hyperbole. Trees communicate and are connected -- %%
 [tree-communication](https://www.npr.org/sections/health-shots/2021/05/04/993430007/trees-talk-to-each-other-mother-tree-ecologist-hears-lessons-for-people-too)
