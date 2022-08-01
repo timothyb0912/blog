@@ -120,7 +120,7 @@ and finally, we create and memorize a mindmap based on this organization and det
 Our current procedure is based upon prior, valid realizations.
 For example, we've previously posted about how post-hoc mind maps and similar diagrams
 help promote understanding, organization, and memorization.
-We first noted this phenomena in
+We first noted this phenomenon in
 [Causally Engineering Life](https://timothyb0912.github.io/blog/reading/2021/02/28/Causally-Engineering-Life.html),
 and we discussed it more thoroughly in
 [Heavy on the Graphs](https://timothyb0912.github.io/blog/psychology/practice/2022/04/30/Graph-Heavy.html).
@@ -209,9 +209,9 @@ thereby assisting with chunking and ultimately retention.
 After splitting the mind map into subgraphs,
 we order these subgraphs in an intuitive sequence,
 as if we were using them
-to explain the entire mind map to someone else.
+to explain (er, present) the entire mind map to someone else.
 This sequencing with aim to explain is also helpful for our memory efforts.
-Continuing the eplanation exercise,
+Continuing the explanation exercise,
 we note the questions that we would ask,
 such that the subgraph was the answer
 or a visualization of our answer.
@@ -236,27 +236,88 @@ and elaborating on the subgraphs.
 
 %% With the basics described above, let's %%
 %% Zoom out for fuller stock of our benefits and our connections to other trees in the forest %%
-Okay, so what has that gotten us in the end?
-Describing the motivating issues and the procedure above
-is like growing the roots, trunk, and leaves of a great tree.
-What fruits has this tree produced in our life,
-and what other trees in the forest have we connected to in the process?
-
-%% Footnote, notion of connection is not hyperbole. Trees communicate and are connected -- %%
-[tree-communication](https://www.npr.org/sections/health-shots/2021/05/04/993430007/trees-talk-to-each-other-mother-tree-ecologist-hears-lessons-for-people-too)
+Okay, so what has all of this gotten us in the end?
+If describing our motivation and process
+is like drawing the roots, trunk, and leaves of a great tree,
+then this is a fine time to step back,
+to appreciate the fruits of our labor,
+and to take stock of the connections[^2] we've forged
+with other trees in the forest.
+Metaphors aside,
+let's consider the bigger picture
+in which our digestion before expression is situated.
+What is the spectrum of benefits from this practice,
+and how do we relate to ourselves and others through this process?
 
 
 ### Benefits
 
 %% Internalization and recall %%
-
 %% Intermediate packets %%
+Let's start by looking at what we gain from this procedure.
+Our first obvious benefit is greater internalization and recall of our blog posts,
+relative to not using any memory techniques to study the posts.
+The next set of benefits stems from our creation of multiple [intermediate packets](https://fortelabs.co/blog/bending-the-curves-of-productivity/):
+- mind map
+- set of anki flashcards
+- set of subraphs
+- sequence of subgraphs
+- presentation (outline)
+- blog post (outline)
+
+These intermediate packets act as rungs on a ladder,
+enabling more systematic and smoother transition
+from initial thought to completed statement
+(i.e. blog post and / or presentation).
+
+By having greater internalization and recall of our thoughts on a topic
+AND by having more production endpoints, thereby allowing for easy transitions,
+we are better able to restart at any of these parts of the digestion process
+and to easily resume expression of the next product in our procedure.
 
 %% Easier sharing -- personal picture can  help people UNDERSTAND via SEEING what you mean  %%
+Finally, in creating these intermediate packets,
+we greatly diversify the mediums in which we express our thoughts.
+For example, we create images (mind maps, subgraphs, slide decks),
+text (blog posts),
+and potentially audio or video, if we record our presentations.
+These diverse media ease our sharing our thoughts with other people,
+as some individuals will find some media more accessible than others.
+
 %% Recall Ralph Ammer in 'How Drawing Helps You Think' %%
 %% Recall Susan Ruffins physical map providing a guide through the thicket for Elizabeth Chin (p.32-33) %%
 %% See also the description on p. 191 - 192 %%
+Think of images as a medium versus text.
+In doing so, let's recall the words of Ralph Ammer, quoted above.
+His quote actually [ends](https://youtubetranscript.com/?v=ZqlTSCvP-Z0) by saying
+"[i]t is hard for us to anchor words in our minds,
+and drawings can help make them stick."
+Shifting our attention from images in general,
+to the specific image category of mind maps,
+we can consider the experience of author Elizabeth Chin
+in her autoethnography
+"[My Life with Things](https://www.amazon.com/My-Life-Things-Consumer-Diaries-ebook/dp/B01FO18E84/)."
+She too "mind" mapped her writing---her book---before (fully) writing it.
+She states
+
+> As with many other writers,
+> there came a time where I felt stuck.
+> [...] The problem was that I really could not see
+> how to shape what I had written into a book.
+> My friend Susan Ruffins rescued me from that state.
+> She took the manuscript in hand,
+> laid out entries across her office,
+> [i.e. made a physical map of documents,]
+> picked them up in one spot
+> and put them down in another
+> [...]. In my case I needed a guide through the thicket.
+> ---p. 32
+
 %% That's what these pictoral mind maps do--provide a guide through the thicket of words in our post %%
+This is the role played by mind maps.
+They provide a pictoral guide
+through the thicket of words in our posts,
+for ourselves and for others.
 
 
 ### Connections
@@ -273,4 +334,6 @@ and what other trees in the forest have we connected to in the process?
 %% This time, however, when seeking to hold onto the useful and beautiful in words %%
 %% pictures may be the perfect frame for our exercise. %%
 
-[1]: We noted this article due to its motivation of [yoga as effective, kinesthetic thinking](https://timothyb0912.github.io/blog/psychology/practice/2022/06/21/Yoga-and-kinesthetic-thinking.html)  
+[1]: We noted this article due to its motivation of [yoga as effective, kinesthetic thinking](https://timothyb0912.github.io/blog/psychology/practice/2022/06/21/Yoga-and-kinesthetic-thinking.html)
+
+[2]: The notion of connection is not hyperbole. Trees [communicate](https://www.npr.org/sections/health-shots/2021/05/04/993430007/trees-talk-to-each-other-mother-tree-ecologist-hears-lessons-for-people-too) and are connected.
