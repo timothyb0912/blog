@@ -292,6 +292,11 @@ In doing so, let's recall the words of Ralph Ammer, quoted above.
 His quote actually [ends](https://youtubetranscript.com/?v=ZqlTSCvP-Z0) by saying
 "[i]t is hard for us to anchor words in our minds,
 and drawings can help make them stick."
+We can combat the aforementioned slipperiness of words,
+by leveraging the stickiness of images,
+images we create as intermediate packets
+during our digestion process.
+
 Shifting our attention from images in general,
 to the specific image category of mind maps,
 we can consider the experience of author Elizabeth Chin
@@ -323,10 +328,89 @@ for ourselves and for others.
 ### Connections
 
 %% Connections to self and prior thoughts -- map of blog contents %%
+In much the way that mind maps make clear the connections between nodes,
+lets clarify some of the many connections
+forged by our practice of digestion before expression.
+In particular, we can consider how this practice connects us to ourselves---
+to our previous thoughts and to our blog posts.
+Below, we show an updated view of our blog's map of contents.
+Specifically, it's a view of the qualitative learning subgraph,
+where many of the recent blog posts are located.
+
+<img src="{{ site.baseurl }}/images/2022-07-31_blog-MOC_digestion-focus.png" width="800px">
+
+Though this post discusses mind maps,
+as does [Graph Heavy](https://timothyb0912.github.io/blog/psychology/practice/2022/04/30/Graph-Heavy.html),
+we are describing a procedural change in how we write our blog posts.
+As such, we see this post as a descendant of [Document everything](https://timothyb0912.github.io/blog/reading/2021/01/31/Document-everything.html),
+giving us one example of algorithm change, development, and documentation.
+In this case, our procedure tells us how to chronicle our monthly learnings
+for our younger selves.
 
 %% Connections to contemporaries -- Ali Abdaal %%
+If we continue broadening our horizons,
+we can observe how digestion before expression
+connects us to our contemporaries.
+For instance,
+consider fellow Building a Second Brain [alumnus](https://www.linkedin.com/posts/tiagoforte_inside-ali-abdaals-full-second-brain-system-activity-6948682644507299840-tTYY/)
+Ali Abdaal.
+In his 3rd year of medical school at Cambridge University,
+he [won](https://www.youtube.com/watch?v=-46Vyiwat_Y) the top exam results prize.
+[To do so](https://aliabdaal.com/the-essay-memorisation-framework/),
+he made about 50 essay plans
+in the form of mind maps,
+and he used anki flashcards to memorize them.
+At an abstract level, our processes are analogous:
+mind map -> anki -> document outline.
+As Ali's results show, this process performs well in both
+academic and in personal settings!
 
 %% Connnections to humans through history -- Method of Loci%%
+Finally, we can look at the connection to others throughout history.
+For instance, take the map in mind map.
+We commit these maps to memory,
+internalizing the text, images,
+relational information (arrows and meaning),
+and spatial information about what is where.
+The memorization of such spatial information
+is precisely the memorization performed
+when using the [Method of Loci](https://en.wikipedia.org/wiki/Method_of_loci).
+
+The Method of Loci is an ancient memory technique
+that has been used by orators to deliver long speeches
+(i.e. expressions of thought).
+In the Method of Loci,
+one takes pieces of information to be remembered
+and one places each piece of information in relation to each other.
+This placement can be on an entirely fictional map,
+as when mind mapping on a blank page,
+or the placement may be on maps inspired by reality,
+such as on maps of indoor or outdoor locations.
+Finally, one then memorizes the set of loci
+(points, locations, nodes, etc.),
+and one memorizes a path or journey through these points,
+recalling the information along the way.
+Memorization with the Method of Loci
+would be performed before a speech was given,
+much the way our mental digestion
+takes place before expression of our blog posts.
+
+Here, we see our practices comfortably situated
+amongst a long line of individuals
+who sought to remember what they've learned
+and who sought to remember what they wished to share.
+In our youngest days,
+when we first learned of those slippery bubbles,
+we tried to grab hold of them,
+but we could never share them that way.
+All along it seems, as with many words,
+a picture would have better captured the beauty and significance of the moment,
+both for our memories and for others.
+Going forward Young Tim,
+when recalling and expressing a word from the wise,
+we'll be greatly looking forward to your big pictures,
+internalized, refined, and vividly held for the rest of us to see.
+
 
 
 %% In our earliest youth, we chased the bubbles, trying to "catch em all" %%
