@@ -10,6 +10,7 @@ hide: false
 
 # Digest before you express
 
+<img src="{{ site.baseurl }}/images/2022-07-31_digestion-before-expression.png" width="800px">
 
 ## The challenge
 <img src="{{ site.baseurl }}/images/2022-07-31_bubbles.png" width="800px">
@@ -18,10 +19,10 @@ Dear Young Tim,
 
 Do you recall the balmy July afternoons of our earliest youth?
 When we shared summer vacations from school with our sisters?
-We played on the sidewalk,
-where my sisters blew bubbles,
-and I ran them down,
-determined to grasp each one before it hit the pavement.
+We played on the sidewalk:
+my sisters blew bubbles,
+and I ran them down.
+I was determined to grasp each one before it hit the pavement.
 Though the chase was great fun and the colorful orbs beautiful,
 we never could hold onto those slippery bubbles.
 Bubbles are ephemeral, and as it turns out, words are similar.
@@ -43,8 +44,8 @@ drawn from the wellspring of our own mind.
 For example, over time, we forget the contents of our own blog posts.
 
 This forgetting is problematic,
-because maximally benefitting from our blog posts,
-requires that we remember them.
+because we must remember our blog posts
+to maximally benefit from them.
 As noted in Sadhguru's [article](https://isha.sadhguru.org/yoga/yoga-articles-mind-stress/organizing-mind-success/) [^1]
 on organizing one's mind and body for success,
 "[i]f you suffer your failure it is bad enough,
@@ -56,9 +57,9 @@ is indeed a tragedy.
 
 
 ## Needs
-%% Repeat need of remembering%%
-%% Generalize remembering need to learn, use, benefit %%
-%% Recognize complementary need for TIME to consolidate and use learnings %%
+<!-- %% Repeat need of remembering%% -->
+<!-- %% Generalize remembering need to learn, use, benefit %% -->
+<!-- %% Recognize complementary need for TIME to consolidate and use learnings %% -->
 So Young Tim,
 what is it that we need to avoid tragedy,
 or put more constructively,
@@ -70,11 +71,11 @@ Relatedly, if we consider life more broadly,
 then as [noted](http://sfhelp.org/relate/keys/needs.htm) by social worker Peter Gerlach,
 we need to "learn about the world,
 and to use this knowledge"
-(implying rememberance of our learnings).
+(implying remembrance of our learnings).
 Hidden in this general requirement is a complementary need for time.
 Specifically, we need time to consolidate, ingrain, and use our learnings about the world.
 
-%% Note desire to avoid feeling of "extra work" for post-hoc memory efforts" %%
+<!-- %% Note desire to avoid feeling of "extra work" for post-hoc memory efforts" %% -->
 In practice, there is tension between our needs for time and for remembering.
 Memory improvement efforts require an (at least initial) investment of time,
 and these efforts feel like "extra work" when performed after information consumption.
@@ -89,22 +90,22 @@ given our newfound understanding?
 
 
 ## Solutions
-%% Recognize desire for efficiency and energy conservation  %%
-%% We can view our resistance to such "extra work" as unconscious efforts %%
-%% at conservation and efficient use of our time and energy. %%
-%% Recall use of post-hoc mind maps for memory enhancement %%
+<!-- %% Recognize desire for efficiency and energy conservation  %% -->
+<!-- %% We can view our resistance to such "extra work" as unconscious efforts %% -->
+<!-- %% at conservation and efficient use of our time and energy. %% -->
+<!-- %% Recall use of post-hoc mind maps for memory enhancement %% -->
 [Internal Family Systems](https://ifs-institute.com/) (IFS) offers one approach
 for getting to know parts of ourselves
 that may favor particular decisions
 or hold particular feelings.
 Integral to the IFS [process](https://www.therapywithalessio.com/articles/the-6-fs-in-ifs-the-6-steps-to-get-to-know-our-protectors)
-is developing a sense of compassion towards our parts of mind,
-and this often comes along with recognizing the positive intentions of our parts.
+is developing a sense of compassion towards our parts of mind.
+This compassion often comes from recognizing our parts' positive intentions.
 Regarding our decisions to avoid memorizing past blog post contents,
-our underlying desire was to be time and energy efficient.
+our positive, underlying desire was to be time and energy efficient.
 We don't like activities that *feel* like extra work.
 
-%% Observe consolidation / blog-post creation process %%
+<!-- %% Observe consolidation / blog-post creation process %% -->
 Focusing on this goal of efficiency,
 i.e. taking the perspective of the study-avoidant part of ourselves,
 we see redundant efforts in our current process
@@ -113,10 +114,10 @@ In particular,
 we first organize our thoughts on what we've learned about the world,
 and then we write our blog post.
 In practice, we next wait some time until the post is no longer top of mind,
-then we extract the organization and details of our thought from the blog post,
-and finally, we create and memorize a mindmap based on this organization and details.
+then we extract the organization and details of our thought from the post.
+Finally, we create and memorize a mindmap based on this organization and details.
 
-%% Recognize two overlapping steps of thought organization pre-post and during mind map creation. %%
+<!-- %% Recognize two overlapping steps of thought organization pre-post and during mind map creation. %% -->
 Our current procedure is based upon prior, valid realizations.
 For example, we've previously posted about how post-hoc mind maps and similar diagrams
 help promote understanding, organization, and memorization.
@@ -126,11 +127,11 @@ and we discussed it more thoroughly in
 [Heavy on the Graphs](https://timothyb0912.github.io/blog/psychology/practice/2022/04/30/Graph-Heavy.html).
 Still though, the fact that we are procrastinating on using this process
 points to additional physical and mental realizations---in this case,
-feelings and sensations that we can make [better choices](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
+feelings and sensations that we can make better choices.
 
-%% Invert, stupid. Invert.%%
-%% Combine, by organizing thoughts pre-post by creating and internalizing mind maps %%
-Of course, making better choices is difficult in hindsight
+<!-- %% Invert, stupid. Invert.%% -->
+<!-- %% Combine, by organizing thoughts pre-post by creating and internalizing mind maps %% -->
+Of course, making better choices is difficult in hindsight.
 Luckily, life often gives us the chance to make better decisions going forward.
 In particular, we believe some variant of the process above
 to be amongst the most beneficial way to internalize already written posts.
@@ -148,8 +149,8 @@ we can move from two instances of mental organization to one.
 ## Mechanisms
 
 Why...Why does this inversion benefit us?
-Our idea is founded on the experience / anecdote / observation
-that blog post writing is analogous---
+Our idea is founded on the experience
+that writing a blog post is analogous---
 in terms of information organization---
 to drawing and memorizing a mind map,
 yet we generally find it easier to describe what we see
@@ -158,10 +159,10 @@ than to see what has been described to us.
 Mind maps are images that are "seen"
 whereas blog posts are descriptions that are "read."
 Accordingly, in a more mathematical notation,
-we might say
-blog_post(mind_map(thought)) = "reading from mind-map" = "explanation",
-mind_map(blog_post(thought)) = "drawing from blog post" = "organization",
-and blog_post(mind_map(thought)) < mind_map(blog_post(thought)) in difficulty.
+we might say  
+blog_post[mind_map(thought)] = "reading from mind-map" = "explanation",  
+mind_map[blog_post(thought)] = "drawing from blog post" = "organization",  
+and blog_post[mind_map(thought)] < mind_map[blog_post(thought)] in difficulty.
 
 We hypothesize that this asymmetry in ease of composition
 comes from talking (and titling as a special form of talking).
@@ -185,12 +186,12 @@ connections between nodes in the mind map or the lack thereof.
 
 ## Process description
 
-%% How are we using pre-post mind maps in service of post-creation and internalization? %%
-%% Below describes what we are doing, but not why we are doing it this way. %%
-%% It feels dropped out of thin air %%
+<!-- %% How are we using pre-post mind maps in service of post-creation and internalization? %% -->
+<!-- %% Below describes what we are doing, but not why we are doing it this way. %% -->
+<!-- %% It feels dropped out of thin air %% -->
 So, just how are we using mind maps while writing our blogs?
 
-To capitalize on and operationlize the translational ease described above,
+To capitalize on and operationalize the translational ease described above,
 we've found the following process useful so far.
 
 First, to document, clarify, and organize an idea,
@@ -202,7 +203,7 @@ and the answer is whatever was originally contained in that node.
 After making one node occlusion card per node in the mind map,
 we then turn to create subgraphs.
 These subgraphs are used to create more node occlusion cards---
-cards that this time that cover all nodes of the subgraph at once.
+cards that now cover all nodes of the subgraph at once.
 Note that our subgraphs are based on intuitive groupings of nodes,
 thereby assisting with chunking and ultimately retention.
 
@@ -234,9 +235,10 @@ and elaborating on the subgraphs.
 
 ## The forest behind the tree
 
-%% With the basics described above, let's %%
-%% Zoom out for fuller stock of our benefits and our connections to other trees in the forest %%
-Okay, so what has all of this gotten us in the end?
+<!-- %% With the basics described above, let's %% -->
+<!-- %% Zoom out for fuller stock of our benefits %% -->
+<!-- %% and our connections to other trees in the forest %% -->
+Okay, so what does all of this get us in the end?
 If describing our motivation and process
 is like drawing the roots, trunk, and leaves of a great tree,
 then this is a fine time to step back,
@@ -252,12 +254,13 @@ and how do we relate to ourselves and others through this process?
 
 ### Benefits
 
-%% Internalization and recall %%
-%% Intermediate packets %%
-Let's start by looking at what we gain from this procedure.
+<!-- %% Internalization and recall %% -->
+<!-- %% Intermediate packets %% -->
+We start by looking at what we gain from this procedure.
 Our first obvious benefit is greater internalization and recall of our blog posts,
 relative to not using any memory techniques to study the posts.
-The next set of benefits stems from our creation of multiple [intermediate packets](https://fortelabs.co/blog/bending-the-curves-of-productivity/):
+The next set of benefits stems from our creation of
+multiple [intermediate packets](https://fortelabs.co/blog/bending-the-curves-of-productivity/):
 - mind map
 - set of anki flashcards
 - set of subraphs
@@ -275,7 +278,8 @@ AND by having more production endpoints, thereby allowing for easy transitions,
 we are better able to restart at any of these parts of the digestion process
 and to easily resume expression of the next product in our procedure.
 
-%% Easier sharing -- personal picture can  help people UNDERSTAND via SEEING what you mean  %%
+<!-- %% Easier sharing -- personal picture can help people %% -->
+<!-- %% UNDERSTAND via SEEING what you mean  %% -->
 Finally, in creating these intermediate packets,
 we greatly diversify the mediums in which we express our thoughts.
 For example, we create images (mind maps, subgraphs, slide decks),
@@ -284,9 +288,10 @@ and potentially audio or video, if we record our presentations.
 These diverse media ease our sharing our thoughts with other people,
 as some individuals will find some media more accessible than others.
 
-%% Recall Ralph Ammer in 'How Drawing Helps You Think' %%
-%% Recall Susan Ruffins physical map providing a guide through the thicket for Elizabeth Chin (p.32-33) %%
-%% See also the description on p. 191 - 192 %%
+<!-- %% Recall Ralph Ammer in 'How Drawing Helps You Think' %% -->
+<!-- %% Recall Susan Ruffins physical map %% -->
+<!-- %% providing a guide through the thicket for Elizabeth Chin (p.32-33) %% -->
+<!-- %% See also the description on p. 191 - 192 %% -->
 Think of images as a medium versus text.
 In doing so, let's recall the words of Ralph Ammer, quoted above.
 His quote actually [ends](https://youtubetranscript.com/?v=ZqlTSCvP-Z0) by saying
@@ -318,7 +323,8 @@ She states
 > [...]. In my case I needed a guide through the thicket.
 > ---p. 32
 
-%% That's what these pictoral mind maps do--provide a guide through the thicket of words in our post %%
+<!-- %% That's what these pictoral mind maps do-- %% -->
+<!-- %% provide a guide through the thicket of words in our post %% -->
 This is the role played by mind maps.
 They provide a pictoral guide
 through the thicket of words in our posts,
@@ -327,7 +333,7 @@ for ourselves and for others.
 
 ### Connections
 
-%% Connections to self and prior thoughts -- map of blog contents %%
+<!-- %% Connections to self and prior thoughts -- map of blog contents %% -->
 In much the way that mind maps make clear the connections between nodes,
 lets clarify some of the many connections
 forged by our practice of digestion before expression.
@@ -347,7 +353,7 @@ giving us one example of algorithm change, development, and documentation.
 In this case, our procedure tells us how to chronicle our monthly learnings
 for our younger selves.
 
-%% Connections to contemporaries -- Ali Abdaal %%
+<!-- %% Connections to contemporaries -- Ali Abdaal %% -->
 If we continue broadening our horizons,
 we can observe how digestion before expression
 connects us to our contemporaries.
@@ -365,7 +371,7 @@ mind map -> anki -> document outline.
 As Ali's results show, this process performs well in both
 academic and in personal settings!
 
-%% Connnections to humans through history -- Method of Loci%%
+<!-- %% Connections to humans through history -- Method of Loci%% -->
 Finally, we can look at the connection to others throughout history.
 For instance, take the map in mind map.
 We commit these maps to memory,
@@ -373,10 +379,9 @@ internalizing the text, images,
 relational information (arrows and meaning),
 and spatial information about what is where.
 The memorization of such spatial information
-is precisely the memorization performed
-when using the [Method of Loci](https://en.wikipedia.org/wiki/Method_of_loci).
+is precisely the [Method of Loci](https://en.wikipedia.org/wiki/Method_of_loci).
 
-The Method of Loci is an ancient memory technique
+This method is an ancient memory technique
 that has been used by orators to deliver long speeches
 (i.e. expressions of thought).
 In the Method of Loci,
@@ -390,13 +395,13 @@ Finally, one then memorizes the set of loci
 (points, locations, nodes, etc.),
 and one memorizes a path or journey through these points,
 recalling the information along the way.
-Memorization with the Method of Loci
-would be performed before a speech was given,
-much the way our mental digestion
-takes place before expression of our blog posts.
+Much the way our mental digestion
+takes place before expression of our blog posts,
+the Method of Loci
+was used before a speech was given.
 
 Here, we see our practices comfortably situated
-amongst a long line of individuals
+amongst a long historical line of individuals
 who sought to remember what they've learned
 and who sought to remember what they wished to share.
 In our youngest days,
@@ -408,16 +413,10 @@ a picture would have better captured the beauty and significance of the moment,
 both for our memories and for others.
 Going forward Young Tim,
 when recalling and expressing a word from the wise,
-we'll be greatly looking forward to your big pictures,
+we'll be greatly looking forward to your big pictures:
 internalized, refined, and vividly held for the rest of us to see.
 
 
+[^1]: We noted this article due to its motivation of [yoga as effective, kinesthetic thinking](https://timothyb0912.github.io/blog/psychology/practice/2022/06/21/Yoga-and-kinesthetic-thinking.html)
 
-%% In our earliest youth, we chased the bubbles, trying to "catch em all" %%
-%% Insert pokeball picture %%
-%% This time, however, when seeking to hold onto the useful and beautiful in words %%
-%% pictures may be the perfect frame for our exercise. %%
-
-[1]: We noted this article due to its motivation of [yoga as effective, kinesthetic thinking](https://timothyb0912.github.io/blog/psychology/practice/2022/06/21/Yoga-and-kinesthetic-thinking.html)
-
-[2]: The notion of connection is not hyperbole. Trees [communicate](https://www.npr.org/sections/health-shots/2021/05/04/993430007/trees-talk-to-each-other-mother-tree-ecologist-hears-lessons-for-people-too) and are connected.
+[^2]: The notion of connection is not hyperbole. Trees [communicate](https://www.npr.org/sections/health-shots/2021/05/04/993430007/trees-talk-to-each-other-mother-tree-ecologist-hears-lessons-for-people-too) and are connected.
