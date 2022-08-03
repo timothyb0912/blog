@@ -110,28 +110,30 @@ Focusing on this goal of efficiency,
 i.e. taking the perspective of the study-avoidant part of ourselves,
 we see redundant efforts in our current process
 for consolidating our learnings using our blog.
-In particular,
+Currently,
 we first organize our thoughts on what we've learned about the world,
 and then we write our blog post.
 In practice, we next wait some time until the post is no longer top of mind,
-then we extract the organization and details of our thought from the post.
-Finally, we create and memorize a mindmap based on this organization and details.
+then we extract the post's organization and details.
+Finally, we create and memorize a mindmap
+based on this structure and fine points.
 
 <!-- %% Recognize two overlapping steps of thought organization pre-post and during mind map creation. %% -->
 Our current procedure is based upon prior, valid realizations.
-For example, we've previously posted about how post-hoc mind maps and similar diagrams
+For example, we've previously posted about how post-hoc mind maps
 help promote understanding, organization, and memorization.
 We first noted this phenomenon in
 [Causally Engineering Life](https://timothyb0912.github.io/blog/reading/2021/02/28/Causally-Engineering-Life.html),
 and we discussed it more thoroughly in
 [Heavy on the Graphs](https://timothyb0912.github.io/blog/psychology/practice/2022/04/30/Graph-Heavy.html).
-Still though, the fact that we are procrastinating on using this process
-points to additional physical and mental realizations---in this case,
-feelings and sensations that we can make better choices.
+Still though, our procrastination in using this process
+points to additional physical and mental realizations.
+In this case,
+our feelings and sensations suggest that we can make better choices.
 
 <!-- %% Invert, stupid. Invert.%% -->
 <!-- %% Combine, by organizing thoughts pre-post by creating and internalizing mind maps %% -->
-Of course, making better choices is difficult in hindsight.
+in hindsight, of course, making better choices is difficult.
 Luckily, life often gives us the chance to make better decisions going forward.
 In particular, we believe some variant of the process above
 to be amongst the most beneficial way to internalize already written posts.
@@ -178,10 +180,14 @@ but missing in a blog post.
 As a result, we can make a mind map,
 and then produce a blog post "cheaply"
 by talking through and talking about our mind map.
+The process is a translation of one's existing mental organization.
+
 In comparison, writing a blog post only negligibly lowers
 the effort required to draw the mind map of that posts' ideas.
 Much mental effort is still needed to choose and clarify
 connections between nodes in the mind map or the lack thereof.
+Writing before drawing,
+essentially requires two mental organizing efforts.
 
 
 ## Process description
@@ -198,8 +204,8 @@ First, to document, clarify, and organize an idea,
 we start by making a mind map, either on paper or digitally.
 Next, we create anki questions based on this mind map.
 These questions take the form of node occlusion cards,
-where the question covers (i.e. occludes) one node
-and the answer is whatever was originally contained in that node.
+where each question covers (i.e. occludes) one node.
+The answers are whatever was originally contained in that node.
 After making one node occlusion card per node in the mind map,
 we then turn to create subgraphs.
 These subgraphs are used to create more node occlusion cards---
@@ -208,10 +214,10 @@ Note that our subgraphs are based on intuitive groupings of nodes,
 thereby assisting with chunking and ultimately retention.
 
 After splitting the mind map into subgraphs,
-we order these subgraphs in an intuitive sequence,
-as if we were using them
+we then order these subgraphs in an intuitive sequence.
+We act as if we were using the subgraphs
 to explain (er, present) the entire mind map to someone else.
-This sequencing with aim to explain is also helpful for our memory efforts.
+Like chunking, this sequencing with aim to explain also helps our memory efforts.
 Continuing the explanation exercise,
 we note the questions that we would ask,
 such that the subgraph was the answer
@@ -223,11 +229,11 @@ and their associated subgraphs
 for a presentation outline.
 We could use the questions as slide titles,
 and we could use the subgraphs as the body of the slides.
-Lastly, we use the earlier sequence of subgraphs
+Next, we use the earlier sequence of subgraphs
 to order both the slides and questions.
 The ordered questions directly
-form our blog post outline,
-and we create the post
+form our blog post outline.
+Lastly, we create the post
 by answering the questions,
 describing the subgraphs,
 and elaborating on the subgraphs.
@@ -268,19 +274,21 @@ multiple [intermediate packets](https://fortelabs.co/blog/bending-the-curves-of-
 - presentation (outline)
 - blog post (outline)
 
-These intermediate packets act as rungs on a ladder,
-enabling more systematic and smoother transition
-from initial thought to completed statement
-(i.e. blog post and / or presentation).
+These intermediate packets fill out rungs on a ladder.
+These rungs enable smoother transitions
+between initial thought and completed statement.
+That is, between initial thought and blog post and / or presentation.
+Moreover, the easier transitions combine with our greater recall of our main points.
+With both, we become more confident in finishing meaningful units of work per session.
+Finally, this increased certainty reduces our reservations to restarting
+after breaks or distractions.
 
-By having greater internalization and recall of our thoughts on a topic
-AND by having more production endpoints, thereby allowing for easy transitions,
-we are better able to restart at any of these parts of the digestion process
-and to easily resume expression of the next product in our procedure.
 
 <!-- %% Easier sharing -- personal picture can help people %% -->
 <!-- %% UNDERSTAND via SEEING what you mean  %% -->
-Finally, in creating these intermediate packets,
+Not only do we (re-)start more easily,
+we also end in grand fashion as well.
+By creating these intermediate packets,
 we greatly diversify the mediums in which we express our thoughts.
 For example, we create images (mind maps, subgraphs, slide decks),
 text (blog posts),
@@ -368,7 +376,8 @@ in the form of mind maps,
 and he used anki flashcards to memorize them.
 At an abstract level, our processes are analogous:
 mind map -> anki -> document outline.
-As Ali's results show, this process performs well in both
+As Ali's results and our own experience show,
+this process performs well in both
 academic and in personal settings!
 
 <!-- %% Connections to humans through history -- Method of Loci%% -->
@@ -388,10 +397,10 @@ In the Method of Loci,
 one takes pieces of information to be remembered
 and one places each piece of information in relation to each other.
 This placement can be on an entirely fictional map,
-as when mind mapping on a blank page,
-or the placement may be on maps inspired by reality,
+as when mind mapping on a blank page.
+Alternatively, the placement may be on maps inspired by reality,
 such as on maps of indoor or outdoor locations.
-Finally, one then memorizes the set of loci
+Finally, one memorizes the set of loci
 (points, locations, nodes, etc.),
 and one memorizes a path or journey through these points,
 recalling the information along the way.
