@@ -1,3 +1,4 @@
+As of 2022-09-15,
 Fastpages has been abandoned / [deprecated](https://forums.fast.ai/t/fastpages-deprecating-fastpages-in-favor-of-quarto/99095).
 
 Official [migration guide](https://nbdev.fast.ai/tutorials/blogging.html#migrating-from-fastpages)
