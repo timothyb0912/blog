@@ -10,6 +10,7 @@ hide: false
 
 # Flashcards for deadhands
 
+%% See deadhand image %%
 
 ## Intrusive memories
 
@@ -29,7 +30,18 @@ hide: false
 %% See sketchbook/2022-10-21/1 %%
 %% See sketchbook/2022-11-10/1 %%
 
-## Flashcards
-%% Anki for titration %%
+### Flashcards
+%% Anki for titration---unit tests %%
 %% New visuals and associations %%
 %% Spaced repetition / follow-up %%
+
+
+## Related posts
+
+%% Map of Blog Contents %%
+
+%% Psychological optimization %%
+
+%% Story importance %%
+
+%% Emotional leveraging %%
