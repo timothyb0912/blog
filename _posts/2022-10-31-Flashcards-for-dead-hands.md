@@ -60,8 +60,8 @@ Both ends lead to dysfunction, though via differing mechanisms.
 One therapy modality that has proven useful in treating
 problems related to intrusive thoughts is EMDR.
 EMDR has shown benefits in randomized controlled trials,
-for both traumatized individuals (as with PTSD)
-and individuals with addictions.
+for both [traumatized](https://connect.springerpub.com/content/sgremdr/13/4/261.abstract) individuals (as with PTSD)
+and individuals with [addictions](https://connect.springerpub.com/content/sgremdr/2/3/170.abstract).
 Underlying the mechanisms of benefit in both situations
 is a common understanding that "unprocessed" memories
 lead to both types of intrusive memories and that accompanying sensations
@@ -139,7 +139,7 @@ memory reconsolidation roughly happens by
 - associating new, desired beliefs with the accessed, disturbing memory
 
 This memory reconsolidation process also lies at the root of how
-the Internal Family Systems model of therapy works,
+the Internal Family Systems (IFS) model of therapy works,
 as pointed out by neuroscientist Dr. Frank Anderson
 in "[Transcending Trauma](https://www.amazon.com/Transcending-Trauma-Healing-Complex-Internal/dp/B09BD7D6C7/):
 Healing Complex PTSD with Internal Family Systems Therapy"
@@ -152,6 +152,34 @@ for emotional regulation and memory management.
 ## Memory management
 
 
+### What and why
+
+%% What is memory management? %%
+%% --controlling what we remember and how we remember it %%
+%% Why, briefly and according to earlier mentions---flashcards %%
+%% Flashcards as explicit memory management, %%
+ %% sentence + pointer %%
+%% What link to emotional regulation? %%
+%% --management of intrusive, unprocessed memories %%
+The ultimate purpose of our memory management
+is to better critical parts of our life.
+Because whether or not we reconsolidate our intrusive memories
+directly impacts our emotional regulation now and going forward
+(i.e. a critical part of our life),
+**intrusive memories and the actions we take on them
+are critical components
+in our memory management efforts**.
+We may greatly benefit
+from explicitly noting, acting upon, and strengthening
+the connection between memory management and emotional regulation.
+We'll start by considering
+our practices and perspectives of emotional regulation
+and how those impact our memory management.
+Then, we'll look at what emotional regulation benefits we can glean
+from our memory management practices and perspectives.
+
+
+
 ### Internal Family Systems 
 %% Intrusive memories as trailheads and burdens %%
 %% Unburdening process as memory access and processing procedure %%
@@ -161,6 +189,99 @@ for emotional regulation and memory management.
 %% from reparenting and retrieving %%
 %% See sketchbook/2022-10-21/1 %%
 %% See sketchbook/2022-11-10/1 %%
+
+In [previous posts](https://timothyb0912.github.io/blog/psychology/2022/05/31/Emotional-leveraging.html) we've written about using IFS
+techniques for and perspectives on emotional regulation.
+These perspectives provide a window
+through which we can view intrusive memories---
+a view that is complementary to that of Shapiro's AIP model.
+The IFS view of intrusive memories
+then informs our memory management stance towards the intrusions.
+
+Similarly, memory reconsolidation and the AIP model
+provide a complementary view of IFS's
+unburdening process.
+In this case, the memory reconsolidation view of
+the IFS unburdening process
+suggests explicit points for beneficial
+memory management interventions.
+
+#### Views
+
+First, intrusive memories show up as both "burdens" and as "trailheads"
+in Internal Family Systems.
+For instance, as described by [Bonnie Weiss](https://ifs-institute.com/practitioners/all/13712)
+(a therapist certified in both EMDR and IFS),
+
+> a burden is an extreme feeling, **memory** [emphasis added],
+> energy or belief about oneself or about the world
+> that a part has taken on as a result of childhood trauma,
+> a specific incident, a relationship, or another painful situation.
+> The burden is not natural to the part
+> and therefore can be released.  
+> ---[Self-Therapy Workbook](https://www.amazon.com/gp/product/B00IJY7F7A):
+> An Exercise Book For The IFS Process
+> (p. 107)
+
+From this definition,
+a logical next step is to use the IFS "unburdening process"
+to release the burdens, the intrusive memories.
+By name, the process focuses on "getting rid of this thing."
+Despite our wishes otherwise,
+the unburdening process is a long journey.
+It begins with
+making contact with the parts of our mind holding the burdens.
+We make contact by exploring "trailheads."
+Weiss writes that
+
+> A *trailhead* is an experience or difficulty in your life
+> that will lead to interesting parts if you follow it.
+> It can be a situation or person that you react to,
+> an emotional or bodily experience,
+> a pattern of behavior or thinking,
+> a dream, or anything else that indicates
+> one or more parts to explore.
+> IFS calls it a trailhead
+> because it is the beginning of a trail that can lead to healing.
+> ---[Self-Therapy Workbook](https://www.amazon.com/gp/product/B00IJY7F7A)(p. 17)
+
+From here, we note a duality in our intrusive memories.
+Certainly, the intrusions are burdens to be released.
+However, they are also trailheads to be explored,
+rather than avoided or suppressed.
+IFS's trailhead terminology
+highlights the need for investigating intrusive memories
+in the reconsolidation process.
+This investigative focus balances
+the negative judgement connoted by terms such as
+"intrusive memory", "burden," "pathology," etc.
+The negative connotations of such words and concepts
+may increase the likelihood one seeks relief
+by intuitively staying away from the intrusive memories
+rather than exploring them explicitly,
+with care and compassion.
+
+Accordingly, in the long-term,
+we won't chronically respond to intrusive memories
+with "just get over it" or "stop thinking about that."
+To "get over" intrusive memories of our past,
+i.e. to finally "leave the past in the past,"
+we **want to** explore these memories,
+in ways that result in memory reconsolidation.
+Some such ways include IFS' unburdening process,
+EMDR's phased approach, etc.
+
+
+#### Brews
+
+Memory reconsolidation in AIP or "unburdening" in IFS
+is the "healing [of parts]" spoken of by Weiss and
+the updating of "frozen in time" neural networks noted by Shapiro.
+
+
+
+
+
 
 ### Flashcards
 %% Anki for titration---unit tests %%
