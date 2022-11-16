@@ -159,21 +159,38 @@ for emotional regulation and memory management.
 
 %% What is memory management? %%
 %% --controlling what we remember and how we remember it %%
-%% Flashcards as explicit memory management, %%
-%% sentence + pointer/link-to-later-section? %%
+We use the term memory management (for people)
+to refer to the control and directing of
+what we remember and how we remember it.
+%% Flashcards and notes as explicit memory management, %%
+For example, practices like making and using notes and flashcards
+are two explicit memory management techniques.
 %% Why, briefly %%
 %% and according to earlier posts suggesting flashcards %%
+In previous posts,
+we've recommended these practices for numerous reasons, including:
+
+- remembering [facts](https://timothyb0912.github.io/blog/philosophy/2020/12/24/Do-Over.html#be-rigorous-and-reproducible)
+  and [thoughts](https://timothyb0912.github.io/blog/practice/2021/04/30/Journal-systematically.html)
+  that we consider important
+- remembering our [organization](https://timothyb0912.github.io/blog/psychology/practice/2022/04/30/Graph-Heavy.html)
+  of important facts and thoughts
+- associating images and [sensations](https://timothyb0912.github.io/blog/psychology/practice/2022/06/21/Yoga-and-kinesthetic-thinking.html) with memory of facts
+  (e.g. associating physical sensations to names of yoga poses)
+- and [streamlining](https://timothyb0912.github.io/blog/practice/2022/07/31/Digestion-before-expression.html)
+  our efforts to produce and remember new thoughts
+
 %% What link to emotional regulation? %%
 %% --management of intrusive, unprocessed memories %%
-The ultimate purpose of our memory management
-is to better critical parts of our life.
+Ultimately, we manage our memory
+to improve critical parts of our life.
 Because whether or not we reconsolidate our intrusive memories
-directly impacts our emotional regulation now and going forward
+directly impacts our current and future emotional regulation
 (i.e. a critical part of our life),
 **intrusive memories and the actions we take on them
-are critical components
+are automatically critical components
 in our memory management efforts**.
-We may greatly benefit
+We therefore stand to greatly benefit
 from explicitly noting, acting upon, and strengthening
 the connection between memory management and emotional regulation.
 We'll start by considering
@@ -181,7 +198,6 @@ our practices and perspectives of emotional regulation
 and how those impact our memory management.
 Then, we'll look at what emotional regulation benefits we can glean
 from our memory management practices and perspectives.
-
 
 
 ### Internal Family Systems 
