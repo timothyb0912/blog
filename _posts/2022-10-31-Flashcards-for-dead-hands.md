@@ -224,9 +224,10 @@ memory management interventions.
 First, intrusive memories show up as both "burdens" and as "trailheads"
 in Internal Family Systems.
 For instance, as described by [Bonnie Weiss](https://ifs-institute.com/practitioners/all/13712)
-(a therapist certified in both EMDR and IFS),
+(a therapist and author, certified in both EMDR and IFS),
 
-> a burden is an extreme feeling, **memory** [emphasis added],
+> a burden is an extreme feeling,
+> **memory** [emphasis added],
 > energy or belief about oneself or about the world
 > that a part has taken on as a result of childhood trauma,
 > a specific incident, a relationship, or another painful situation.
@@ -238,13 +239,15 @@ For instance, as described by [Bonnie Weiss](https://ifs-institute.com/practitio
 
 From this definition,
 a logical next step is to use the IFS "unburdening process"
-to release the burdens, the intrusive memories.
-By name, the process focuses on "getting rid of this thing."
-Despite our wishes otherwise,
-the unburdening process is a long journey.
+to release the burdens, i.e. the intrusive memories.
+As suggested by its name,
+the unburdening process focuses on "getting rid of something."
+However, despite our wishes otherwise,
+unburdening is a long journey.
 It begins with
 making contact with the parts of our mind holding the burdens.
 We make contact by exploring "trailheads."
+
 Weiss writes that
 
 > A *trailhead* is an experience or difficulty in your life
@@ -271,7 +274,7 @@ the negative judgement connoted by terms such as
 The negative connotations of such words and concepts
 may increase the likelihood one seeks relief
 by intuitively staying away from the intrusive memories
-rather than exploring them explicitly,
+rather than investigating them explicitly,
 with care and compassion.
 
 Accordingly, in the long-term,
@@ -279,7 +282,8 @@ we won't chronically respond to intrusive memories
 with "just get over it" or "stop thinking about that."
 To "get over" intrusive memories of our past,
 i.e. to finally "leave the past in the past,"
-we **want to** explore these memories,
+we **want to** explore these memories.
+Specifically, we want  to explore them
 in ways that result in memory reconsolidation.
 Some such ways include IFS' unburdening process,
 EMDR's phased approach, etc.
@@ -289,7 +293,7 @@ EMDR's phased approach, etc.
 
 %% Process leading to unburdening as %%
 %% memory access & associating procedure %%
-%% Provides flashcard targets.%%
+%% Provides targets for notes and flashcards.%%
 
 %% Access %%
 %% Childhood & specified memories from unblending + witnessing %%
@@ -300,8 +304,8 @@ EMDR's phased approach, etc.
 %% Witnessing, followed by %%
 %% Mismatching intrusion using above's reparenting resourcing %%
 %% Also where EMDR's bilateral stimulation would come in %%
-%% Activate / use decisions and current belief confrontations %%
-%% from IFS reparenting, retrieving, and invitation %%
+%% Activate current belief confrontations & reparenting decisions %%
+%% from IFS reparenting, retrieving, invitation, & integration %%
 
 %% Verification of symptom erasure %%
 %% IFS unloading (stage as opposed to process) %%
