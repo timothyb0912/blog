@@ -294,6 +294,25 @@ EMDR's phased approach, etc.
 %% Process leading to unburdening as %%
 %% memory access & associating procedure %%
 %% Provides targets for notes and flashcards.%%
+Above, we noted that memory reconsolidation
+has three core steps,
+described in shorthand as
+memory access,
+memory "mismatch",
+memory association.
+To enable these three steps,
+there are preparatory stages
+to gather needed information
+(Ecker et al., [pp. 90 - 91](https://pbspamericaconnect.org/resources/Documents/Ecker%20et%20al.%20-%20Primer%20on%20memory%20reconsolidation.pdf)).
+For example, what's the memory,
+what's a less disturbing experience,
+what are the desired, new associations?
+This is where IFS' unburdening process fits in.
+The unburdening process incrementally takes one
+through the memory reconsolidation steps,
+surfacing the information needed to progress through the steps
+in one extended sitting.
+
 
 %% Access %%
 %% Childhood & specified memories from unblending + witnessing %%
