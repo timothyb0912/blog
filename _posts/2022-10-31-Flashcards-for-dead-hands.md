@@ -307,7 +307,7 @@ to gather needed information
 For example, what's the memory,
 what's a less disturbing experience,
 what are the desired, new associations?
-This is where IFS' unburdening process fits in.
+This is where IFS' unburdening recipe comes in.
 The unburdening process incrementally takes one
 through the memory reconsolidation steps,
 surfacing the information needed to progress through the steps
@@ -316,7 +316,11 @@ in one extended sitting.
 The information from the unburdening process steps
 is naturally suited for memory management,
 e.g. for notes and flashcards.
-We want to remember and have access to this information,
+In particular, the sheer amount of information
+motivates explicit management,
+if only to prevent slowdowns from information overwhelm.
+Functionally,
+we want to remember and have access to all of this information
 at will and in quick succession,
 for memory reconsolidation.
 
@@ -324,37 +328,86 @@ for memory reconsolidation.
 %% Childhood & specified memories from unblending + witnessing %%
 %% Resourcing: Memory-based imaginings & perspective on past %%
 %% ---from reparenting %%
+As informed by the discussion in
+"[Transcending Trauma](https://www.amazon.com/Transcending-Trauma-Healing-Complex-Internal/dp/B09BD7D6C7/)
+(ch. 24, \#The Science Behind The Healing),
+the information we'll want to capture is as follows.
+When we use IFS' [6F's](https://www.therapywithalessio.com/articles/the-6-fs-in-ifs-the-6-steps-to-get-to-know-our-protectors) to begin exploring a given intrusive memory,
+we want to collect
+the full range of symptoms that arises with memory access.
+I.e., the full range of activated parts of mind
+and their beliefs, emotions, sensations, and actions.
+Then, we want to capture and organize
+the details of the intrusive memory
+as recalled in one or more rounds of IFS' [witnessing](https://integralguide.com/50+Permanent+Notes/%F0%9F%92%A1+Terms/Internal+Family+Systems+Therapy/%F0%9F%92%A1+Witnessing).
 
 %% Transformation via association %%
 %% Witnessing, followed by %%
 %% Mismatching intrusion using above's reparenting resourcing %%
 %% Also where EMDR's bilateral stimulation would come in %%
+With the ability to re-access the memory,
+we'll next want information that will allow us
+to simultaneously provide an alternate, less disturbing experience.
+IFS supplies this information through its
+imaginative, [do-over](https://integralguide.com/50+Permanent+Notes/%F0%9F%92%A1+Terms/Internal+Family+Systems+Therapy/%F0%9F%92%A1+Witnessing#Do-Over)
+part of reparenting.
+As before, we'll want to store such information,
+so we can later access it on-demand.
+The do-over provides the mismatch experience
+that disconnects the intrusive memory
+from its original, burdensome reactions.
+Once disconnected,
+the intrusive memory is free to be associated
+with desired, "adaptive information."
+
 %% Activate current belief confrontations & reparenting decisions %%
 %% from IFS reparenting, retrieving, invitation, & integration %%
+Finally, reconsolidation needs
+new, 'disconfirming [experiential] knowledge'
+to associate with the original intrusive memory.
+These new learnings are provided by the
+IFS steps of
+
+- reparenting
+  where, in the present,
+  we assess and decide how to meet the needs of
+  the parts of us that are activated by the intrusive memory
+- [retrieval](https://integralguide.com/50+Permanent+Notes/%F0%9F%92%A1+Terms/Internal+Family+Systems+Therapy/%F0%9F%92%A1+Retrieval)
+  where we can update and confront outdated beliefs,
+  i.e. beliefs that no longer benefit us
+- [invitation](https://integralguide.com/50+Permanent+Notes/%F0%9F%92%A1+Terms/Internal+Family+Systems+Therapy/%F0%9F%92%A1+Invitation)
+  where we associate new emotions with the intrusive memory
+  (via association with our parts of mind
+  activated by the intrusive memory)
+- [integration](https://integralguide.com/50+Permanent+Notes/%F0%9F%92%A1+Terms/Internal+Family+Systems+Therapy/%F0%9F%92%A1+Integration)
+  where we choose new beliefs and behaviors to associate
+  with the various parts of our mind activated by the intrusive memory
+
+In all such steps,
+the particular mental scenes,
+associated sensations,
+and emotions
+are information that we want to actively manage in our memory.
+Again, such management may be
+external as with notes
+as well as internal through tools such as flashcards.
+
 
 %% Verification of symptom erasure %%
 %% IFS unloading (stage as opposed to process) %%
-%% IFS invitation and integration %%
-%% Won't dwell on integration as it recursively applies unburdening %%
-%% to secondary feelings and behaviors %%
-%% based on original intrusive memory %%
-%% and the primary associated feelings / and sensations %%
 %% Post-unburdening followup %%
 %% Leads to memory management perspectives and practice %%
-
-%% See sketchbook/2022-10-21/1 %%
-%% See sketchbook/2022-11-10/1 %%
-
-Memory reconsolidation in AIP or "unburdening" in IFS
-is the "healing [of parts]" spoken of by Weiss and
-the updating of "frozen in time" neural networks noted by Shapiro.
-Accordingly, viewing the unburdening process
-through the steps of the memory reconsolidation process
-provides one way to gain a richer understanding of unburdening.
-
-
-
-
+At this point,
+we have all of the information needed for
+the steps of memory reconsolidation
+and for IFS' celebratory [unloading](https://integralguide.com/50+Permanent+Notes/%F0%9F%92%A1+Terms/Internal+Family+Systems+Therapy/%F0%9F%92%A1+Unburdening).
+Afterwards, the only remaining tasks
+are to [follow-up](https://web.archive.org/web/20211102161123/https://personal-growth-programs.com/required-unburdening-succeed/)
+on the unburdening process
+and to verify that one's symptoms have disappeared.
+This follow-up process is most closely related to
+existing aspects of our memory management practices,
+so we'll turn our attention there next.
 
 
 ### Flashcards
