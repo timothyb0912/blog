@@ -22,11 +22,13 @@ Over time, this question will bring much irony to our life.
 When these words first slammed into our eardrums
 like a pot thundering to the floor,
 we rejected them outright.
-Immediately, we rejected the premise we believed the question was based on.
+Immediately,
+we rejected the premise we believed the question was based on.
 After all, knowledge is power, right?
 Why would we want to forget what we know of the past?
-We then rejected the question itself as a distraction,
-opting to "delve deeper" and focus on its motivating problems.
+We then rejected the question itself as a distraction.
+Instead, we opted to "delve deeper"
+by focusing on the question's motivating problems.
 
 While not incorrect, the ironies would come months later,
 after the motivating problems were indeed firmly placed in our past.
@@ -51,21 +53,22 @@ Whether pleasant or unpleasant,
 have served as nature's faithful dead hands in our life.
 These intruding memories may be thought of on a linear spectrum,
 with traumatic (i.e. intensely unpleasant) memories on one end
-and addictive (i.e. intensely pleasant) memories on the other end.
+and appetitive or addictive (i.e. intensely pleasant) memories
+on the other end.
 Both ends lead to dysfunction, though via differing mechanisms.
 
 
 ## Unprocessed memories
 
 One therapy modality that has proven useful in treating
-problems related to intrusive thoughts is EMDR.
+problems related to intrusive memories is EMDR.
 EMDR has shown benefits in randomized controlled trials,
 for both [traumatized](https://connect.springerpub.com/content/sgremdr/13/4/261.abstract) individuals (as with PTSD)
 and individuals with [addictions](https://connect.springerpub.com/content/sgremdr/2/3/170.abstract).
 Underlying the mechanisms of benefit in both situations
-is a common understanding that "unprocessed" memories
-lead to both types of intrusive memories and that accompanying sensations
-then drive extreme beliefs and behaviors.
+is a common understanding
+that "unprocessed" memories lead to both types of intrusive memories. The sensations accompanying the intrusions
+then drive extreme emotions, beliefs, and behaviors.
 As [put](https://connect.springerpub.com/content/sgremdr/2/4/315.abstract)
 by Solomon and Shapiro (creator of EMDR),
 
@@ -129,7 +132,7 @@ beliefs based on the memory,
 and experienced sensations (or the lack thereof).
 
 As [described](https://pbspamericaconnect.org/resources/Documents/Ecker%20et%20al.%20-%20Primer%20on%20memory%20reconsolidation.pdf)
-by Ecker et al (pp. 86 - 87),
+by Ecker et al (p. 89),
 memory reconsolidation roughly happens by
 
 - accessing the disturbing memory
@@ -156,9 +159,10 @@ for emotional regulation and memory management.
 
 %% What is memory management? %%
 %% --controlling what we remember and how we remember it %%
-%% Why, briefly and according to earlier mentions---flashcards %%
 %% Flashcards as explicit memory management, %%
- %% sentence + pointer %%
+%% sentence + pointer/link-to-later-section? %%
+%% Why, briefly %%
+%% and according to earlier posts suggesting flashcards %%
 %% What link to emotional regulation? %%
 %% --management of intrusive, unprocessed memories %%
 The ultimate purpose of our memory management
@@ -181,14 +185,6 @@ from our memory management practices and perspectives.
 
 
 ### Internal Family Systems 
-%% Intrusive memories as trailheads and burdens %%
-%% Unburdening process as memory access and processing procedure %%
-%% Childhood and specified memories from witnessing %%
-%% Memory-based imaginations from reparenting %%
-%% Decisions, perspective, and confrontations %%
-%% from reparenting and retrieving %%
-%% See sketchbook/2022-10-21/1 %%
-%% See sketchbook/2022-11-10/1 %%
 
 In [previous posts](https://timothyb0912.github.io/blog/psychology/2022/05/31/Emotional-leveraging.html) we've written about using IFS
 techniques for and perspectives on emotional regulation.
@@ -207,6 +203,7 @@ suggests explicit points for beneficial
 memory management interventions.
 
 #### Views
+%% Intrusive memories as trailheads and burdens %%
 
 First, intrusive memories show up as both "burdens" and as "trailheads"
 in Internal Family Systems.
@@ -274,9 +271,41 @@ EMDR's phased approach, etc.
 
 #### Brews
 
+%% Process leading to unburdening as %%
+%% memory access & associating procedure %%
+%% Provides flashcard targets.%%
+
+%% Access %%
+%% Childhood & specified memories from unblending + witnessing %%
+%% Resourcing: Memory-based imaginings & perspective on past %%
+%% ---from reparenting %%
+
+%% Transformation via association %%
+%% Witnessing, followed by %%
+%% Mismatching intrusion using above's reparenting resourcing %%
+%% Also where EMDR's bilateral stimulation would come in %%
+%% Activate / use decisions and current belief confrontations %%
+%% from IFS reparenting, retrieving, and invitation %%
+
+%% Verification of symptom erasure %%
+%% IFS unloading (stage as opposed to process) %%
+%% IFS invitation and integration %%
+%% Won't dwell on integration as it recursively applies unburdening %%
+%% to secondary feelings and behaviors %%
+%% based on original intrusive memory %%
+%% and the primary associated feelings / and sensations %%
+%% Post-unburdening followup %%
+%% Leads to memory management perspectives and practice %%
+
+%% See sketchbook/2022-10-21/1 %%
+%% See sketchbook/2022-11-10/1 %%
+
 Memory reconsolidation in AIP or "unburdening" in IFS
 is the "healing [of parts]" spoken of by Weiss and
 the updating of "frozen in time" neural networks noted by Shapiro.
+Accordingly, viewing the unburdening process
+through the steps of the memory reconsolidation process
+provides one way to gain a richer understanding of unburdening.
 
 
 
@@ -284,7 +313,7 @@ the updating of "frozen in time" neural networks noted by Shapiro.
 
 
 ### Flashcards
-%% Anki for titration---unit tests %%
+%% Anki for titration---overlapping unit tests %%
 %% New visuals and associations %%
 %% Spaced repetition / follow-up %%
 
