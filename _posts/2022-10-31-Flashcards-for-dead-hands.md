@@ -313,6 +313,12 @@ through the memory reconsolidation steps,
 surfacing the information needed to progress through the steps
 in one extended sitting.
 
+The information from the unburdening process steps
+is naturally suited for memory management,
+e.g. for notes and flashcards.
+We want to remember and have access to this information,
+at will and in quick succession,
+for memory reconsolidation.
 
 %% Access %%
 %% Childhood & specified memories from unblending + witnessing %%
