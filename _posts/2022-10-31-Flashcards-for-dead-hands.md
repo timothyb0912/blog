@@ -2,7 +2,7 @@
 toc: true
 layout: post
 title: "Flashcards for dead hands"
-description: "Using flashcards to process and store memories"
+description: "Using flashcards to process and store intrusive memories."
 categories: [psychology, practice]
 comments: true
 hide: false
@@ -159,7 +159,8 @@ memory reconsolidation roughly happens by
   (such as with bilateral stimulation in EMDR desensitization phases)
 - associating new, desired beliefs with the accessed, disturbing memory
 
-This memory reconsolidation process also lies at the root of how
+This memory reconsolidation process
+is also believed to lie at the root of how
 the Internal Family Systems (IFS) model of therapy works,
 as pointed out by neuroscientist Dr. Frank Anderson
 in "[Transcending Trauma](https://www.amazon.com/Transcending-Trauma-Healing-Complex-Internal/dp/B09BD7D6C7/):
@@ -513,13 +514,73 @@ is also a major part of EMDR therapy and art therapies.
 
 ## Related posts
 
-<!-- %% Map of Blog Contents %% -->
+The bigger picture of this blog's contents is shown below,
+cropped to the subgraph of posts that's most relevant now.
 
-<!-- %% Psychological optimization %% -->
+<img src="{{ site.baseurl }}/images/2022-10-31_blog-MOC_dead-hand-focus.png" width="800px">
 
-<!-- %% Story importance %% -->
+Our current post, shown in blue,
+descends from the root cause response category
+because it details how to fundamentally change
+our recall of disturbing memories.
+In this sense,
+it relates to our earlier posts---
+those that detail processes and targets for fundamental change in
+the [sensations](https://timothyb0912.github.io/blog/psychology/practice/2022/06/21/Yoga-and-kinesthetic-thinking.html)
+we experience and
+the [actions](https://timothyb0912.github.io/blog/philosophy/2022/05/02/To-Amar.html)
+we take.
 
-<!-- %% Emotional leveraging %% -->
+Besides similarity of function,
+this post concretizes some of our earlier thoughts as well.
+For instance,
+in [Psychological Optimization](https://timothyb0912.github.io/blog/psychology/2021/05/30/Psychological-optimization.html),
+we speak of a need for education and introspection
+in dealing with specific traumas.
+Our current post provides a (personally) accessible introduction
+and link to
+further educational material for addressing traumatic memories.
+Additionally, we discuss and link to guidance
+for introspecting and productively exploring disturbing memories.
+
+Relatedly,
+[Story Importance](https://timothyb0912.github.io/blog/philosophy/psychology/2021/11/17/Story-importance.html#writing-anew)
+goes further than investigating traumatic memories
+(as with introspection)
+to suggest
+"revising our stories and models of how the world works."
+Though we spoke of worldview revision in general terms,
+we gave no implementable process for revision.
+Our current post details a practical process for
+worldview revision through memory reconsolidation.
+
+Finally, we continue
+a line of thought that "fleshes out" ideas
+for addressing general emotional dysregulation.
+In particular,
+[Psychological Optimization](https://timothyb0912.github.io/blog/psychology/2021/05/30/Psychological-optimization.html)
+notes the need to focus on emotional (dys)regulation.
+We follow this thinking with
+[Emotional Leveraging](https://timothyb0912.github.io/blog/psychology/2022/05/31/Emotional-leveraging.html),
+outlining how we can regulate ourselves
+in the face of strong emotions that fail to be ultimately helpful.
+With our current post,
+we extend our Emotional Leveraging thoughts in two ways.
+We provide details and pointers to components
+for the unburdening stage,
+and we broadly contextualize
+the unblending and unburdening processes
+through memory reconsolidation.
+
+So Young Tim, 
+what I wish I told you long ago
+was that to "leave the past in the past,"
+we need deliberate and extensive efforts
+in memory reconsolidation and memory management.
+Until then, the dead hands will ever remain in our present.
+
+Till next time,
+
 
 
 ## Related links
@@ -527,15 +588,16 @@ is also a major part of EMDR therapy and art therapies.
 
 ### Addictive memories
 
-- [Feeling-State Theory](https://www.imagetransformationtherapy.org/traumatology-article-pdf.pdf)
-  Discussion of addictive memories, their formation, and role in compulsions.
+- [Feeling-State Theory](https://www.imagetransformationtherapy.org/traumatology-article-pdf.pdf)  
+  Discussion of addictive memories, their formation,
+  and their role in compulsions.
 - [Euphoric recall](https://integrativelifecenter.com/euphoric-recall-what-it-is-and-how-to-deal-with-it/)
 - [Healing the Addictive Memory](https://www.lankaweb.com/news/items/2014/05/04/healing-the-addiction-memory/)
 
 
 ### Traumatic memories
 
-- [Dissociation and the Fragmentary Nature of Traumatic Memories](https://link.springer.com/content/pdf/10.1007/BF02102887.pdf)
+- [Dissociation and the Fragmentary Nature of Traumatic Memories](https://link.springer.com/content/pdf/10.1007/BF02102887.pdf)  
   Wide-ranging description of traumatic memories
   and their difference from 'typical' stressful memories,
   by Bessel van der Kolk (a prominent trauma researcher).
