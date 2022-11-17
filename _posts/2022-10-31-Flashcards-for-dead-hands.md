@@ -284,9 +284,6 @@ EMDR's phased approach, etc.
 
 #### Brews
 
-%% Process leading to unburdening as %%
-%% memory access & associating procedure %%
-%% Provides targets for notes and flashcards.%%
 Above, we noted that memory reconsolidation
 has three core steps,
 described in shorthand as
