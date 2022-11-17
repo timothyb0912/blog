@@ -10,7 +10,21 @@ hide: false
 
 # Flashcards for dead hands
 
-<!-- %% See deadhand image %% -->
+
+## TLDR
+
+- Intrusive memories signal unprocessed memories
+- Unprocessed memories are the roots of many mental health problems.
+- To reconsolidate intrusive memories, carefully go to them, not away.
+- Internal Family Systems surfaces info for memory reconsolidation.
+- Notes and flashcards aid retention of IFS info for reconsolidation.
+- Flashcard guidelines benefit memory reconsolidation efforts.
+
+
+## Overview
+
+<img src="{{ site.baseurl }}/images/2022-10-31_flashcards-for-dead-hands.png" width="800px">
+
 
 ## Intrusive memories
 
@@ -46,6 +60,7 @@ So, despite our initial reactions
 and for different though related reasons,
 we again asked "why can't we leave the past in the past?"
 
+<img src="{{ site.baseurl }}/images/2022-10-31_dead-hands.png" width="800px">
 Merriam-Webster [defines](https://www.merriam-webster.com/dictionary/dead%20hand) a "dead hand"
 as "the oppressive influence of the past."
 Whether pleasant or unpleasant,
@@ -91,7 +106,7 @@ by Solomon and Shapiro (creator of EMDR),
 > [...]  
 > Pathology is viewed as unprocessed memories, [...] (p. 318).
 
-Similarly, other EMDR researchers would later [note](https://www.imagetransformationtherapy.org/traumatology-article-pdf.pdf)
+Similarly, other EMDR researchers would later [note](https://www.imagetransformationtherapy.org/traumatology-article-pdf.pdf) (p. 4)
 
 > it is not the positive or negative quality of the feelings that is important
 > in creating a state-dependent memory
@@ -124,12 +139,15 @@ Specifically, (re)processing a memory involves associating:
 
 These associations are thought to facilitate
 "[memory reconsolidation](https://www.sciencedirect.com/science/article/pii/S0960982213007719),"
-wherein the information and form of the information accessed with
-a memory is updated.
-For example, we might update
+wherein one updates
+the information and the form of the information
+accessed with a memory.
+For example, we update
 emotion(s) and emotional strength of the memories,
 beliefs based on the memory,
 and experienced sensations (or the lack thereof).
+The end result is a processed memory
+and its accompanying symptom relief.
 
 As [described](https://pbspamericaconnect.org/resources/Documents/Ecker%20et%20al.%20-%20Primer%20on%20memory%20reconsolidation.pdf)
 by Ecker et al (p. 89),
@@ -150,7 +168,7 @@ Healing Complex PTSD with Internal Family Systems Therapy"
 This connection offers us guidance for synergistically combining
 some of our pre-existing efforts
 in emotional regulation and memory management.
-We find that such combination offers increased hope of
+We gain increased hope of
 efficient and consistent progress
 towards memory reconsolidation
 and freedom from intrusive memories.
@@ -164,8 +182,8 @@ and freedom from intrusive memories.
 We use the term memory management (with people)
 to refer to the control and directing of
 what we remember and how we remember it.
-For example, practices like making and using notes and flashcards
-are two explicit memory management techniques.
+For example, two explicit memory management techniques
+are making and using notes and flashcards.
 In previous posts,
 we've recommended these practices for numerous reasons, including:
 
@@ -174,7 +192,7 @@ we've recommended these practices for numerous reasons, including:
   that we consider important
 - remembering our [organization](https://timothyb0912.github.io/blog/psychology/practice/2022/04/30/Graph-Heavy.html)
   of important facts and thoughts
-- associating images and [sensations](https://timothyb0912.github.io/blog/psychology/practice/2022/06/21/Yoga-and-kinesthetic-thinking.html) with memory of facts
+- associating images and [sensations](https://timothyb0912.github.io/blog/psychology/practice/2022/06/21/Yoga-and-kinesthetic-thinking.html) with memory of facts  
   (e.g. associating physical sensations to names of yoga poses)
 - and [streamlining](https://timothyb0912.github.io/blog/practice/2022/07/31/Digestion-before-expression.html)
   our efforts to produce and remember new thoughts
@@ -319,16 +337,16 @@ at will and in quick succession,
 for memory reconsolidation.
 
 As informed by the discussion in
-"[Transcending Trauma](https://www.amazon.com/Transcending-Trauma-Healing-Complex-Internal/dp/B09BD7D6C7/)
+[Transcending Trauma](https://www.amazon.com/Transcending-Trauma-Healing-Complex-Internal/dp/B09BD7D6C7/)
 (ch. 24, \#The Science Behind The Healing),
 the information we'll want to capture is as follows.
 When we use IFS' [6F's](https://www.therapywithalessio.com/articles/the-6-fs-in-ifs-the-6-steps-to-get-to-know-our-protectors) to begin exploring a given intrusive memory,
 we want to collect
-the full range of symptoms that arises with memory access.
-I.e., the full range of activated parts of mind
+the full range of symptoms that arises with memory access---
+i.e., the full range of activated parts of mind
 and their beliefs, emotions, sensations, and actions.
 Then, we want to capture and organize
-the details of the intrusive memory
+the details of the intrusive memory,
 as recalled in one or more rounds of IFS' [witnessing](https://integralguide.com/50+Permanent+Notes/%F0%9F%92%A1+Terms/Internal+Family+Systems+Therapy/%F0%9F%92%A1+Witnessing).
 
 With the ability to re-access the memory,
@@ -369,8 +387,8 @@ IFS steps of
 
 In all such steps,
 the particular mental scenes,
-associated sensations,
-and emotions
+internal dialogue,
+associated feelings,
 are information that we want to actively manage in our memory.
 Again, such management may be
 external as with notes
@@ -427,12 +445,12 @@ for maintaining associations in memory over time.
 Here, we can directly
 apply spaced repetition by creating flashcards for the
 scenes, sensations, emotions, and beliefs
-from our unburdening and memory consolidation process.
+from our unburdening and memory consolidation processes.
 Such a practice is intensive at first
 (as with daily check-ins for a month post-unburdening),
 but long-term maintenance of
 healing and freedom from intrusive memories
-seems to be a fair-trade.
+seems to be a fair trade.
 
 
 #### Titration
@@ -465,10 +483,10 @@ traumatic memories, i.e.
 > by the powerful images and stories.
 
 As with EMDR, titration is useful
-not just with traumatic memories
-but with addictive memories
-or any intrusive memory
-that causes emotional dysregulation.
+for traumatic memories,
+addictive memories,
+and emotional dysregulating memories generally.
+
 
 #### Visuals
 
@@ -476,7 +494,7 @@ Lastly, when creating flashcards for memory management,
 we are encouraged to liberally make use of
 visuals in our questions and answers
 (see rule 6 of the [20 rules](https://super-memory.com/articles/20rules.htm)--"use imagery").
-Such association of new,
+Such association with new,
 hopefully less-disturbing visuals,
 forges direct connections
 between the intrusive memory
