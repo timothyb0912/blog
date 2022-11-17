@@ -157,16 +157,11 @@ for emotional regulation and memory management.
 
 ### What and why
 
-%% What is memory management? %%
-%% --controlling what we remember and how we remember it %%
-We use the term memory management (for people)
+We use the term memory management (with people)
 to refer to the control and directing of
 what we remember and how we remember it.
-%% Flashcards and notes as explicit memory management, %%
 For example, practices like making and using notes and flashcards
 are two explicit memory management techniques.
-%% Why, briefly %%
-%% and according to earlier posts suggesting flashcards %%
 In previous posts,
 we've recommended these practices for numerous reasons, including:
 
@@ -180,8 +175,6 @@ we've recommended these practices for numerous reasons, including:
 - and [streamlining](https://timothyb0912.github.io/blog/practice/2022/07/31/Digestion-before-expression.html)
   our efforts to produce and remember new thoughts
 
-%% What link to emotional regulation? %%
-%% --management of intrusive, unprocessed memories %%
 Ultimately, we manage our memory
 to improve critical parts of our life.
 Because whether or not we reconsolidate our intrusive memories
@@ -211,15 +204,15 @@ The IFS view of intrusive memories
 then informs our memory management stance towards the intrusions.
 
 Similarly, memory reconsolidation and the AIP model
-provide a complementary view of IFS's
+provide a complementary view of IFS'
 unburdening process.
 In this case, the memory reconsolidation view of
 the IFS unburdening process
 suggests explicit points for beneficial
 memory management interventions.
 
+
 #### Views
-%% Intrusive memories as trailheads and burdens %%
 
 First, intrusive memories show up as both "burdens" and as "trailheads"
 in Internal Family Systems.
@@ -242,8 +235,8 @@ a logical next step is to use the IFS "unburdening process"
 to release the burdens, i.e. the intrusive memories.
 As suggested by its name,
 the unburdening process focuses on "getting rid of something."
-However, despite our wishes otherwise,
-unburdening is a long journey.
+However, despite wishing for a fast jettison,
+unburdening is actually a long journey.
 It begins with
 making contact with the parts of our mind holding the burdens.
 We make contact by exploring "trailheads."
@@ -274,7 +267,7 @@ the negative judgement connoted by terms such as
 The negative connotations of such words and concepts
 may increase the likelihood one seeks relief
 by intuitively staying away from the intrusive memories
-rather than investigating them explicitly,
+rather than examining them explicitly,
 with care and compassion.
 
 Accordingly, in the long-term,
@@ -306,7 +299,7 @@ to gather needed information
 (Ecker et al., [pp. 90 - 91](https://pbspamericaconnect.org/resources/Documents/Ecker%20et%20al.%20-%20Primer%20on%20memory%20reconsolidation.pdf)).
 For example, what's the memory,
 what's a less disturbing experience,
-what are the desired, new associations?
+and what are the desired, new associations?
 This is where IFS' unburdening recipe comes in.
 The unburdening process incrementally takes one
 through the memory reconsolidation steps,
@@ -324,10 +317,6 @@ we want to remember and have access to all of this information
 at will and in quick succession,
 for memory reconsolidation.
 
-%% Access %%
-%% Childhood & specified memories from unblending + witnessing %%
-%% Resourcing: Memory-based imaginings & perspective on past %%
-%% ---from reparenting %%
 As informed by the discussion in
 "[Transcending Trauma](https://www.amazon.com/Transcending-Trauma-Healing-Complex-Internal/dp/B09BD7D6C7/)
 (ch. 24, \#The Science Behind The Healing),
@@ -341,10 +330,6 @@ Then, we want to capture and organize
 the details of the intrusive memory
 as recalled in one or more rounds of IFS' [witnessing](https://integralguide.com/50+Permanent+Notes/%F0%9F%92%A1+Terms/Internal+Family+Systems+Therapy/%F0%9F%92%A1+Witnessing).
 
-%% Transformation via association %%
-%% Witnessing, followed by %%
-%% Mismatching intrusion using above's reparenting resourcing %%
-%% Also where EMDR's bilateral stimulation would come in %%
 With the ability to re-access the memory,
 we'll next want information that will allow us
 to simultaneously provide an alternate, less disturbing experience.
@@ -360,8 +345,6 @@ Once disconnected,
 the intrusive memory is free to be associated
 with desired, "adaptive information."
 
-%% Activate current belief confrontations & reparenting decisions %%
-%% from IFS reparenting, retrieving, invitation, & integration %%
 Finally, reconsolidation needs
 new, 'disconfirming [experiential] knowledge'
 to associate with the original intrusive memory.
@@ -376,7 +359,7 @@ IFS steps of
   where we can update and confront outdated beliefs,
   i.e. beliefs that no longer benefit us
 - [invitation](https://integralguide.com/50+Permanent+Notes/%F0%9F%92%A1+Terms/Internal+Family+Systems+Therapy/%F0%9F%92%A1+Invitation)
-  where we associate new emotions with the intrusive memory
+  where we link new emotions with the intrusive memory
   (via association with our parts of mind
   activated by the intrusive memory)
 - [integration](https://integralguide.com/50+Permanent+Notes/%F0%9F%92%A1+Terms/Internal+Family+Systems+Therapy/%F0%9F%92%A1+Integration)
@@ -392,18 +375,13 @@ Again, such management may be
 external as with notes
 as well as internal through tools such as flashcards.
 
-
-%% Verification of symptom erasure %%
-%% IFS unloading (stage as opposed to process) %%
-%% Post-unburdening followup %%
-%% Leads to memory management perspectives and practice %%
 At this point,
 we have all of the information needed for
-the steps of memory reconsolidation
+the memory reconsolidation process
 and for IFS' celebratory [unloading](https://integralguide.com/50+Permanent+Notes/%F0%9F%92%A1+Terms/Internal+Family+Systems+Therapy/%F0%9F%92%A1+Unburdening).
 Afterwards, the only remaining tasks
 are to [follow-up](https://web.archive.org/web/20211102161123/https://personal-growth-programs.com/required-unburdening-succeed/)
-on the unburdening process
+on the unburdening
 and to verify that one's symptoms have disappeared.
 
 As described in
@@ -459,8 +437,8 @@ seems to be a fair-trade.
 #### Titration
 
 Beyond the spaced follow-up to our reconsolidation efforts,
-other common memory management practices
-also promote beneficial therapeutic practices.
+other common memory management techniques
+also promote beneficial emotional regulation practices.
 For instance,
 consider the "[20 rules](https://super-memory.com/articles/20rules.htm)
 of formulating knowledge in learning."
@@ -469,44 +447,49 @@ to manage one's memory.
 Here, emphasis is placed on
 minimizing the amount of information per flashcard and,
 in conjunction, using many atomic flashcards
-to collectively represent a complex information.
+to collectively represent complex information.
 This practice ensures that when accessing the intrusive memory
 and information related to it,
 we operate in small increments,
 each of which is less likely to cause emotional dysregulation
 than the original intrusive memory as a whole.
 Such small and contained access to one's memories
-is precisely recommended in order to psychologically
-titrate ([p. 269](https://journals.sagepub.com/doi/pdf/10.1177/1534765606297816?casa_token=GvFCvE_kR5QAAAAA:m96qsGNaYvdVq_0w_oGZfR6B0hYtbp1WiKL-sqeMnUTIAcZQ80hKZgpP2VoYHgEx1WoV60PVoHclww)) traumatic memories, i.e.
+is precisely recommended in order to
+psychologically titrate ([p. 269](https://journals.sagepub.com/doi/pdf/10.1177/1534765606297816?casa_token=GvFCvE_kR5QAAAAA:m96qsGNaYvdVq_0w_oGZfR6B0hYtbp1WiKL-sqeMnUTIAcZQ80hKZgpP2VoYHgEx1WoV60PVoHclww))
+traumatic memories, i.e.
 
 > prevent [people] from becoming so engaged
 > with the traumatic material that
 > they become overwhelmed
 > by the powerful images and stories.
 
+As with EMDR, titration is useful
+not just with traumatic memories
+but with addictive memories
+or any intrusive memory
+that causes emotional dysregulation.
 
 #### Visuals
 
 Lastly, when creating flashcards for memory management,
 we are encouraged to liberally make use of
 visuals in our questions and answers
-(see rule 6--"use imagery" of the [20 rules](https://super-memory.com/articles/20rules.htm)).
+(see rule 6 of the [20 rules](https://super-memory.com/articles/20rules.htm)--"use imagery").
 Such association of new,
 hopefully less-disturbing visuals,
 forges direct connections
 between the intrusive memory
 that is "frozen in time in its own neural network"
 and other memory networks
-(such as those holding the memory of our chosen images).
+(such as those holding the memory of our flashcard images).
 Since words and images
 activate related but distinct parts of our brain,
-our new visual connections complement those
-formed through other mediums
+our new visual connections
+complement associations formed through other mediums
 such as psychoanalytic talk therapy.
 Note stimulation of our visual processing,
 while accessing intrusive or disturbing memories,
-is also major part of EMDR therapy
-and also art therapies.
+is also a major part of EMDR therapy and art therapies.
 
 
 ## Related posts
