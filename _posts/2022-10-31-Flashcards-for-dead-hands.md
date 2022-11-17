@@ -405,15 +405,108 @@ Afterwards, the only remaining tasks
 are to [follow-up](https://web.archive.org/web/20211102161123/https://personal-growth-programs.com/required-unburdening-succeed/)
 on the unburdening process
 and to verify that one's symptoms have disappeared.
+
+As described in
+[Transcending Trauma](https://www.amazon.com/Transcending-Trauma-Healing-Complex-Internal/dp/B09BD7D6C7/)
+(ch. 24, \#The Post-Unburdening Process)
+
+> Dick Schwartz says it can take about
+> three to four weeks
+> before an exile appears to integrate back into the system.
+> Again, we don't exactly know what's happening
+> in the brain during this process,
+> but I sense that it has something to do with
+> reinforcing the newly reorganized neural network.
+> [...]
+> I recommend that clients briefly check in
+> with their unburdened part every day
+> for about three to four weeks,
+> as Dick Schwartz has advised.
+
 This follow-up process is most closely related to
 existing aspects of our memory management practices,
 so we'll turn our attention there next.
 
 
 ### Flashcards
-%% Anki for titration---overlapping unit tests %%
-%% New visuals and associations %%
-%% Spaced repetition / follow-up %%
+
+
+#### Spaced-repetition
+
+In managing our memory,
+we are crucially concerned with
+reinforcing and ensuring function
+of the neural networks that allow access
+to particular memories and learnings.
+Our key practice for memory reinforcement is [spaced-repetition](https://ncase.me/remember/).
+This technique is the raison d'être we've recommended
+using flashcards with [anki](https://ankiweb.net/about)---
+a program that uses spaced repetition to schedule flashcard review.
+This is one of the most effective methods known
+for maintaining associations in memory over time.
+
+Here, we can directly
+apply spaced repetition by creating flashcards for the
+scenes, sensations, emotions, and beliefs
+from our unburdening and memory consolidation process.
+Such a practice is intensive at first
+(as with daily check-ins for a month post-unburdening),
+but long-term maintenance of
+healing and freedom from intrusive memories
+seems to be a fair-trade.
+
+
+#### Titration
+
+Beyond the spaced follow-up to our reconsolidation efforts,
+other common memory management practices
+also promote beneficial therapeutic practices.
+For instance,
+consider the "[20 rules](https://super-memory.com/articles/20rules.htm)
+of formulating knowledge in learning."
+This is an iconic set of guidelines for using flashcards
+to manage one's memory.
+Here, emphasis is placed on
+minimizing the amount of information per flashcard and,
+in conjunction, using many atomic flashcards
+to collectively represent a complex information.
+This practice ensures that when accessing the intrusive memory
+and information related to it,
+we operate in small increments,
+each of which is less likely to cause emotional dysregulation
+than the original intrusive memory as a whole.
+Such small and contained access to one's memories
+is precisely recommended in order to psychologically
+titrate ([p. 269](https://journals.sagepub.com/doi/pdf/10.1177/1534765606297816?casa_token=GvFCvE_kR5QAAAAA:m96qsGNaYvdVq_0w_oGZfR6B0hYtbp1WiKL-sqeMnUTIAcZQ80hKZgpP2VoYHgEx1WoV60PVoHclww)) traumatic memories, i.e.
+
+> prevent [people] from becoming so engaged
+> with the traumatic material that
+> they become overwhelmed
+> by the powerful images and stories.
+
+
+#### Visuals
+
+Lastly, when creating flashcards for memory management,
+we are encouraged to liberally make use of
+visuals in our questions and answers
+(see rule 6--"use imagery" of the [20 rules](https://super-memory.com/articles/20rules.htm)).
+Such association of new,
+hopefully less-disturbing visuals,
+forges direct connections
+between the intrusive memory
+that is "frozen in time in its own neural network"
+and other memory networks
+(such as those holding the memory of our chosen images).
+Since words and images
+activate related but distinct parts of our brain,
+our new visual connections complement those
+formed through other mediums
+such as psychoanalytic talk therapy.
+Note stimulation of our visual processing,
+while accessing intrusive or disturbing memories,
+is also major part of EMDR therapy
+and also art therapies.
 
 
 ## Related posts
