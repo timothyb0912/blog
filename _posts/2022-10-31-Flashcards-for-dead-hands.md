@@ -23,7 +23,7 @@ hide: false
 
 ## Overview
 
-<img src="{{ site.baseurl }}/images/2022-10-31_flashcards-for-dead-hands.png" width="800px">
+<img src="{{ site.baseurl }}/images/2022-10-31_flashcards-for-dead-hands.png" alt="Mindmap of blog post" width="800px">
 
 
 ## Intrusive memories
@@ -60,7 +60,7 @@ So, despite our initial reactions
 and for different though related reasons,
 we again asked "why can't we leave the past in the past?"
 
-<img src="{{ site.baseurl }}/images/2022-10-31_dead-hands.png" width="800px">
+<img src="{{ site.baseurl }}/images/2022-10-31_dead-hands.png" alt="Pale hands" width="800px">
 Merriam-Webster [defines](https://www.merriam-webster.com/dictionary/dead%20hand) a "dead hand"
 as "the oppressive influence of the past."
 Whether pleasant or unpleasant,
@@ -517,7 +517,7 @@ is also a major part of EMDR therapy and art therapies.
 The bigger picture of this blog's contents is shown below,
 cropped to the subgraph of posts that's most relevant now.
 
-<img src="{{ site.baseurl }}/images/2022-10-31_blog-MOC_dead-hand-focus.png" width="800px">
+<img src="{{ site.baseurl }}/images/2022-10-31_blog-MOC_dead-hand-focus.png" alt="Partial Map of Blog Contents" width="800px">
 
 Our current post, shown in blue,
 descends from the root cause response category
