@@ -149,7 +149,11 @@ Healing Complex PTSD with Internal Family Systems Therapy"
 (ch. 24, \#The Science Behind The Healing).
 This connection offers us guidance for synergistically combining
 some of our pre-existing efforts
-for emotional regulation and memory management.
+in emotional regulation and memory management.
+We find that such combination offers increased hope of
+efficient and consistent progress
+towards memory reconsolidation
+and freedom from intrusive memories.
 
 
 ## Memory management
