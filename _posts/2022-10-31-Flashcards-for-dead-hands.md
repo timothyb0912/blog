@@ -10,7 +10,7 @@ hide: false
 
 # Flashcards for dead hands
 
-%% See deadhand image %%
+<!-- %% See deadhand image %% -->
 
 ## Intrusive memories
 
@@ -72,23 +72,23 @@ then drive extreme emotions, beliefs, and behaviors.
 As [put](https://connect.springerpub.com/content/sgremdr/2/4/315.abstract)
 by Solomon and Shapiro (creator of EMDR),
 
-> Problems arise when an experience is inadequately processed.
+> Problems arise when an experience is inadequately processed.  
 > Shapiro’s AIP [Adaptive Information Processing] model
-> (1995, 2001, 2006)
+> (1995, 2001, 2006)  
 > posits that a particularly distressing incident
-> may become stored in state-specific form,
-> meaning frozen in time in its own neural network,
+> may become stored in state-specific form,  
+> meaning frozen in time in its own neural network,  
 > unable to connect with other memory networks
-> that hold adaptive information.
-> She hypothesizes that when a memory is encoded in
-> excitatory, distressing, state-specific form,
+> that hold adaptive information.  
+> She hypothesizes that when a memory is encoded in  
+> excitatory, distressing, state-specific form,  
 > the original perceptions
-> can continue to be triggered
-> by a variety of internal and external stimuli,
-> resulting in inappropriate emotional, cognitive, and behavioral reactions,
+> can continue to be triggered  
+> by a variety of internal and external stimuli,  
+> resulting in inappropriate emotional, cognitive, and behavioral reactions,  
 > as well as overt symptoms
-> (e.g., high anxiety, nightmares, intrusive thoughts) (p. 316).
-> [...]
+> (e.g., high anxiety, nightmares, intrusive thoughts) (p. 316).  
+> [...]  
 > Pathology is viewed as unprocessed memories, [...] (p. 318).
 
 Similarly, other EMDR researchers would later [note](https://www.imagetransformationtherapy.org/traumatology-article-pdf.pdf)
@@ -105,11 +105,11 @@ and how can one process memories?
 As [described](https://www.traumahealingforall.com/blog/how-to-tell-if-a-memory-needs-to-be-processed-aka-can-emdr-help-with-this) by EMDR therapist Laura Paton,
 
 > A processed memory will generally be something
-> that you know has happened,
+> that you know has happened,  
 > don't regularly think about,
-> and when you do,
-> it doesn't have any emotional charge associated with it,
-> and you feel no need to bring it up regularly
+> and when you do,  
+> it doesn't have any emotional charge associated with it,  
+> and you feel no need to bring it up regularly  
 > or think about it for a prolonged time.
 
 According to Solomon and Shapiro ([p. 320](https://connect.springerpub.com/content/sgremdr/2/4/315.abstract)),
@@ -197,7 +197,7 @@ Then, we'll look at what emotional regulation benefits we can glean
 from our memory management practices and perspectives.
 
 
-### Internal Family Systems 
+### Internal Family Systems
 
 In [previous posts](https://timothyb0912.github.io/blog/psychology/2022/05/31/Emotional-leveraging.html) we've written about using IFS
 techniques for and perspectives on emotional regulation.
@@ -255,8 +255,8 @@ Weiss writes that
 > a dream, or anything else that indicates
 > one or more parts to explore.
 > IFS calls it a trailhead
-> because it is the beginning of a trail that can lead to healing.
-> ---[Self-Therapy Workbook](https://www.amazon.com/gp/product/B00IJY7F7A)(p. 17)
+> because it is the beginning of a trail that can lead to healing.  
+> ---[Self-Therapy Workbook](https://www.amazon.com/gp/product/B00IJY7F7A) (p. 17)
 
 From here, we note a duality in our intrusive memories.
 Certainly, the intrusions are burdens to be released.
@@ -495,13 +495,13 @@ is also a major part of EMDR therapy and art therapies.
 
 ## Related posts
 
-%% Map of Blog Contents %%
+<!-- %% Map of Blog Contents %% -->
 
-%% Psychological optimization %%
+<!-- %% Psychological optimization %% -->
 
-%% Story importance %%
+<!-- %% Story importance %% -->
 
-%% Emotional leveraging %%
+<!-- %% Emotional leveraging %% -->
 
 
 ## Related links
