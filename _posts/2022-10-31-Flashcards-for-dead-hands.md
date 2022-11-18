@@ -309,7 +309,7 @@ Above, we noted that memory reconsolidation
 has three core steps.
 In shorthand, they are
 memory access,
-memory "mismatch",
+memory "mismatch", and
 memory association.
 To enable these three steps,
 there are preparatory stages
