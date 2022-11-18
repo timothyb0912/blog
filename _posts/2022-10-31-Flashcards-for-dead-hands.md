@@ -77,8 +77,8 @@ Both ends lead to dysfunction, though via differing mechanisms.
 
 One therapy modality that has proven useful in treating
 problems related to intrusive memories is EMDR.
-EMDR has shown benefits in randomized controlled trials,
-for both [traumatized](https://connect.springerpub.com/content/sgremdr/13/4/261.full.pdf) individuals (as with PTSD)
+In randomized controlled trials,
+EMDR has helped [traumatized](https://connect.springerpub.com/content/sgremdr/13/4/261.full.pdf) individuals
 and individuals with [addictions](https://connect.springerpub.com/content/sgremdr/2/3/170.full.pdf).
 Underlying the mechanisms of benefit in both situations
 is a common understanding
@@ -227,12 +227,10 @@ The IFS view of intrusive memories
 then informs our memory management stance towards the intrusions.
 
 Similarly, memory reconsolidation and the AIP model
-provide a complementary view of IFS'
-unburdening process.
-In this case, the memory reconsolidation view of
-the IFS unburdening process
-suggests explicit points for beneficial
-memory management interventions.
+complement IFS' view of unburdening.
+Here, reconsolidation motivates
+memory management interventions
+at each stage of IFS's unburdening process.
 
 
 #### Views
@@ -282,7 +280,7 @@ Certainly, the intrusions are burdens to be released.
 However, they are also trailheads to be explored,
 rather than avoided or suppressed.
 IFS's trailhead terminology
-highlights the need for investigating intrusive memories
+highlights investigation of intrusive memories
 in the reconsolidation process.
 This investigative focus balances
 the negative judgement connoted by terms such as
@@ -308,8 +306,8 @@ EMDR's phased approach, etc.
 #### Brews
 
 Above, we noted that memory reconsolidation
-has three core steps,
-described in shorthand as
+has three core steps.
+In shorthand, they are
 memory access,
 memory "mismatch",
 memory association.
@@ -362,7 +360,7 @@ The do-over provides the mismatch experience
 that disconnects the intrusive memory
 from its original, burdensome reactions.
 Once disconnected,
-the intrusive memory is free to be associated
+we can associate the intrusive memory
 with desired, "adaptive information."
 
 Finally, reconsolidation needs
@@ -465,17 +463,18 @@ consider the "[20 rules](https://super-memory.com/articles/20rules.htm)
 of formulating knowledge in learning."
 This is an iconic set of guidelines for using flashcards
 to manage one's memory.
-Here, emphasis is placed on
-minimizing the amount of information per flashcard and,
-in conjunction, using many atomic flashcards
+This guide advocates
+minimizing the amount of information per flashcard.
+In conjunction, it encourages using many atomic flashcards
 to collectively represent complex information.
-This practice ensures that when accessing the intrusive memory
-and information related to it,
-we operate in small increments,
-each of which is less likely to cause emotional dysregulation
+
+Using atomic flashcards ensures that we only access
+small bits of the intrusive memory
+and its related information.
+Each bit is less likely to cause emotional dysregulation
 than the original intrusive memory as a whole.
 Such small and contained access to one's memories
-is precisely recommended in order to
+is precisely recommended to
 psychologically titrate ([p. 269](https://journals.sagepub.com/doi/pdf/10.1177/1534765606297816?casa_token=GvFCvE_kR5QAAAAA:m96qsGNaYvdVq_0w_oGZfR6B0hYtbp1WiKL-sqeMnUTIAcZQ80hKZgpP2VoYHgEx1WoV60PVoHclww))
 traumatic memories, i.e.
 
@@ -484,31 +483,30 @@ traumatic memories, i.e.
 > they become overwhelmed
 > by the powerful images and stories.
 
-As with EMDR, titration is useful
-for traumatic memories,
+As with EMDR, titration soothes
+traumatic memories,
 addictive memories,
 and emotionally dysregulating memories generally.
 
 
 #### Visuals
 
-Lastly, when creating flashcards for memory management,
-we are encouraged to liberally make use of
-visuals in our questions and answers
+Lastly, we liberally use visuals
+when creating flashcards for memory management,
 (see rule 6 of the [20 rules](https://super-memory.com/articles/20rules.htm)--"use imagery").
-Such association with new,
+In particular,
+we associate new,
 hopefully less-disturbing visuals,
-forges direct connections
-between the intrusive memory
-that is "frozen in time in its own neural network"
-and other memory networks
+with the intrusive memory.
+This connects the "frozen in time" neural network
+to other memory networks
 (such as those holding the memory of our flashcard images).
-Since words and images
-activate related but distinct parts of our brain,
-our new visual connections
-complement associations formed through other mediums
-such as psychoanalytic talk therapy.
-Note stimulation of our visual processing,
+Here, note that words and images
+activate related but distinct parts of our brain.
+Accordingly, our new visual connections
+complement associations formed through
+verbal, psychoanalytic talk therapy.
+Such stimulation of our visual processing,
 while accessing intrusive or disturbing memories,
 is also a major part of EMDR therapy and art therapies.
 
