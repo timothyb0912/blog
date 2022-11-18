@@ -324,29 +324,28 @@ through the memory reconsolidation steps,
 surfacing the information needed to progress through the steps
 in one extended sitting.
 
-The information from the unburdening process steps
+The information from unburdening
 is naturally suited for memory management,
 e.g. for notes and flashcards.
-In particular, the sheer amount of information
-motivates explicit management,
+In particular, unburdening surfaces a huge amount of information.
+This deluge motivates explicit management,
 if only to prevent slowdowns from information overwhelm.
-Functionally,
-we want to remember and have access to all of this information
-at will and in quick succession,
-for memory reconsolidation.
+For memory reconsolidation,
+we ideally want to remember all this information
+at will and at speed.
 
 As informed by the discussion in
 [Transcending Trauma](https://www.amazon.com/Transcending-Trauma-Healing-Complex-Internal/dp/B09BD7D6C7/)
 (ch. 24, \#The Science Behind The Healing),
 the information we'll want to capture is as follows.
-When we use IFS' [6F's](https://www.therapywithalessio.com/articles/the-6-fs-in-ifs-the-6-steps-to-get-to-know-our-protectors) to begin exploring a given intrusive memory,
-we want to collect
-the full range of symptoms that arises with memory access---
-i.e., the full range of activated parts of mind
-and their beliefs, emotions, sensations, and actions.
+First, we use IFS' [6F's](https://www.therapywithalessio.com/articles/the-6-fs-in-ifs-the-6-steps-to-get-to-know-our-protectors) to begin exploring a given intrusive memory.
+Here, we want to collect
+the full range of symptoms that arises with memory access.
+Such symptoms include activated parts of mind
+our beliefs, emotions, sensations, and actions.
 Then, we want to capture and organize
-the details of the intrusive memory,
-as recalled in one or more rounds of IFS' [witnessing](https://integralguide.com/50+Permanent+Notes/%F0%9F%92%A1+Terms/Internal+Family+Systems+Therapy/%F0%9F%92%A1+Witnessing).
+the details of the intrusive memory.
+These details come from one or more rounds of IFS' [witnessing](https://integralguide.com/50+Permanent+Notes/%F0%9F%92%A1+Terms/Internal+Family+Systems+Therapy/%F0%9F%92%A1+Witnessing).
 
 With the ability to re-access the memory,
 we'll next want information that will allow us
@@ -363,9 +362,8 @@ Once disconnected,
 we can associate the intrusive memory
 with desired, "adaptive information."
 
-Finally, reconsolidation needs
-new, 'disconfirming [experiential] knowledge'
-to associate with the original intrusive memory.
+Finally, reconsolidation associates the original intrusive memory
+with new, 'disconfirming [experiential] knowledge'.
 These new learnings are provided by the
 IFS steps of
 
@@ -385,10 +383,10 @@ IFS steps of
   with the various parts of our mind activated by the intrusive memory
 
 In all such steps,
-the particular mental scenes,
+we want to actively manage our memory
+of our emergent scenes,
 internal dialogue,
-associated feelings,
-are information that we want to actively manage in our memory.
+and associated feelings.
 Again, such management may be
 external as with notes
 as well as internal through tools such as flashcards.
@@ -419,7 +417,7 @@ As described in
 > for about three to four weeks,
 > as Dick Schwartz has advised.
 
-This follow-up process is most closely related to
+This follow-up process most closely relates to
 existing aspects of our memory management practices,
 so we'll turn our attention there next.
 
@@ -434,13 +432,13 @@ we are crucially concerned with
 reinforcing and ensuring function
 of the neural networks that allow access
 to particular memories and learnings.
-Our key practice for memory reinforcement
-is [spaced-repetition](https://ncase.me/remember/).
-This technique is the raison d'être we've recommended
-using flashcards with [anki](https://ankiweb.net/about)---
-a program that uses spaced repetition to schedule flashcard review.
-This is one of the most effective methods known
+[Spaced-repetition](https://ncase.me/remember/)
+is our key practice for memory reinforcement.
+It is one of the most effective methods
 for maintaining associations in memory over time.
+This technique is the raison d'être we've recommended
+using flashcards with [Anki](https://ankiweb.net/about).
+Anki uses spaced repetition to schedule its reviews.
 
 Here, we can directly
 apply spaced repetition by creating flashcards for the
