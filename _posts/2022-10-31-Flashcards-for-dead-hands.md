@@ -362,8 +362,11 @@ Once disconnected,
 we can associate the intrusive memory
 with desired, "adaptive information."
 
-Finally, reconsolidation associates the original intrusive memory
-with new, 'disconfirming [experiential] knowledge'.
+The final reconsolidation step
+links to adaptive information by
+pairing the original intrusive memory
+with new, 'disconfirming [experiential] knowledge'
+(Ecker et al., [p. 91](https://pbspamericaconnect.org/resources/Documents/Ecker%20et%20al.%20-%20Primer%20on%20memory%20reconsolidation.pdf)).
 These new learnings are provided by the
 IFS steps of
 
