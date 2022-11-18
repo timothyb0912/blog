@@ -580,24 +580,3 @@ in memory reconsolidation and memory management.
 Until then, the dead hands will ever remain in our present.
 
 Till next time,
-
-
-
-## Related links
-
-
-### Addictive memories
-
-- [Feeling-State Theory](https://www.imagetransformationtherapy.org/traumatology-article-pdf.pdf)  
-  Discussion of addictive memories, their formation,
-  and their role in compulsions.
-- [Euphoric recall](https://integrativelifecenter.com/euphoric-recall-what-it-is-and-how-to-deal-with-it/)
-- [Healing the Addictive Memory](https://www.lankaweb.com/news/items/2014/05/04/healing-the-addiction-memory/)
-
-
-### Traumatic memories
-
-- [Dissociation and the Fragmentary Nature of Traumatic Memories](https://link.springer.com/content/pdf/10.1007/BF02102887.pdf)  
-  Wide-ranging description of traumatic memories
-  and their difference from 'typical' stressful memories,
-  by Bessel van der Kolk (a prominent trauma researcher).
