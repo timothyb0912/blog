@@ -516,20 +516,20 @@ cropped to the subgraph of posts that's most relevant now.
 
 <img src="{{ site.baseurl }}/images/2022-10-31_blog-MOC_dead-hand-focus.png" alt="Partial Map of Blog Contents" width="800px">
 
-Our current post, shown in blue,
-descends from the root cause response category
-because it details how to fundamentally change
+Our current post details how to fundamentally change
 our recall of disturbing memories.
-In this sense,
-it relates to our earlier posts---
-those that detail processes and targets for fundamental change in
+As such, we attach this post to the root cause response category,
+and we highlight it in blue.
+Our categorization connects this document
+to earlier posts detailing fundamental change.
+E.g. change in
 the [sensations](https://timothyb0912.github.io/blog/psychology/practice/2022/06/21/Yoga-and-kinesthetic-thinking.html)
-we experience and
+we experience and in
 the [actions](https://timothyb0912.github.io/blog/philosophy/2022/05/02/To-Amar.html)
 we take.
 
 Besides similarity of function,
-this post concretizes some of our earlier thoughts as well.
+this post also concretizes some of our earlier thoughts.
 For instance,
 in [Psychological Optimization](https://timothyb0912.github.io/blog/psychology/2021/05/30/Psychological-optimization.html),
 we speak of a need for education and introspection
@@ -542,11 +542,11 @@ for introspecting and productively exploring disturbing memories.
 
 Relatedly,
 [Story Importance](https://timothyb0912.github.io/blog/philosophy/psychology/2021/11/17/Story-importance.html#writing-anew)
-goes further than investigating traumatic memories
-(as with introspection)
-to suggest
+went beyond investigating traumatic memories
+(as with introspection).
+We suggested
 "revising our stories and models of how the world works."
-Though we spoke of worldview revision in general terms,
+However, though we spoke of worldview revision in general terms,
 we gave no implementable process for revision.
 Our current post details a practical process for
 worldview revision through memory reconsolidation.
@@ -556,10 +556,10 @@ a line of thought that "fleshes out" ideas
 for addressing general emotional dysregulation.
 In particular,
 [Psychological Optimization](https://timothyb0912.github.io/blog/psychology/2021/05/30/Psychological-optimization.html)
-notes the need to focus on emotional (dys)regulation.
-We follow this thinking with
-[Emotional Leveraging](https://timothyb0912.github.io/blog/psychology/2022/05/31/Emotional-leveraging.html),
-outlining how we can regulate ourselves
+noted the need to focus on emotional (dys)regulation.
+We elaborated on this thinking with
+[Emotional Leveraging](https://timothyb0912.github.io/blog/psychology/2022/05/31/Emotional-leveraging.html).
+There, we outlined how we can regulate ourselves
 in the face of strong emotions that fail to be ultimately helpful.
 With our current post,
 we extend our Emotional Leveraging thoughts in two ways.
@@ -570,8 +570,8 @@ the unblending and unburdening processes
 through memory reconsolidation.
 
 So Young Tim, 
-what I wish I told you long ago
-was that to "leave the past in the past,"
+this is what I wish I told you long ago.
+To "leave the past in the past,"
 we need deliberate and extensive efforts
 in memory reconsolidation and memory management.
 Until then, the dead hands will ever remain in our present.
