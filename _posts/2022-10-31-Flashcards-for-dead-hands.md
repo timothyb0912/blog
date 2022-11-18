@@ -78,13 +78,13 @@ Both ends lead to dysfunction, though via differing mechanisms.
 One therapy modality that has proven useful in treating
 problems related to intrusive memories is EMDR.
 EMDR has shown benefits in randomized controlled trials,
-for both [traumatized](https://connect.springerpub.com/content/sgremdr/13/4/261.abstract) individuals (as with PTSD)
-and individuals with [addictions](https://connect.springerpub.com/content/sgremdr/2/3/170.abstract).
+for both [traumatized](https://connect.springerpub.com/content/sgremdr/13/4/261.full.pdf) individuals (as with PTSD)
+and individuals with [addictions](https://connect.springerpub.com/content/sgremdr/2/3/170.full.pdf).
 Underlying the mechanisms of benefit in both situations
 is a common understanding
 that "unprocessed" memories lead to both types of intrusive memories. The sensations accompanying the intrusions
 then drive extreme emotions, beliefs, and behaviors.
-As [put](https://connect.springerpub.com/content/sgremdr/2/4/315.abstract)
+As [put](https://connect.springerpub.com/content/sgremdr/2/4/315.full.pdf)
 by Solomon and Shapiro (creator of EMDR),
 
 > Problems arise when an experience is inadequately processed.  
@@ -106,7 +106,7 @@ by Solomon and Shapiro (creator of EMDR),
 > [...]  
 > Pathology is viewed as unprocessed memories, [...] (p. 318).
 
-Similarly, other EMDR researchers would later [note](https://www.imagetransformationtherapy.org/traumatology-article-pdf.pdf) (p. 4)
+Similarly, other EMDR researchers would later [note](https://journals.sagepub.com/doi/pdf/10.1177/1534765610365912?casa_token=GCK69EqTbPAAAAAA:DT5o4JjB0xUTz94GjS0igQHbzF3Y0Z4fhBAdtToDYhJmSaCYBSQntOphuLjE2KquPlCViu01XAevxw) (p. 4)
 
 > it is not the positive or negative quality of the feelings that is important
 > in creating a state-dependent memory
@@ -150,7 +150,7 @@ The end result is a processed memory
 and its accompanying symptom relief.
 
 As [described](https://pbspamericaconnect.org/resources/Documents/Ecker%20et%20al.%20-%20Primer%20on%20memory%20reconsolidation.pdf)
-by Ecker et al (p. 89),
+by Ecker et al. (p. 89),
 memory reconsolidation roughly happens by
 
 - accessing the disturbing memory
@@ -383,7 +383,7 @@ IFS steps of
   (via association with our parts of mind
   activated by the intrusive memory)
 - [integration](https://integralguide.com/50+Permanent+Notes/%F0%9F%92%A1+Terms/Internal+Family+Systems+Therapy/%F0%9F%92%A1+Integration)
-  where we choose new beliefs and behaviors to associate
+  where we choose new behaviors to associate
   with the various parts of our mind activated by the intrusive memory
 
 In all such steps,
@@ -436,7 +436,8 @@ we are crucially concerned with
 reinforcing and ensuring function
 of the neural networks that allow access
 to particular memories and learnings.
-Our key practice for memory reinforcement is [spaced-repetition](https://ncase.me/remember/).
+Our key practice for memory reinforcement
+is [spaced-repetition](https://ncase.me/remember/).
 This technique is the raison d'être we've recommended
 using flashcards with [anki](https://ankiweb.net/about)---
 a program that uses spaced repetition to schedule flashcard review.
@@ -486,7 +487,7 @@ traumatic memories, i.e.
 As with EMDR, titration is useful
 for traumatic memories,
 addictive memories,
-and emotional dysregulating memories generally.
+and emotionally dysregulating memories generally.
 
 
 #### Visuals
