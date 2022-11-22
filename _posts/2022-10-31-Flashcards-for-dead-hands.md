@@ -341,7 +341,7 @@ the information we'll want to capture is as follows.
 First, we use IFS' [6F's](https://www.therapywithalessio.com/articles/the-6-fs-in-ifs-the-6-steps-to-get-to-know-our-protectors) to begin exploring a given intrusive memory.
 Here, we want to collect
 the full range of symptoms that arises with memory access.
-Such symptoms include activated parts of mind
+Such symptoms include activated parts of mind,
 our beliefs, emotions, sensations, and actions.
 Then, we want to capture and organize
 the details of the intrusive memory.
@@ -503,7 +503,7 @@ This connects the "frozen in time" neural network
 to other memory networks
 (such as those holding the memory of our flashcard images).
 Here, note that words and images
-activate related but distinct parts of our brain.
+activate related but distinct networks / parts of our brain.
 Accordingly, our new visual connections
 complement associations formed through
 verbal, psychoanalytic talk therapy.
