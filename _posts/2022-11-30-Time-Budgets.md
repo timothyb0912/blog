@@ -10,15 +10,10 @@ hide: false
 
 # Time Budgets
 
-%% Why? %%
-%% Life is squandered without managing time. %%
-%% "But if one cannot arrange that an income of 24 hours a day %%
-%% shall exactly cover all proper items of expenditure, %%
-%% one does muddle one's life definitely. %%
-%% The supply of time, %%
-%% though gloriously regular, %%
-%% is cruelly restricted." %%
-%% Excerpt From: Arnold Bennett. “How to Live on 24 Hours a Day.” %%
+## Overview
+
+%% Add mindmap for the post %%
+
 
 ## Defining amazing
 
@@ -186,7 +181,6 @@ that we know will unlock amazing weeks in our future.
 
 ## Connect and compare
  
-%% Self-snapshots over time %%
 As noted in the previous section,
 weekly time allocations facilitate comparisons over time.
 We can compare our living at various points in life,
@@ -255,6 +249,8 @@ or changing our blog-post
 [creation process](https://timothyb0912.github.io/blog/practice/2022/07/31/Digestion-before-expression.html).
 Below, the subgraph of our blog's map of contents
 shows this link visually.
+
+%% Add subgraph of the blog's map of contents %%
 
 In the future, we'll hopefully come to generate many streaks
 of successfully living out our amazing weeks.
