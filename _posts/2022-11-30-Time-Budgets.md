@@ -33,7 +33,7 @@ we want from our life’s systems."
 As far as life systems go, in [More Choices, Faster](https://timothyb0912.github.io/blog/reading/2021/03/31/More-choices-faster.html#tactics),
 we noted that our time management system
 is of utmost importance,
-because it represents how we use our scarcest resource---
+because it determines how we use our scarcest resource---
 our time.
 
 Putting these thoughts together,
@@ -41,7 +41,7 @@ a natural question is
 what outcomes do we want from our time management system?
 Or, more practically,
 how do we want to spend our time?
-**What would our time allocation look like in an amazing week?**
+**What allocation of time reflects an amazing week?**
 
 As stated rather gravely in the [Bible](https://www.biblegateway.com/passage/?search=Proverbs%2029:18&version=KJV),
 "where there is no vision, the people perish."
@@ -62,12 +62,12 @@ This is the extent of our weekly canvas,
 on which our time-use choices
 express our constraints and our values.
 Though the hours may sound plentiful,
-we have almost always wanted to do more than we have time for,
+we almost always want to do more than we have time for,
 and this mismatch is growing as we age.
 As such, it behooves us to carefully budget our time,
-so that we can invest our time in what we care for,
-and so we can be prepared for the consequences of the
-investments we did NOT make.
+so we can invest our time in what we care for,
+and so we can be prepared for the consequences
+of the investments we did NOT make.
 
 
 ## Drawing activities
@@ -78,10 +78,12 @@ we may want or need to spend our time on.
 A combination of efforts may be most useful for creating this list.
 For instance, we can draw from the activity categories
 we've spent time on at various points in our past.
-Additionally,
+Similarly,
 we can include the activity categories we want to spend time on, even if we have not done so regularly before.
-Finally, we want to include whatever activities are required
+Here, we want to include whatever activities are required
 in order to meet our various needs.
+Lastly, we can consider activity categories from resources such as
+the [American Time Use Survey](https://www.bls.gov/tus/tables/a1-2021.pdf).
 
 We found this exercise illuminating,
 even before allocating time to the activities.
@@ -97,13 +99,13 @@ Secondly, the list was a lens through which we could view our life. We clearly s
 in all our desired activities simultaneously.
 Covering all our bases,
 i.e. avoiding neglect of important life systems,
-did not happen spontaneously.
-To pay attention to all our life systems, all the time,
+has never happened spontaneously.
+So to pay attention to all our life systems, all the time,
 we will likely need concerted effort.
 Concerted effort may also be needed
-if we wish to sustainably rotate our attention between systems
+in order to sustainably rotate our attention between systems
 without any critical failures happening
-in the unattended parts of our life.
+while we ignore some parts of our life.
 
 
 ## Constraint optimization
@@ -118,14 +120,15 @@ Alternatively,
 we may want a minimum amount of time for any scheduled activity.
 Further, some activities may be constrained in the days or order
 in which they are are completed.
-And of course, we want to respect the constraint
-that we only have 168 hours to allocate per week.
+And of course, we want to respect the constraints
+that we only have 24 hours to allocate per day
+and 168 hours to allocate per week.
 
 Determining if a given scheduling problem and its constraints
 have a feasible solution is part of the field of
 [constraint programming](https://en.wikipedia.org/wiki/Constraint_programming)
 or [constraint optimization](https://developers.google.com/optimization/cp/).
-For now, we'll start with generating time budgets manually,
+For now, we'll start by generating time budgets manually,
 but in the future,
 we'll want to experiment with perhaps faster
 and more formal approaches to solving these problems.
@@ -137,7 +140,8 @@ First, we might start from an allocation in our past,
 and iteratively make tradeoffs that respect our constraints
 while subjectively becoming more desirable.
 
-Conversely, we can start from an allocation of time that we consider maximally appealing but perhaps unrealistic.
+Alternatively, we can start from an allocation of time
+that we consider maximally appealing but perhaps unrealistic.
 For example, we might allocate more than 168 hours per week.
 Then, we can progressively edit the appealing allocation
 to its closest constraint-satisfying allocation
@@ -174,7 +178,7 @@ would enable ideal allocations
 that are exciting as opposed to just "the best we can do?"
 Once we identify these desired constraint relaxations,
 they can serve as goals for us to work towards.
-We may have to endure unpleasant time allocations short-term,
+We may have to temporarily endure unpleasant time allocations,
 but enduring may be easier
 if we are working to relax specific constraints
 that we know will unlock amazing weeks in our future.
@@ -183,5 +187,76 @@ that we know will unlock amazing weeks in our future.
 ## Connect and compare
  
 %% Self-snapshots over time %%
-%% Informal survey of friends & family--how do they meet needs? %%
-%% American time use survey %%
+As noted in the previous section,
+weekly time allocations facilitate comparisons over time.
+We can compare our living at various points in life,
+using these repeated 1-week cross-sections.
+
+Our time budgets allow for other interesting comparisons also.
+For instance, the list of activities that we want to invest time in
+is a personalized [basis](https://en.wikipedia.org/wiki/Basis_(linear_algebra))
+for defining our life.
+Other people will likely have their own overlapping
+but non-identical lists of desired activities.
+Comparing desired activity lists with others can
+help reveal activities that we are inadvertently ignoring,
+despite actually valuing.
+
+Additionally, comparing time allocations
+can reveal situations where others have beneficial ways
+to meet our needs in perhaps less time we are currently using.
+Alternatively, we may better understand where
+our friends and family are thriving or struggling
+in their need-meeting efforts,
+based on the activities they devote their time to.
+Such understanding can help us begin effective collaborations
+with those we are close to.
+
+Lastly, we can compare our time allocations to those
+of the "average American"
+using [tables](https://www.bls.gov/tus/tables.htm)
+from the American Time Use Survey.
+Such comparisons reveal some of the
+meaningful ways in which our time use differs from others.
+These differences inspire us to change our lived allocations
+when we see others spending more time 
+on activities we wish to invest in.
+
+Simultaneously,
+we are inspired to extend greater default compassion
+when we see others spending little time on activities
+that we deem necessary for living a "good" life.
+For example,
+only [22\%](https://www.bls.gov/tus/tables/a1-2021.pdf)
+of Americans
+engage in sports, exercise, and recreation per day.
+Most people are therefore set up to accumulate physical stress.
+In light of average time-use,
+we find the average person's default state of mind
+immediately more understandable.
+
+
+## Related posts
+
+By creating weekly allocations of time,
+we're changing how we decide to use our time.
+At the smallest level,
+we're raising our awareness of how we use
+and how we want to use our time.
+At larger levels, we're creating a tool
+for guiding our weekly planning efforts.
+In both cases,
+we're procedurally changing something we're already doing
+(i.e. allocating time to activities throughout a week).
+This classification situates our post
+with previous changes such as
+changing our [journaling process](https://timothyb0912.github.io/blog/practice/2021/04/30/Journal-systematically.html)
+or changing our blog-post 
+[creation process](https://timothyb0912.github.io/blog/practice/2022/07/31/Digestion-before-expression.html).
+Below, the subgraph of our blog's map of contents
+shows this link visually.
+
+In the future, we'll hopefully come to generate many streaks
+of successfully living out our amazing weeks.
+Till then, may our idealized time allocations help us stay focused
+on the life we want to live and changes that can get us there.
