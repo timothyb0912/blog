@@ -12,7 +12,7 @@ hide: false
 
 ## Overview
 
-%% Add mindmap for the post %%
+<img src="{{ site.baseurl }}/images/2022-11-30_time-budgets.png" width="800px">
 
 
 ## Defining amazing
@@ -179,7 +179,7 @@ if we are working to relax specific constraints
 that we know will unlock amazing weeks in our future.
 
 
-## Connect and compare
+## Connecting and comparing
  
 As noted in the previous section,
 weekly time allocations facilitate comparisons over time.
@@ -251,6 +251,7 @@ Below, the subgraph of our blog's map of contents
 shows this link visually.
 
 %% Add subgraph of the blog's map of contents %%
+<img src="{{ site.baseurl }}/images/2022-11-30_blog-MOC_time-budgets-focus.png" width="800px">
 
 In the future, we'll hopefully come to generate many streaks
 of successfully living out our amazing weeks.
