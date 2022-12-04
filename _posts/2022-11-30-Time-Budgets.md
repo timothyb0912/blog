@@ -2,13 +2,19 @@
 toc: true
 layout: post
 title: "Time Budgets"
-description: "Benefits of budgeting 168 hours."
+description: "Benefits of budgeting 168 hours per week."
 categories: [practice]
 comments: true
 hide: false
 ---
 
 # Time Budgets
+
+## TLDR
+
+- To increase the probability of having an amazing week,  
+  create an ideal budget
+  that allocates 168 hours across our desired activities.
 
 ## Overview
 
@@ -28,8 +34,8 @@ we want from our life’s systems."
 As far as life systems go, in [More Choices, Faster](https://timothyb0912.github.io/blog/reading/2021/03/31/More-choices-faster.html#tactics),
 we noted that our time management system
 is of utmost importance,
-because it determines how we use our scarcest resource---
-our time.
+because it determines
+how we use our scarcest resource---our time.
 
 Putting these thoughts together,
 a natural question is
@@ -60,9 +66,9 @@ Though the hours may sound plentiful,
 we almost always want to do more than we have time for,
 and this mismatch is growing as we age.
 As such, it behooves us to carefully budget our time,
-so we can invest our time in what we care for,
-and so we can be prepared for the consequences
-of the investments we did NOT make.
+so we can invest our time in what we care for.
+Additionally, we can better prepare for the consequences
+of the investments we chose to eschew.
 
 
 ## Drawing activities
@@ -84,18 +90,17 @@ We found this exercise illuminating,
 even before allocating time to the activities.
 First, after arriving at a satisfyingly exhaustive list
 of activity categories,
-we listed 42 different categories.
-This sheer number of things we want to do is so great
-that if we are not explicitly and externally managing these activities,
-then we can understand why our general state
-produces anxiety and overwhelm.
+we listed 42 different items.
+This sheer number of desired activities is massive.
+Without explicitly and externally managing these activities,
+anxiety and overwhelm naturally result.
 
 Secondly, the list was a lens through which we could view our life. We clearly saw that we had never consistently engaged
-in all our desired activities simultaneously.
+in all our desired activities per week.
 Covering all our bases,
 i.e. avoiding neglect of important life systems,
 has never happened spontaneously.
-So to pay attention to all our life systems, all the time,
+So to pay attention to all our life systems, each week,
 we will likely need concerted effort.
 Concerted effort may also be needed
 in order to sustainably rotate our attention between systems
@@ -123,20 +128,20 @@ Determining if a given scheduling problem and its constraints
 have a feasible solution is part of the field of
 [constraint programming](https://en.wikipedia.org/wiki/Constraint_programming)
 or [constraint optimization](https://developers.google.com/optimization/cp/).
-For now, we'll start by generating time budgets manually,
-but in the future,
+For now, we'll start by generating time budgets manually.
+However, in the future,
 we'll want to experiment with perhaps faster
 and more formal approaches to solving these problems.
 
 So, how much time, across days of a week, per activity?
 To generate time allocations,
 we can consider at least two complementary approaches.
-First, we might start from an allocation in our past,
-and iteratively make tradeoffs that respect our constraints
-while subjectively becoming more desirable.
+First, we might start from an allocation in our past.
+Then, we make tradeoffs that respect our constraints
+while increasing the allocation's desirability.
 
 Alternatively, we can start from an allocation of time
-that we consider maximally appealing but perhaps unrealistic.
+that we consider maximally appealing but unrealistic.
 For example, we might allocate more than 168 hours per week.
 Then, we can progressively edit the appealing allocation
 to its closest constraint-satisfying allocation
@@ -152,7 +157,8 @@ Our above exercises in constraint optimization
 will provide us with weekly time budgets
 that are "feasibly ideal."
 They may not be all we want,
-but they hopefully represent the best tradeoffs we can imagine.
+but they hopefully represent the best tradeoffs
+we currently imagine.
 Looking at these aspirational budgets can teach us many lessons.
 
 For instance, we might ask ourselves what needs are NOT met,
@@ -167,61 +173,56 @@ What activities can we feasibly do less of
 to reach our ideal allocations?
 What activities can we feasibly do more of?
 
-Finally, we might ask,
-what constraints, if relaxed,
-would enable ideal allocations
-that are exciting as opposed to just "the best we can do?"
-Once we identify these desired constraint relaxations,
-they can serve as goals for us to work towards.
-We may have to temporarily endure unpleasant time allocations,
-but enduring may be easier
-if we are working to relax specific constraints
-that we know will unlock amazing weeks in our future.
+Finally, we can consider relaxing some of our constraints.
+What constraint relaxations enable exciting allocations,
+as opposed to merely feasible ones?
+These relaxations can then serve
+as goals for us to work towards.
+We may have to endure unpleasant time allocations in the process,
+but we benefit long-term by unlocking amazing weeks in our future.
 
 
 ## Connecting and comparing
  
 As noted in the previous section,
 weekly time allocations facilitate comparisons over time.
-We can compare our living at various points in life,
-using these repeated 1-week cross-sections.
+We can compare various points in life,
+using these repeated, 1-week cross-sections.
 
 Our time budgets allow for other interesting comparisons also.
-For instance, the list of activities that we want to invest time in
+For instance, the activities that we want to invest time in
 is a personalized [basis](https://en.wikipedia.org/wiki/Basis_(linear_algebra))
 for defining our life.
-Other people will likely have their own overlapping
+Others will likely have their own overlapping
 but non-identical lists of desired activities.
-Comparing desired activity lists with others can
-help reveal activities that we are inadvertently ignoring,
-despite actually valuing.
+Comparing activity lists thereby
+shows us activities that we ignore,
+despite perhaps valuing.
 
-Additionally, comparing time allocations
-can reveal situations where others have beneficial ways
-to meet our needs in perhaps less time we are currently using.
-Alternatively, we may better understand where
-our friends and family are thriving or struggling
-in their need-meeting efforts,
-based on the activities they devote their time to.
-Such understanding can help us begin effective collaborations
+Further, comparing time allocations
+can reveal when others have faster ways to meet our needs.
+Conversely, we better understand our loved ones' unmet needs,
+based on the time they invest per activity.
+Such understandings can help us effectively collaborate
 with those we are close to.
 
 Lastly, we can compare our time allocations to those
-of the "average American"
-using [tables](https://www.bls.gov/tus/tables.htm)
+of the "average American."
+Here, we rely on [tables](https://www.bls.gov/tus/tables.htm)
 from the American Time Use Survey.
-Such comparisons reveal some of the
-meaningful ways in which our time use differs from others.
-These differences inspire us to change our lived allocations
-when we see others spending more time 
-on activities we wish to invest in.
+Such comparisons highlight meaningful ways
+in which our time use differs from others.
+E.g., seeing others spend more time
+on activities we wish to invest in
+[nudges](https://en.wikipedia.org/wiki/Nudge_theory) us
+to change our lived allocations.
 
 Simultaneously,
 we are inspired to extend greater default compassion
 when we see others spending little time on activities
 that we deem necessary for living a "good" life.
 For example,
-only [22\%](https://www.bls.gov/tus/tables/a1-2021.pdf)
+only [22%](https://www.bls.gov/tus/tables/a1-2021.pdf)
 of Americans
 engage in sports, exercise, and recreation per day.
 Most people are therefore set up to accumulate physical stress.
@@ -250,7 +251,6 @@ or changing our blog-post
 Below, the subgraph of our blog's map of contents
 shows this link visually.
 
-%% Add subgraph of the blog's map of contents %%
 <img src="{{ site.baseurl }}/images/2022-11-30_blog-MOC_time-budgets-focus.png" width="800px">
 
 In the future, we'll hopefully come to generate many streaks
