@@ -31,7 +31,8 @@ In [Growing Pains](https://timothyb0912.github.io/blog/practice/2022/08/31/Growi
 we noted the importance of
 "starting with clear statements of what outcomes and functionality 
 we want from our life’s systems."
-As far as life systems go, in [More Choices, Faster](https://timothyb0912.github.io/blog/reading/2021/03/31/More-choices-faster.html#tactics),
+As far as life systems go,
+in [More Choices, Faster](https://timothyb0912.github.io/blog/reading/2021/03/31/More-choices-faster.html#tactics),
 we noted that our time management system
 is of utmost importance,
 because it determines
@@ -44,7 +45,8 @@ Or, more practically,
 how do we want to spend our time?
 **What allocation of time reflects an amazing week?**
 
-As stated rather gravely in the [Bible](https://www.biblegateway.com/passage/?search=Proverbs%2029:18&version=KJV),
+As stated rather gravely
+in the [Bible](https://www.biblegateway.com/passage/?search=Proverbs%2029:18&version=KJV),
 "where there is no vision, the people perish."
 Though perhaps hyperbole,
 it is difficult to increase our number of amazing weeks per year,
@@ -80,7 +82,8 @@ A combination of efforts may be most useful for creating this list.
 For instance, we can draw from the activity categories
 we've spent time on at various points in our past.
 Similarly,
-we can include the activity categories we want to spend time on, even if we have not done so regularly before.
+we can include the activity categories we want to spend time on,
+even if we have not done so regularly before.
 Here, we want to include whatever activities are required
 in order to meet our various needs.
 Lastly, we can consider activity categories from resources such as
@@ -95,7 +98,8 @@ This sheer number of desired activities is massive.
 Without explicitly and externally managing these activities,
 anxiety and overwhelm naturally result.
 
-Secondly, the list was a lens through which we could view our life. We clearly saw that we had never consistently engaged
+Secondly, the list was a lens through which we could view our life.
+We clearly saw that we had never consistently engaged
 in all our desired activities per week.
 Covering all our bases,
 i.e. avoiding neglect of important life systems,
