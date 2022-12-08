@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: post
-title: "Missing Conversations"
+title: "Missing conversations"
 description: "On missed conversations and permission to catch-up."
 categories: [psychology, practice]
 comments: true
@@ -15,7 +15,7 @@ hide: false
 - We have many important issues and topics
   that we have never thought through in depth.
 - Unresolved problems and confusion results
-  from these missing conversations
+  from these missing conversations.
 - Dialogues between conflicting parts of mind bring clarity.
 - Admitting inner conflict and temporary ignorance is ultimately freeing.
 
@@ -39,12 +39,13 @@ we posit that the default state of people is that we:
   that carry extreme, "unaccepted," or unpleasant
   thoughts, emotions, and behaviors,
 - preemptively control our lives to avoid triggering the exiled parts
-- reactively repress the exiled parts of mind
+- and reactively repress the exiled parts of mind
   if we fail to avoid their triggering.
 
 As children, the external world relates to us in this way.
 Think of how many kids are told to
-"stop crying before I give you something to cry about!" (repression)
+"stop crying before I give you something to cry about!"
+(I.e., repressed.)
 Accordingly, we learn at a young age
 that it is unsafe to openly and thoroughly discuss
 the most important topics in our life.
@@ -121,13 +122,13 @@ explicitly [stated](https://www.airuniversity.af.edu/Portals/10/AUPress/Books/B_
 that an aim of operations was to
 
 > Enmesh [an] adversary in an amorphous, menacing,
-> and unpredictable world  
-> of uncertainty, doubt, mistrust,
+> and unpredictable world of  
+> uncertainty, doubt, mistrust,
 > **confusion** [emphasis added],
 > disorder, fear, panic, chaos [...]  
 > so that our adversary cannot cope---while
-> we can cope---with events as they unfold.
-> "A Discourse on Winning and Losing"(p. 155)
+> we can cope---with events as they unfold.  
+> ---"A Discourse on Winning and Losing" (p. 155)
 
 Obviously, we wish to avoid being in such states of mind
 for extended periods of time.
@@ -234,7 +235,7 @@ In short, this post is about integrating our various parts.
 This focus is reflected in the post's position
 in the subgraph of our map of blog contents, below.
 
-%% Insert map of blog contents subgraph %%
+<img src="{{ site.baseurl }}/images/2022-09-30_blog-MOC_missing-conversations-focus.png" width="800px">
 
 
 In today's post
@@ -245,21 +246,22 @@ than on direct resolution of any issue.
 This complements the "convergent," solution-focused approach in
 [Questioning the Process](https://timothyb0912.github.io/blog/psychology/2021/07/17/Question-the-Process.html).
 See [Divergence and Convergence](https://fortelabs.com/blog/divergence-and-convergence-the-two-fundamental-stages-of-the-creative-process/) by Tiago Forte
-for more on these paired stages of creative endeavors,
-such as problem solving and learning.
+for more on these paired stages of creative endeavors.
+Here, recall that problem solving and learning
+are both creative processes.
 
-Relatedly, today's post can be seen as counterbalancing
+Relatedly, today's post counterbalances our thoughts in
 [More choices, faster](https://timothyb0912.github.io/blog/reading/2021/03/31/More-choices-faster.html).
 There, we emphasized making decisions quickly
 but "only as fast as we won’t regret them."
 If we have parts of mind that are conflicted over a decision,
-then by default some parts will regret our decisions.
-Today's post is about slowing down in cases of internal conflict
-to talk through our polarizations,
-rather than ignoring or "pushing through" them.
+then by default some parts will regret our choices.
+Today's post is about slowing down in cases of internal conflict.
+We aim to talk through our polarizations,
+rather than ignore or "push through" them.
 The hope is to come to understandings
 that reflect agreed upon truths of reality
-and then to come to decisions that meet the needs of all our parts.
+and then to make decisions that meet the needs of all our parts.
 
 So until next time Young Tim,
 may you benefit from taking the time to stop and think through
