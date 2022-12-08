@@ -12,6 +12,12 @@ hide: false
 
 ## TLDR
 
+- We have many important issues and topics
+  that we have never thought through in depth.
+- Unresolved problems and confusion results
+  from these missing conversations
+- Dialogues between conflicting parts of mind bring clarity.
+- Admitting inner conflict and temporary ignorance is ultimately freeing.
 
 
 ## Overview
@@ -30,7 +36,7 @@ of the human psyche,
 we posit that the default state of people is that we:
 
 - exile parts of our mind
-  that carry extreme, "unaccepted", or unpleasant
+  that carry extreme, "unaccepted," or unpleasant
   thoughts, emotions, and behaviors,
 - preemptively control our lives to avoid triggering the exiled parts
 - reactively repress the exiled parts of mind
@@ -48,7 +54,7 @@ or parents enacting corporal punishment).
 Generally, speaking too candidly about problems
 could also lead to social attack:
 public shaming, reputation tarnishing, and opportunity loss.
-Depending one's precise problems,
+Depending on one's precise problems,
 one could even lose freedom via
 prisons, psychiatric wards and forced medication,
 conservatorships, etc.
@@ -66,21 +72,21 @@ who believe they benefit from
 weaponizing, ignoring, or hiding an issue,
 then speaking up about true problems
 can absolutely make them worse.
-Predation, retaliation, and retribution exist.
+Predation, retaliation, and retribution happen.
 
 So, after externally relating with others,
 we begin to proactively and internally relate in these same
 exiling, controlling, and repressing ways.
-Our childhood reasoning is that
+Our childhood and social reasoning is that
 it is better for us to exile, control, and repress parts of ourselves
 than to have others do this to us.
-In the process,
+Parallel to our external relations,
 we learn to avoid internally discussing,
 i.e. [thinking](https://timothyb0912.github.io/blog/psychology/2021/08/16/Effective-thinking-is-effective-communication.html),
 about the most important topics in our life.
 These are precisely those topics
 that activate extreme or unpleasant
-thoughts, emotions, or behaviors in us or others.
+thoughts, emotions, or behaviors in ourselves or others.
 
 These missing discussions about the important topics in life
 are then reinforced by multiple societal factors.
@@ -94,7 +100,7 @@ Without time, it is hard to calm ourselves
 and think continuously about anything.
 
 Finally, even if we find time and privacy,
-we encounter natural human tendencies
+we encounter natural tendencies
 to avoid unpleasant feelings.
 Such unpleasant feelings include
 the fear of uncertainty that comes with original thought.
@@ -106,8 +112,8 @@ The end result of these missing conversations
 is a mass of unresolved problems that were never thought through
 and confusion about the state of our world.
 From this confusion comes an inability to act effectively.
-And without ability to act effectively,
-we are unable to cope with unfolding events in our lives.
+Without ability to act effectively,
+we are then unable to cope with unfolding events in our lives.
 This is an extremely dangerous position.
 
 For instance, famed military strategist John Boyd
@@ -130,15 +136,15 @@ for extended periods of time.
 ## Needs
 
 To avoid or overcome the aforementioned confusion,
-we need clarity in our lives.
-In particular, we want to develop clarity around:
-  - what is the nature of our reality and experiences?
+we need clarity.
+In particular, we need to develop clarity around:
+  - what are we experiencing and why is it occurring?
   - what do we want, why do we want it,
-    and how dow we acquire / achieve / embody it?
+    and how do we acquire, achieve, or embody it?
   - what do we NOT want, why not, and how to avoid it?
 
 Answering these questions
-requires us to have the missing, internal conversations
+requires having the missing, internal conversations
 described in the last section.
 Through such thought we come to know ourselves
 and the world around us.
@@ -148,11 +154,11 @@ and the world around us.
 
 At their core, what do such missing conversations involve?
 As posited in Internal Family Systems,
-we consider our mind to have multiple parts
+we consider the mind to have multiple parts
 and as corollary---multiple sets of opinions.
 When we are confused,
 we have conflicting opinions
-that reflect conflicting parts of mind.
+that reflect our conflicting parts of mind.
 One part of us may hold a specific mental model of the world,
 yet another part of us recognizes this mental model's
 incorrect predictions.
@@ -160,28 +166,33 @@ Similarly, when we consider topics that rouse
 unpleasant emotions or undesired actions,
 we also have conflicting parts.
 Some parts that carry or use the unpleasant emotions and actions,
-and other parts that seek to
+and other parts seek to
 exile, preempt, or repress those emotions and actions.
 
-In all cases, clarity is gained by engaging conflicting parts
-in dialogue about the polarization.
+In all cases, we gain clarity by engaging conflicting parts
+in dialogue about their polarization.
 
 - What does each part believe?
 - When and why were these beliefs formed?
-- What is the evidence for each part's beliefs?
+- What is the evidence for and against each part's beliefs?
 - What are the short-term and long-term consequences
   of the beliefs and actions of each part?
 - What are the concerns and positive intentions of each part?
 - What needs does each part of mind have?
-- What would need to be true to resolve the concerns of all parts?
+- What would have to be true to meet the needs of all parts?
+
+The emotional problem statements outlined in
+[Lemonade from Lemons](https://timothyb0912.github.io/blog/practice/psychology/2022/02/28/Lemonade-from-lemons.html#solution)
+are also a great starting point for these conversations.
 
 In these polarization dialogues,
 our primary aim is not to "pick a winner."
 Indeed, all parts of our mind may be mistaken.
-The aim is to first deeply understand our experiences
-and then what we want and don't want to do about them.
-Such internal conversation between conflicting parts
-is the essence of both
+Instead, we aim to first deeply understand our experiences
+and only then to understand what we want and don't want to do
+about these experiences.
+Such internal conversations between conflicting parts
+are the essence of both
 psychologist Jay Earley's [Resolving Inner Conflict](https://personal-growth-programs.com/products/resolving-inner-conflict/)
 and investor Charlie Munger's [work required](https://fs.blog/the-work-required-to-have-an-opinion/)
 to have an opinion.
@@ -189,13 +200,67 @@ to have an opinion.
 
 ## Permissions
 
+As noted above,
+our missing polarization dialogues require time and space.
+Beyond these basic requirements,
+we also need to give ourselves various permissions.
+We need permission:
+- to admit that we have a problem or inner conflict
+- to not immediately have all the answers
+- and to not immediately know our next steps.
 
+Each of these permissions may frighten us
+because they take us away from today's fast-paced status quo,
+into realms of great uncertainty.
+However, through such permissions and mental exploration,
+we can escape ignorance and confusion about our complex reality.
+
+For instance, in graduate school,
+we were terrified to give ourself these permissions in our research.
+Ultimately, it proved so worthwhile.
+From months of telling our advisor that "we don't know"
+and "we're working on it,"
+came an immensely satisfying understanding and productivity.
+Life in general asks us to "[keep that same energy](https://www.urbandictionary.com/define.php?term=Keep%20that%20same%20energy)."
 
 
 ## Related posts
  
-
+This month's post is about holding conversations
+that bring together opposing parts of our mind,
+especially when undesired thoughts, feelings, or actions
+are involved.
+In short, this post is about integrating our various parts.
+This focus is reflected in the post's position
+in the subgraph of our map of blog contents, below.
 
 %% Insert map of blog contents subgraph %%
 
 
+In today's post
+we consider a "divergent" approach and set of questions
+for responding to problems and confusion in our lives.
+It is divergent in the sense that we focus more on understanding
+than on direct resolution of any issue.
+This complements the "convergent," solution-focused approach in
+[Questioning the Process](https://timothyb0912.github.io/blog/psychology/2021/07/17/Question-the-Process.html).
+See [Divergence and Convergence](https://fortelabs.com/blog/divergence-and-convergence-the-two-fundamental-stages-of-the-creative-process/) by Tiago Forte
+for more on these paired stages of creative endeavors,
+such as problem solving and learning.
+
+Relatedly, today's post can be seen as counterbalancing
+[More choices, faster](https://timothyb0912.github.io/blog/reading/2021/03/31/More-choices-faster.html).
+There, we emphasized making decisions quickly
+but "only as fast as we won’t regret them."
+If we have parts of mind that are conflicted over a decision,
+then by default some parts will regret our decisions.
+Today's post is about slowing down in cases of internal conflict
+to talk through our polarizations,
+rather than ignoring or "pushing through" them.
+The hope is to come to understandings
+that reflect agreed upon truths of reality
+and then to come to decisions that meet the needs of all our parts.
+
+So until next time Young Tim,
+may you benefit from taking the time to stop and think through
+our many, reflexively avoided issues.
