@@ -244,7 +244,7 @@ for responding to problems and confusion in our lives.
 It is divergent in the sense that we focus more on understanding
 than on direct resolution of any issue.
 This complements the "convergent," solution-focused approach in
-[Questioning the Process](https://timothyb0912.github.io/blog/psychology/2021/07/17/Question-the-Process.html).
+[Question the Process](https://timothyb0912.github.io/blog/psychology/2021/07/17/Question-the-Process.html).
 See [Divergence and Convergence](https://fortelabs.com/blog/divergence-and-convergence-the-two-fundamental-stages-of-the-creative-process/) by Tiago Forte
 for more on these paired stages of creative endeavors.
 Here, recall that problem solving and learning
