@@ -17,7 +17,8 @@ hide: false
 - Unresolved problems and confusion results
   from these missing conversations.
 - Dialogues between conflicting parts of mind bring clarity.
-- Admitting inner conflict and temporary ignorance is ultimately freeing.
+- Admitting inner conflict and temporary ignorance
+  is ultimately freeing.
 
 
 ## Overview
