@@ -22,7 +22,7 @@ hide: false
 
 ## Overview
 
-%% Insert mindmap of post %%
+<img src="{{ site.baseurl }}/images/2022-09-30_missing-conversations.png" width="800px">
 
 
 ## The setup
