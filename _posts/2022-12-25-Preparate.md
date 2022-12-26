@@ -17,7 +17,7 @@ hide: false
 ## Overview
 
 
-<img src="{{ site.baseurl }}/images/2022-12-25_preparate.png" width="800px">
+<img src="{{ site.baseurl }}/images/2022-12-25_preparate.png" alt="blog post mindmap" width="800px">
 
 
 ## Needs
@@ -25,7 +25,7 @@ hide: false
 Dear Young Tim,
 
 
-<img src="{{ site.baseurl }}/images/2022-12-25_man-surveying.png" width="800px">
+<img src="{{ site.baseurl }}/images/2022-12-25_man-surveying.png" alt="man surveying construction site" width="800px">
 
 
 ## Macro-realities
@@ -50,7 +50,7 @@ Dear Young Tim,
 
 ## Related
 
-<img src="{{ site.baseurl }}/images/2022-12-25_blog-MOC_preparate-focus.png" width="800px">
+<img src="{{ site.baseurl }}/images/2022-12-25_blog-MOC_preparate-focus.png" alt="blog map of content" width="800px">
 
 
 ## Adelante
