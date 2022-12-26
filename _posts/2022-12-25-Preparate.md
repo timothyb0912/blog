@@ -95,6 +95,32 @@ we can better prepare ourselves to avoid or cope with these issues.
 
 ## Macro-realities
 
+Let's start by working from the outermost context inwards.
+We'll consider the private sector
+because it has more data science positions
+(and [higher pay](https://www.pewtrusts.org/en/research-and-analysis/articles/2022/02/07/government-wage-growth-lags-private-sector-by-largest-margin-on-record))
+as compared to the public sector.
+
+Within private corporations,
+pay increases are often best accessed by
+[changing jobs](https://www.businessinsider.com/tech-workers-double-salaries-job-hopping-developers-great-resignation-2022-4)
+in a booming economy.
+Conversely, in economic downturns,
+private sector layoffs are common.
+For example, according to [layoffs.fyi](https://layoffs.fyi/),
+technology companies have laid off
+more than 150,000 workers in 2022.
+
+The net result of these trends is that,
+in both boom and bust economies,
+we must be ready to switch private sector jobs.
+Such job switching involves being ready for interviews,
+and it also means maintaining a profile of public value-additions[^1].
+Given the demand surplus described above,
+these practices ensure that we (and our demonstrated value)
+are not wholly bound to a single employer.
+I.e., these practices provide the leaving ability
+we desire from "short-term financial freedom."
 
 
 ## Industry-realities
@@ -120,5 +146,8 @@ we can better prepare ourselves to avoid or cope with these issues.
 
 ## Adelante
 
+
+
+[^1]: These public value-additions include all public activity that helps others such as presentations, blog posts, open-source contributions, etc.
 
 
