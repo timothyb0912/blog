@@ -237,7 +237,7 @@ and in relation to what circumstances.
 Our second goal will be to use this knowledge
 to regulate the moods and emotions we experience,
 aiming to increase the presence of "Self-emotions":
-the [8C's](https://foundationifs.org/images/banners/pdf/The_8_Cs_of_Self_Leadership_Wheel.pdf) and [5P's](http://nebula.wsimg.com/f917e7ff6b4dffdb04aeaf90cfbb15f9?AccessKeyId=1E15AA41B5D9BBC1C941&disposition=0&alloworigin=1).
+the [8C's](https://foundationifs.org/images/banners/pdf/The_8_Cs_of_Self_Leadership_Wheel.pdf) and [5P's](www.therapywithalessio.com/articles/self-in-ifs-therapy-what-it-is-what-are-the-8-cs-and-the-5-ps-of-self).
 My rationale is that doing so maximizes our chance of achieving our goals.
 In particular, we'll want to leverage our emotions
 to support our health in all the ways we can:
