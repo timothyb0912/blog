@@ -12,6 +12,14 @@ hide: false
 
 ## TLDR
 
+- We want a life with long-term financial security
+  and short-term financial freedoms.
+- Working as a data scientist can meet both of these desires.
+- However, this path is fraught with macro-economic,
+  industry-wide, and personal difficulties.
+- Succeeding in-spite of existing challenges
+  will likely require accepting unpleasant social constraints.
+- Moreover, we'll likely need "intense" time uses and planning.
 
 
 ## Overview
