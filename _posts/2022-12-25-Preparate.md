@@ -171,6 +171,10 @@ as in having much experience in "how, why, and when to use this."
 Such levels of familiarity demand study and practice,
 especially since computer science wasn't
 our primary area of study in school.
+Indeed, this engineering focus for data scientists
+has been noted by many others:
+e.g., [here](https://www.yulingyao.com/blog/2021/job/)
+and [here](https://statmodeling.stat.columbia.edu/2022/12/08/the-cleantech-job-market-every-modeler-is-supposed-to-be-a-great-python-programmer/).
 
 Similarly, in statistics,
 we'll want to be intimately familiar with
@@ -200,6 +204,43 @@ will also be tested.
 
 ### Performing
 
+When considering on the job performance,
+we face a parallel situation to interview preparation.
+The core difference is that breadth is more important day-to-day,
+whereas depth is only needed infrequently.
+
+For example, business acumen is of regular use,
+due to frequent meetings with cross-functional partners:
+product managers, engineers, designers, business teams, etc.
+In such meetings,
+statistical details are rarely the focus of discussion.
+
+Moreover, even when doing solo work,
+most of our time may be spent gathering data
+or building and maintaining pipelines
+for models in production.
+Here, we'll need to be something of a [SQL](https://en.wikipedia.org/wiki/SQL) polyglot
+and an [ML-Ops](https://ml-ops.org/) master, simply due to job necessity.
+This focus brings a demand
+for software engineering best practices
+that is unlikely to be assessed thoroughly in interviews
+but is of great importance for easing our life in practice.
+E.g. tons of data and software testing to prevent or catch errors.
+Time will need to be spent learning these skills as well.
+
+Finally, there will be immense demand for development speed.
+As our time is money (a "downside" to high pay),
+businesses rarely allow the long-term efforts common in academia.
+Moreover, [most ideas fail](https://multithreaded.stitchfix.com/blog/2021/11/04/sobering-truth/) in experiment.
+There are many reasons for this,
+but the outcome for businesses is a preference to "fail fast"
+and therefore work fast as well.
+Highly original model development or
+sophisticated experiment design and analysis
+will therefore be a professional exception, not the norm.
+We'll want to maintain agility with the basics of many techniques,
+and the ability to go deeper when necessary,
+rather than only maintaining depth of knowledge in a few areas.
 
 
 ## Personal-realities
