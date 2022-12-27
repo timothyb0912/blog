@@ -30,11 +30,11 @@ hide: false
 
 ## Needs
 
-> I used to pray for times like this, to rhyme like this  
-> So I had to grind like that to shine like this  [...]  
-> Seen my dreams unfold, nightmares come true  
-> It was time to marry the game and I said, "Yeah, I do"  
-> If you want it, you gotta see it with a clear-eyed view  
+> I used to pray for times like this, to rhyme like this.  
+> So I had to grind like that to shine like this . [...]  
+> Seen my dreams unfold, nightmares come true,  
+> it was time to marry the game and I said, "Yeah, I do."  
+> If you want it, you gotta see it with a clear-eyed view.  
 > ---Meek Mill,
 > [Dreams and Nightmares](https://www.youtube.com/watch?v=S8gfqs1-NuE)
 
@@ -161,7 +161,7 @@ we'll want to be intimately familiar with
 - search,
 - sorting,
 - dynamic programming,
-- software testing
+- software testing,
 - and industry tools for "big data" handling.
 
 This familiarity includes both [explicit knowledge](https://en.wikipedia.org/wiki/Explicit_knowledge)
@@ -171,7 +171,7 @@ as in having much experience in "how, why, and when to use this."
 Such levels of familiarity demand study and practice,
 especially since computer science wasn't
 our primary area of study in school.
-Indeed, this engineering focus for data scientists
+Indeed, this software engineering focus for data scientists
 has been noted by many others:
 e.g., [here](https://www.yulingyao.com/blog/2021/job/)
 and [here](https://statmodeling.stat.columbia.edu/2022/12/08/the-cleantech-job-market-every-modeler-is-supposed-to-be-a-great-python-programmer/).
@@ -182,7 +182,7 @@ we'll want to be intimately familiar with
 - probability,
 - summarization and analytics,
 - experimentation and causal inference,
-- and modeling, estimation, and assessment
+- and modeling, estimation, and assessment.
 
 As with software engineering,
 we will be expected to be fluent in the details
@@ -253,7 +253,7 @@ the mountain of subjects concerns and intimidates us.
 It is helpful here, to consider the final contextual level---ourselves.
 What about our current position in life will complicate our efforts?
 
-To start, we have many decades of experience
+To start, we have decades of experience
 and professional corroboration
 that we learn differently than our peers.
 Not less well in outcome, but differently in process.
@@ -318,7 +318,24 @@ of needing to learn more with less time.
 
 ## Adelante
 
+So Young Tim,
+I hope the words above 
+clarify some of the expected hardships in data science
+and some ways to work around them.
+What I wish I told you earlier
+was to rest easy through 2022 and as it comes to a close.
 
+Y Timo, no tengas miedo.  
+Prepárate, porque en 2023---nos trabajamos.  
+De verdad:
+
+> Prepárate  
+> para tener  
+> una noche inolvidable.  
+> De las que no quieres que acaben.  
+> Una noche inolvidable,  
+> de las que no quieres que acaben.  
+> ---Septeto Acerey, [Esta Noche Pinta Bien](https://youtu.be/Z4zuJVG5h2g?t=62)
 
 [^1]: These public value-additions include all public activity that helps others such as presentations, blog posts, open-source contributions, etc.
 
