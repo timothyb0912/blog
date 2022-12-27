@@ -125,6 +125,81 @@ we desire from "short-term financial freedom."
 
 ## Industry-realities
 
+As noted above,
+we want to maintain readiness for data science interviews.
+Immediately, we're led to consider the question of
+"how to maintain readiness?"
+Or more specifically,
+"what do we need to know,
+in order to be ready for data science interviews and work?"
+This question brings our attention one contextual level deeper,
+from private corporations in general
+to data science in particular.
+We'll look at the realities of both
+interviewing to get data scientist positions
+and performing once in the role.
+
+
+### Interviewing
+
+The first thing to note about data science interviews
+is that they are CHALLENGING.
+Their difficulty stems both from their depth and their breadth.
+In particular, data science interviews
+require **extensive** preparation
+in software engineering and in statistics.
+This level of preparation is typically far beyond
+what we learn in any one graduate program of study.
+
+In software engineering,
+we'll want to be intimately familiar with
+
+- data structures,
+- algorithms,
+- computational complexity,
+- graph traversal,
+- search,
+- sorting,
+- dynamic programming,
+- software testing
+- and industry tools for "big data" handling.
+
+This familiarity includes both [explicit knowledge](https://en.wikipedia.org/wiki/Explicit_knowledge)
+as in "what is this"
+and [tacit knowledge](https://en.wikipedia.org/wiki/Tacit_knowledge)
+as in having much experience in "how, why, and when to use this."
+Such levels of familiarity demand study and practice,
+especially since computer science wasn't
+our primary area of study in school.
+
+Similarly, in statistics,
+we'll want to be intimately familiar with
+
+- probability,
+- summarization and analytics,
+- experimentation and causal inference,
+- and modeling, estimation, and assessment
+
+As with software engineering,
+we will be expected to be fluent in the details
+and use of all areas above.
+This means being ready to write code and math for all the above.
+In school, we touched each of these statistical topics, in serial.
+We also delved deeply into a subset of these topics simultaneously.
+The difficulty of interviews is to internalize and make this
+combined breadth and depth of knowledge available all at once.
+
+Finally, we'll also need to be aware of the business terminology
+and concerns for each company we're interviewing with.
+Though terminology and specific concerns will change
+with each company's domain,
+a basic understanding of
+[business fundamentals](https://towardsdatascience.com/basic-business-concepts-you-need-to-know-as-a-data-scientist-faeaaf5056f)
+will also be tested.
+
+
+### Performing
+
 
 
 ## Personal-realities
