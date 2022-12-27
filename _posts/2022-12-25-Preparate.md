@@ -245,6 +245,62 @@ rather than only maintaining depth of knowledge in a few areas.
 
 ## Personal-realities
 
+As detailed in the previous sections,
+there is much to be learned to prepare for data science interviews
+and work.
+In all honesty,
+the mountain of subjects concerns and intimidates us.
+It is helpful here, to consider the final contextual level---ourselves.
+What about our current position in life will complicate our efforts?
+
+To start, we have many decades of experience
+and professional corroboration
+that we learn differently than our peers.
+Not less well in outcome, but differently in process.
+Indeed, [neurodivergence](https://en.wikipedia.org/wiki/Neurodiversity) is a thing.
+We require much more repetition than many others,
+and we require an atypically wide range of learning efforts.
+All of this translates to increased efforts to gain proficiency
+with an already ambitious number of topics.
+
+Moreover, we approach this technical learning
+with challenging mental health circumstances.
+These challenges necessitate
+our increased efforts in emotional regulation.
+Of course, nothing is really free,
+so the increased time spent on emotional regulation efforts
+means less time available for other activities,
+such as learning and studying.
+Combined with the previous paragraph,
+we see that we need to do more learning activities
+with fewer time resources than if "all was well."
+
+Finally, there is my typically unstated skin in the game.
+By that, I mean the ramifications of being black.
+At every company I've worked at as a data scientist,
+I was always the first (or only) black data scientist.
+We can endlessly discuss the reasons for this,
+but nonetheless,
+these realities motivate us toward "constant vigilance."
+As noted by
+distinguished engineer[^2] [Kelsey Hightower](https://en.wikipedia.org/wiki/Kelsey_Hightower):
+
+> growing up, I was always taught I got to be twice as good.  
+> That's a real thing for those that don't know, right.  
+> Your parents tell you, you got to be twice as good.  
+> What they were trying to get me to understand,  
+> I believe, is I had to hedge against all the hidden obstacles.  
+> ---[24:40 to 25:00](https://twitter.com/i/spaces/1kvJpmLywvXxE?fbclid=IwAR2oMqM4WQsYjV0E9-ijimP6bsYJlpfrD6NhGI5AbZlc6rpYbw1zB6gndvs)
+
+My parents, like many other black parents in the United States,
+always said the same thing.
+These instructions and my experiences result in a feeling,
+perhaps reflective of a silently biased reality,
+that we must work extra hard
+to get a seat at any table we want to eat at.
+Like before,
+such extra efforts exacerbate the issue
+of needing to learn more with less time.
 
 
 ## Constraint acceptance
@@ -266,4 +322,4 @@ rather than only maintaining depth of knowledge in a few areas.
 
 [^1]: These public value-additions include all public activity that helps others such as presentations, blog posts, open-source contributions, etc.
 
-
+[^2]: Kelsey Hightower is an L9 ranked software engineer at Google. He is possibly the highest ranked black software engineer in the tech industry.
