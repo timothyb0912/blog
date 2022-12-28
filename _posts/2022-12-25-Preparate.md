@@ -282,8 +282,14 @@ I was always the first (or only) black data scientist.
 We can endlessly discuss the reasons for this,
 but nonetheless,
 these realities motivate us toward "constant vigilance."
-As noted by
-distinguished engineer[^2] [Kelsey Hightower](https://en.wikipedia.org/wiki/Kelsey_Hightower):
+We have a felt sense that we must work extra hard
+to get a seat at any table we want to eat at.
+Such extra efforts exacerbate the issue
+of needing to learn more with less time.
+
+For example,
+distinguished engineer[^2] [Kelsey Hightower](https://en.wikipedia.org/wiki/Kelsey_Hightower)
+notes that:
 
 > growing up, I was always taught I got to be twice as good.  
 > That's a real thing for those that don't know, right.  
@@ -294,13 +300,15 @@ distinguished engineer[^2] [Kelsey Hightower](https://en.wikipedia.org/wiki/Kels
 
 My parents, like many other black parents in the United States,
 always said the same thing.
-These instructions and my experiences result in a feeling,
-perhaps reflective of a silently biased reality,
-that we must work extra hard
-to get a seat at any table we want to eat at.
-Like before,
-such extra efforts exacerbate the issue
-of needing to learn more with less time.
+To be clear, such instructions are hyperbole.
+There are many people producing a ton of great work,
+e.g. [Sayak](https://sayak.dev/), [Dr. Kozodoi](https://kozodoi.me/about/), and lots more.
+It is therefore difficult to specify what twice as good looks like,
+much less how to produce it on a budget of 168 hours per week.
+The underlying encouragement,
+to paraphrase computer science professor [Cal Newport](https://www.calnewport.com/books/so-good/),
+is to be "so good they can't ignore you"
+while accounting for additional hurdles from (unconscious) bias.
 
 
 ## Constraint acceptance
