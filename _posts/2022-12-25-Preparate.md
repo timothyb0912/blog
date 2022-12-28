@@ -296,7 +296,7 @@ notes that:
 > Your parents tell you, you got to be twice as good.  
 > What they were trying to get me to understand,  
 > I believe, is I had to hedge against all the hidden obstacles.  
-> ---[24:40 to 25:00](https://twitter.com/i/spaces/1kvJpmLywvXxE?fbclid=IwAR2oMqM4WQsYjV0E9-ijimP6bsYJlpfrD6NhGI5AbZlc6rpYbw1zB6gndvs)
+> ---[24:40 to 25:00](https://twitter.com/i/spaces/1kvJpmLywvXxE)
 
 My parents, like many other black parents in the United States,
 always said the same thing.
@@ -313,6 +313,80 @@ while accounting for additional hurdles from (unconscious) bias.
 
 ## Constraint acceptance
 
+Above, we provide a multi-layered view of expected challenges
+to pursuing a career in data science.
+What can we do about them?
+The first thing we can do
+is accept that coping with these challenges
+imposes constraints on our life.
+In particular, we there are multiple such social constraints.
+
+First, our aforementioned industry and personal realities
+will necessitate that we use our time differently
+from most of our existing friends and family.
+We will need to allocate many hours to "extra-curricular" studying,
+far more than typically expected after one earns a PhD.
+We will be less available than otherwise expected or wished.
+To help maintain morale,
+we will benefit from clearly noting exactly why we're
+signing up for such a monastic lifestyle.
+This will be particularly helpful
+when we encounter unexpected technical difficulties alone.
+
+Second, beyond living quite differently than others,
+most of our support network is unlikely to
+understand **why** we choose to live so differently.
+Indeed, as shown by the length of this post,
+the reasons are not singular.
+There is a tapestry of contributing factors,
+operating at multiple levels.
+Expectedly, few people will have time to make sense of it all.
+We may be (and have been) thought uncaring or a workaholic.
+So, even more than usual,
+we'll need to make peace with being misunderstood.
+
+Quoting Hightower once more,
+
+> So I spent, I don't know, **four to five hours  
+> every day when I got home.**  
+> I was like 'yo, what else can I learn?'  
+> [...]  
+> So my hustle, my hustle was unbelievable.  
+> **A lot of people couldn't understand  
+> why I took this game so serious...  
+> and I tried to explain.**  
+> Like, I remember when, you know,  
+> a lot of people decided that sports entertainment  
+> was going to be their way out the hood.  
+> I looked at tech skills as a similar route.  
+> Like, if you learn these skills,  
+> you might get to a situation  
+> where it's going to be hard to deny your talent.  
+> ---14:35 to 14:41
+> and [30:05 to 30:32](https://twitter.com/i/spaces/1kvJpmLywvXxE)
+
+
+Lastly,
+if they occur, then we can expect collaborations to be short lived.
+Early in the pandemic, writer Damian Barr
+[noted](https://www.damianbarr.com/latest/damian-barr-george-takei-we-are-not-all-in-the-same-boat) that
+"we are not all in the same boat. We are in the same storm."
+This is true even when considering other data scientists.
+It was true even in graduate school
+when I worked in a research group.
+Though subjected to similar macro-level and industry realities,
+other data scientists will operate from different personal realities.
+
+Some will have differing professional focuses,
+such as greater within-company focus.
+Some will have far greater non-technical focuses in their life,
+such as their friends and family (especially if they are parents).
+Still others will have different technical focuses
+e.g., more modeling than engineering,
+or more engineering than modeling.
+And so, for many possible reasons,
+we can expect our relationships
+with other technical workers to also be quite limited.
 
 
 ## Severe planning
