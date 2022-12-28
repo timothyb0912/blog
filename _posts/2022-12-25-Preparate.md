@@ -319,7 +319,7 @@ What can we do about them?
 The first thing we can do
 is accept that coping with these challenges
 imposes constraints on our life.
-In particular, we there are multiple such social constraints.
+In particular, there are multiple such social constraints.
 
 First, our aforementioned industry and personal realities
 will necessitate that we use our time differently
@@ -341,13 +341,11 @@ the reasons are not singular.
 There is a tapestry of contributing factors,
 operating at multiple levels.
 Expectedly, few people will have time to make sense of it all.
-We may be (and have been) thought uncaring or a workaholic.
-So, even more than usual,
-we'll need to make peace with being misunderstood.
 
-Quoting Hightower once more,
+Consider Hightower's experience once more.
+He said
 
-> So I spent, I don't know, **four to five hours  
+> so I spent, I don't know, **four to five hours  
 > every day when I got home.**  
 > I was like 'yo, what else can I learn?'  
 > [...]  
@@ -365,25 +363,34 @@ Quoting Hightower once more,
 > ---14:35 to 14:41
 > and [30:05 to 30:32](https://twitter.com/i/spaces/1kvJpmLywvXxE)
 
+With such extreme time investments,
+we may be (and we have been) characterized
+as uncaring or as a workaholic.
+So, even more than usual,
+we'll need to make peace with being misunderstood---
+especially while we lack anything like Hightower's success
+to redeem our efforts.
 
 Lastly,
-if they occur, then we can expect collaborations to be short lived.
-Early in the pandemic, writer Damian Barr
-[noted](https://www.damianbarr.com/latest/damian-barr-george-takei-we-are-not-all-in-the-same-boat) that
-"we are not all in the same boat. We are in the same storm."
+we can expect collaborations to be short lived,
+if they occur at all.
+In April 2020, writer Damian Barr
+[noted](https://www.damianbarr.com/latest/damian-barr-george-takei-we-are-not-all-in-the-same-boat) 
+that "we are not all in the same boat. We are in the same storm."
 This is true even when considering other data scientists.
 It was true even in graduate school
-when I worked in a research group.
+when we worked in a research group.
 Though subjected to similar macro-level and industry realities,
 other data scientists will operate from different personal realities.
 
 Some will have differing professional focuses,
 such as greater within-company focus.
-Some will have far greater non-technical focuses in their life,
-such as their friends and family (especially if they are parents).
-Still others will have different technical focuses
-e.g., more modeling than engineering,
-or more engineering than modeling.
+Some will have far greater non-technical focus in their life,
+such as on their hobbies,  friends, and families
+(especially if they are parents).
+Still others will have different technical focuses.
+E.g., some will focus on modeling with little engineering regard,
+and others will focus on engineering with little modeling regard.
 And so, for many possible reasons,
 we can expect our relationships
 with other technical workers to also be quite limited.
@@ -391,33 +398,107 @@ with other technical workers to also be quite limited.
 
 ## Severe planning
 
+Given the challenges and constraints noted above,
+we are still left wondering,
+what can we proactively do to set ourselves up
+for data science success?
+
+Here are a few steps we can take.
+
+First, noting that time is our greatest constraint,
+we can explicitly plan to outsource as many tasks as possible.
+On what cadence can we order food
+or purchase ready-made meals to save preparation
+and clean-up time?
+On what cadence can we hire others
+to wash, dry, and fold our laundry?
+On what cadence can we have others clean our home?
+How much time can we afford to recoup in exchange for money?
+
+Second, we can be more intentional with our social interactions.
+Given that time will be limited,
+exactly how much time will we allocate to socializing per week
+or per month?
+With whom do we want to interact and on what ideal cadence?
+How much and how frequently will we allocate time for
+meeting new people or serendipitous interactions?
+How will we make the most of our time with others?
+
+Lastly, we will also want to be intentional about our study time.
+Exactly how much time, and when,
+will we study software engineering?
+How much time, and when, will we study statistics?
+When and how much will we work on open-source
+and research projects?
+What time will we devote to studying business?
+To the extent that we hope to learn what's needed
+for interviews and on-the-job success,
+we'll benefit from creating explicit study plans and schedules.
 
 
 ## Related
 
+With our suggestions for data science success
+and our survey of expected problems in the field,
+today's post relates to numerous past writings.
+As has been our Christmas tradition,
+we again turn our focus to how we can "do data science."
+
+For Christmas 2020, in [Do-Over](https://timothyb0912.github.io/blog/philosophy/2020/12/24/Do-Over.html),
+we spoke of how we'd go through school differently
+to prepare for a career in data science.
+That post focused mostly
+on recommendations for how we do our technical work.
+Today's post is directly related,
+as it is also about preparing for a career in data science.
+This relation is show in our map of blog content, below,
+with today's post in highlighted in blue.
+Where our current writing differs from "Do-Over"
+is by focusing more on what technical work is required
+and how we can make space in our life to do it.
+
 <img src="{{ site.baseurl }}/images/2022-12-25_blog-MOC_preparate-focus.png" alt="blog map of content" width="800px">
+
+For Christmas 2021, in [Personal Data Science](https://timothyb0912.github.io/blog/philosophy/psychology/practice/2021/12/25/Personal-data-science.html),
+we turned our attention to questions
+of where to focus our data science efforts,
+in terms of applications.
+"Personal Data Science" notably reminds us
+that our emotional regulation efforts
+can be beneficially combined with our data science practice.
+We need not see the two efforts as only adversarial.
+
+For Christmas 2022,
+we look broadly at lifestyle decisions we can make
+to support our data science efforts.
+Ultimately, we want to produce [Good Work](https://timothyb0912.github.io/blog/philosophy/2020/04/20/Good-work.html)
+in data science.
+This quality of work requires an advanced mix
+of engineering, statistical, and business capabilities.
+Today's post focuses on how we can prepare ourselves
+for the studies and practice needed to gain those skills.
 
 
 ## Adelante
 
-So Young Tim,
+In closing, Young Tim,
 I hope the words above 
 clarify some of the expected hardships in data science
 and some ways to work around them.
 What I wish I told you earlier
-was to rest easy through 2022 and as it comes to a close.
+was to rest easy through 2022 and through its close.
 
 Y Timo, no tengas miedo.  
 Prepárate, porque en 2023---nos trabajamos.  
 De verdad:
 
-> Prepárate  
+> [Prepárate](https://youtu.be/Z4zuJVG5h2g?t=62)  
 > para tener  
 > una noche inolvidable.  
 > De las que no quieres que acaben.  
 > Una noche inolvidable,  
 > de las que no quieres que acaben.  
-> ---Septeto Acerey, [Esta Noche Pinta Bien](https://youtu.be/Z4zuJVG5h2g?t=62)
+> ---Septeto Acerey, Esta Noche Pinta Bien
 
 [^1]: These public value-additions include all public activity that helps others such as presentations, blog posts, open-source contributions, etc.
 
