@@ -385,7 +385,7 @@ other data scientists will operate from different personal realities.
 
 Some will have differing professional focuses,
 such as greater within-company focus.
-Some will have far greater non-technical focus in their life,
+Some will have far greater non-technical focus,
 such as on their hobbies,  friends, and families
 (especially if they are parents).
 Still others will have different technical focuses.
