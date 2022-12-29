@@ -45,7 +45,7 @@ More than ever,
 it's clear that the best presents we can give ourselves
 are to meet our needs.
 Two such needs stand out as greatly important:
-- securing long-term financial security
+- assuring long-term financial security
 - and providing for short-term financial freedoms.
 
 Similar to many others,
@@ -197,9 +197,9 @@ Finally, we'll also need to be aware of the business terminology
 and concerns for each company we're interviewing with.
 Though terminology and specific concerns will change
 with each company's domain,
+interviews will test
 a basic understanding of
-[business fundamentals](https://towardsdatascience.com/basic-business-concepts-you-need-to-know-as-a-data-scientist-faeaaf5056f)
-will also be tested.
+[business fundamentals](https://towardsdatascience.com/basic-business-concepts-you-need-to-know-as-a-data-scientist-faeaaf5056f).
 
 
 ### Performing
@@ -461,8 +461,9 @@ and how we can make space in our life to do it.
 
 For Christmas 2021, in [Personal Data Science](https://timothyb0912.github.io/blog/philosophy/psychology/practice/2021/12/25/Personal-data-science.html),
 we turned our attention to questions
-of where to focus our data science efforts,
-in terms of applications.
+of where to focus our data science efforts.
+What meaningful applications
+could we bring a data science lens to?
 "Personal Data Science" notably reminds us
 that our emotional regulation efforts
 can be beneficially combined with our data science practice.
