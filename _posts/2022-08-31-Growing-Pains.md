@@ -76,7 +76,7 @@ detrimental second-order effects of our actions.
 In IFS terms, we need ways of re-establishing
 a sense of "Self", wherein we feel:
 
- > calmness, clarity, curiosity, creativity
+ > calmness, clarity, curiosity, creativity,
  > courage, confidence, connection, compassion,  
  > perspective, presence, patience,
  > playfulness, and persistence.
