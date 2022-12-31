@@ -173,8 +173,8 @@ especially since computer science wasn't
 our primary area of study in school.
 Indeed, this software engineering focus for data scientists
 has been noted by many others:
-e.g., [here](https://www.yulingyao.com/blog/2021/job/)
-and [here](https://statmodeling.stat.columbia.edu/2022/12/08/the-cleantech-job-market-every-modeler-is-supposed-to-be-a-great-python-programmer/).
+e.g., by statistician [Yuling Yao](https://www.yulingyao.com/blog/2021/job/)
+and by modeler [Phillip Price](https://statmodeling.stat.columbia.edu/2022/12/08/the-cleantech-job-market-every-modeler-is-supposed-to-be-a-great-python-programmer/).
 
 Similarly, in statistics,
 we'll want to be intimately familiar with
@@ -451,7 +451,7 @@ That post focused mostly
 on recommendations for how we do our technical work.
 Today's post is directly related,
 as it is also about preparing for a career in data science.
-This relation is show in our map of blog content, below,
+This relation is shown in our map of blog content, below,
 with today's post in highlighted in blue.
 Where our current writing differs from "Do-Over"
 is by focusing more on what technical work is required
