@@ -6,11 +6,11 @@ permalink: /about/
 
 Hi there, my name is **Timothy Brathwaite**.
 
-I'm a data scientist.
+I'm a data scientist.  
 Previously, I worked a data scientist at Stitch Fix
 and as a research scientist at Lyft.
 
-Before this, I completed my PhD (2018) at UC Berkeley in Transportation Engineering, under the advising of Professor [Joan L. Walker](http://www.joanwalker.com/).
+Before this, I completed my PhD (2018) at UC Berkeley in Transportation Engineering, under the advising of Professor [Joan L. Walker](http://www.joanwalker.com/). My thesis won the [first place](https://ce.berkeley.edu/news/2437), 2018 Eric Pas Dissertation Prize from the International Association for Travel Behavior.
 
 My research, then and now, focuses on discrete choice modeling, machine learning, applied statistics, and causal inference.
 In terms of applications, bicycle demand modeling is a topic near and dear to my heart. So much so that I focused my entire [dissertation](https://escholarship.org/uc/item/1pk9p2ct) on it.
