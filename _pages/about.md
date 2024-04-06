@@ -16,12 +16,19 @@ My thesis won the [first place](https://ce.berkeley.edu/news/2437), 2018 Eric Pa
 My research, then and now, focuses on discrete choice modeling, machine learning, applied statistics, and causal inference.
 In terms of applications, bicycle demand modeling is a topic near and dear to my heart. So much so that I focused my entire [dissertation](https://escholarship.org/uc/item/1pk9p2ct) on it.
 
+Beyond my technical interests,
+I'm a certified [peer support specialist](https://app.capeercertification.org/cert/MPSS-GAKIQC)
+in the state of California.
+I'm also an Internal Family Systems-informed practitioner
+[through](https://drive.google.com/file/d/14RU42dwZMEwWrhlACmRA-m-pwFs6D9J6/view?usp=sharing) IFSCA's
+Stepping Stones program.
+
 In this blog, you'll find my thoughts, reflections, and short snippets of code demonstrating my ideas on the topics above.
 
 Feel free to have a look around, and thanks for your interest!
 
 
-This website is powered by **[fastpages](https://github.com/fastai/fastpages)** [^1].
+This website is powered by [fastpages](https://github.com/fastai/fastpages) [^1].
 
 
 
